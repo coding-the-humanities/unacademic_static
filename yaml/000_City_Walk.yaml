@@ -23,6 +23,7 @@ description:
 
     There are two route options you only have to choose one! Make sure to save all your 
     pictures because your going to need them later on 
+
   summary: >
     Get some last contact with the real world, before you disappear into its virtual counterpart.
 
@@ -92,7 +93,7 @@ tasks:
         author:  Chris Coyer
         book:
           name:  CSS Tricks
-        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction
+        url:     './img/MapOfRoute1.png'
 
   - title: Route 2
     description: |
@@ -141,4 +142,4 @@ tasks:
         author:  Chris Coyer
         book:
           name:  CSS Tricks
-        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction
+        url:     './img/MapOfRoute2.png'
