@@ -1,22 +1,36 @@
 var gulp = require('gulp');
-var handlebars = require('gulp-compile-handlebars');
+var Handlebars = require('handlebars');
 var rename = require('gulp-rename');
 var watch = require('gulp-watch');
 var yaml = require('gulp-yaml');
+var tap = require('gulp-tap');
+var fs = require('fs');
 
-var data = 'test.yaml'
+var data = 'json/**/*.json';
 var template = 'level000.hbs';
 
 gulp.task('watch', function () {
-  gulp.watch(template, ['yaml2json']);
+  gulp.watch(template, ['to_json']);
 });
 
 gulp.task('to_json', function(){
-	var options = {};
-	gulp.src("yaml/**.*")
-  .pipe(yaml())  
-  .pipe(gulp.dest('json'))
+  var options = {};
+  gulp.src("yaml/**.*")
+    .pipe(yaml())
+    .pipe(gulp.dest('json'))
 })
 
-gulp.task('default', ['to_json'])
+gulp.task('to_HTML', function(){
+  gulp.src(data)
+    .pipe(tap(function(file, t){
+      var hbs = fs.readFileSync(template);
+      var compTempl = Handlebars.compile(hbs.toString());
+      var html = compTempl(file)
+      file.contents = new Buffer(html, 'utf-8')
+    }))
+    .pipe(rename({extname: '.html'}))
+    .pipe(gulp.dest('dist'))
+});
+
+gulp.task('default', ['to_json', 'to_HTML']);
 
