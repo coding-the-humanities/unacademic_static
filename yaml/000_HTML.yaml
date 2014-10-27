@@ -19,7 +19,7 @@ description:
     It uses a set of elements to identify content types.
 
 tasks:
-  - title: HTML Introduction
+  - title: Introduction
     description: >
       This assignment is meant to introduce you to HTML (surprise!). 
       HTML forms the basis of every webpage today.
@@ -46,7 +46,7 @@ tasks:
         site:
           name:  Sublime Text
         url:     http://www.sublimetext.com/2   
-  - title: Basic HTML Structure
+  - title: Basic Structure
     description: >
       HTML works with things called 'tags'. 
       These grant a certain functionality to the content within.

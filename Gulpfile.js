@@ -11,11 +11,11 @@ var livereload = require('gulp-livereload');
 var objectives = 'yaml/**/*.yaml';
 var levelTemplate = 'level000.hbs';
 
-gulp.task('default', ['compile']);
+gulp.task('default', ['compile', 'watch']);
 
 gulp.task('watch', function () {
   livereload.listen();
-  gulp.watch([levelTemplate, objectives], ['default'])
+  gulp.watch([levelTemplate, objectives], ['compile'])
     .on('change', livereload.changed)
 });
 

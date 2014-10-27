@@ -23,7 +23,7 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
           </button>
-          <a class="navbar-brand" href="./">Unacademic</a>
+          <a class="navbar-brand" href="./000_HTML.html">Unacademic</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -50,40 +50,12 @@
         <!-- Main hero unit for a primary marketing message or call to action -->
         <div class="hero-unit">
           <div class="col-xs-9">
-            <h3>{{ title }}</h3>
-            <p>{{ description.full }}</p>
+            <h3><a href="./000_HTML.html">Coding the Humanities</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</br>
           </div>
         </div>
       </div>
     </div>
-
-
-    <div class="container">
-      {{#each tasks}}
-        <section class="task">
-
-          <h3>{{title}}</h3>
-          <p>{{description}}</p>
-
-          <h5>Instructions</h5>
-          <ul>
-            {{#each instructions}}
-              <li><p>{{this}}</p></li>
-            {{/each}}
-          </ul>
-
-          <h5>Resources</h5>
-          <ul>
-            {{#each resources}}
-              <li>
-                <p>{{#if site}}{{site.name}}: {{/if}}<a href="{{url}}">{{title}}</a></p>
-              </li>
-            {{/each}}
-          </ul>
-        </section>
-      {{/each}}
-    </div>
-
 
     <footer>
       <div class="container">

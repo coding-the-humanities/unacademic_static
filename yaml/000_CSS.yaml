@@ -1,4 +1,4 @@
-title:      CSS3
+title:      CSS
 level:      0
 points:     100
 mandatory:  false
@@ -19,7 +19,7 @@ description:
 tasks:
   - title: Introduction
     description: >
-      Learn about Styling
+      Learn about styling webpages with cascading style sheets.
     instructions:
       - Read the article.
       - Watch the instruction video.
