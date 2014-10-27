@@ -4,6 +4,12 @@
     "full": "HTML stands for Hypertext Markup Language. When you look at a web page on a web browser  you see, at the simplest level, words. HTML instructs a web browser  what content to display. In many cases a page also displays images or  maybe video clips. HTML defines and separates \"content\" (words, images, audio, video, and so  on) from \"presentation\" (how to display a specific type of content). HTML uses a  pre-defined set of elements to identify content types.\n", 
     "summary": "HTML gives directions to the web browser on what content to display.  It uses a set of elements to identify content types.\n"
   }, 
+
+  "hallo": [
+  "jaap",
+  "joep"
+  ],
+
   "level": 0, 
   "title": "HTML", 
   "assignments": [

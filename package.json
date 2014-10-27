@@ -5,8 +5,9 @@
   "main": "Gulpfile.js",
   "devDependencies": {
     "gulp": "~3.8.9",
+    "gulp-compile-handlebars": "~0.3.3",
     "gulp-rename": "~1.2.0",
-    "gulp-compile-handlebars": "~0.3.3"
+    "gulp-watch": "^1.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
