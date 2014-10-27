@@ -10,32 +10,26 @@ technologies:
 
 description:
   full: |
-    Now, you must be anxious to dive into the wonderful world of web programming.
-    But the first thing we want you to do has (sadly) nothing to do with code.
+    You must be anxious to dive into the wonderful world of web programming.
+    But the first thing we want you to do has sadly / luckily nothing to do with code.
     You must go out in the city of Amsterdam and follow one of the routes below.
     If you want you can also follow both routes, but that's at your own leisure.
     While you're walking your walk we want you to take as many pictures as you like,
     of things you think are interesting.
 
     The purpose of this odd request is that we want to encourage you to make content,
-    which you are going to use in later assignments as content for your webpage.
+    which you are going to use in later assignments as content for your widgets and 
+    other kinds of interfaces.
 
-    HTML stands for Hypertext Markup Language. When you look at a web page on a web browser 
-    you see, at the simplest level, words. HTML instructs a web browser 
-    what content to display. In many cases a page also displays images or 
-    maybe video clips. HTML defines and separates "content" (words, images, audio, video, and so 
-    on) from "presentation" (how to display a specific type of content). HTML uses a 
-    pre-defined set of elements to identify content types.
-
-    There are two route options you only have to choose one! Make sure to save all your pictures because your going to need them later on 
+    There are two route options you only have to choose one! Make sure to save all your 
+    pictures because your going to need them later on 
   summary: >
     Get some last contact with the real world, before you disappear into its virtual counterpart.
 
 tasks:
   - title: Route 1
     description: >
-      This is a short route through the city.
-      Follow the route and take a lot of pictures.
+      This is a short route through the city. Follow the route and take a lot of pictures.
     instructions:
       - Start at Prinsengracht 267, Amsterdam
       - Go North-East on Prinsengracht towards Leliegracht
@@ -99,10 +93,10 @@ tasks:
         book:
           name:  CSS Tricks
         url:     https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction
+
   - title: Route 2
-    description: >
-      This is a long route through the city to the Rijksmuseum.
-      Follow the route and take lots of pictures.</p>
+    description: |
+      This is a long route through the city to the Rijksmuseum. Follow the route and take lots of pictures.
     instructions:
       - Start at Amsterdam Central Station
       - Go South-West towards Damrak
