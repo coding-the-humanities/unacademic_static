@@ -45,7 +45,6 @@
               </ul>
             </li>
             <li><a href="./level001_WebComponents.html">Level 1</a></li>
-            
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="./about.html">About</a></li>
@@ -54,23 +53,17 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-  
-      
-
 <div id="slide-panel">
     <button type="button" class="btn btn-danger" id="opener"><i class="fui-question-circle"></i></button>
    <h4>Need help&#63</h4>
     <p> Probably you have come across the term HTML, but if you have no idea what it is. We suggest you do the introduction assignment first. Take a look at the resources, but more importantly look for more on the internet, we provide you with the correct search terms like HTML or tags. Remember Google is your friend!</p>
 </div>
-
-    
- 
  <div class="row customHero">
   <div class="container">
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <div class="col-xs-9">
-        <h4>level {{ level }}/ {{ title }}</h4>
+        <h4>level {{ level }} / {{ title }}</h4>
         <p>{{ description.full }}</p>
       <a href="./level000_A_HTML_HTMLIntroduction.html" type="button" class="btn btn-inverse">Start with the Introduction</a>
       </div>
@@ -83,13 +76,12 @@
 </div>
 
 <ul>
-{{#each assignments}}
-  <li> 
-    <p>{{ this.title }}</p>
-    <p>{{ this.description }}</p>
-  </li>
-
-{{/each}}
+  {{#each tasks}}
+    <li>
+      <p>{{ this.title }}</p>
+      <p>{{ this.description }}</p>
+    </li>
+  {{/each}}
 </ul>
 
  <div class="container">

@@ -10,7 +10,7 @@ var data = 'json/**/*.json';
 var template = 'level000.hbs';
 
 gulp.task('watch', function () {
-  gulp.watch(template, ['to_json']);
+  gulp.watch([template, data], ['default']);
 });
 
 gulp.task('to_json', function(){
@@ -25,7 +25,9 @@ gulp.task('to_HTML', function(){
     .pipe(tap(function(file, t){
       var hbs = fs.readFileSync(template);
       var compTempl = Handlebars.compile(hbs.toString());
-      var html = compTempl(file)
+      var json = JSON.parse(file.contents.toString());
+      var html = compTempl(json);
+      console.log(html);
       file.contents = new Buffer(html, 'utf-8')
     }))
     .pipe(rename({extname: '.html'}))
