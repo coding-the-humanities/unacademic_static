@@ -8,7 +8,6 @@
     <link href="css/flat-ui.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico">
-
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.js"></script>
@@ -29,13 +28,13 @@
           <ul class="nav navbar-nav">
             <li><a href="./000_HTML.html">HTML</a></li>
             <li><a href="./000_CSS.html">CSS</a></li>
+            <li><a href="./000_Gist.html">Gists</a></li>
             <li><a href="./000_City_Walk.html">City Walk</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./about.html">About</a></li>
-
+            <li><a href="./syllabus.html">Syllabus</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </div>
 
@@ -47,11 +46,10 @@
 
     <div class="row customHero">
       <div class="container">
-        <!-- Main hero unit for a primary marketing message or call to action -->
         <div class="hero-unit">
           <div class="col-xs-9">
             <h3>{{ title }}</h3>
-            <p>{{ description.full }}</p>
+            <p>{{{markdown description.full}}}</p>
           </div>
         </div>
       </div>
@@ -63,23 +61,27 @@
         <section class="task">
 
           <h3>{{title}}</h3>
-          <p>{{description}}</p>
+          {{#if description}}
+          <p>{{{markdown description}}}</p>
+          {{/if}}
 
           <h5>Instructions</h5>
           <ul>
             {{#each instructions}}
-              <li><p>{{this}}</p></li>
+            <li><p>{{{markdown this}}}</p></li>
             {{/each}}
           </ul>
 
+          {{#if resources}}
           <h5>Resources</h5>
           <ul>
             {{#each resources}}
-              <li>
-                <p>{{#if site}}{{site.name}}: {{/if}}<a href="{{url}}">{{title}}</a></p>
-              </li>
+            <li>
+              <p>{{#if site}}{{site.name}}: {{/if}}<a href="{{url}}">{{title}}</a></p>
+            </li>
             {{/each}}
           </ul>
+          {{/if}}
         </section>
       {{/each}}
     </div>
@@ -101,7 +103,7 @@
               <a href="https://twitter.com/humanizecode" target="_blank"><span class="fui-twitter"></span></a>
               </li>
             </ul>
-          </div> <!-- /col-xs-7 -->
+          </div>
 
           <div class="col-xs-5">
             <div class="footer-banner">
@@ -122,11 +124,8 @@
       </div>
     </footer>
 
-    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
     <script src="js/vendor/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/flat-ui.min.js"></script>
-
     <script src="js/application.js"></script>
   </body>
 </html>

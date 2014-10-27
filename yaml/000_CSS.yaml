@@ -7,7 +7,7 @@ technologies:
   - CSS
 
 description: 
-  full: >
+  full: |
     This is the introduction to CSS (cascading style sheets). 
     A CSS file allows you to separate your website's markup content from its style. 
     As always you use your HTML file to arrange the content, 
@@ -19,7 +19,7 @@ description:
 tasks:
   - title: Introduction
     description: >
-      Learn about styling webpages with cascading style sheets.
+      Learn about styling web pages with cascading style sheets.
     instructions:
       - Read the article.
       - Watch the instruction video.

@@ -6,10 +6,15 @@ var rename = require('gulp-rename');
 var watch = require('gulp-watch');
 var yaml = require('gulp-yaml');
 var tap = require('gulp-tap');
+var marked = require('marked');
 var livereload = require('gulp-livereload');
 
 var objectives = 'yaml/**/*.yaml';
 var levelTemplate = 'level000.hbs';
+
+Handlebars.registerHelper('markdown', function(text) {
+  return marked(text);
+});
 
 gulp.task('default', ['compile', 'watch']);
 
