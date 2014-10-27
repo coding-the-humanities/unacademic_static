@@ -1,4 +1,4 @@
-title:      CSS
+title:      CSS3
 level:      0
 points:     100
 mandatory:  false
@@ -9,7 +9,7 @@ technologies:
 description: 
   full: >
     This is the introduction to CSS (cascading style sheets). 
-    A CSS file allows you to separate your website's (X)HTML content from its style. 
+    A CSS file allows you to separate your website's markup content from its style. 
     As always you use your HTML file to arrange the content, 
     but all of the presentation (fonts, colors, background, borders, text formatting, link effects & so on…) 
     are accomplished within a CSS file.
@@ -17,9 +17,9 @@ description:
     CSS allows you to separate your website's styling from its HTML content. 
 
 tasks:
-  - title: CSS Introduction
+  - title: Introduction
     description: >
-      Learn about CSS.
+      Learn about Styling
     instructions:
       - Read the article.
       - Watch the instruction video.
@@ -36,6 +36,7 @@ tasks:
         site:
           name:  CSS Tutorial
         url:     http://youtu.be/Waq1d1jpl3M
+
   - title: Selectors
     description: >
       In order for CSS to work you first need to specify which element you wish to apply CSS to.
@@ -59,6 +60,7 @@ tasks:
         site:
           name:  Simple CSS Flat Design Container
         url:     http://youtu.be/irZ1ZMImZfg
+
   - title: Colors
     description: >
       Colors give life to a page. 
@@ -86,6 +88,7 @@ tasks:
         site:
           name:  Hex Color Picker
         url:     http://www.colorpicker.com/
+
   - title: CSS Fonts
     description: >
       CSS also allows programmers to change the font on your webpage, or even include all the fonts.
