@@ -21,8 +21,8 @@ Handlebars.registerHelper('markdown', function(text) {
   return marked(text);
 });
 
-gulp.task('default', ['clean', 'compile','copy', 'watch']);
-gulp.task('deploy', ['clean', 'compile','copy', 'github']);
+gulp.task('default', ['clean', 'compile', 'syllabus', 'copy', 'watch']);
+gulp.task('deploy', ['clean', 'compile', 'syllabus', 'copy', 'github']);
 
 gulp.task('watch', function () {
   gulp.watch([levelTemplate, objectives], ['compile'])
