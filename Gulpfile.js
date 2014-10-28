@@ -11,9 +11,10 @@ var flatten = require('gulp-flatten');
 var deploy = require('gulp-gh-pages');
 
 var objectives = 'yaml/objectives/**/*.yaml';
-var syllabus = 'yaml/syllabus/**/*.yaml';
-var Syllabus
 var levelTemplate = 'level000.hbs';
+
+var syllabus = 'yaml/syllabus/**/*.yaml';
+var syllabusTemplate = 'syllabus.hbs';
 
 Handlebars.registerHelper('markdown', function(text) {
   return marked(text);
@@ -24,6 +25,7 @@ gulp.task('deploy', ['compile','copy', 'github']);
 
 gulp.task('watch', function () {
   gulp.watch([levelTemplate, objectives], ['compile'])
+  gulp.watch([syllabus, syllabusTemplate], ['syllabus'])
 });
 
 gulp.task('compile', function(){
@@ -32,6 +34,24 @@ gulp.task('compile', function(){
     .pipe(yaml())
     .pipe(tap(function(file, t){
       var hbs = fs.readFileSync(levelTemplate);
+      var template = Handlebars.compile(hbs.toString());
+
+      var json = JSON.parse(file.contents.toString());
+      var html = template(json);
+
+      file.contents = new Buffer(html, 'utf-8')
+    }))
+    .pipe(rename({extname: '.html'}))
+    .pipe(flatten())
+    .pipe(gulp.dest('dist'))
+});
+
+gulp.task('syllabus', function(){
+  var options = {};
+  gulp.src(syllabus)
+    .pipe(yaml())
+    .pipe(tap(function(file, t){
+      var hbs = fs.readFileSync(syllabusTemplate);
       var template = Handlebars.compile(hbs.toString());
 
       var json = JSON.parse(file.contents.toString());
