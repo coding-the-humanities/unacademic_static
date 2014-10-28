@@ -23,14 +23,7 @@ Handlebars.registerHelper('markdown', function(text) {
 
 gulp.task('default', ['clean', 'build', 'watch']);
 gulp.task('deploy', ['clean', 'build', 'github']);
-
-gulp.task('build', ['clean'], function(){
-  gulp.run(['copy', 'compile', 'syllabus']);
-});
-
-gulp.task('github', ['build'], function(){
-  gulp.run(['gh-pages']);
-});
+gulp.task('build', ['copy', 'compile', 'syllabus']);
 
 gulp.task('watch', function () {
   gulp.watch([levelTemplate, objectives], ['compile'])
@@ -42,7 +35,7 @@ gulp.task('clean', function () {
     .pipe(clean());
 });
 
-gulp.task('copy', function () {
+gulp.task('copy', ['clean'], function () {
   var options = {};
   return gulp.src(  ['./fonts/**/*',
                     './img/**/*',
@@ -53,7 +46,7 @@ gulp.task('copy', function () {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('compile', function(){
+gulp.task('compile', ['clean'], function(){
   var options = {};
   gulp.src(objectives)
     .pipe(yaml())
@@ -71,7 +64,7 @@ gulp.task('compile', function(){
     .pipe(gulp.dest('dist'))
 });
 
-gulp.task('syllabus', function(){
+gulp.task('syllabus', ['clean'], function(){
   var options = {};
   gulp.src(syllabus)
     .pipe(yaml())
@@ -89,7 +82,7 @@ gulp.task('syllabus', function(){
     .pipe(gulp.dest('dist'))
 });
 
-gulp.task('gh-pages', function () {
+gulp.task('github', ['clean', 'copy', 'compile', 'syllabus'], function () {
   var options = {};
   return gulp.src('dist/**/*')
     .pipe(deploy(options));
