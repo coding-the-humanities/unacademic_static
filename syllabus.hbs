@@ -57,7 +57,22 @@
 
     <div class="container">
         <section class="course_content">
+          <h4>Course Content</h4>
           {{{markdown course_content}}}
+        </section>
+
+        <section class="time_requirement">
+          <h4>Time Requirement</h4>
+          {{{markdown time_requirement}}}
+        </section>
+
+        <section class="schedule">
+          <h4>Program</h4>
+          <ol>
+            {{#each schedule}}
+            <li>{{this}}<li>
+            {{/each}}
+          </ol>
         </section>
     </div>
 

@@ -51,15 +51,14 @@ time_requirement: |
      peers, is offered during the plenary sessions and on the platform.
 
 schedule:
-- HTML / CSS 
-  Custom Elements
-- Combining Elements
-- Version Control
-- REST / AJAX
-- API's
-- Building Widgets
-- Composing Interfaces
-
+  - HTML / CSS  
+  - Custom Elements  
+  - Combining Elements  
+  - Version Control  
+  - REST / AJAX
+  - API's
+  - Building Widgets
+  - Composing Interfaces
 
 assessment:
   description: |
