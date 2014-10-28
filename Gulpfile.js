@@ -55,7 +55,8 @@ gulp.task('copy', function () {
   return gulp.src(  ['./fonts/**/*',
                     './img/**/*',
                     './js/**/*',
-                    './css/**/*'], { "base" : "." } 
+                    './css/**/*',
+                    'index.html'], { "base" : "." } 
                   )
     .pipe(gulp.dest('dist'));
 });
