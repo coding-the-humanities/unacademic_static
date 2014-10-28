@@ -1,0 +1,80 @@
+title: Syllabus
+year: 2014/15
+
+staff: 
+- Dr. J.H. Hoogstad 
+- Dr. Marijn Koolen
+- Reika Chavers
+- Angeliki Chalkia
+- Taeke Keuning
+- Roel van Bakkum
+- Erik van Zummeren
+- Robert-Jan Korteschiel
+
+course_content: |
+  Students and scholars in the humanities generally rely on prefabricated 
+  tools to guide and instruct their research and are reluctant to engage with 
+  computers and technology through coding. This remains a major distinction 
+  between the humanities and the sciences. The sciences design, create and 
+  maintain their own relevant digital research environments and tools, while 
+  the humanities make do with prefabricated, and often inappropriate, tools.
+
+  At the moment, there are no broadly available academic programming courses 
+  aimed at humanities scholars. However, coding skills are needed more now than 
+  ever, and even more so in the future:
+
+  1. They help students and researchers to understand the various 
+     technologically mediated objects that they are studying.
+  2. Developing custom tools, rather than using ready-made ones, can improve 
+     the actual practice of humanities research as well as (the quantity and 
+     quality) of its output.
+  3. There is an ever-growing demand in the public and private sector for 
+     academics who can read and write code.
+
+  After completion of the module you will be able to: apply knowledge of 
+  basic programming building blocks that carry over to almost all programming 
+  languages; demonstrate knowledge of web-based, client and server side 
+  services; display insight in technological aspects of humanities research;
+  apply skills in analysing humanities questions and material from a coding 
+  perspective; reflect on experience in project-based collaborative 
+  humanities research.
+
+time_requirement: |
+     This is a online-first course. This means that, including the contact hours, 
+     students are required to work on this course 21 hours a week. In order to 
+     make this possible, a collaborative online possible is used to offer the 
+     teaching.
+     
+     During the semester, the students will work on a group project. These 
+     self-organized groups should meet regularly throughout the semester. 
+     Feedback on the progress, by the instructors, teaching assistants and 
+     peers, is offered during the plenary sessions and on the platform.
+
+schedule:
+- HTML / CSS 
+  Custom Elements
+- Combining Elements
+- Version Control
+- REST / AJAX
+- API's
+- Building Widgets
+- Composing Interfaces
+
+
+assessment:
+  description: |
+    Build an interface that visualizes group research
+  review:
+    - weekly assigments
+    - Final presentation of the group project
+  completion: |
+     You pass if you completed all the weekly assignments and achieve at least a 5.5 on the final assessment.
+  criteria:
+    - originality of the idea and research question;
+    - implementation of that idea and question in code;
+    - identification of the goals of the project, and its effectiveness in addressing these goals;
+    - degree that it does, or does not, go beyond the stated goals to challenge current practice.
+    - quality of the presentation
+  deadlines: 
+    - Weekly Assignment (week 1 – 6) 
+    - Final Presentation (week 7)

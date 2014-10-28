@@ -7,9 +7,11 @@ var watch = require('gulp-watch');
 var yaml = require('gulp-yaml');
 var tap = require('gulp-tap');
 var marked = require('marked');
-var livereload = require('gulp-livereload');
+var flatten = require('gulp-flatten');
 
-var objectives = 'yaml/**/*.yaml';
+var objectives = 'yaml/objectives/**/*.yaml';
+var syllabus = 'yaml/syllabus/**/*.yaml';
+var Syllabus
 var levelTemplate = 'level000.hbs';
 
 Handlebars.registerHelper('markdown', function(text) {
@@ -19,14 +21,12 @@ Handlebars.registerHelper('markdown', function(text) {
 gulp.task('default', ['compile', 'watch']);
 
 gulp.task('watch', function () {
-  livereload.listen();
   gulp.watch([levelTemplate, objectives], ['compile'])
-    .on('change', livereload.changed)
 });
 
 gulp.task('compile', function(){
   var options = {};
-  gulp.src("yaml/**.*")
+  gulp.src(objectives)
     .pipe(yaml())
     .pipe(tap(function(file, t){
       var hbs = fs.readFileSync(levelTemplate);
@@ -38,5 +38,6 @@ gulp.task('compile', function(){
       file.contents = new Buffer(html, 'utf-8')
     }))
     .pipe(rename({extname: '.html'}))
+    .pipe(flatten())
     .pipe(gulp.dest('dist'))
 });

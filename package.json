@@ -1,0 +1,37 @@
+{
+  "name": "unacademic_static_site",
+  "version": "0.0.1",
+  "description": "First itereration of the Coding the Humanities course site",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "npmtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coding-the-humanities/unacademic_static.git"
+  },
+  "keywords": [
+    "Coding",
+    "Humanities",
+    "programming",
+    "digital"
+  ],
+  "author": "Jan Hein Hoogstadt, Marijn Koolen & various interns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coding-the-humanities/unacademic_static/issues"
+  },
+  "homepage": "https://github.com/coding-the-humanities/unacademic_static",
+  "devDependencies": {
+    "fs": "0.0.2",
+    "gulp": "^3.8.9",
+    "gulp-livereload": "^2.1.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-tap": "^0.1.3",
+    "gulp-watch": "^1.1.0",
+    "gulp-yaml": "^0.2.2",
+    "handlebars": "^2.0.0",
+    "marked": "^0.3.2",
+    "gulp-flatten": "0.0.4"
+  }
+}
