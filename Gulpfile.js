@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var fs = require('fs');
-
 var Handlebars = require('handlebars');
 var rename = require('gulp-rename');
 var watch = require('gulp-watch');
@@ -12,7 +11,8 @@ var deploy = require('gulp-gh-pages');
 var del = require('del');
 var runSequence = require('run-sequence')
 
-// HELPERS
+
+// TEMPLATE HELPERS
 
 Handlebars.registerHelper('markdown', function(text) {
   return marked(text);
@@ -21,85 +21,80 @@ Handlebars.registerHelper('markdown', function(text) {
 
 // PATHS
 
-var assets =  [
-  './fonts/**/*',
-  './img/**/*',
-  './js/**/*',
-  './css/**/*',
-  'index.html'
-]
+var paths = {
+  assets: [
+    './fonts/**/*',
+    './img/**/*',
+    './js/**/*',
+    './css/**/*',
+    'index.html'
+  ],
+  objectives: {
+    data: 'yaml/objectives/**/*.yaml',
+    template: 'level000.hbs'
+  },
+  syllabus: {
+    data: 'yaml/syllabus/**/*.yaml',
+    template: 'syllabus.hbs'
+  }
+};
 
-var objectives = 'yaml/objectives/**/*.yaml';
-var levelTemplate = 'level000.hbs';
 
-var syllabus = 'yaml/syllabus/**/*.yaml';
-var syllabusTemplate = 'syllabus.hbs';
-
-
-// External Tasks
+// Public Tasks
 
 gulp.task('default', ['build', 'watch']);
-gulp.task('build', ['assemble']);
-gulp.task('deploy', ['github']);
 
-
-// Watches
-
-gulp.task('watch', function () {
-  gulp.watch([levelTemplate, objectives], ['compile'])
-  gulp.watch([syllabus, syllabusTemplate], ['syllabus'])
-  gulp.watch([assets], ['copy'])
+gulp.task('build', function(cb){
+ runSequence('clean', ['copy', 'compile'], cb);
 });
 
-// Internal Tasks
+gulp.task('deploy', ['build'], function () {
+  return gulp.src('dist/**/*')
+    .pipe(deploy());
+});
 
 gulp.task('clean', function (cb) {
   return del('dist', cb)
 });
 
-gulp.task('copy', function () {
-  return gulp.src(assets, { "base" : "." })
-    .pipe(gulp.dest('dist'));
+
+// Watches
+
+gulp.task('watch', function () {
+  gulp.watch('**/*.{yaml,hbs}', ['compile'])
+  gulp.watch([paths.assets], ['copy'])
 });
 
-gulp.task('assemble', function(cb){
- runSequence('clean', ['copy', 'compile'], cb);
+
+// Private Tasks
+
+
+gulp.task('copy', function () {
+  return gulp.src(paths.assets, { "base" : "." })
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('compile', ['objectives', 'syllabus']);
 
-gulp.task('github', ['build'], function () {
-  var options = {};
-  gulp.src('dist/**/*')
-    .pipe(deploy(options));
-});
-
-// These two tasks need to be refactored after we start using partials
-
 gulp.task('objectives', function(){
-  var options = {};
-  return gulp.src(objectives)
-    .pipe(yaml())
-    .pipe(tap(function(file, t){
-      var hbs = fs.readFileSync(levelTemplate);
-      var template = Handlebars.compile(hbs.toString());
-
-      var json = JSON.parse(file.contents.toString());
-      var html = template(json);
-
-      file.contents = new Buffer(html, 'utf-8')
-    }))
-    .pipe(rename({extname: '.html'}))
-    .pipe(flatten())
-    .pipe(gulp.dest('dist'))
+  var objectives = paths.objectives;
+  return to_html(objectives.data, objectives.template);
 });
 
 gulp.task('syllabus', function(){
-  var options = {};
-  return gulp.src(syllabus)
+  var syllabus = paths.syllabus;
+  return to_html(syllabus.data, syllabus.template);
+});
+
+
+
+// HELPER FUNCTIONS
+
+function to_html(filePath, templatePath){
+  return gulp.src(filePath)
     .pipe(yaml())
     .pipe(tap(function(file, t){
-      var hbs = fs.readFileSync(syllabusTemplate);
+      var hbs = fs.readFileSync(templatePath);
       var template = Handlebars.compile(hbs.toString());
       var json = JSON.parse(file.contents.toString());
       var html = template(json);
@@ -109,5 +104,4 @@ gulp.task('syllabus', function(){
     .pipe(rename({extname: '.html'}))
     .pipe(flatten())
     .pipe(gulp.dest('dist'))
-});
-
+};
