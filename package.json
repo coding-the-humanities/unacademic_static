@@ -34,6 +34,7 @@
     "gulp-watch": "^1.1.0",
     "gulp-yaml": "^0.2.2",
     "handlebars": "^2.0.0",
-    "marked": "^0.3.2"
+    "marked": "^0.3.2",
+    "run-sequence": "^1.0.1"
   }
 }
