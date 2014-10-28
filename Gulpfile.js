@@ -25,7 +25,7 @@ gulp.task('default', ['clean', 'build', 'watch']);
 gulp.task('deploy', ['clean', 'build', 'github']);
 gulp.task('build', ['copy', 'compile', 'syllabus']);
 
-gulp.task('watch', function () {
+gulp.task('watch', ['clean', 'copy', 'compile', 'syllabus'], function () {
   gulp.watch([levelTemplate, objectives], ['compile'])
   gulp.watch([syllabus, syllabusTemplate], ['syllabus'])
 });
