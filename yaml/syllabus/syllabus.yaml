@@ -1,8 +1,8 @@
 title: Syllabus
 year: 2014/15
 
-staff: 
-- Dr. J.H. Hoogstad 
+staff:
+- Dr. J.H. Hoogstad
 - Dr. Marijn Koolen
 - Reika Chavers
 - Angeliki Chalkia
@@ -31,12 +31,15 @@ course_content: |
   3. There is an ever-growing demand in the public and private sector for 
      academics who can read and write code.
 
-  After completion of the module you will be able to: apply knowledge of 
-  basic programming building blocks that carry over to almost all programming 
-  languages; demonstrate knowledge of web-based, client and server side 
-  services; display insight in technological aspects of humanities research;
-  apply skills in analysing humanities questions and material from a coding 
-  perspective; reflect on experience in project-based collaborative 
+  After completion of the module you will be able to: 
+  1. apply knowledge of basic programming building blocks that carry over to almost all programming 
+  languages;
+  2. demonstrate knowledge of web-based, client and server side 
+  services;
+  3. display insight in technological aspects of humanities research;
+  4. apply skills in analysing humanities questions and material from a coding 
+  perspective;
+  5. reflect on experience in project-based collaborative 
   humanities research.
 
 time_requirement: |
@@ -95,7 +98,7 @@ assessment:
   description: |
     Build an interface that visualizes group research
   review:
-    - weekly assigments
+    - weekly assignments
     - Final presentation of the group project
   completion: |
      You pass if you completed all the weekly assignments and achieve at least a 5.5 on the final assessment.
@@ -103,8 +106,8 @@ assessment:
     - originality of the idea and research question;
     - implementation of that idea and question in code;
     - identification of the goals of the project, and its effectiveness in addressing these goals;
-    - degree that it does, or does not, go beyond the stated goals to challenge current practice.
+    - degree to which it does, or does not, go beyond the stated goals to challenge current practice.
     - quality of the presentation
-  deadlines: 
-    - Weekly Assignment (week 1 – 6) 
+  deadlines:
+    - Weekly Assignment (week 1 – 6)
     - Final Presentation (week 7)
