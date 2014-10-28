@@ -25,7 +25,7 @@ gulp.task('default', ['clean', 'build', 'watch']);
 gulp.task('deploy', ['clean', 'build', 'github']);
 gulp.task('build', ['copy', 'compile', 'syllabus']);
 
-gulp.task('watch', ['clean', 'copy', 'compile', 'syllabus'], function () {
+gulp.task('watch', function () {
   gulp.watch([levelTemplate, objectives], ['compile'])
   gulp.watch([syllabus, syllabusTemplate], ['syllabus'])
 });
@@ -35,7 +35,7 @@ gulp.task('clean', function () {
     .pipe(clean());
 });
 
-gulp.task('copy', ['clean'], function () {
+gulp.task('copy', function () {
   var options = {};
   return gulp.src(  ['./fonts/**/*',
                     './img/**/*',
@@ -46,7 +46,7 @@ gulp.task('copy', ['clean'], function () {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('compile', ['clean'], function(){
+gulp.task('compile', function(){
   var options = {};
   gulp.src(objectives)
     .pipe(yaml())
@@ -64,7 +64,7 @@ gulp.task('compile', ['clean'], function(){
     .pipe(gulp.dest('dist'))
 });
 
-gulp.task('syllabus', ['clean'], function(){
+gulp.task('syllabus', function(){
   var options = {};
   gulp.src(syllabus)
     .pipe(yaml())
@@ -82,7 +82,7 @@ gulp.task('syllabus', ['clean'], function(){
     .pipe(gulp.dest('dist'))
 });
 
-gulp.task('github', ['clean', 'copy', 'compile', 'syllabus'], function () {
+gulp.task('github', ['clean'], function () {
   var options = {};
   return gulp.src('dist/**/*')
     .pipe(deploy(options));

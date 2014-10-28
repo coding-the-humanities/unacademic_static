@@ -71,18 +71,20 @@
           {{#each schedule}}
           <section class="meeting">
             <table class="table">
-              <tr>
-                  <td>Location: </td> 
+              <thead>
+                <tr>
+                  <th class="row-1 row-ID">ID</th>
+                  <th class="row-2 row-name">Name</th>
+                  <th class="row-3 row-job">Job</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
                   <td>{{location}}</td>
-              </tr>
-              <tr>
-                <td>Date: </td>
-                <td>{{date}}</td>
-              </tr>
-              <tr>
-                <td>Time: </td>
-                <td>{{time}}</td>
-              </tr>
+                  <td>{{date}}</td>
+                  <td>{{time}}</td>
+                </tr>
+              </tbody>
             </table>
           </section>
           {{/each}}
