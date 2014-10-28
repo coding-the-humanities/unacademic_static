@@ -12,8 +12,8 @@ description:
   full: |
     You must be anxious to dive into the wonderful world of web programming.
     But the first thing we want you to do has sadly / luckily nothing to do with 
-    code.  
-
+    code. The Citywalk will combine the knowledge you will get from the first 
+    tutorials. Read on to find out how exactly you are going to do that.
 
   summary: >
     Get some last contact with the real world, before you disappear into its 
@@ -23,12 +23,12 @@ tasks:
   - title: Citywalk
     description: |
       You must go out in the city of Amsterdam and follow one of the two 
-      routes below. If you want you can also follow both routes, but that's up 
+      routes below. If you want, you can also follow both routes, but that's up 
       to you.
       
-      While you are taking your walk, take as many pictures as you like
-      of things you think are interesting. The purpose of this odd request is to 
-      encourage you to make content,which you are going to use in this and later 
+      While you are taking your walk, take pictures of things you think are 
+      interesting; as many as you like. The purpose of this odd request is to 
+      encourage you to make content, which you are going to use in this and later 
       assignments.
       
     instructions:
@@ -50,19 +50,19 @@ tasks:
 
   - title: Build HTML page
     description: |
-      The first task is to  build a simple html page and make it look nice with 
-      some css. Use at least five of the photos you have taken during your city 
-      walk accompanied by a short explanation on why you took them.
+      Build a simple html page and make it look nice with some css. Use at least 
+      five of the photos you have taken during your city walk accompanied by a 
+      short explanation on why you took them.
       
-      Now you're going to use the knowledge you've attained or will attain in 
+      You're going to use the knowledge you've attained or will attain in 
       the HTML and CSS tutorials. 
       
       We now want you to build an html with css and combine it with the content 
       you just created!
 
     instructions: 
-      - Create a valid HTML file with the necessary tags, think of <p> tags and
-        <img> tags and everything else described on the turorial pages.
+      - Create a valid HTML file with the necessary tags: think of <p> tags and 
+      <img> tags and everything else described on the turorial pages.
       - Create a CSS stylesheet in the head of your document.
 
   - title: Share it with the world
