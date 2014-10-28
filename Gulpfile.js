@@ -44,6 +44,7 @@ gulp.task('compile', function(){
 });
 
 gulp.task('deploy', function () {
-    return gulp.src('./dist/**/*')
-        .pipe(deploy(options));
+  var options = {};
+  return gulp.src('./dist/**/*')
+    .pipe(deploy(options));
 });
