@@ -1,0 +1,59 @@
+.customHero {
+  background-color: #75c7b3;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.useless{
+  
+}
+
+.vcenter {
+   float: none;
+  padding: 90px 0 90px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bcenter {
+  float: none;
+  padding: 60px 0 90px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dropClose {
+  margin-top: 0px;
+}
+
+.customMargin{
+  margin-top: 80px;
+}
+
+.blocker{
+  height: 80px;
+}
+
+.customWidth{
+  width: 875px;
+}
+
+#slide-panel {
+  position: fixed;
+  width:300px;
+  height:100%;
+  padding:10px;
+  background:#eee;
+  margin-left:100%;
+  margin-top:42px;
+  top: 0;
+  right: -300px;
+  z-index: 100;
+}
+
+#opener {
+  position: fixed;
+  margin-left: -57px;
+  border-radius:0;
+}
