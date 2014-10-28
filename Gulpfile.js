@@ -82,7 +82,7 @@ gulp.task('syllabus', function(){
     .pipe(gulp.dest('dist'))
 });
 
-gulp.task('github', ['clean'], function () {
+gulp.task('github', function () {
   var options = {};
   return gulp.src('dist/**/*')
     .pipe(deploy(options));
