@@ -20,6 +20,7 @@ Handlebars.registerHelper('markdown', function(text) {
 });
 
 gulp.task('default', ['compile','copy', 'watch']);
+gulp.task('deploy', ['compile','copy', 'github']);
 
 gulp.task('watch', function () {
   gulp.watch([levelTemplate, objectives], ['compile'])
@@ -43,7 +44,7 @@ gulp.task('compile', function(){
     .pipe(gulp.dest('dist'))
 });
 
-gulp.task('deploy', function () {
+gulp.task('github', function () {
   var options = {};
   return gulp.src('./dist/**/*')
     .pipe(deploy(options));
