@@ -73,7 +73,7 @@ tasks:
         site:
           name:  Flickr
         url:     'http://www.flickr.com'
-      - title:   
+      - title:   Tinypic
         type:    Website
         site:
           name:  Tinypic
