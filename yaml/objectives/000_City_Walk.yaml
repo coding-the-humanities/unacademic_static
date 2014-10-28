@@ -50,7 +50,6 @@ tasks:
         book:
           name:  CSS Tricks
         url:     './img/MapOfRoute2.png' 
-      - title: Augementing Masterpieces
 
   - title: Build HTML page
     description: 
@@ -75,9 +74,9 @@ tasks:
           name:  Flickr
         url:     'http://www.flickr.com'
       - title:   
-        type:    image
-        author:  Chris Coyer
-        book:
-          name:  CSS Tricks
-        url:     './img/MapOfRoute2.png' 
-      - title:   Augementing Masterpieces
+        type:    Website
+        site:
+          name:  Tinypic
+        url:     'http://www.tinypic.com' 
+
+
