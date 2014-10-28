@@ -23,8 +23,20 @@ Handlebars.registerHelper('markdown', function(text) {
 gulp.task('default', ['clean', 'compile','copy', 'watch']);
 gulp.task('deploy', ['clean', 'compile','copy', 'github']);
 
-gulp.task('watch', function () {
-  gulp.watch([levelTemplate, objectives], ['compile'])
+gulp.task('clean', function () {
+    return gulp.src('./dist', {read: false})
+        .pipe(clean());
+});
+
+gulp.task('copy', function () {
+  var options = {};
+  return gulp.src(  ['./fonts/**/*',
+                    './img/**/*',
+                    './js/**/*',
+                    './css/**/*',
+                    'index.html'], { "base" : "." } 
+                  )
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('compile', function(){
@@ -45,26 +57,12 @@ gulp.task('compile', function(){
     .pipe(gulp.dest('dist'))
 });
 
+gulp.task('watch', function () {
+  gulp.watch([levelTemplate, objectives], ['compile'])
+});
+
 gulp.task('github', function () {
   var options = {};
   return gulp.src('./dist/**/*')
     .pipe(deploy(options));
 });
-
-gulp.task('copy', function () {
-  var options = {};
-  return gulp.src(  ['./fonts/**/*',
-                    './img/**/*',
-                    './js/**/*',
-                    './css/**/*',
-                    'index.html'], { "base" : "." } 
-                  )
-    .pipe(gulp.dest('dist'));
-});
-
-gulp.task('clean', function () {
-    return gulp.src('./dist', {read: false})
-        .pipe(clean());
-});
-
-
