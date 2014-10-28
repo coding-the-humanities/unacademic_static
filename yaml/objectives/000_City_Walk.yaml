@@ -12,18 +12,16 @@ description:
   full: |
     You must be anxious to dive into the wonderful world of web programming.
     But the first thing we want you to do has sadly / luckily nothing to do with code.
-    You must go out in the city of Amsterdam and follow one of the routes below.
-    If you want you can also follow both routes, but that's at your own leisure.
-    While you're walking your walk we want you to take as many pictures as you like,
-    of things you think are interesting.
+    You must go out in the city of Amsterdam and follow one of the two routes below.
+    If you want you can also follow both routes, but that's upt to you.
+    While you're walking your walk we want you to take as many pictures as you like
+    of things you think are interesting. The purpose of this odd request is to encourage you to make content,
+    which you are going to use in this and later assignments.
 
-    The purpose of this odd request is that we want to encourage you to make content,
-    which you are going to use in later assignments as content for your widgets and 
-    other kinds of interfaces.
-
-    There are two route options you only have to choose one! Make sure to save all your 
-    pictures because your going to need them later on 
-
+    The first task is to  build a simple html page and make it look nice with some css. 
+    Use at least five of the photos you have taken during your city walk accompanied by a short explanation on why you took them.
+    You can use an image hosting to upload your pictures and then link them on your page following the instruction on the HTML tutorial.
+    Do not forget to publish your code on gist.
   summary: >
     Get some last contact with the real world, before you disappear into its virtual counterpart.
 
@@ -88,6 +86,7 @@ tasks:
       - Go in a South-Eastern direction on Jodenbreestraat to Uilenburgersteeg
       - Take a right to Meester Visserplein.
     resources:
+      - instructions: 
       - title:   Map of Route 1
         type:    image
         author:  Chris Coyer
