@@ -39,14 +39,8 @@ var syllabusTemplate = 'syllabus.hbs';
 // External Tasks
 
 gulp.task('default', ['build', 'watch']);
-
-gulp.task('build', function(cb){
- runSequence('clean', ['copy', 'compile', 'syllabus'], cb);
-});
-
-gulp.task('deploy', function(cb){
- runSequence('build', ['github'], cb);
-});
+gulp.task('build', ['assemble']);
+gulp.task('deploy', ['github']);
 
 
 // Watches
@@ -56,7 +50,6 @@ gulp.task('watch', function () {
   gulp.watch([syllabus, syllabusTemplate], ['syllabus'])
   gulp.watch([assets], ['copy'])
 });
-
 
 // Internal Tasks
 
@@ -69,13 +62,21 @@ gulp.task('copy', function () {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('clean', function (cb) {
-  del('dist', cb)
+gulp.task('assemble', function(cb){
+ runSequence('clean', ['copy', 'compile'], cb);
+});
+
+gulp.task('compile', ['objectives', 'syllabus']);
+
+gulp.task('github', ['build'], function () {
+  var options = {};
+  gulp.src('dist/**/*')
+    .pipe(deploy(options));
 });
 
 // These two tasks need to be refactored after we start using partials
 
-gulp.task('compile', function(){
+gulp.task('objectives', function(){
   var options = {};
   return gulp.src(objectives)
     .pipe(yaml())
@@ -110,8 +111,3 @@ gulp.task('syllabus', function(){
     .pipe(gulp.dest('dist'))
 });
 
-gulp.task('github', function () {
-  var options = {};
-  gulp.src('dist/**/*')
-    .pipe(deploy(options));
-});
