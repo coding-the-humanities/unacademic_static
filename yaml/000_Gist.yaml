@@ -22,9 +22,13 @@ tasks:
       - Write some simple HTML or CSS into the box on your screen.
   - title: Experiment with Syntax Highlighting
     instructions:
-      - Give the file the name 000_Gist_Assignment.html or 000_Gist_Assignment.html.
+      - Give the file the name 000_Gist_Assignment.html or 000_Gist_Assignment.css.
       - Notices that the your html/css now has certain words in color.
+  - title: Gist it with Github
+    instructions:
+      - Log in with Github
+      - Put the HTML or CSS you wrote into the box on the screen
   - title: Share your Gist
     instructions:
       - Click "Create public Gist" in the bottom right corner.
-      - Put the link to your gist in our [Slack](cth.slack.com) Channel.
+      - Put the link to your gist in our [Slack](fishbowl.slack.com) Channel.
