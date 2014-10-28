@@ -51,46 +51,28 @@ time_requirement: |
      peers, is offered during the plenary sessions and on the platform.
 
 schedule:
-- course:
-    subject:        HTML / CSS
-    location:       ?
-    date:           21 october
-    time:           ?
-- course:
-    subject:        Custom Elements
-    location:       LUSTlab
-    date:           4 november
-    time:           10.00-16:00
-- course:
-    subject:        Combining Elements
-    location:       Sandberg Institute
-    date:           18 november
-    time:           10:00-16:00
-- course:
-    subject:        Version Control
-    location:       UvA (precise location to be announced)
-    date:           2 december
+  - location:       OMHP EK01
+    date:           28 October
+    time:           13:00 - 15:00 // 15:00 - 17:00 
+  - location:       LUSTlab
+    date:           4 November
+    time:           13.00-16:00
+  - location:       OMHP EK01
+    date:           11 November
+    time:           13:00 - 15:00 // 15:00 - 17:00 
+  - location:       Sandberg Institute
+    date:           18 November
+    time:           13:00-16:00
+  - location:       OMHP EK01
+    date:           25 November
+    time:           13:00 - 15:00 // 15:00 - 17:00 
+  - location:       UvA (precise location to be announced)
+    date:           2 December
     time:           10:00-13:00
-- course:
-    subject:        REST / AJAX
-    location:       Sandberg Institute
-    date:           9 december
+  - location:       Sandberg Institute
+    date:           9 December
     time:           10:00-13:00
-- course:
-    subject:        API's
-    location:       Sandberg Institute
-    date:           6 january
-    time:           10:00-13:00
-- course:
-    subject:        Building Widgets
-    location:       LUSTlab
-    date:           13 january
-    time:           10:00-16:00
-- course:
-    subject:        Composing Interfaces
-    location:       LUSTlab
-    date:           20 january
-    time:           10:00-16:00
+
 assessment:
   description: |
     Build an interface that visualizes group research
