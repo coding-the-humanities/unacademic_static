@@ -87,6 +87,37 @@
           </section>
           {{/each}}
         </section>
+
+        {{#with assessment}}
+        <section class="assessment">
+          <h4>Assessment</h4>
+          <p>{{{markdown description}}}</p>
+          
+          <h5>Review</h5>
+          <ul>
+            {{#each review}}
+            <li><p>{{this}}</p></li>
+            {{/each}}
+          </ul>
+
+          <h5>Completion</h5>
+          <p>{{completion}}</p>
+
+          <h5>Criteria</h5>
+          <ul>
+            {{#each review}}
+            <li><p>{{this}}</p></li>
+            {{/each}}
+          </ul>
+
+          <h5>Deadlines</h5>
+          <ul>
+            {{#each deadlines}}
+            <li><p>{{this}}</p></li>
+            {{/each}}
+          </ul>
+        </section>
+        {{/with}}
     </div>
 
 
