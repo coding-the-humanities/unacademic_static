@@ -86,10 +86,6 @@ gulp.task('syllabus', function(){
   return to_html(syllabus.data, syllabus.template);
 });
 
-
-
-// HELPER FUNCTIONS
-
 function to_html(filePath, templatePath){
   return gulp.src(filePath)
     .pipe(yaml())
