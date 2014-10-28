@@ -68,26 +68,26 @@
 
         <section class="schedule">
           <h4>Program</h4>
-          {{#each schedule}}
           <section class="meeting">
             <table class="table">
               <thead>
                 <tr>
-                  <th class="row-1 row-ID">ID</th>
-                  <th class="row-2 row-name">Name</th>
-                  <th class="row-3 row-job">Job</th>
+                  <th>Location</th>
+                  <th>Date</th>
+                  <th>Time</th>
                 </tr>
               </thead>
               <tbody>
+          {{#each schedule}}
                 <tr>
                   <td>{{location}}</td>
                   <td>{{date}}</td>
                   <td>{{time}}</td>
                 </tr>
+          {{/each}}
               </tbody>
             </table>
           </section>
-          {{/each}}
         </section>
 
         {{#with assessment}}
