@@ -70,9 +70,20 @@
           <h4>Program</h4>
           {{#each schedule}}
           <section class="meeting">
-            <p>Location: {{location}}</p>
-            <p>Date: {{date}}</p>
-            <p>Time: {{time}}</p>
+            <table class="table">
+              <tr>
+                  <td>Location: </td> 
+                  <td>{{location}}</td>
+              </tr>
+              <tr>
+                <td>Date: </td>
+                <td>{{date}}</td>
+              </tr>
+              <tr>
+                <td>Time: </td>
+                <td>{{time}}</td>
+              </tr>
+            </table>
           </section>
           {{/each}}
         </section>
