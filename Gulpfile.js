@@ -83,6 +83,6 @@ gulp.task('syllabus', function(){
 
 gulp.task('github', function () {
   var options = {};
-  return gulp.src('./dist/**/*')
+  return gulp.src('dist/**/*')
     .pipe(deploy(options));
 });
