@@ -83,12 +83,15 @@ assessment:
     - weekly assignments
     - Final presentation of the group project
   completion: |
-     You pass if you completed all the weekly assignments and achieve at least a 5.5 on the final assessment.
+     You pass if you completed all the weekly assignments and achieve at least 
+     a 5.5 on the final assessment.
   criteria:
     - originality of the idea and research question;
     - implementation of that idea and question in code;
-    - identification of the goals of the project, and its effectiveness in addressing these goals;
-    - degree to which it does, or does not, go beyond the stated goals to challenge current practice.
+    - identification of the goals of the project, and its effectiveness 
+      in addressing these goals;
+    - degree to which it does, or does not, go beyond the stated goals to challenge 
+      current practice.
     - quality of the presentation
   deadlines:
     - Weekly Assignment (week 1 – 6)
