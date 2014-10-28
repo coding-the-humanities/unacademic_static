@@ -8,6 +8,7 @@ var yaml = require('gulp-yaml');
 var tap = require('gulp-tap');
 var marked = require('marked');
 var flatten = require('gulp-flatten');
+var deploy = require('gulp-gh-pages');
 
 var objectives = 'yaml/objectives/**/*.yaml';
 var syllabus = 'yaml/syllabus/**/*.yaml';
@@ -40,4 +41,9 @@ gulp.task('compile', function(){
     .pipe(rename({extname: '.html'}))
     .pipe(flatten())
     .pipe(gulp.dest('dist'))
+});
+
+gulp.task('deploy', function () {
+    return gulp.src('./dist/**/*')
+        .pipe(deploy(options));
 });
