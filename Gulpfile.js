@@ -9,6 +9,7 @@ var tap = require('gulp-tap');
 var marked = require('marked');
 var flatten = require('gulp-flatten');
 var deploy = require('gulp-gh-pages');
+var clean = require('gulp-clean');
 
 var objectives = 'yaml/objectives/**/*.yaml';
 var levelTemplate = 'level000.hbs';
@@ -20,12 +21,28 @@ Handlebars.registerHelper('markdown', function(text) {
   return marked(text);
 });
 
-gulp.task('default', ['compile','copy', 'watch']);
-gulp.task('deploy', ['compile','copy', 'github']);
+gulp.task('default', ['clean', 'compile','copy', 'watch']);
+gulp.task('deploy', ['clean', 'compile','copy', 'github']);
 
 gulp.task('watch', function () {
   gulp.watch([levelTemplate, objectives], ['compile'])
   gulp.watch([syllabus, syllabusTemplate], ['syllabus'])
+});
+
+gulp.task('clean', function () {
+  return gulp.src('./dist', {read: false})
+    .pipe(clean());
+});
+
+gulp.task('copy', function () {
+  var options = {};
+  return gulp.src(  ['./fonts/**/*',
+                    './img/**/*',
+                    './js/**/*',
+                    './css/**/*',
+                    'index.html'], { "base" : "." } 
+                  )
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('compile', function(){
@@ -69,16 +86,3 @@ gulp.task('github', function () {
   return gulp.src('./dist/**/*')
     .pipe(deploy(options));
 });
-
-gulp.task('copy', function () {
-  var options = {};
-  return gulp.src(  ['./fonts/**/*',
-                    './img/**/*',
-                    './js/**/*',
-                    './css/**/*',
-                    'index.html'], { "base" : "." } 
-                  )
-    .pipe(gulp.dest('dist'));
-});
-
-
