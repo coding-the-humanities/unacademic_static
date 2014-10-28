@@ -21,8 +21,16 @@ Handlebars.registerHelper('markdown', function(text) {
   return marked(text);
 });
 
-gulp.task('default', ['clean', 'compile', 'syllabus', 'copy', 'watch']);
-gulp.task('deploy', ['clean', 'compile', 'syllabus', 'copy', 'github']);
+gulp.task('default', ['clean', 'build', 'watch']);
+gulp.task('deploy', ['clean', 'build', 'github']);
+
+gulp.task('build', ['clean'], function(){
+  gulp.run(['copy', 'compile', 'syllabus']);
+});
+
+gulp.task('github', ['build'], function(){
+  gulp.run(['gh-pages']);
+});
 
 gulp.task('watch', function () {
   gulp.watch([levelTemplate, objectives], ['compile'])
@@ -81,7 +89,7 @@ gulp.task('syllabus', function(){
     .pipe(gulp.dest('dist'))
 });
 
-gulp.task('github', function () {
+gulp.task('gh-pages', function () {
   var options = {};
   return gulp.src('dist/**/*')
     .pipe(deploy(options));
