@@ -13,8 +13,8 @@ description:
     You must be anxious to dive into the wonderful world of web programming.
     But the first thing we want you to do has sadly / luckily nothing to do with code.
     You must go out in the city of Amsterdam and follow one of the two routes below.
-    If you want you can also follow both routes, but that's upt to you.
-    While you're walking your walk we want you to take as many pictures as you like
+    If you want you can also follow both routes, but that's up to you.
+    While you are taking your walk, take as many pictures as you like
     of things you think are interesting. The purpose of this odd request is to encourage you to make content,
     which you are going to use in this and later assignments.
 
@@ -26,12 +26,10 @@ tasks:
     description: >
       The first task is to  build a simple html page and make it look nice with some css. 
       Use at least five of the photos you have taken during your city walk accompanied by a short explanation on why you took them.
-      You can use an image hosting to upload your pictures and then link them on your page following the instruction on the HTML tutorial.
-      Do not forget to publish your code on gist.
     instructions:
       - Put on your shoes
-      - Buy raincoat
-      - etc. you get the drill
+      - Get a raincoat
+      - etc. you get the idea
     resources:
       - title: Routes description
         type: Website
@@ -52,15 +50,20 @@ tasks:
         url:     './img/MapOfRoute2.png' 
 
   - title: Build HTML page
-    description: 
+    description: >
+    Now you're going to use the knowledge you've attained or will attain in the HTML and CSS tutorials. 
+    We now want you to build an html with css and combine it with the content you just created!
+
     instructions: 
-      - Create a valid HTML file with necessary tags, think of <p> tags and <img> tags and everything else described on the other pages. 
+      - Create a valid HTML file with the necessary tags, think of <p> tags and <img> tags and everything else described on the turorial pages. 
       - Create a CSS stylesheet in the head of your document.
 
   - title: Share it with the world
-    description: 
+    description: >
+      You can use an image hosting to upload your pictures and then link them on your page following the instructions on the HTML tutorial.
+      Do not forget to publish your code on gist.
     instructions: 
-      - Upload the basic site you made to Github gists. Make sure you do not post it anomynously!
+      - Upload your code to Github gists. Make sure you do not post it anomynously!
       - Make sure the images are available online aswell. You can use a basic image host like Flickr, Postimages.org or Tinypic.com
     resources:
       - title:   Github Gists
