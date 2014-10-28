@@ -9,6 +9,7 @@ var tap = require('gulp-tap');
 var marked = require('marked');
 var flatten = require('gulp-flatten');
 var deploy = require('gulp-gh-pages');
+var clean = require('gulp-clean');
 
 var objectives = 'yaml/objectives/**/*.yaml';
 var syllabus = 'yaml/syllabus/**/*.yaml';
@@ -19,8 +20,8 @@ Handlebars.registerHelper('markdown', function(text) {
   return marked(text);
 });
 
-gulp.task('default', ['compile','copy', 'watch']);
-gulp.task('deploy', ['compile','copy', 'github']);
+gulp.task('default', ['clean', 'compile','copy', 'watch']);
+gulp.task('deploy', ['clean', 'compile','copy', 'github']);
 
 gulp.task('watch', function () {
   gulp.watch([levelTemplate, objectives], ['compile'])
@@ -59,6 +60,11 @@ gulp.task('copy', function () {
                     'index.html'], { "base" : "." } 
                   )
     .pipe(gulp.dest('dist'));
+});
+
+gulp.task('clean', function () {
+    return gulp.src('./dist', {read: false})
+        .pipe(clean());
 });
 
 
