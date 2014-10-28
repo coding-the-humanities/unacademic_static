@@ -19,7 +19,7 @@ Handlebars.registerHelper('markdown', function(text) {
   return marked(text);
 });
 
-gulp.task('default', ['compile', 'watch']);
+gulp.task('default', ['compile','copy', 'watch']);
 
 gulp.task('watch', function () {
   gulp.watch([levelTemplate, objectives], ['compile'])
@@ -48,3 +48,15 @@ gulp.task('deploy', function () {
   return gulp.src('./dist/**/*')
     .pipe(deploy(options));
 });
+
+gulp.task('copy', function () {
+  var options = {};
+  return gulp.src(  ['./fonts/**/*',
+                    './img/**/*',
+                    './js/**/*',
+                    './css/**/*'], { "base" : "." } 
+                  )
+    .pipe(gulp.dest('dist'));
+});
+
+
