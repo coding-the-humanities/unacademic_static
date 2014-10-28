@@ -18,127 +18,66 @@ description:
     of things you think are interesting. The purpose of this odd request is to encourage you to make content,
     which you are going to use in this and later assignments.
 
-    The first task is to  build a simple html page and make it look nice with some css. 
-    Use at least five of the photos you have taken during your city walk accompanied by a short explanation on why you took them.
-    You can use an image hosting to upload your pictures and then link them on your page following the instruction on the HTML tutorial.
-    Do not forget to publish your code on gist.
   summary: >
     Get some last contact with the real world, before you disappear into its virtual counterpart.
 
 tasks:
-  - title: Route 1
+  - title: Citywalk
     description: >
-      This is a short route through the city. Follow the route and take a lot of pictures.
+      The first task is to  build a simple html page and make it look nice with some css. 
+      Use at least five of the photos you have taken during your city walk accompanied by a short explanation on why you took them.
+      You can use an image hosting to upload your pictures and then link them on your page following the instruction on the HTML tutorial.
+      Do not forget to publish your code on gist.
     instructions:
-      - Start at Prinsengracht 267, Amsterdam
-      - Go North-East on Prinsengracht towards Leliegracht
-      - Go right to Leliegracht
-      - Go left to Keizersgracht
-      - Go North-East on Keizersgracht to Herenstraat
-      - Take a left towards Herenstraat
-      - Go left to Keizersgracht
-      - Go North-East on Keizersgracht to Prinsenstraat
-      - Take a right towards Brouwersgracht
-      - Take a left towards Herengracht
-      - Follow the road to Herenmarkt
-      - Go in a Southern direction on Herenmarkt to Brouwersgracht
-      - Follow the road to Herengracht
-      - Go left towards Herenstraat
-      - Take a right towards Herengracht
-      - Go in a South-Western direction on Herengracht to Oude Leliestraat
-      - Take a left towards Oude Leliestraat
-      - Follow the road to Torensluis
-      - Go right towards Singel
-      - Go South on Singel to Oude Spiegelstraat
-      - Take a left towards Raamsteeg
-      - Follow the road to Rosmarijnsteeg
-      - Lazy turn to the right towards Sint Luciënsteeg
-      - Go in a Western direction on Sint Luciënsteeg to Nieuwezijds Voorburgwal
-      - Lazy turn to the left to Nieuwezijds Voorburgwal
-      - Go left towards Begijnhof
-      - Again go left to Begijnhof
-      - Go North-East
-      - Go left towards Begijnensteeg
-      - Take a right to Begijnensteeg
-      - Follow the road to Begijnensteeg
-      - Take a left to Kalverstraat
-      - Go in a Southern direction on Kalverstraat to Watersteeg
-      - Take a left to Watersteeg
-      - Go right towards Rokin
-      - Go left to stay on Rokin
-      - Follow the road to Langebrugsteeg
-      - Follow the road to Grimburgwal
-      - Go left to Gebed Zonder End
-      - Go in a Southern direction on Gebed Zonder End to Grimburgwal
-      - Take a left to Grimburgwal
-      - Go left towards Oudezijds Achterburgwal
-      - Go South-West on Oudezijds Achterburgwal to Bethaniënstraat
-      - Take a left to Oude Hoogstraat
-      - Follow the road to Bushuissluis
-      - Go right towards Kloveniersburgwal
-      - Go South-West on Kloveniersburgwal towards Raamgracht
-      - Take a left to Staalstraat/weg 2
-      - Go in a Eastern direction on Staalstraat/weg 2 to Groenburgwal
-      - Go left towards Zwanenburgwal
-      - Go in a North-East direction on Zwanenburgwal to Raamgracht
-      - Go right to Sint Antoniesbreestraat
-      - Follow the road to Jodenbreestraat
-      - Go in a South-Eastern direction on Jodenbreestraat to Uilenburgersteeg
-      - Take a right to Meester Visserplein.
+      - Put on your shoes
+      - Buy raincoat
+      - etc. you get the drill
     resources:
-      - instructions: 
+      - title: Routes description
+        type: Website
+        site:
+          name: Gist on Github
+        url: https://gist.github.com/Zaturrby/6aa7f8ad62d20b99191b
       - title:   Map of Route 1
         type:    image
         author:  Chris Coyer
         book:
           name:  CSS Tricks
         url:     './img/MapOfRoute1.png'
-
-  - title: Route 2
-    description: |
-      This is a long route through the city to the Rijksmuseum. Follow the route and take lots of pictures.
-    instructions:
-      - Start at Amsterdam Central Station
-      - Go South-West towards Damrak
-      - Follow the Damrak until Beursplein (it's on the left side of the street)
-      - Go North-East on Beursplein
-      - Follow the Beursstraat
-      - Take a right towards Paternostersteeg
-      - Follow the road to Wijde Kerksteeg
-      - Take a left towards Oudekerksplein
-      - Look at this amazing square. Wow.
-      - Continue on Wijde Kerksteeg to Oudekennissteeg
-      - Follow road to Molensteeg
-      - Go right to Zeedijk
-      - Go right towards Nieuwmarkt/Waterkeringpad
-      - Go South-West on Nieuwmarkt/Waterkeringpad to Weg 2
-      - Cross the square so that you're on Kloveniersburgwal, on the left side of the canal
-      - Go South-West on Kloveniersburgwal to Bushuissluis and cross the bridge
-      - Continue on Oude Hoogstraat
-      - Go Nort-West on Oude Hoogstraat to Bethaniëndwarsstraat
-      - Go right towards Oudezijds Achterburgwal
-      - Enjoy the view
-      - Turn around and go in South-West direction on Oudezijds Achterburgwal 
-      - Cross the water so you're on the right side of the water
-      - Go right on Sint Agnietenstraat towards Oudezijds Voorburgwal
-      - Go right at Oudezijds Voorburgwal
-      - Follow it until the next bridge
-      - Cross it and follow Damstraat until the Dam
-      - Cross the Dam and take a walk on Eggertstraat all the way around the New Church
-      - Go to the backside of the Paleis op de Dam
-      - Cross the street and continue on Raadhuisstraat
-      - Take a left to Herengracht
-      - Go left to Gasthuismolensteeg
-      - Take a right so you're on Singel
-      - Walk all the way to Koningsplein
-      - Go right to Herengracht
-      - Cross it so that you're on the right side of the water
-      - Go right to Nieuwe Spiegelstraat
-      - Continue all the way until you arrive at the Rijksmuseum
-    resources:
       - title:   Map of Route 2
         type:    image
         author:  Chris Coyer
         book:
           name:  CSS Tricks
-        url:     './img/MapOfRoute2.png'
+        url:     './img/MapOfRoute2.png' 
+      - title: Augementing Masterpieces
+
+  - title: Build HTML page
+    description: 
+    instructions: 
+      - Create a valid HTML file with necessary tags, think of <p> tags and <img> tags and everything else described on the other pages. 
+      - Create a CSS stylesheet in the head of your document.
+
+  - title: Share it with the world
+    description: 
+    instructions: 
+      - Upload the basic site you made to Github gists. Make sure you do not post it anomynously!
+      - Make sure the images are available online aswell. You can use a basic image host like Flickr, Postimages.org or Tinypic.com
+    resources:
+      - title:   Github Gists
+        type:    Website
+        site:
+          name:  Gist on Github
+        url:     https://gist.github.com/
+      - title:   Flickr
+        type:    site
+        site:
+          name:  Flickr
+        url:     'http://www.flickr.com'
+      - title:   
+        type:    image
+        author:  Chris Coyer
+        book:
+          name:  CSS Tricks
+        url:     './img/MapOfRoute2.png' 
+      - title:   Augementing Masterpieces
