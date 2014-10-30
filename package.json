@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/coding-the-humanities/unacademic_static",
   "devDependencies": {
+    "del": "^0.1.3",
     "fs": "0.0.2",
     "gulp": "^3.8.9",
     "gulp-clean": "^0.3.1",
