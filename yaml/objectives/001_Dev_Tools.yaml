@@ -21,8 +21,8 @@ description:
 tasks:
   - title: Opening Chrome Dev-Tools
     description: >
-      Get a feel for what the Dev Tools can do. Navigate it a bit and try some 
-      stuff out.
+      Get a feel for what the Dev Tools can do. Navigate all of its tools a bit 
+      and try some stuff out.
     instructions:
       - Open the tools (right-click inspect or Mac:alt+apple+i Windows:ctrl+shift+j)
       - Inspect your document
@@ -52,11 +52,3 @@ tasks:
       - Try console.log("something")
       - Create a simple variable (type - var name = "Your Name")
         (and call it with - name)
-
-
-
-- getElementByID.innerHTML
-
-
-
-
