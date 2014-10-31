@@ -1,0 +1,32 @@
+title:      DOM
+level:      1 
+points:     100 
+mandatory:  true
+
+summary: > 
+  Document Object Model: HTML re-rendered
+
+technologies:
+  - DOM
+
+description:
+  summary: > 
+    DOM re-renders HTML 
+  full: >
+    
+
+tasks:
+  - title: Introduction
+    description: >
+      DOM
+    instructions:
+      - Read up on DOM
+    resources:
+      - title:   DOM 
+        type:    website
+        site:
+          name:  Document Object Model
+        url:   https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+      - title:   Introduction Video
+        type:    video
+        site:
