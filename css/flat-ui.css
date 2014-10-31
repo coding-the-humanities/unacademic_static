@@ -12,6 +12,15 @@
   src: url('../fonts/nn/NN.eot?#iefix') format('embedded-opentype'), url('../fonts/nn/NN.woff');
   }
 
+@font-face {
+  font-family: 'NB';
+  font-style: normal;
+  font-weight: 900;
+
+  src: url('../fonts/nn/NB.eot');
+  src: url('../fonts/nn/NB.eot?#iefix') format('embedded-opentype'), url('../fonts/nn/NB.woff');
+  }
+
 
 @font-face {
   font-family: 'Lato';

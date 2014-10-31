@@ -37,5 +37,8 @@
     "handlebars": "^2.0.0",
     "marked": "^0.3.2",
     "run-sequence": "^1.0.1"
+  },
+  "dependencies": {
+    "gulp-sass": "^1.2.2"
   }
 }

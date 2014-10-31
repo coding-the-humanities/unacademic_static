@@ -11,13 +11,11 @@ var deploy = require('gulp-gh-pages');
 var del = require('del');
 var runSequence = require('run-sequence')
 
-
 // TEMPLATE HELPERS
 
 Handlebars.registerHelper('markdown', function(text) {
   return marked(text);
 });
-
 
 // PATHS
 
@@ -56,7 +54,6 @@ gulp.task('deploy', ['build'], function () {
 gulp.task('clean', function (cb) {
   return del('dist', cb)
 });
-
 
 // Watches
 

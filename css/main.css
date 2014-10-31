@@ -1,12 +1,152 @@
+/*// @import "compass"
+
+// /* Color setup */
+/*$darkBlue: #34495e;
+$lightBlue: #75c7b3;*/
+
+/* Index */
+.indexContainer {
+  margin-top: 105px;
+  margin-bottom: 40px;
+}
+
+.leftBlock {
+  background: #75c7b3; /* Old browsers */
+  background: -moz-linear-gradient(left,  #75c7b3 1%, #75c7b3 98%, #7db9e8 98%, #5da190 98%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%,#75c7b3), color-stop(98%,#75c7b3), color-stop(98%,#7db9e8), color-stop(98%,#5da190)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #75c7b3 1%,#75c7b3 98%,#7db9e8 98%,#5da190 98%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #75c7b3 1%,#75c7b3 98%,#7db9e8 98%,#5da190 98%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #75c7b3 1%,#75c7b3 98%,#7db9e8 98%,#5da190 98%); /* IE10+ */
+  background: linear-gradient(to right,  #75c7b3 1%,#75c7b3 98%,#7db9e8 98%,#5da190 98%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75c7b3', endColorstr='#5da190',GradientType=1 ); /* IE6-9 */
+  background-color: #75c7b3;
+  margin-top: 60px;
+}
+
+/* Voor later 
+// needs latest Compass, add '@import "compass"' to your scss
+background-color: #75c7b3; // Old browsers
+@include filter-gradient(#75c7b3, #5da190, horizontal); // IE6-9
+@include background-image(linear-gradient(left, #75c7b3 1%,#75c7b3 98%,#7db9e8 98%,#5da190 98%));
+*/
+.leftUl {
+  padding-left: 0;
+}
+.leftUl li {
+  margin: 5px 0px 5px 0px;
+  padding-left: 10px;
+  list-style-type: none;
+  border-bottom: 1px #88e2cc solid;
+}
+.leftUl li:last-child {
+  border-bottom: none;
+}
+.active {
+  background-color: #88e2cc;
+}
+.courseContentContainer {
+  background-color: #edeff1;
+}
+.courseBlock {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.courseBlock:first-child {
+  border-right: 2px dashed white;
+  border-bottom: 2px dashed white;
+}
+.courseBlock:nth-child(2) {
+  border-bottom: 2px dashed white;
+}
+.courseBlock:nth-child(3) {
+  border-right: 2px dashed white;
+}
+.courseTag {
+  display: inline-block;
+  background: white;
+  padding: 4px 7px 4px 7px;
+}
+.locationTag {
+  display: inline-block;
+  background: white;
+  padding: 4px 7px 4px 7px;
+  font-size: 14px;
+  font-family: NB;
+}
+.locationDetails {
+  padding-left: 0;
+  margin-top: -10px;
+}
+.locationDetails li {
+  margin: 5px 0 5px 0;
+  padding-left: 10px;
+  list-style-type: none;
+  border-bottom: 1px white dotted;
+  color: white;
+  font-size: 14px;
+}
+.courseText {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: initial;
+  font-family: NB;
+  color: white;
+  box-shadow: 6px 0 0 #241c28, -6px 0 0 #241c28;
+  background: #241c28;
+}
+.courseCTA {
+  background: white;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.locationBlock {
+  background-color: #241c28;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  height: 800px; /* Betere oplossing vinden */
+}
+.htmlBlock {
+  background-image: url("../img/tijdelijkeoplossing.png"), url("../img/overlay.png"), url("../img/html.gif");
+  background-repeat: no-repeat, repeat, no-repeat;
+  background-position: 0 174px, 0 0, 0 0;
+  background-color: #392d3f;
+  height: 400px; /* Need to find a better solution */
+}
+.htmlBlock:hover {
+  background-image: url("../img/tijdelijkeoplossinghover.png"), url("../img/overlayHover.png"), url("../img/html.gif");
+  background-repeat: no-repeat, repeat, no-repeat;
+}
+.htmlBlock:hover > .courseTag {
+  background-color: #241c28;
+  color: white;
+}
+.htmlBlock:hover > .courseText {
+  background-color: white;
+  color: #34495e;
+  box-shadow: 6px 0 0 #fff, -6px 0 0 #fff;
+}
+.cssBlock {
+  background-image: url("../img/tijdelijkeoplossing.png"), url("../img/overlay.png"), url("../img/css.gif");
+  background-repeat: no-repeat, repeat, no-repeat;
+  background-position: 0 174px, 0 0, 0 0;
+  background-color: #392d3f;
+  height: 400px; /* Need to find a better solution */
+}
+.gistBlock, .cityWalkBlock {
+  background-image: none;
+  background-color: #392d3f;
+  height: 400px;
+}
+
+/* Internal pages */
 .customHero {
   background-color: #75c7b3;
   padding-top: 80px;
   padding-bottom: 40px;
   margin-bottom: 20px;
-}
-
-.useless{
-  
 }
 
 .vcenter {
