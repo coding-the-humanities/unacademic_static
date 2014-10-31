@@ -1,22 +1,23 @@
 title:      DOM
-level:      1 
-points:     100 
+level:      1
+points:     100
 mandatory:  true
-category:   Mark-up
+category:   markup
 
 technologies:
   - DOM
 
 description:
-  summary: > 
+  summary: >
     The DOM -Document Object Model - is an interface for HTML documents
-  full: > The DOM -Document Object Model - is an interface for HTML 
-    documents. It defines the structure of a document and uses document, text, 
-    element and attribute nodes to represent and interact with objects. This 
-    allows for programming languages to interact with web pages. These nodes 
+  full: >
+    The DOM -Document Object Model - is an interface for HTML
+    documents. It defines the structure of a document and uses document, text,
+    element and attribute nodes to represent and interact with objects. This
+    allows for programming languages to interact with web pages. These nodes
     have hierarchical relations to one another -root, parents, children, siblings.
-    So, in a visual representation of a DOM you see the so-called node tree.  
-    
+    So, in a visual representation of a DOM you see the so-called node tree.
+
 tasks:
   - title: Theory on DOM
     description: >
@@ -24,17 +25,19 @@ tasks:
     instructions:
       - Read more on DOM via the link below
     resources:
-      - title:   DOM 
-        type:    website
-        site:    Mozilla
-          name:  Document Object Model
-        url:    https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
-    - title: Imperative interaction with DOM
-      description: > Use DevTools and interact with DOM in imperative syntax. 
-      Sounds complex? No worries, use your DevTools as described
-      in the DevTools tutorial, follow the instructions and play around!
-      instructions: 
-        - go to 
-        - open your DevTools and type in a command like the one below
-        - you have to find out 
-          document.getElementByTagName("?").innerHTML = "hello"
+      - title:   Document Object Model
+        type:    article
+        site:
+          name:  Mozilla Developer Networ
+        url:     https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+
+      - title: Imperative interaction with DOM
+        description: >
+          Use DevTools and interact with DOM in imperative syntax.
+          Sounds complex? No worries, use your DevTools as described
+          in the DevTools tutorial, follow the instructions and play around!
+        instructions:
+          - go to 
+          - open your DevTools and type in a command like the one below
+          - you have to find out
+            document.getElementByTagName("?").innerHTML = "hello"
