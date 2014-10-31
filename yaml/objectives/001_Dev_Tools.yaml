@@ -41,7 +41,7 @@ tasks:
     Instructions: >
       - Change or add a few CSS values
       - Experiment a bit with the box-model
-  - title: Using the Javascript console
+  - title: Using the Javascript Console
     description: >
       The console is a useful tool to test out little bits of code in 
       conjuntion with your site. You can test very simple commands or do complex 
@@ -52,6 +52,11 @@ tasks:
       - Try console.log("something")
       - Create a simple variable (type - var name = "Your Name")
         (and call it with - name)
+
+
+
+- getElementByID.innerHTML
+
 
 
 
