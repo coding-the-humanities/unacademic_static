@@ -8,12 +8,15 @@ technologies:
 
 description:
   full: |
-    You would think one way to share code with your peers and/or friends would be by e-mail.
-    But mailing one's code is a hassle when you have to deal with lots of different files and endless lines of code.
-    Another way is to place these on Github, a website made for and by programmers to store and share code.
+    You would think one way to share code with your peers and/or friends would 
+    be by e-mail. But mailing one's code is a hassle when you have to deal with 
+    lots of different files and endless lines of code. Another way is to place 
+    these on Github, a website made for and by programmers to store and share 
+    code.
 
-    Github offers two ways to do that. The first is making a repository. More on this will follow later.
-    The second way is Gist, particulary handy for code snippets and a lot easier -though with some limitations.
+    Github offers two ways to do that. The first is making a repository. More on
+    this will follow later. The second way is Gist, particulary handy for code 
+    snippets and a lot easier -though with some limitations.
 
 tasks:
   - title: Create your first Gist
@@ -22,7 +25,8 @@ tasks:
       - Write some simple HTML or CSS into the box on your screen.
   - title: Experiment with Syntax Highlighting
     instructions:
-      - Give the file the name 000_Gist_Assignment.html or 000_Gist_Assignment.css.
+      - Give the file the name 000_Gist_Assignment.html or 
+        000_Gist_Assignment.css.
       - Notices that the your html/css now has certain words in color.
   - title: Gist it with Github
     instructions:
