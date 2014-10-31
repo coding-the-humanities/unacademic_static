@@ -8,10 +8,10 @@ technologies:
 
 description: 
   full: |
-    This is the introduction to CSS (cascading style sheets). 
-    A CSS file allows you to separate your website's markup content from its style. 
-    As always you use your HTML file to arrange the content, 
-    but all of the presentation (fonts, colors, background, borders, text formatting, link effects & so on…) 
+    This is the introduction to CSS (cascading style sheets). A CSS file allows 
+    you to separate your website's markup content from its style. As always you 
+    use your HTML file to arrange the content, but all of the presentation 
+    (fonts, colors, background, borders, text formatting, link effects & so on…) 
     are accomplished within a CSS file.
   summary: >
     CSS allows you to separate your website's styling from its HTML content. 
@@ -39,21 +39,23 @@ tasks:
 
   - title: Selectors
     description: >
-      In order for CSS to work you first need to specify which element you wish to apply CSS to.
-      You do this with 'selectors'.
-      Selectors are essentially just names for the things you want to target and affect.
-      Within the {brackets} of selectors you place the effects you want to apply.
-      In this assignment we want you to create selectors.
+      In order for CSS to work you first need to specify which element you wish 
+      to apply CSS to. You do this with 'selectors'. Selectors are essentially 
+      just names for the things you want to target and affect. Within the 
+      {brackets} of selectors you place the effects you want to apply. In this 
+      assignment we want you to create selectors.
     instructions:
       - Read the article.
       - Watch the video.
-      - Add selectors to the html provided in the resources for the body, the paragraphs and each separate title.
+      - Add selectors to the html provided in the resources for the body,
+        the paragraphs and each separate title.
     resources:
       - title:   CSS selectors
         type:    article
         site:
           name:  Mozilla Developer Network
-        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
+        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/
+                 Getting_started/Selectors
       - title:   CSS Container
         type:    video
         author:  PHPacademy
@@ -63,11 +65,11 @@ tasks:
 
   - title: Colors
     description: >
-      Colors give life to a page. 
-      Black and white may be minimalistic and sleek, but the possibilities that arise when you add, say, 50 shades of grey,
-      add so much to a website.
-      This article focuses mainly on background color, but the principles can also be applied to text color.
-      Color a text and background for this assignment.
+      Colors give life to a page. Black and white may be minimalistic and sleek, 
+      but the possibilities that arise when you add, say, 50 shades of grey, add 
+      so much to a website. This article focuses mainly on background color, but 
+      the principles can also be applied to text color. Color a text and 
+      background for this assignment.
     instructions:
       - Read the articles
       - Write a short text about how to use selectors in CSS.
@@ -77,7 +79,8 @@ tasks:
         type:    article
         site:
           name:  Mozilla Developer Network
-        url:     https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
+        url:     https://developer.mozilla.org/en-US/docs/Web/CSS/
+                 background-color
       - title:   Hexidecimal Color Code
         type:    article
         site:
@@ -91,10 +94,10 @@ tasks:
 
   - title: CSS Fonts
     description: >
-      CSS also allows programmers to change the font on your webpage, or even include all the fonts.
-      You can include custom fonts, but for some of them you have to pay.
-      Nevertheless, you will probably grow font of the possibilities you already possess.
-      Add cool fonts to your webpage.
+      CSS also allows programmers to change the font on your webpage, or even 
+      include all the fonts. You can include custom fonts, but for some of them 
+      you have to pay. Nevertheless, you will probably grow font of the 
+      possibilities you already possess. Add cool fonts to your webpage.
     instructions:
       - Read the article.
       - Change the font of your short text.

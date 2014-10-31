@@ -8,14 +8,14 @@ technologies:
 
 description: 
   full: |
-    HTML stands for Hypertext Markup Language. When you look at a web page on a web browser 
-    you see, at the simplest level, words. HTML instructs a web browser 
-    what content to display. In many cases a page also displays images or 
-    maybe video clips. 
+    HTML stands for Hypertext Markup Language. When you look at a web page on a 
+    web browser you see, at the simplest level, words. HTML instructs a web 
+    browser what content to display. In many cases a page also displays images 
+    or maybe video clips. 
 
     HTML defines and separates "content" (words, images, audio, video, and so 
-    on) from "presentation" (how to display a specific type of content). HTML uses a 
-    pre-defined set of elements to identify content types.
+    on) from "presentation" (how to display a specific type of content). HTML 
+    uses a pre-defined set of elements to identify content types.
   summary: >
     HTML gives directions to the web browser on what content to display. 
     It uses a set of elements to identify content types.
@@ -31,13 +31,15 @@ tasks:
       - Read the article.
       - Watch the instruction video.
       - Download a text editor. We recommend Sublime Text 2.
-      - Write in the text editor in your own words what HTML is and what it consists of.
+      - Write in the text editor in your own words what HTML is and what it 
+        consists of.
     resources:
       - title:   Introduction
         type:    article
         site:
           name:  Mozilla Developer Network
-        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction
+        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/
+                 Introduction
       - title:   Introduction video
         type:    video
         site:
@@ -57,9 +59,12 @@ tasks:
     instructions:
       - Read the article.
       - Make a basic html structure containing a head and body.
-      - Take the text you wrote in the last assignment (or any other text) and place it in the body.
-      - Tag the headings with the h1, 2, 3 or 4 tags, and the paragraphs with the p tag.
-      - Save the file, go to the folder it is in and double click on the file to open it in your browser.
+      - Take the text you wrote in the last assignment (or any other text) and 
+        place it in the body.
+      - Tag the headings with the h1, 2, 3 or 4 tags, and the paragraphs with 
+        the p tag.
+      - Save the file, go to the folder it is in and double click on the file to 
+        open it in your browser.
       - Congratulations, you just made a webpage!
     resources:
       - title:   HTML5 Page Structure
@@ -78,7 +83,8 @@ tasks:
       Link to a number of URL's with the Anchor tag for this assignment.
     instructions:
       - Read the article
-      - Make some links under the paragraphs in your text that reference to related subjects.
+      - Make some links under the paragraphs in your text that reference to 
+        related subjects.
     resources:
       - title:   A Tag
         type:    article
@@ -88,11 +94,11 @@ tasks:
   - title: The Image Tag
     description: >
       Everybody loves pictures. 
-      People include pictures (usually concerning cats) on their webpage to illustrate the content.
-      You can include pictures with the <img> tag.
-      The pictures can be retrieved from the internet, in which you use the hyperlink of the image.
-      They can also be stored locally, in which case you put them in the same folder as your webpage 
-      and reference to their name.
+      People include pictures (usually concerning cats) on their webpage to 
+      illustrate the content. You can include pictures with the <img> tag. The 
+      pictures can be retrieved from the internet, in which you use the 
+      hyperlink of the image. They can also be stored locally, in which case you 
+      put them in the same folder as your webpage and reference to their name. 
       Include pictures on your webpage with the image tag.
     instructions:
       - Read the articles.

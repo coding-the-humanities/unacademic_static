@@ -51,8 +51,10 @@ tasks:
         type:    Article
         site:    
           name:  techcrunch
-          description: Google Believes Web Components Are The Future Of Web Development
-        url:   http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/
+          description: Google Believes Web Components Are The Future Of Web 
+                       Development
+        url:   http://techcrunch.com/2013/05/19/google-believes-web-components
+               -are-the-future-of-web-development/
   - title: Environment
     description: >
       In order to create stunning web applications we can make use of 
@@ -73,7 +75,8 @@ tasks:
         type:    book
         site:    
           name:  Chapter-1
-        url:   http://coding-the-humanities.gitbooks.io/polymer-book/content/appendix_a_setting_up_your_environment/README.html
+        url:   http://coding-the-humanities.gitbooks.io/polymer-book/content/
+               appendix_a_setting_up_your_environment/README.html
       - title:    Polyfill definition
         type:    book
         site:  
@@ -115,7 +118,8 @@ tasks:
       where it is displayed.
     instructions:
       - Use what you have learned from Chapter-1 to refactor your existing code. 
-      - Refactor your code to be a single polymer element and display it in your index.html
+      - Refactor your code to be a single polymer element and display it in your 
+        index.html
     resources:
       - title:   Polymer-book
         type:    book
