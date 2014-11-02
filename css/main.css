@@ -5,6 +5,10 @@
 $lightBlue: #75c7b3;*/
 
 /* Index */
+#bodyIndex {
+  background-image: url("../img/bgIndex.png");
+  background-repeat: repeat-x;
+}
 .indexContainer {
   margin-top: 105px;
   margin-bottom: 40px;
@@ -36,7 +40,7 @@ background-color: #75c7b3; // Old browsers
   margin: 5px 0px 5px 0px;
   padding-left: 10px;
   list-style-type: none;
-  border-bottom: 1px #88e2cc solid;
+  border-bottom: 1px #88e2cc solid !important;
 }
 .leftUl li:last-child {
   border-bottom: none;
@@ -50,6 +54,18 @@ background-color: #75c7b3; // Old browsers
 .courseBlock {
   padding-top: 60px;
   padding-bottom: 20px;
+  cursor: pointer;
+    background-color: #392d3f;
+  height: 400px; /* Need to find a better solution */
+}
+.courseBlock:hover > .courseTag {
+  background-color: #241c28;
+  color: white;
+}
+.courseBlock:hover > .courseText {
+  background-color: white;
+  color: #34495e;
+  box-shadow: 6px 0 0 #fff, -6px 0 0 #fff;
 }
 .courseBlock:first-child {
   border-right: 2px dashed white;
@@ -108,12 +124,15 @@ background-color: #75c7b3; // Old browsers
   padding-bottom: 20px;
   height: 800px; /* Betere oplossing vinden */
 }
+.noBackground {
+  background: none !important;
+}
 .htmlBlock {
   background-image: url("../img/tijdelijkeoplossing.png"), url("../img/overlay.png"), url("../img/html.gif");
   background-repeat: no-repeat, repeat, no-repeat;
   background-position: 0 174px, 0 0, 0 0;
   background-color: #392d3f;
-  height: 400px; /* Need to find a better solution */
+  min-height: 400px; /* Need to find a better solution */
 }
 .htmlBlock:hover {
   background-image: url("../img/tijdelijkeoplossinghover.png"), url("../img/overlayHover.png"), url("../img/html.gif");
@@ -127,6 +146,20 @@ background-color: #75c7b3; // Old browsers
   background-color: white;
   color: #34495e;
   box-shadow: 6px 0 0 #fff, -6px 0 0 #fff;
+}
+.webComponentsBlock {
+  background-image: url("../img/tijdelijkeoplossing.png"), url("../img/overlay.png"), url("../img/webcomponents.gif");
+  background-repeat: no-repeat, repeat, no-repeat;
+  background-position: 0 174px, 0 0, 0 0;
+  background-color: #392d3f;
+  min-height: 400px; /* Need to find a better solution */
+}
+.webTemplatesBlock {
+  background-image: url("../img/tijdelijkeoplossing.png"), url("../img/overlay.png"), url("../img/webtemplates.gif");
+  background-repeat: no-repeat, repeat, no-repeat;
+  background-position: 0 174px, 0 0, 0 0;
+  background-color: #392d3f;
+  min-height: 400px; /* Need to find a better solution */
 }
 .cssBlock {
   background-image: url("../img/tijdelijkeoplossing.png"), url("../img/overlay.png"), url("../img/css.gif");
