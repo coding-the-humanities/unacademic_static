@@ -52,57 +52,57 @@
       </ul>
     </div>
 
-    <div class="col-xs-12 col-sm-9 courseContentContainer">
+<div class="col-xs-12 col-sm-9 courseContentContainer">
 
-      <div class="row">
-        
-        <!-- Container courseBlocks -->
-        <div class="col-xs-12 col-sm-12 col-md-8">
+  <div class="row">
+    
+    <!-- Container courseBlocks -->
+    <div class="col-xs-12 col-sm-12 col-md-8">
 
-          <div class="tab-content">
+      <div class="tab-content">
 
-          <div role="tabpanel" class="tab-pane active" id="level000" class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="level000" class="tab-content">
 
-          <div class="row courseBlockInput">
+       <div class="row courseBlockInput">
 
-            {{#each level000}}
-            <div class="col-xs-12 col-sm-6 courseBlock {{ classtag }}Block" onclick="location.href='{{ url }}.html';">
-              <h3 class="courseTag">{{ title }}</h3>
-                <br>
-              <p class="courseText">
-                {{ summary }}
-              </p>
-                <br>
-                <a href="{{ url }}.html" class="courseCTA">Do the task</a>
-            </div>
-            {{/each}}
-
-            </div>
+          {{#each level000}}
+          <div class="col-xs-12 col-sm-6 courseBlock {{ classtag }}Block" onclick="location.href='{{ url }}.html';">
+            <h3 class="courseTag">{{ title }}</h3>
+              <br>
+            <p class="courseText">
+              {{ summary }}
+            </p>
+              <br>
+              <a href="{{ url }}.html" class="courseCTA">Do the task</a>
+          </div>
+          {{/each}}
 
         </div>
 
-        <div role="tabpanel" class="tab-pane" id="level001" class="tab-content">
-
-          <div class="row courseBlockInput">
-
-            {{#each level001}}
-            <div class="col-xs-12 col-sm-6 courseBlock {{ classtag }}Block" onclick="location.href='{{ url }}.html';">
-              <h3 class="courseTag">{{ title }}</h3>
-                <br>
-              <p class="courseText">
-                {{ summary }}
-              </p>
-                <br>
-                <a href="{{ url }}.html" class="courseCTA">Do the task</a>
-            </div>
-            {{/each}}
-
-            </div>
-
-        </div>
-</div>
       </div>
-        
+
+    <div role="tabpanel" class="tab-pane" id="level001" class="tab-content">
+
+      <div class="row courseBlockInput">
+
+        {{#each level001}}
+        <div class="col-xs-12 col-sm-6 courseBlock {{ classtag }}Block" onclick="location.href='{{ url }}.html';">
+          <h3 class="courseTag">{{ title }}</h3>
+            <br>
+          <p class="courseText">
+            {{ summary }}
+          </p>
+            <br>
+            <a href="{{ url }}.html" class="courseCTA">Do the task</a>
+        </div>
+        {{/each}}
+
+        </div>
+
+    </div><!--/tab-panel-->
+  </div> <!--/tab-container-->
+</div><!--/container courseblocks-->
+    
 
 
 
