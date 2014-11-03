@@ -2,6 +2,7 @@ title:      Dev Tools
 level:      1
 points:     100
 mandatory:  true
+category: 
 
 technologies:
   - Chrome Developer Tools
