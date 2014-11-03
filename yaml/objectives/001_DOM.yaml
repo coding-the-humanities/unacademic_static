@@ -19,25 +19,35 @@ description:
     So, in a visual representation of a DOM you see the so-called node tree.
 
 tasks:
-  - title: Theory on DOM
+  - title: Discovering DOM
     description: >
-      Comprehensive explanation of DOM
+      A comprehensive explanation of DOM
     instructions:
-      - Read more on DOM via the link below
+      - Read more on DOM via the link below. 
     resources:
       - title:   Document Object Model
         type:    article
         site:
-          name:  Mozilla Developer Networ
+          name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
-
-      - title: Imperative interaction with DOM
-        description: >
-          Use DevTools and interact with DOM in imperative syntax.
-          Sounds complex? No worries, use your DevTools as described
-          in the DevTools tutorial, follow the instructions and play around!
-        instructions:
-          - go to 
-          - open your DevTools and type in a command like the one below
-          - you have to find out
-            document.getElementByTagName("?").innerHTML = "hello"
+  - title: DOM Manipulation
+    description: >
+      Find out what you can do with DOM
+    instructions:
+      - Watch the video and try out the challenge 
+    resources:
+      - title:   DOM Manipulation
+        type:    video
+        site:
+          name:  Codeschool
+        url:     http://discover-devtools.codeschool.com/chapters/1/challenges/1?locale=en
+  - title: Imperative interaction with DOM
+    description: >
+      Use DevTools and interact with DOM in imperative syntax. Sounds complex? 
+      No worries, use your DevTools as described in the DevTools tutorial, 
+      follow the instructions and play around!
+    instructions:
+      - go to 
+      - open your DevTools and type in a command like the one below
+        document.getElementByTagName("?").innerHTML = "hello"
+      - 
