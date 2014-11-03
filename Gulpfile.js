@@ -66,6 +66,15 @@ gulp.task('deploy', ['build'], function () {
     .pipe(deploy());
 });
 
+gulp.task('push_to_dev', ['build'], function () {
+  var options = {
+    remoteUrl:  "git@github.com:coding-the-humanities/unacademic_development.git",
+    message:    "Semi-automatically push with Gulp."
+  };
+  return gulp.src('dist/**/*')
+    .pipe(deploy(options));
+})
+
 gulp.task('clean', function (cb) {
   return del('dist', cb)
 });
@@ -111,9 +120,16 @@ function to_html(filePath, templatePath){
       var hbs = fs.readFileSync(templatePath);
       var template = Handlebars.compile(hbs.toString());
       var json = JSON.parse(file.contents.toString());
-      var html = template(json);
+      // console.log(file.history[0]);
+      try {
+        var html = template(json);
+        file.contents = new Buffer(html, 'utf-8');
+      }
+      catch(e) {
+        console.log("There is an error in: " + file.history[0]);
+      }
 
-      file.contents = new Buffer(html, 'utf-8')
+
     }))
     .pipe(rename({extname: '.html'}))
     .pipe(flatten())
