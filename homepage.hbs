@@ -195,50 +195,37 @@
     <script src="js/flat-ui.min.js"></script>
     <script src="js/application.js"></script>
 
-    <script id="slack-template" type="text/x-handlebars-template">
-      {{#each messages}}
-      <li>{{ this.text }}</li>
-      {{/each}}
-    </script>
-
-
-
+    <script id="slack-template" type="text/x-handlebars-template" src="chat.hbs"></script>
 
     <script type="text/javascript">
-$('.leftUl li a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-  $(this).closest('li').addClass('active').siblings().removeClass('active');
-})
+      $('.leftUl li a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+        $(this).closest('li').addClass('active').siblings().removeClass('active');
+      })
 
-var slackAPI = {
-        handlerData:function(resJSON){
-            var templateSource   = $("#slack-template").html(),
-                template = Handlebars.compile(templateSource),
-                slackHTML = template(resJSON);
- 
-           $('.slackMessages').html(slackHTML);
-             
-        },
-        getSlackData : function(){
-            $.ajax({
-                url:"https://slack.com/api/channels.history?token=xoxp-2886079126-2884787187-2915559012-08ad1e&channel=C02S22B40&count=3&pretty=1",
-                method:'get',
-                success:this.handlerData
-            })
-        }
-      };
- 
-$(document).ready(function(){
-    slackAPI.getSlackData();
-});
+      var slackAPI = {
+              handlerData:function(resJSON){
+                  var templateSource   = $("#slack-template").html(),
+                      template = Handlebars.compile(templateSource),
+                      slackHTML = template(resJSON);
+       
+                 $('.slackMessages').html(slackHTML);
+                   
+              },
+              getSlackData : function(){
+                  $.ajax({
+                      url:"https://slack.com/api/channels.history?token=xoxp-2886079126-2884787187-2915559012-08ad1e&channel=C02S22B40&count=3&pretty=1",
+                      method:'get',
+                      success:this.handlerData
+                  })
+              }
+            };
+       
+      $(document).ready(function(){
+          slackAPI.getSlackData();
+      });
 
-
-
-
-
-
-
-  </script>
+    </script>
   </body>
 </html>

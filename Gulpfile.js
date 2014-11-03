@@ -36,6 +36,7 @@ var paths = {
     './img/**/*',
     './js/**/*',
     './css/**/*',
+    'chat.hbs',
     'index.html'
   ],
   objectives: {
