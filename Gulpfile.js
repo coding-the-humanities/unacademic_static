@@ -36,8 +36,7 @@ var paths = {
     './img/**/*',
     './js/**/*',
     './css/**/*',
-    'chat.hbs',
-    'index.html'
+    'chat.hbs'
   ],
   objectives: {
     data: 'yaml/objectives/**/*.yaml',
@@ -83,7 +82,7 @@ gulp.task('clean', function (cb) {
 // Watches
 
 gulp.task('watch', function () {
-  gulp.watch('**/*.{yaml,hbs}', ['compile'])
+  gulp.watch(['**/*.{yaml,hbs}', '!dist/chat.hbs'], ['compile'])
   gulp.watch([paths.assets], ['copy'])
 });
 
@@ -118,19 +117,16 @@ function to_html(filePath, templatePath){
   return gulp.src(filePath)
     .pipe(yaml())
     .pipe(tap(function(file, t){
-      var hbs = fs.readFileSync(templatePath);
-      var template = Handlebars.compile(hbs.toString());
-      var json = JSON.parse(file.contents.toString());
-      // console.log(file.history[0]);
       try {
+        var hbs = fs.readFileSync(templatePath);
+        var template = Handlebars.compile(hbs.toString());
+        var json = JSON.parse(file.contents.toString());
         var html = template(json);
         file.contents = new Buffer(html, 'utf-8');
       }
       catch(e) {
         console.log("There is an error in: " + file.history[0]);
       }
-
-
     }))
     .pipe(rename({extname: '.html'}))
     .pipe(flatten())
