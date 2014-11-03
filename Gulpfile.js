@@ -125,7 +125,7 @@ function to_html(filePath, templatePath){
         file.contents = new Buffer(html, 'utf-8');
       }
       catch(e) {
-        console.log("There is an error in: " + file.history[0]);
+        console.error("\nERROR in: " + file.history[0] + "\n" + e + "\n");
       }
     }))
     .pipe(rename({extname: '.html'}))
