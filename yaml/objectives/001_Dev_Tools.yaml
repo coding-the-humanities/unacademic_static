@@ -2,21 +2,20 @@ title:      Dev Tools
 level:      1
 points:     100
 mandatory:  true
-category: 
 
 technologies:
-  - Chrome Developer Tools
+  - Chrome Dev Tools
 
 description:
   summary: >
-    A very important tool to know is the Devtools in browsers. It is used for
+    A very important tool to know is the dev tools in browsers. It is used for
     many things like bugtesting or experimenting.
   full: >
-    A very important tool to know is the DevTools in your browser. It is used for
+    A very important tool to know is the dev tools in browsers. It is used for
     many things like bugtesting or experimenting. You can also use it to see
     things like the perfomance of the site. You can view your html, css and script
     combined, and you can actively interact with it. Google has a very nice
-    implementation of these, which is one of the reasons we use chrome as a
+    implementation of these, which is one of the reasons why we use chrome as a
     browser.
 
 tasks:
@@ -33,22 +32,17 @@ tasks:
         site:
           name:  Chrome on Dev Tools
         url:   https://developer.chrome.com/devtools
-  - title: Changing CSS in DevTools
+
+  - title: Changing CSS in Dev Tools
     description: >
-      DevTools are a great way to test out some css and see it rendered right
+      Dev-Tools are a great way to test out some css and see it rendered right
       away. Often you will run into styling not showing up because you made a
       little syntax error. The console allows you to quickly change a bunch of
       things.
     Instructions: >
-      - watch the video
       - Change or add a few CSS values
       - Experiment a bit with the box-model
-    resources:
-      - title: Updating styles
-        type: video
-        site:
-          name: Codeschool
-        url: http://discover-devtools.codeschool.com/chapters/1/challenges/7?locale=en
+
   - title: Using the Javascript Console
     description: >
       The console is a useful tool to test out little bits of code in
@@ -56,7 +50,7 @@ tasks:
       debugging. Your website can output to the console. If you for instance add
       a console.log("hello"), it will show up here.
     instructions:
-      - Do some basic calculations in the console (for instance: 1+1)
+      - Do some basic calculations in the console (for instance 1+1)
       - Try console.log("something")
       - Create a simple variable (type - var name = "Your Name")
         (and call it with - name)
