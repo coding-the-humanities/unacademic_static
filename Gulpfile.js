@@ -66,6 +66,15 @@ gulp.task('deploy', ['build'], function () {
     .pipe(deploy());
 });
 
+gulp.task('push_to_dev', function () {
+  var options = {
+    remoteUrl:  "git@github.com:coding-the-humanities/unacademic_development.git",
+    message:    "Pushed to unacademic_development. XOXO, Gulp."
+  };
+  return gulp.src('dist/**/*')
+    .pipe(deploy(options));
+})
+
 gulp.task('clean', function (cb) {
   return del('dist', cb)
 });
