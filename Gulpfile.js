@@ -69,7 +69,7 @@ gulp.task('deploy', ['build'], function () {
 gulp.task('push_to_dev', function () {
   var options = {
     remoteUrl:  "git@github.com:coding-the-humanities/unacademic_development.git",
-    message:    "Pushed to unacademic_development. XOXO, Gulp."
+    message:    "Semi-automatically push with Gulp."
   };
   return gulp.src('dist/**/*')
     .pipe(deploy(options));
