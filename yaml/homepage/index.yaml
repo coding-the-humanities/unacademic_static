@@ -1,0 +1,121 @@
+title:      Homepage courses
+
+locations:
+    level000:
+        level: level 000
+        levelclass: level000
+        currentweek: true
+        date: 28 October 2014
+        time: 13:00 - 16:00
+        location: UvA (OMHP EK.01)
+        street: Oudemanhuispoort 4 - 6
+        city: Amsterdam
+        urlmaps: https://www.google.nl/maps/place/Oudemanhuispoort+4,+1012+CN+Amsterdam/@52.3693635,4.8955403,18z/data=!3m1!4b1!4m2!3m1!1s0x47c609bf77e1b941:0x7def30913c530129
+
+    level001:
+        level: level 001
+        levelclass: level001
+        currentweek: false
+        date: 4 November 2014
+        time: 13:00 - 16:00
+        location: LUSTlab
+        street: Paviljoensgracht 20
+        city: Den Haag
+        urlmaps: https://www.google.nl/maps/place/GEMAK/@52.074459,4.31205,17z/data=!4m5!1m2!2m1!1sLustlab+Paviljoensgracht+20-24!3m1!1s0x0000000000000000:0x05d14304759f1055
+
+    level002:
+        level: level 002
+        levelclass: level002
+        currentweek: false
+        date: 11 November 2014
+        time: 13:00 - 17:00
+        location: UvA (OMHP EK.01)  
+        street: Oudemanhuispoort 4 - 6
+        city: Amsterdam
+        urlmaps: https://www.google.nl/maps/place/Oudemanhuispoort+4,+1012+CN+Amsterdam/@52.3693635,4.8955403,18z/data=!3m1!4b1!4m2!3m1!1s0x47c609bf77e1b941:0x7def30913c530129
+
+    level003:
+        level: level 003
+        levelclass: level003
+        currentweek: false
+        date: 18 November 2014
+        time: 13:00 - 16:00
+        location: Sandberg Institute (TBA)  
+        street: Fred. Roeskestraat 98
+        city: Amsterdam
+        urlmaps: https://www.google.nl/maps/place/Fred.+Roeskestraat+98A,+1076+ED+Amsterdam/@52.3413035,4.8599852,15z/data=!4m2!3m1!1s0x47c5e1fc2a55fbe9:0xe8018c026ad7b37f?sa=X&ei=pOhUVO64IoHQOprvgbgP&ved=0CCAQ8gEwAA
+
+    level004:
+        level: level 004
+        levelclass: level004
+        currentweek: false
+        date: 25 November 2014
+        time: 13:00 - 17:00
+        location: UvA (OMHP EK.01)  
+        street: Oudemanhuispoort 4 - 6
+        city: Amsterdam
+        urlmaps: https://www.google.nl/maps/place/Oudemanhuispoort+4,+1012+CN+Amsterdam/@52.3693635,4.8955403,18z/data=!3m1!4b1!4m2!3m1!1s0x47c609bf77e1b941:0x7def30913c530129
+
+    level005:
+        level: level 005
+        levelclass: level005
+        currentweek: false
+        date: 2 December 2014
+        time: 10:00 - 13:00
+        location: UvA (TBA)  
+        street: Oudemanhuispoort 4 - 6
+        city: Amsterdam
+        urlmaps: https://www.google.nl/maps/place/Oudemanhuispoort+4,+1012+CN+Amsterdam/@52.3693635,4.8955403,18z/data=!3m1!4b1!4m2!3m1!1s0x47c609bf77e1b941:0x7def30913c530129
+
+    level006:
+        level: level 006
+        levelclass: level006
+        currentweek: false
+        date: 9 December 2014
+        time: 13:00 - 16:00
+        location: Sandberg  
+        street: Fred. Roeskestraat 98
+        city: Amsterdam
+        urlmaps: https://www.google.nl/maps/place/Fred.+Roeskestraat+98A,+1076+ED+Amsterdam/@52.3413035,4.8599852,15z/data=!4m2!3m1!1s0x47c5e1fc2a55fbe9:0xe8018c026ad7b37f?sa=X&ei=pOhUVO64IoHQOprvgbgP&ved=0CCAQ8gEwAA
+
+level000:
+  - title: HTML
+    classtag: html
+    summary: HTML gives directions to the web browser on what content to display. It uses a set of elements to identify content types.
+    url: 000_html
+
+  - title: CSS
+    classtag: css
+    summary: Learn about styling web pages with cascading style sheets.
+    url: 000_css
+
+  - title: Gist
+    classtag: gist
+    summary: Share your files in a gist.
+    url: 000_gist
+
+  - title: City Walk
+    classtag: cityWalk
+    summary: Get some last contact with the real world, before you disappear into its virtual counterpart.
+    url: 000_City_Walk
+    
+level001:
+  - title: Web components
+    classtag: webComponents
+    summary: Web Components are the future of web development, but what are they? 
+    url: 001_Web_components
+
+  - title: Dev tools
+    classtag: devTools
+    summary: Learn about styling web pages with cascading style sheets.
+    url: 001_dev_tools
+
+  - title: DOM
+    classtag: dom
+    summary: The DOM -Document Object Model - is an interface for HTML documents.
+    url: 001_dom
+
+  - title: Web templates
+    classtag: webTemplates
+    summary: Get some last contact with the real world, before you disappear into its virtual counterpart.
+    url: 001_web_templates

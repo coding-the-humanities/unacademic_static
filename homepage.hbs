@@ -15,7 +15,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body id="bodyIndex">
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -40,89 +40,109 @@
 
 <div class="container indexContainer">
   <div class="row">
-    <div class="col-xs-3 leftBlock">
+    <div class="col-xs-12 col-sm-3 leftBlock">
       <ul class="leftUl">
-        <li class="active">Level 00</li>
-        <li>Level 01</li>
-        <li>Level 02</li>
-        <li>Level 03</li>
-        <li>Level 04</li>
-        <li>Level 05</li>
-        <li>Level 06</li>
-        <li>Level 07</li>
+        {{#each locations}}
+          {{#if currentweek}}
+            <li class="test active"><a href="#{{ levelclass }}" data-target="#{{ levelclass }}, #{{levelclass}}Location" data-toggle="tab">{{ level }}</a></li>
+          {{else}}
+            <li class="test"><a href="#{{ levelclass }}" data-target="#{{ levelclass }}, #{{levelclass}}Location" data-toggle="tab">{{ level }}</a></li>
+          {{/if}}
+        {{/each}}
       </ul>
     </div>
 
-    <div class="col-xs-9 courseContentContainer">
+<div class="col-xs-12 col-sm-9 courseContentContainer">
 
-      <div class="row">
-        <!-- Container courseBlocks -->
-        <div class="col-xs-8">
-          <div class="row">
+  <div class="row">
+    
+    <!-- Container courseBlocks -->
+    <div class="col-xs-12 col-sm-12 col-md-8">
 
-            <div class="col-xs-6 courseBlock htmlBlock">
-              <h3 class="courseTag">HTML</h3>
-                <br>
-              <p class="courseText">
-                HTML gives directions to the web browser on what content to display. It uses a set of elements to identify content types.
-              </p>
-                <br>
-                <a href="#" class="courseCTA">Do the task</a>
-            </div>
+      <div class="tab-content">
 
-            <div class="col-xs-6 courseBlock cssBlock">
-              <h3 class="courseTag">CSS</h3>
-                <br>
-              <p class="courseText">
-                CSS allows you to separate your website's styling from its HTML content.
-              </p>
-                <br>
-                <a href="#" class="courseCTA">Do the task</a>
-            </div>
+      <div role="tabpanel" class="tab-pane active" id="level000" class="tab-content">
 
-            <div class="col-xs-6 courseBlock gistBlock">
-              <h3 class="courseTag">Gists</h3>
-                <br>
-              <p class="courseText">
-                CSS allows you to separate your website's styling from its HTML content.
-              </p>
-              <br>
-                <a href="#" class="courseCTA">Do the task</a>
-            </div>
+       <div class="row courseBlockInput">
 
-                    <div class="col-xs-6 courseBlock cityWalkBlock">
-            <h3 class="courseTag">City Walk</h3>
+          {{#each level000}}
+          <div class="col-xs-12 col-sm-6 courseBlock {{ classtag }}Block" onclick="location.href='{{ url }}.html';">
+            <h3 class="courseTag">{{ title }}</h3>
               <br>
             <p class="courseText">
-              CSS allows you to separate your website's styling from its HTML content.
+              {{ summary }}
             </p>
               <br>
-              <a href="#" class="courseCTA">Do the task</a>
+              <a href="{{ url }}.html" class="courseCTA">Do the task</a>
           </div>
+          {{/each}}
 
         </div>
-      </div>
-        
-          <div class="col-xs-4 locationBlock">
-            <h6 class="locationTag">level 00 meeting</h6>
-              <br>
-            <ul class="locationDetails">
-              <li>28 October 2014</li>
-              <li>Time 13:00 - 16:00</li>
-              <li>UvA (OMHP EK.01)</li>
-              <li>Oudemanhuispoort 4-6</li>
-              <li>Amsterdam</li>
-              <li>Google Maps</li> 
-            </ul>
 
-            <h6 class="locationTag">latest messages</h6>
+      </div>
+
+    <div role="tabpanel" class="tab-pane" id="level001" class="tab-content">
+
+      <div class="row courseBlockInput">
+
+        {{#each level001}}
+        <div class="col-xs-12 col-sm-6 courseBlock {{ classtag }}Block" onclick="location.href='{{ url }}.html';">
+          <h3 class="courseTag">{{ title }}</h3>
+            <br>
+          <p class="courseText">
+            {{ summary }}
+          </p>
+            <br>
+            <a href="{{ url }}.html" class="courseCTA">Do the task</a>
+        </div>
+        {{/each}}
+
+        </div>
+
+    </div><!--/tab-panel-->
+  </div> <!--/tab-container-->
+</div><!--/container courseblocks-->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- LOCATION -->
+  <div class="col-xs-12 col-sm-12 col-md-4 locationBlock">
+
+    <div id="LocationTab" class="tab-content">
+      {{#each locations}}
+          <div class="noBackground tab-pane fade in {{#if currentweek}}active{{/if}}" id="{{{levelclass}}}Location">
+            <h6 class="locationTag">{{{ this.level }}} meeting</h6>
               <br>
             <ul class="locationDetails">
-              <li>maybe we can show the latest messages from the fishbowl slack channel?</li>
-              <li>they have an api to do this kind of stuff, so it shouldn't be that difficult https://api.slack.com/ methods/channels.history</li>
-              <li>and for the students it's a nice reminder that we have this communication channel</li> 
+              <li>{{{ this.date }}}</li>
+              <li>Time {{{ this.time }}}</li>
+              <li>{{{ this.location }}}</li>
+              <li>{{{ this.street }}}</li>
+              <li>{{{ this.city }}}</li>
+              <li><a href="{{{ this.urlmaps }}}"/>Google Maps</a></li>
             </ul>
-          </div>
+        </div>
+      {{/each}}
+    </div> <!--/tab container-->
+
+      <h6 class="locationTag">latest messages</h6>
+        <br>
+      <ul class="locationDetails slackMessages">
+        <!-- Insert slack text -->
+      </ul>
+
+    </div> <!--/locationBlock-->
 
       </div> <!--/ row-->
     </div>  <!-- / courseContentContainer-->
@@ -170,7 +190,55 @@
     </footer>
 
     <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/handlebars-v2.0.0.js"></script>
+<!--     // <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script> -->
     <script src="js/flat-ui.min.js"></script>
     <script src="js/application.js"></script>
+
+    <script id="slack-template" type="text/x-handlebars-template">
+      {{#each messages}}
+      <li>{{ this.text }}</li>
+      {{/each}}
+    </script>
+
+
+
+
+    <script type="text/javascript">
+$('.leftUl li a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+  $(this).closest('li').addClass('active').siblings().removeClass('active');
+})
+
+var slackAPI = {
+        handlerData:function(resJSON){
+            var templateSource   = $("#slack-template").html(),
+                template = Handlebars.compile(templateSource),
+                slackHTML = template(resJSON);
+ 
+           $('.slackMessages').html(slackHTML);
+             
+        },
+        getSlackData : function(){
+            $.ajax({
+                url:"https://slack.com/api/channels.history?token=xoxp-2886079126-2884787187-2915559012-08ad1e&channel=C02S22B40&count=3&pretty=1",
+                method:'get',
+                success:this.handlerData
+            })
+        }
+      };
+ 
+$(document).ready(function(){
+    slackAPI.getSlackData();
+});
+
+
+
+
+
+
+
+  </script>
   </body>
 </html>

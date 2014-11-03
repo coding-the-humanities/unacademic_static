@@ -17,6 +17,17 @@ Handlebars.registerHelper('markdown', function(text) {
   return marked(text);
 });
 
+Handlebars.registerHelper('with', function(context, options) {
+  return options.fn(context);
+});
+
+Handlebars.registerHelper('if', function(conditional, options) {
+  if(conditional) {
+    return options.fn(this);
+  } else {
+    return options.inverse(this);
+  }
+});
 // PATHS
 
 var paths = {
@@ -34,6 +45,10 @@ var paths = {
   syllabus: {
     data: 'yaml/syllabus/**/*.yaml',
     template: 'syllabus.hbs'
+  },
+  homepage: {
+    data: 'yaml/homepage/**/*.yaml',
+    template: 'homepage.hbs'
   }
 };
 
@@ -71,7 +86,7 @@ gulp.task('copy', function () {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('compile', ['objectives', 'syllabus']);
+gulp.task('compile', ['objectives', 'syllabus', 'homepage']);
 
 gulp.task('objectives', function(){
   var objectives = paths.objectives;
@@ -82,6 +97,12 @@ gulp.task('syllabus', function(){
   var syllabus = paths.syllabus;
   return to_html(syllabus.data, syllabus.template);
 });
+
+gulp.task('homepage', function(){
+  var homepage = paths.homepage;
+  return to_html(homepage.data, homepage.template);
+});
+
 
 function to_html(filePath, templatePath){
   return gulp.src(filePath)
