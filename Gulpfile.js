@@ -66,7 +66,7 @@ gulp.task('deploy', ['build'], function () {
     .pipe(deploy());
 });
 
-gulp.task('push_to_dev', function () {
+gulp.task('push_to_dev', ['build'], function () {
   var options = {
     remoteUrl:  "git@github.com:coding-the-humanities/unacademic_development.git",
     message:    "Semi-automatically push with Gulp."
