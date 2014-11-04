@@ -19,9 +19,9 @@ description:
     So, in a visual representation of a DOM you see the so-called node tree.
 
 tasks:
-  - title: Discovering DOM
+  - title: Discovering the DOM
     description: >
-      A comprehensive explanation of DOM
+      You can see what the DOM looks like if you open your DevTools
     instructions:
       - Click on the link below
       - Use your DevTools to inspect the page and see what the DOM looks like
@@ -34,7 +34,7 @@ tasks:
         url:     https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
   - title: DOM Manipulation
     description: >
-      Find out what you can do with DOM
+      The DOM is actually smart, find out what it can do for you
     instructions:
       - Watch the video and try out the challenge 
     resources:
