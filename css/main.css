@@ -5,10 +5,6 @@
 $lightBlue: #75c7b3;*/
 
 /* Index */
-#bodyIndex {
-  background-image: url("../img/bgIndex.png");
-  background-repeat: repeat-x;
-}
 .indexContainer {
   margin-top: 105px;
   margin-bottom: 40px;
