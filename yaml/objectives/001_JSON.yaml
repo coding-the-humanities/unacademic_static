@@ -73,4 +73,10 @@ tasks:
       AJAX comes to the rescue.
     instruction:
       - make an AJAX call to your constructed dataset
+    resources:
+      - title:
+      - type: site
+      - site:
+          name: ..
+      - url: ..
 
