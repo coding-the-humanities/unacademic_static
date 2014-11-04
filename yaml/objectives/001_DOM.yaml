@@ -8,15 +8,16 @@ technologies:
   - DOM
 
 description:
-  summary: >
-    The DOM -Document Object Model - is the structural representation of an 
-    HTML document
   full: >
     The DOM -Document Object Model - is actually the representation of an HTML 
     document structure. In the DOM you can see the various objects of a page and 
     how they relate to each other; through the DOM you can interact with these. 
     The structure of the DOM looks like a tree with the different objects shown
     as branches.
+  summary: >
+    The DOM -Document Object Model - is the structural representation of an 
+    HTML document
+
 tasks:
   - title: Discovering the DOM
     description: >
@@ -45,6 +46,7 @@ tasks:
         site:
           name:  Codeschool
         url:     http://discover-devtools.codeschool.com/chapters/1/challenges/1?locale=en
+        
   - title: Imperative interaction with DOM
     description: >
       Use DevTools and interact with DOM in imperative syntax. Sounds complex? 
