@@ -25,8 +25,8 @@ tasks:
       - Find out what Key/Value pairs are and what their relation is to unordered 
         lists.
       - Get a feel for the syntax by creating a meta-data set for you photos. 
-        This should include the name of the photographer, url, location and a 
-        summary.
+        It should be an array of objects(the photos) with the name of the 
+        photographer, url, location and the summary.
     resources:
       - title:   JSON
         type:    site
@@ -40,8 +40,13 @@ tasks:
       would expect. A good way to fix these errors is to use a linter to scan 
       your code.
     instructions:
-      - Try to check this file ... manually. Or...
+      - Try to check the linting task in the resources manually. Or...
     resources:
+      - title: Linting Task Plunker
+        type: site
+        site:
+          name: Linting Task Plunker
+        url: http://plnkr.co/edit/fb4UaUYvf1TvZKY2cI8P?p=preview
       - title: JSON Linter
         type: site
         site: 
