@@ -168,6 +168,13 @@ background-color: #75c7b3; // Old browsers
   background-color: #392d3f;
   height: 400px; /* Need to find a better solution */
 }
+.jsonBlock {
+  background-image: url("../img/tijdelijkeoplossing.png"), url("../img/overlay.png"), url("../img/json.gif");
+  background-repeat: no-repeat, repeat, no-repeat;
+  background-position: 0 174px, 0 0, 0 0;
+  background-color: #392d3f;
+  height: 400px; /* Need to find a better solution */
+}
 .gistBlock, .cityWalkBlock {
   background-image: none;
   background-color: #392d3f;
