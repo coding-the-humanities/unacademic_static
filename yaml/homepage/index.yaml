@@ -123,4 +123,4 @@ level001:
   - title: Photo Stack
     classtag: photoStack
     summary: Select photos, create a JSON-object and make a template.
-    url: 001_Photo_Stack
+    url: 001_photostack
