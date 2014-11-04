@@ -50,4 +50,3 @@ tasks:
       - go to 
       - open your DevTools and type in a command like the one below
         document.getElementByTagName("?").innerHTML = "hello"
-      - 

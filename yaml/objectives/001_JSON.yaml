@@ -1,7 +1,7 @@
 title:      JSON
 level:      1
 points:     100
-mandatory:  true
+mandatory:  false
 category:   markup
 
 technologies:
@@ -24,7 +24,9 @@ tasks:
     instructions:
       - Find out what Key/Value pairs are and what their relation is to unordered 
         lists.
-      - Get a feel for the syntax by creating a data set with...
+      - Get a feel for the syntax by creating a meta-data set for you photos. 
+        This should include the name of the photographer, url, location and a 
+        summary.
     resources:
       - title:   JSON
         type:    site
