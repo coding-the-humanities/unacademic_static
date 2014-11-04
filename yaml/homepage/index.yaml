@@ -119,3 +119,8 @@ level001:
     classtag: webTemplates
     summary: HTML5 allows for template elements. A template is best described as a mold with a fixed layout, which can be repeated multiple times.
     url: 001_Templating
+
+  - title: Photo Stack
+    classtag: photoStack
+    summary: Select photos, create a JSON-object and make a template.
+    url: 001_photostack
