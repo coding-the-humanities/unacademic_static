@@ -25,7 +25,7 @@ tasks:
       - Find out what Key/Value pairs are and what their relation is to unordered 
         lists.
       - >
-        Get a feel for the syntax by creating a meta-data set for you photos. 
+        Get a feel for the syntax by creating a meta-data set for your photos. 
         It should be an array of objects(the photos) with the name of the 
         photographer, url, location and the summary.
     resources:

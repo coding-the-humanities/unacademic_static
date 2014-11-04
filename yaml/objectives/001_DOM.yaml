@@ -23,7 +23,9 @@ tasks:
     description: >
       A comprehensive explanation of DOM
     instructions:
-      - Read more on DOM via the link below. 
+      - Click on the link below
+      - Use your DevTools to inspect the page and see what the DOM looks like
+      - Read the article to elaborate on the structure of DOM
     resources:
       - title:   Document Object Model
         type:    article
