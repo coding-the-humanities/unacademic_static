@@ -112,10 +112,10 @@ level001:
 
   - title: JSON
     classtag: json
-    summary: X
+    summary: JSON is an easily parsed and widely used data format.
     url: 001_JSON
 
   - title: Templating
     classtag: webTemplates
-    summary: X
+    summary: HTML5 allows for template elements. A template is best described as a mold with a fixed layout, which can be repeated multiple times.
     url: 001_Templating
