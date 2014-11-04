@@ -1,0 +1,76 @@
+title:      JSON
+level:      1
+points:     100
+mandatory:  true
+category:   markup
+
+technologies:
+  - JSON
+
+description:
+  summary: >
+    JSON is an easily parsed and widely used data format.
+  full: >
+    JSON is a data format you will encounter very often since it is almost 
+    everywhere. Many API's supply you with data in this format. It stands for 
+    JavaScript Object Notation, but it is not exclusively Javascript. Many other 
+    languages support it as well.
+
+tasks:
+  - title: Discovering JSON
+    description: >
+      JSON is built on two important notions, namely Key/Value pairs and 
+      unordered lists.
+    instructions:
+      - Find out what Key/Value pairs are and what their relation is to unordered 
+        lists.
+      - Get a feel for the syntax by creating a data set with...
+    resources:
+      - title:   JSON
+        type:    site
+        site:
+          name:  JSON
+        url:     http://www.json.org/
+
+  - title: Linting data
+    description: >
+      You will come across and make syntax errors, probably more often than you 
+      would expect. A good way to fix these errors is to use a linter to scan 
+      your code.
+    instructions:
+      - Try to check this file ... manually. Or...
+    resources:
+      - title: JSON Linter
+        type: site
+        site: 
+          name: JSONlint
+        url: http://jsonlint.com/
+      - title: JSON Linter for Sublime
+        type: tool 
+        site:
+          name: ..
+        url: ..
+
+  - title: Structuring your data
+    description: >
+      You now have syntactically correct data. But you are not there yet. 
+      If the data isn't repetitive in some way, or keys are written differently 
+      from item to item, it will still be of no use. What are the important 
+      things you have to keep track of?
+    instruction:
+      - Fix the inconsistencies in this file
+      - Pay attention to things like nesting and repetition. 
+
+  - title: Importing data
+    description: >
+      After creating a satisfactory dataset, the next step is to integrate it 
+      into the app you are developing. In web applications this is often done 
+      using an AJAX call, which stands for Asynchronous Javascript + XML. Any 
+      resemblance to Trojan war heroes or football teams is purely coincidental. 
+      Normal javascript code execution is done synchronously, meaning the code 
+      waits for the previous request to conclude before a new one begins. But if 
+      you have a large dataset, this process would cause too much delay. So,
+      AJAX comes to the rescue.
+    instruction:
+      - make an AJAX call to your constructed dataset
+

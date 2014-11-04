@@ -2,6 +2,7 @@ title:      Web Components
 level:      1
 points:     100
 mandatory:  true
+category:   script
 
 summary: > 
   Web Components are the future of web development, but what are they? 

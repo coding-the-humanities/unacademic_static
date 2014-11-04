@@ -192,14 +192,7 @@
     <script src="js/flat-ui.min.js"></script>
     <script src="js/application.js"></script>
 
-    <script id="slack-template" type="text/x-handlebars-template">
-      {{#each messages}}
-      <li>{{ this.text }}</li>
-      {{/each}}
-    </script>
-
-
-
+    <script id="slack-template" type="text/x-handlebars-template" src="chat.hbs"></script>
 
     <script type="text/javascript">
       $('.leftUl li a').click(function (e) {
@@ -230,12 +223,6 @@
           slackAPI.getSlackData();
       });
 
-
-
-
-
-
-
-  </script>
+    </script>
   </body>
 </html>

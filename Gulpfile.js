@@ -36,7 +36,7 @@ var paths = {
     './img/**/*',
     './js/**/*',
     './css/**/*',
-    'index.html'
+    'chat.hbs'
   ],
   objectives: {
     data: 'yaml/objectives/**/*.yaml',
@@ -66,6 +66,15 @@ gulp.task('deploy', ['build'], function () {
     .pipe(deploy());
 });
 
+gulp.task('push_to_dev', ['build'], function () {
+  var options = {
+    remoteUrl:  "git@github.com:coding-the-humanities/unacademic_development.git",
+    message:    "Semi-automatically push with Gulp."
+  };
+  return gulp.src('dist/**/*')
+    .pipe(deploy(options));
+})
+
 gulp.task('clean', function (cb) {
   return del('dist', cb)
 });
@@ -73,7 +82,7 @@ gulp.task('clean', function (cb) {
 // Watches
 
 gulp.task('watch', function () {
-  gulp.watch('**/*.{yaml,hbs}', ['compile'])
+  gulp.watch(['**/*.{yaml,hbs}', '!dist/chat.hbs'], ['compile'])
   gulp.watch([paths.assets], ['copy'])
 });
 
@@ -108,12 +117,16 @@ function to_html(filePath, templatePath){
   return gulp.src(filePath)
     .pipe(yaml())
     .pipe(tap(function(file, t){
-      var hbs = fs.readFileSync(templatePath);
-      var template = Handlebars.compile(hbs.toString());
-      var json = JSON.parse(file.contents.toString());
-      var html = template(json);
-
-      file.contents = new Buffer(html, 'utf-8')
+      try {
+        var hbs = fs.readFileSync(templatePath);
+        var template = Handlebars.compile(hbs.toString());
+        var json = JSON.parse(file.contents.toString());
+        var html = template(json);
+        file.contents = new Buffer(html, 'utf-8');
+      }
+      catch(e) {
+        console.error("\nERROR in: " + file.history[0] + "\n" + e + "\n");
+      }
     }))
     .pipe(rename({extname: '.html'}))
     .pipe(flatten())
