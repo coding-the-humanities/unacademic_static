@@ -237,3 +237,7 @@ background-color: #75c7b3; // Old browsers
   margin-left: -57px;
   border-radius:0;
 }
+
+.task {
+  max-width: 40em;
+}
