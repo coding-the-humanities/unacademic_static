@@ -9,7 +9,8 @@ var marked = require('marked');
 var flatten = require('gulp-flatten');
 var deploy = require('gulp-gh-pages');
 var del = require('del');
-var runSequence = require('run-sequence')
+var runSequence = require('run-sequence');
+var connect = require('gulp-connect');
 
 // TEMPLATE HELPERS
 
@@ -55,7 +56,7 @@ var paths = {
 
 // Public Tasks
 
-gulp.task('default', ['build', 'watch']);
+gulp.task('default', ['build', 'connect', 'watch']);
 
 gulp.task('build', function(cb){
  runSequence('clean', ['copy', 'compile'], cb);
@@ -77,6 +78,20 @@ gulp.task('push_to_dev', ['build'], function () {
 
 gulp.task('clean', function (cb) {
   return del('dist', cb)
+});
+
+// Server
+
+gulp.task('connect', function() {
+  connect.server({
+    root: 'dist',
+    livereload: true
+  });
+});
+
+gulp.task('html', function () {
+  gulp.src('./dist/*.html')
+    .pipe(connect.reload());
 });
 
 // Watches
@@ -132,3 +147,5 @@ function to_html(filePath, templatePath){
     .pipe(flatten())
     .pipe(gulp.dest('dist'))
 };
+
+
