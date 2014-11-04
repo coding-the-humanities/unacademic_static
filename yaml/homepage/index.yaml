@@ -1,4 +1,4 @@
-title:      Homepage courses
+title: Homepage courses
 
 locations:
     level000:
@@ -89,10 +89,10 @@ level000:
     summary: Learn about styling web pages with cascading style sheets.
     url: 000_css
 
-  - title: Gist
+  - title: Gists
     classtag: gist
     summary: Share your files in a gist.
-    url: 000_gist
+    url: 000_Gists
 
   - title: City Walk
     classtag: cityWalk
