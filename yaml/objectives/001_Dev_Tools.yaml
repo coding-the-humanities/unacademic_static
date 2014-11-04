@@ -39,7 +39,7 @@ tasks:
       away. Often you will run into styling not showing up because you made a
       little syntax error. The console allows you to quickly change a bunch of
       things.
-    Instructions: >
+    instructions:
       - Change or add a few CSS values
       - Experiment a bit with the box-model
 
