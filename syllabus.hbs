@@ -61,18 +61,18 @@
     </div>
 
 
-    <div class="container syllabuscontent">
-        <section class="course_content">
+    <div class="container">
+        <section class="course_content syllabuscontent">
           <h4>Course Content</h4>
           {{{markdown course_content}}}
         </section>
 
-        <section class="time_requirement">
+        <section class="time_requirement syllabuscontent">
           <h4>Time Requirement</h4>
           {{{markdown time_requirement}}}
         </section>
 
-        <section class="schedule">
+        <section class="schedule syllabuscontent">
           <h4>Program</h4>
           <section class="meeting">
             <table class="table">
@@ -97,7 +97,7 @@
         </section>
 
         {{#with assessment}}
-        <section class="assessment">
+        <section class="assessment syllabuscontent">
           <h4>Assessment</h4>
           <p>{{{markdown description}}}</p>
 
