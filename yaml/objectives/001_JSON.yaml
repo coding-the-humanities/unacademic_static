@@ -8,13 +8,13 @@ technologies:
   - JSON
 
 description:
-  summary: >
-    JSON is an easily parsed and widely used data format.
   full: >
     JSON is a data format you will encounter very often since it is almost 
     everywhere. Many API's supply you with data in this format. It stands for 
     JavaScript Object Notation, but it is not exclusively Javascript. Many other 
     languages support it as well.
+  summary: >
+    JSON is an easily parsed and widely used data format.
 
 tasks:
   - title: Discovering JSON
@@ -22,7 +22,8 @@ tasks:
       JSON is built on two important notions, namely Key/Value pairs and 
       unordered lists.
     instructions:
-      - Find out what Key/Value pairs are and what their relation is to unordered 
+      - >
+        Find out what Key/Value pairs are and what their relation is to unordered 
         lists.
       - >
         Get a feel for the syntax by creating a meta-data set for your photos. 

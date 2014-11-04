@@ -2,7 +2,7 @@ title:      Templating
 level:      1
 points:     100
 mandatory:  false
-category: 
+category:   script
 
 technologies:
   - HTML5
@@ -10,15 +10,16 @@ technologies:
   - (Handlebars.js)
 
 description: 
-  summary: >
-    HTML5 allows for template elements. A template is best described as a mold 
-    with a fixed layout, which can be repeated multiple times.
   full: >
     HTML5 allows us to make template elements. A template can best be
     described as a mold with a fixed layout, which can be repeated multiple
     times. Instead of putting the content directly in the tags (as we did 
     in our level 000 HTML course), the content and the tags are completely
     separated. This practice gives much flexibility and endless possibilities.
+  summary: >
+    HTML5 allows for template elements. A template is best described as a mold 
+    with a fixed layout, which can be repeated multiple times.
+
 tasks:
   - title: Getting the basics
     description: >

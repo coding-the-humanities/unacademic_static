@@ -4,15 +4,10 @@ points:     100
 mandatory:  true
 category:   script
 
-summary: > 
-  Web Components are the future of web development, but what are they? 
-
 technologies:
   - Polymer
 
 description:
-  summary: > 
-    Web Components are the future of web development, but what are they? 
   full: >
     Web Components are the future of web development, but what are they? 
     Remeber the <img> element, that allows you to embed an image to your 
@@ -25,6 +20,8 @@ description:
     the web. This means we can easily create widgets and other useful
     elements that can be easily shared, without having to retype or 
     rework code. That is the beauty of web components.
+  summary: > 
+    Web Components are the future of web development, but what are they? 
 
 tasks:
   - title: Introduction
@@ -52,10 +49,13 @@ tasks:
         type:    Article
         site:    
           name:  techcrunch
-          description: Google Believes Web Components Are The Future Of Web 
-                       Development
-        url:   http://techcrunch.com/2013/05/19/google-believes-web-components
-               -are-the-future-of-web-development/
+          description: >
+                Google Believes Web Components Are The Future Of 
+                Web Development
+        url: > 
+              http://techcrunch.com/2013/05/19/google-believes-web-components
+              -are-the-future-of-web-development/
+
   - title: Environment
     description: >
       In order to create stunning web applications we can make use of 
@@ -76,13 +76,15 @@ tasks:
         type:    book
         site:    
           name:  Chapter-1
-        url:   http://coding-the-humanities.gitbooks.io/polymer-book/content/
-               appendix_a_setting_up_your_environment/README.html
+        url: >  
+              http://coding-the-humanities.gitbooks.io/polymer-book/content/
+              appendix_a_setting_up_your_environment/README.html
       - title:    Polyfill definition
         type:    book
         site:  
           name:  Polyfill 
-        url:   http://en.wikipedia.org/wiki/Polyfill
+        url:  http://en.wikipedia.org/wiki/Polyfill
+
   - title: Getting started
     description: >
       In this assignment you will learn about the way Polymer is set 
@@ -107,6 +109,7 @@ tasks:
         site: 
           name:  DevBytes - Web Components - Template
         url:   https://www.youtube.com/watch?v=qC5xK6H0GlQ
+        
   - title: Refactor
     description: >
       Coding is as much refactoring as it is creating new code. Refactoring 
@@ -119,7 +122,8 @@ tasks:
       where it is displayed.
     instructions:
       - Use what you have learned from Chapter-1 to refactor your existing code. 
-      - Refactor your code to be a single polymer element and display it in your 
+      - > 
+        Refactor your code to be a single polymer element and display it in your 
         index.html
     resources:
       - title:   Polymer-book

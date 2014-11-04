@@ -2,32 +2,38 @@ title:      Photo Stack
 level:      1
 points:     100
 mandatory:  true
-category:   General
+category:   general
 
 technologies:
   - JSON
   - Templating
 
 description:
-  summary: >
-    Select 5 photo's in groups of three people.
   full: >
-    It's important not to lose focus of the humanities aspect
+    Now that your feet have recovered from that wonderful trip through Amsterdam,
+    and your fingers have recuperated from repeated clicking on a camera button,
+    it's time to do something with all those beautiful photos.
+    However, while you have an innate understanding of why you photographed six
+    hundred cats, your fellow students might truly be baffled by this.
+    Discuss your photos and the photos of your fellow students and make a
+    selection among those. Then place them in a JSON object.
+  summary: >
+    Select five photos in groups of three people.
 
 tasks:
   - title: Discussion
     description: >
       Figure out what interesting in each others pictures. What is the common ground? 
-      How would you catagorise it? There aren't any criteria, so feel free
+      How would you categorise it? There aren't any criteria, so feel free
       chose whatever you think is best.
     instructions:
-      - Work in pairs of 3 or 4 people
-      - Examine your photo's and make a group selection of 5 photo's
+      - Work in pairs of three or four people
+      - Examine your photos and make a group selection of 5 photos
       - You can decide the selection criteria for yourself
 
   - title: Transformation to Objects. 
     description: >
-      You decided on several photo's. Place these photos in a templated website.
+      You decided on several photos. Place these photos in a templated website.
       We've got a plunker set-up with handlebars for you that you can use. Try to
       do this part individually again, it important you understand how it works.
     instructions:
@@ -43,7 +49,7 @@ tasks:
       - Post it in our Slack-channel
     resources:
       - title: Assignment set-up 
-        type:    
+        type:  assignment  
         site: 
           name: Plunker File 
         url: http://plnkr.co/edit/hiiAtC?p=info       

@@ -2,6 +2,7 @@ title:      CSS
 level:      0
 points:     100
 mandatory:  false
+category:   markup
 
 technologies:
   - CSS
@@ -47,14 +48,16 @@ tasks:
     instructions:
       - Read the article.
       - Watch the video.
-      - Add selectors to the html provided in the resources for the body,
+      - >
+        Add selectors to the html provided in the resources for the body,
         the paragraphs and each separate title.
     resources:
       - title:   CSS selectors
         type:    article
         site:
           name:  Mozilla Developer Network
-        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/
+        url: >   
+                 https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/
                  Getting_started/Selectors
       - title:   CSS Container
         type:    video
@@ -79,7 +82,8 @@ tasks:
         type:    article
         site:
           name:  Mozilla Developer Network
-        url:     https://developer.mozilla.org/en-US/docs/Web/CSS/
+        url: >   
+                 https://developer.mozilla.org/en-US/docs/Web/CSS/
                  background-color
       - title:   Hexidecimal Color Code
         type:    article

@@ -2,14 +2,12 @@ title:      Dev Tools
 level:      1
 points:     100
 mandatory:  true
+category:   tools
 
 technologies:
   - Chrome Dev Tools
 
 description:
-  summary: >
-    A very important tool to know is the dev tools in browsers. It is used for
-    many things like bugtesting or experimenting.
   full: >
     A very important tool to know is the dev tools in browsers. It is used for
     many things like bugtesting or experimenting. You can also use it to see
@@ -17,6 +15,9 @@ description:
     combined, and you can actively interact with it. Google has a very nice
     implementation of these, which is one of the reasons why we use chrome as a
     browser.
+  summary: >
+    A very important tool to know is the dev tools in browsers. It is used for
+    many things like bugtesting or experimenting.
 
 tasks:
   - title: Opening Chrome Dev-Tools
@@ -52,5 +53,6 @@ tasks:
     instructions:
       - Do some basic calculations in the console (for instance 1+1)
       - Try console.log("something")
-      - Create a simple variable (type - var name = "Your Name")
+      - >
+        Create a simple variable (type - var name = "Your Name")
         (and call it with - name)

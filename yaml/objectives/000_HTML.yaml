@@ -2,6 +2,7 @@ title:      HTML
 level:      0
 points:     100
 mandatory:  false
+category:   markup
 
 technologies:
   - HTML
@@ -12,7 +13,6 @@ description:
     web browser you see, at the simplest level, words. HTML instructs a web 
     browser what content to display. In many cases a page also displays images 
     or maybe video clips. 
-
     HTML defines and separates "content" (words, images, audio, video, and so 
     on) from "presentation" (how to display a specific type of content). HTML 
     uses a pre-defined set of elements to identify content types.
@@ -38,7 +38,8 @@ tasks:
         type:    article
         site:
           name:  Mozilla Developer Network
-        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/
+        url: >    
+                 https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/
                  Introduction
       - title:   Introduction video
         type:    video
@@ -50,6 +51,7 @@ tasks:
         site:
           name:  Sublime Text
         url:     http://www.sublimetext.com/2   
+
   - title: Basic Structure
     description: >
       HTML works with things called 'tags'. 
@@ -59,11 +61,14 @@ tasks:
     instructions:
       - Read the article.
       - Make a basic html structure containing a head and body.
-      - Take the text you wrote in the last assignment (or any other text) and 
+      - >
+        Take the text you wrote in the last assignment (or any other text) and 
         place it in the body.
-      - Tag the headings with the h1, 2, 3 or 4 tags, and the paragraphs with 
+      - >
+        Tag the headings with the h1, 2, 3 or 4 tags, and the paragraphs with 
         the p tag.
-      - Save the file, go to the folder it is in and double click on the file to 
+      - >
+        Save the file, go to the folder it is in and double click on the file to 
         open it in your browser.
       - Congratulations, you just made a webpage!
     resources:
@@ -74,6 +79,7 @@ tasks:
           name:  CSS Tricks
           url:   http://css-tricks.com
         url:   http://css-tricks.com/snippets/html/html5-page-structure/
+
   - title: The Anchor Tag
     description: >
       Linking is a way to reference to other stuff on the internet. 
@@ -91,6 +97,7 @@ tasks:
         site:
           name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+        
   - title: The Image Tag
     description: >
       Everybody loves pictures. 

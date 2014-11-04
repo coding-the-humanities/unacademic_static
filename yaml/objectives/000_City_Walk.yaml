@@ -2,6 +2,7 @@ title:      City Walk
 level:      0
 points:     100
 mandatory:  true
+category:   general
 
 technologies:
   - HTML
@@ -14,7 +15,6 @@ description:
     But the first thing we want you to do has sadly / luckily nothing to do with 
     code. The Citywalk will combine the knowledge you will get from the first 
     tutorials. Read on to find out how exactly you are going to do that.
-
   summary: >
     Get some last contact with the real world, before you disappear into its 
     virtual counterpart.
@@ -54,12 +54,15 @@ tasks:
       content you just created!
 
     instructions: 
-      - Use at least five of the photos you have taken during your city walk 
+      - >
+        Use at least five of the photos you have taken during your city walk 
         accompanied by a short explanation on why you took them.
-      - Create a valid HTML file with the necessary tags. Think of the main HTML 
+      - >
+        Create a valid HTML file with the necessary tags. Think of the main HTML 
         structure like html, head and body, but also the p tags and 
         img tags and everything else described on the tutorial pages.
-      - For this assignment its best to create a CSS stylesheet in the head of 
+      - >
+        For this assignment its best to create a CSS stylesheet in the head of 
         your document.
 
   - title: Share it with the world
@@ -67,10 +70,12 @@ tasks:
       Of course we want to see as well what you've done. So you'd better publish 
       it!
     instructions: 
-      - Upload your code to Github gists. Make sure you do not post it 
+      - >
+        Upload your code to Github gists. Make sure you do not post it 
         anonymously!
-      - Make sure the images are available online as well. You can use a basic 
-        image host like Flickr, tinypic.com.
+      - >
+        Make sure the images are available online as well. You can use a basic 
+        image host like Flickr or tinypic.com.
     resources:
       - title:   Github Gists
         type:    Website
