@@ -24,7 +24,8 @@ tasks:
     instructions:
       - Find out what Key/Value pairs are and what their relation is to unordered 
         lists.
-      - Get a feel for the syntax by creating a meta-data set for you photos. 
+      - >
+        Get a feel for the syntax by creating a meta-data set for you photos. 
         It should be an array of objects(the photos) with the name of the 
         photographer, url, location and the summary.
     resources:
@@ -55,8 +56,8 @@ tasks:
       - title: JSON Linter for Sublime
         type: tool 
         site:
-          name: ..
-        url: ..
+          name: JSONlint for Sublime
+        url: https://sublime.wbond.net/packages/JSONLint
 
   - title: Structuring your data
     description: >
@@ -64,26 +65,10 @@ tasks:
       If the data isn't repetitive in some way, or keys are written differently 
       from item to item, it will still be of no use. What are the important 
       things you have to keep track of?
-    instruction:
-      - Fix the inconsistencies in this file ...
-      - Pay attention to things like nesting and repetition. 
-
-  - title: Importing data
-    description: >
-      After creating a satisfactory dataset, the next step is to integrate it 
-      into the app you are developing. In web applications this is often done 
-      using an AJAX call, which stands for Asynchronous Javascript + XML. Any 
-      resemblance to Trojan war heroes or football teams is purely coincidental. 
-      Normal javascript code execution is done synchronously, meaning the code 
-      waits for the previous request to conclude before a new one begins. But if 
-      you have a large dataset, this process would cause too much delay. So,
-      AJAX comes to the rescue.
-    instruction:
-      - make an AJAX call to your constructed dataset
-    resources:
-      - title: ...
-      - type: site
-      - site:
-          name: ..
-      - url: ..
+    instructions:
+      - Fix the inconsistencies in this file
+      - Pay attention to things like nesting and repetition.
+      - >
+        Look back at your own file, is it well structured? 
+        Make sure that every photo's properties are grouped!
 
