@@ -66,7 +66,7 @@ tasks:
         site:
           name:  Plunker
         url:     http://jsfiddle.net/evanzummeren/wcc6gf37/
-       - title:   An introduction to JSON
+      - title:   An introduction to JSON
         type:    video
         site:
           name:  YouTube

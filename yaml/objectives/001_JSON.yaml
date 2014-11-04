@@ -58,7 +58,7 @@ tasks:
       from item to item, it will still be of no use. What are the important 
       things you have to keep track of?
     instruction:
-      - Fix the inconsistencies in this file
+      - Fix the inconsistencies in this file ...
       - Pay attention to things like nesting and repetition. 
 
   - title: Importing data
@@ -74,7 +74,7 @@ tasks:
     instruction:
       - make an AJAX call to your constructed dataset
     resources:
-      - title:
+      - title: ...
       - type: site
       - site:
           name: ..
