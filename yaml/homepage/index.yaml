@@ -78,45 +78,44 @@ locations:
         city: Amsterdam
         urlmaps: https://www.google.nl/maps/place/Fred.+Roeskestraat+98A,+1076+ED+Amsterdam/@52.3413035,4.8599852,15z/data=!4m2!3m1!1s0x47c5e1fc2a55fbe9:0xe8018c026ad7b37f?sa=X&ei=pOhUVO64IoHQOprvgbgP&ved=0CCAQ8gEwAA
 
-levels:
-    - level000:
-        - title: HTML
-          classtag: html
-          summary: HTML gives directions to the web browser on what content to display. It uses a set of elements to identify content types.
-          url: 000_html
+level000:
+  - title: HTML
+    classtag: html
+    summary: HTML gives directions to the web browser on what content to display. It uses a set of elements to identify content types.
+    url: 000_html
 
-        - title: CSS
-          classtag: css
-          summary: Learn about styling web pages with cascading style sheets.
-          url: 000_css
+  - title: CSS
+    classtag: css
+    summary: Learn about styling web pages with cascading style sheets.
+    url: 000_css
 
-        - title: Gist
-          classtag: gist
-          summary: Share your files in a gist.
-          url: 000_gist
+  - title: Gist
+    classtag: gist
+    summary: Share your files in a gist.
+    url: 000_gist
 
-        - title: City Walk
-          classtag: cityWalk
-          summary: Get some last contact with the real world, before you disappear into its virtual counterpart.
-          url: 000_City_Walk
+  - title: City Walk
+    classtag: cityWalk
+    summary: Get some last contact with the real world, before you disappear into its virtual counterpart.
+    url: 000_City_Walk
 
-    - level001:
-        - title: Dev tools
-          classtag: devTools
-          summary: A very important tool to know is the Devtools in browsers. It is used for many things like bugtesting or experimenting.
-          url: 001_Dev_Tools
+level001:
+  - title: Dev tools
+    classtag: devTools
+    summary: A very important tool to know is the Devtools in browsers. It is used for many things like bugtesting or experimenting.
+    url: 001_Dev_Tools
 
-        - title: DOM
-          classtag: dom
-          summary: The DOM -Document Object Model - is an interface for HTML documents.
-          url: 001_Dom
+  - title: DOM
+    classtag: dom
+    summary: The DOM -Document Object Model - is an interface for HTML documents.
+    url: 001_Dom
 
-        - title: JSON
-          classtag: json
-          summary: X
-          url: 001_JSON
+  - title: JSON
+    classtag: json
+    summary: X
+    url: 001_JSON
 
-        - title: Templating
-          classtag: webTemplates
-          summary: X
-          url: 001_Templating
+  - title: Templating
+    classtag: webTemplates
+    summary: X
+    url: 001_Templating

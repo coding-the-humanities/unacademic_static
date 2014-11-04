@@ -65,7 +65,7 @@ tasks:
         type:    article
         site:
           name:  Plunker
-        url:     http://jsfiddle.net/evanzummeren/wcc6gf37/
+        url:     http://plnkr.co/edit/RSupaKgA4unZctvinzjn?p=info
       - title:   An introduction to JSON
         type:    video
         site:
