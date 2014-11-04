@@ -10,15 +10,16 @@ technologies:
 
 description:
   summary: >
-    Selecting 5 photo's in groups of three people.
+    Select 5 photo's in groups of three people.
   full: >
-
+    It's important not to lose focus of the humanities aspect
 
 tasks:
   - title: Discussion
     description: >
       Figure out what interesting in each others pictures. What is the common ground? 
-      How would you catagorise it? There aren't any criteria, so don't feel free 
+      How would you catagorise it? There aren't any criteria, so feel free
+      chose whatever you think is best.
     instructions:
       - Work in pairs of 3 or 4 people
       - Examine your photo's and make a group selection of 5 photo's
@@ -26,14 +27,18 @@ tasks:
 
   - title: Transformation to Objects. 
     description: >
-      
+      You decided on several photo's. Place these photos in a templated website.
+      We've got a plunker set-up with handlebars for you that you can use. Try to
+      do this part individually again, it important you understand how it works.
     instructions:
       - Fork this project
       - Create a JSON-structure of your selected photographs
       - All the photographs are stored in one big array called... "photos"
-      - Every photo is a seperate object. It has the properties: title, photourl, 
+      - >
+        Every photo is a seperate object. It has the properties: title, photourl, 
         location, photographer.
-      - Render those pictures on your webpage by using a template. Think of the 
+      - >
+        Render those pictures on your webpage by using a template. Think of the 
         proper HTML structure and style the page using CSS.
       - Post it in our Slack-channel
     resources:
