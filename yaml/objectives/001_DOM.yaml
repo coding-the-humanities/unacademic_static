@@ -8,24 +8,24 @@ technologies:
   - DOM
 
 description:
-  full: >
-    The DOM -Document Object Model - is an interface for HTML
-    documents. It defines the structure of a document and uses document, text,
-    element and attribute nodes to represent and interact with objects. This
-    allows for programming languages to interact with web pages. These nodes
-    have hierarchical relations to one another -root, parents, children, siblings.
-    So, in a visual representation of a DOM you see the so-called node tree.
   summary: >
-    The DOM -Document Object Model - is an interface for HTML documents
-
+    The DOM -Document Object Model - is the structural representation of an 
+    HTML document
+  full: >
+    The DOM -Document Object Model - is actually the representation of an HTML 
+    document structure. In the DOM you can see the various objects of a page and 
+    how they relate to each other; through the DOM you can interact with these. 
+    The structure of the DOM looks like a tree with the different objects shown
+    as branches.
 tasks:
   - title: Discovering the DOM
     description: >
-      You can see what the DOM looks like if you open your DevTools
+      Open your DevTools to see what the DOM looks like. Use the inspect tool 
+      to inspect the structure and the objects of the web page
     instructions:
       - Click on the link below
       - Use your DevTools to inspect the page and see what the DOM looks like
-      - Read the article to elaborate on the structure of DOM
+      - Read the article to elaborate on the structure of the DOM
     resources:
       - title:   Document Object Model
         type:    article
@@ -35,23 +35,24 @@ tasks:
 
   - title: DOM Manipulation
     description: >
-      The DOM is actually smart, find out what it can do for you
+      Find out how the DOM helps you figure out the structure of your web page
     instructions:
-      - Watch the video and try out the challenge 
+      - Watch the video
+      - Try out the challenge 
     resources:
       - title:   DOM Manipulation
         type:    video
         site:
           name:  Codeschool
         url:     http://discover-devtools.codeschool.com/chapters/1/challenges/1?locale=en
-        
   - title: Imperative interaction with DOM
     description: >
       Use DevTools and interact with DOM in imperative syntax. Sounds complex? 
       No worries, use your DevTools as described in the DevTools tutorial, 
       follow the instructions and play around!
     instructions:
-      - Go to 
-      - >
-        Open your DevTools and type in a command like the one below
-        document.getElementByTagName("?").innerHTML = "hello"
+      - go to the page of the first task on the Mozilla Developer Network
+      - open your DevTools, type in the command below and see what happens
+        document.getElementById("main-header").innerHTML = "Coding the humanities repository"
+      - try moving the phrase to another place on the page
+      - to do that you have to put in the brackets another Id
