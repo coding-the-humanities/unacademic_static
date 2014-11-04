@@ -41,7 +41,8 @@ tasks:
       things.
     instructions:
       - Change or add a few CSS values
-      - Experiment a bit with the box-model
+      - Experiment a bit with the box-model, add a border or position an element 
+        differently.
 
   - title: Using the Javascript Console
     description: >
