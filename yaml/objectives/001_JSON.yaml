@@ -42,7 +42,7 @@ tasks:
       would expect. A good way to fix these errors is to use a linter to scan 
       your code.
     instructions:
-      - Try to check the linting task in the resources manually. Or...
+      - Try to check the plunker below for errors manually. Or do it with the linter perhaps...
     resources:
       - title: Linting Task Plunker
         type: site

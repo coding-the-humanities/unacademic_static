@@ -240,3 +240,7 @@ background-color: #75c7b3; // Old browsers
 .task {
   max-width: 40em;
 }
+
+.syllabuscontent {
+  max-width: 40em;
+}
