@@ -82,7 +82,7 @@ level000:
   - title: HTML
     classtag: html
     summary: HTML gives directions to the web browser on what content to display. It uses a set of elements to identify content types.
-    url: 000_html
+    url: 000_HTML
 
   - title: CSS
     classtag: css
@@ -108,7 +108,7 @@ level001:
   - title: DOM
     classtag: dom
     summary: The DOM -Document Object Model - is an interface for HTML documents.
-    url: 001_Dom
+    url: 001_DOM
 
   - title: JSON
     classtag: json
