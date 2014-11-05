@@ -39,17 +39,19 @@ tasks:
   - title: Linting data
     description: >
       You will come across and make syntax errors, probably more often than you 
-      would expect. A good way to fix these errors is to use a so-called linter to scan 
-      your code.
+      would expect. A good way to fix these errors is to use a so-called linter 
+      to scan your code.
     instructions:
-      - Try to check JSON data in the plunker below for errors manually. Altough you might want 
-        to do it with the linter (i.e. copy-paste the JSON into JSONlint)...
+      - Try to check JSON data in the plunker below for errors manually. Altough 
+        you might want to do it with the linter (i.e. copy-paste the JSON into 
+        JSONlint)...
     resources:
-      - title:  Linting Task Plunker
-        type:   site
+      - title:  Linting Task
+        type:   gist
         site:
-          name: Linting Task Plunker
-        url:    http://plnkr.co/edit/fb4UaUYvf1TvZKY2cI8P?p=preview
+          name: Github Gists
+        url:    https://gist.githubusercontent.com/Zaturrby/6fd0e8f8326da8367874
+                /raw/c87a031a631bad7b01d0b524e287f3d6aa56e6b9/nytwitherror.json
       - title:  JSON Linter
         type:   site
         site: 
@@ -73,8 +75,9 @@ tasks:
       - Look back at your own file, is it well structured? 
       - Make sure that every photo's properties are grouped!
     resources:
-      - title:  Structure Task Plunker
+      - title:  Structure Task
         type:   site
         site:
-        name: Plunker Task draft
-        url:    http://plnkr.co/edit/PwS97MH2VEJDn8B9WYZ6?p=catalogue
+        name:   Github Gists
+        url:    https://gist.githubusercontent.com/Zaturrby/e0c9cb60517405f69c25/
+                raw/ea489af1ddae7542f7398f38e838636a57baee0a/unstructured.json

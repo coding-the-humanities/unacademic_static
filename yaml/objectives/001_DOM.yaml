@@ -87,11 +87,12 @@ tasks:
         selecting the element node?
       - Could you replace classes with (first/last/nth) child selectors?
     resources:
-      - title: Plunker with simple HTML example
-        type: task
+      - title: Tree Structure Task
+        type: gist
         site:
-          name: Plunker
-        url: http://plnkr.co/edit/jywYjwvjFTkhJinHwqcD?p=catalogue
+          name: Github Gists
+        url: https://gist.githubusercontent.com/Zaturrby/22969282f635e50a9e8b/
+                raw/f186b852c2cff32591b26a4810e55da00beeb729/treetask.html
       - title: Live DOM Tree viewer
         type: application
         site:
