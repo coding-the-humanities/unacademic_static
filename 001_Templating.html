@@ -22,15 +22,9 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
           </button>
-          <a class="navbar-brand" href="./">Unacademic</a>
+          <a class="navbar-brand navbar-left" href="./" >Unacademic</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="./000_HTML.html">HTML</a></li>
-            <li><a href="./000_CSS.html">CSS</a></li>
-            <li><a href="./000_Gist.html">Gists</a></li>
-            <li><a href="./000_City_Walk.html">City Walk</a></li>
-          </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="./syllabus.html">Syllabus</a></li>
           </ul>
@@ -39,21 +33,29 @@
     </div>
 
     <div id="slide-panel">
-      <button type="button" class="btn btn-danger" id="opener"><i class="fui-question-circle"></i></button>
-      <h4>Need help&#63</h4>
-      <p> Probably you have come across the term HTML, but if you have no idea what it is. We suggest you do the introduction assignment first. Take a look at the resources, but more importantly look for more on the internet, we provide you with the correct search terms like HTML or tags. Remember Google is your friend!</p>
+      <button type="button" class="btn btn-danger" id="opener"><i class="fui-list-columned"></i></button>
+      <h6>Level 1</h6>
+      <ul>
+        <li><a href="./000_HTML.html">HTML</a></li>
+        <li><a href="./000_CSS.html">CSS</a></li>
+        <li><a href="./000_Gists.html">Gists</a></li>
+        <li><a href="./000_City_Walk.html">City Walk</a></li>
+      </ul>
+      <h6>Level 2</h6>
+       <ul>
+        <li><a href="./001_Dev_Tools.html">Dev Tools</a></li>
+        <li><a href="./001_DOM.html">DOM</a></li>
+        <li><a href="./001_JSON.html">JSON</a></li>
+        <li><a href="./001_Templating.html">Templating</a></li>
+      </ul>
     </div>
 
     <div class="row customHero">
       <div class="container">
         <div class="hero-unit">
           <div class="col-xs-9">
-            <h3>Gist</h3>
-            <p><p>You would think one way to share code with your peers and/or friends would be by e-mail.
-But mailing one&#39;s code is a hassle when you have to deal with lots of different files and endless lines of code.
-Another way is to place these on Github, a website made for and by programmers to store and share code.</p>
-<p>Github offers two ways to do that. The first is making a repository. More on this will follow later.
-The second way is Gist, particulary handy for code snippets and a lot easier -though with some limitations.</p>
+            <h3>Templating</h3>
+            <p><p>HTML5 allows us to make template elements. A template can best be described as a mold with a fixed layout, which can be repeated multiple times. Instead of putting the content directly in the tags (as we did  in our level 000 HTML course), the content and the tags are completely separated. This practice gives much flexibility and endless possibilities.</p>
 </p>
           </div>
         </div>
@@ -64,55 +66,68 @@ The second way is Gist, particulary handy for code snippets and a lot easier -th
     <div class="container">
         <section class="task">
 
-          <h3>Create your first Gist</h3>
+          <h3>Getting the basics</h3>
+          <p><p>Learn about the basic ideas behind a template. Don&#39;t worry if you don&#39;t grasp everything! In the next task you&#39;ll see that there are tools available which make the use of templates way easier.</p>
+</p>
 
           <h5>Instructions</h5>
           <ul>
-            <li><p><p>Go to <a href="http://gist.github.com">http://gist.github.com</a>.</p>
-</p></li>
-            <li><p><p>Write some simple HTML or CSS into the box on your screen.</p>
+            <li><p><p>Scan through the article.</p>
 </p></li>
           </ul>
 
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>HTML5 Rocks: <a href="http://www.html5rocks.com/en/tutorials/webcomponents/template/">HTML’s New Template Tag</a></p>
+            </li>
+          </ul>
+          <hr>
         </section>
         <section class="task">
 
-          <h3>Experiment with Syntax Highlighting</h3>
+          <h3>Making a template with Handlebars.js</h3>
+          <p><p>Luckily there are tools available which make the use of templates a lot  easier. When you use Handlebars.js or Polymer&#39;s template binding you  barely have to mess around with any Javascript. Both systems have similar  functions but their syntax is a little different. For instance templates  &quot;directives&quot; in Polymer are written inside the tags as attributes, while  handlebars does it outside the tags.</p>
+</p>
 
           <h5>Instructions</h5>
           <ul>
-            <li><p><p>Give the file the name 000_Gist_Assignment.html or 000_Gist_Assignment.css.</p>
-</p></li>
-            <li><p><p>Notices that the your html/css now has certain words in color.</p>
+            <li><p><p>Read the article</p>
 </p></li>
           </ul>
 
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>Handlebars.js: <a href="http://handlebarsjs.com/">Handlebars.js homepage</a></p>
+            </li>
+          </ul>
+          <hr>
         </section>
         <section class="task">
 
-          <h3>Gist it with Github</h3>
+          <h3>Make your own template</h3>
+          <p><p>In this task you will make your very own handlebars web template.  As an example I made a template which makes use of JSON data from the New York Times website.</p>
+</p>
 
           <h5>Instructions</h5>
           <ul>
-            <li><p><p>Log in with Github</p>
+            <li><p><p>Complete the Plunker task</p>
 </p></li>
-            <li><p><p>Put the HTML or CSS you wrote into the box on the screen</p>
+            <li><p><p>Save the results and share it on our Slack-channel</p>
 </p></li>
           </ul>
 
-        </section>
-        <section class="task">
-
-          <h3>Share your Gist</h3>
-
-          <h5>Instructions</h5>
+          <h5>Resources</h5>
           <ul>
-            <li><p><p>Click &quot;Create public Gist&quot; in the bottom right corner.</p>
-</p></li>
-            <li><p><p>Put the link to your gist in our <a href="fishbowl.slack.com">Slack</a> Channel.</p>
-</p></li>
+            <li>
+              <p>Plunker: <a href="http://plnkr.co/edit/RSupaKgA4unZctvinzjn?p=info">Make your own template</a></p>
+            </li>
+            <li>
+              <p>YouTube: <a href="https://www.youtube.com/watch?v=rncW-74VL7U">An introduction to JSON</a></p>
+            </li>
           </ul>
-
+          <hr>
         </section>
     </div>
 

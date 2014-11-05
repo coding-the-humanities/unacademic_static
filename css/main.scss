@@ -1,0 +1,118 @@
+// @import "compass"
+
+// /* Color setup */
+// $darkBlue: #34495e;
+// $lightBlue: #75c7b3;
+
+/* Index */
+.indexContainer {
+  margin-top: 85px;
+}
+
+.leftBlock {
+  background: #75c7b3; /* Old browsers */
+  background: -moz-linear-gradient(left,  #75c7b3 1%, #75c7b3 98%, #7db9e8 98%, #5da190 98%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%,#75c7b3), color-stop(98%,#75c7b3), color-stop(98%,#7db9e8), color-stop(98%,#5da190)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #75c7b3 1%,#75c7b3 98%,#7db9e8 98%,#5da190 98%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #75c7b3 1%,#75c7b3 98%,#7db9e8 98%,#5da190 98%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #75c7b3 1%,#75c7b3 98%,#7db9e8 98%,#5da190 98%); /* IE10+ */
+  background: linear-gradient(to right,  #75c7b3 1%,#75c7b3 98%,#7db9e8 98%,#5da190 98%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75c7b3', endColorstr='#5da190',GradientType=1 ); /* IE6-9 */
+  background-color: #75c7b3;
+  margin-top: 20px;
+}
+
+/* Voor later 
+// needs latest Compass, add '@import "compass"' to your scss
+background-color: #75c7b3; // Old browsers
+@include filter-gradient(#75c7b3, #5da190, horizontal); // IE6-9
+@include background-image(linear-gradient(left, #75c7b3 1%,#75c7b3 98%,#7db9e8 98%,#5da190 98%));
+*/
+.leftUl {
+  padding-left: 0;
+}
+.leftUl li {
+  margin: 5px 0px 5px 0px;
+  padding-left: 10px;
+  list-style-type: none;
+  border-bottom: 1px #88e2cc solid;
+}
+.leftUl li:last-child {
+  border-bottom: none;
+}
+.active {
+  background-color: #88e2cc;
+}
+.courseContentContainer {
+  background-color: #edeff1;
+}
+.courseRow {
+  margin-left: -30px;
+}
+.courseBlock {
+  padding-top: 40px;
+}
+.courseTag {
+  display: inline-block;
+  background: white;
+}
+.htmlBlock {
+  background-image: url("../img/overlay.png"), url("../img/html.gif");
+}
+
+/* Internal pages */
+.customHero {
+  background-color: #75c7b3;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.vcenter {
+   float: none;
+  padding: 90px 0 90px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bcenter {
+  float: none;
+  padding: 60px 0 90px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dropClose {
+  margin-top: 0px;
+}
+
+.customMargin{
+  margin-top: 80px;
+}
+
+.blocker{
+  height: 80px;
+}
+
+.customWidth{
+  width: 875px;
+}
+
+#slide-panel {
+  position: fixed;
+  width:300px;
+  height:100%;
+  padding:10px;
+  background:#eee;
+  margin-left:100%;
+  margin-top:42px;
+  top: 0;
+  right: -300px;
+  z-index: 100;
+}
+
+#opener {
+  position: fixed;
+  margin-left: -57px;
+  border-radius:0;
+}

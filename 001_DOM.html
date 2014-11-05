@@ -54,8 +54,8 @@
       <div class="container">
         <div class="hero-unit">
           <div class="col-xs-9">
-            <h3>City Walk</h3>
-            <p><p>You must be anxious to dive into the wonderful world of web programming. But the first thing we want you to do has sadly / luckily nothing to do with  code. The Citywalk will combine the knowledge you will get from the first  tutorials. Read on to find out how exactly you are going to do that.</p>
+            <h3>DOM</h3>
+            <p><p>The DOM -Document Object Model - is actually the representation of an HTML  document structure. In the DOM you can see the various objects of a page and  how they relate to each other; through the DOM you can interact with these.  The structure of the DOM looks like a tree with the different objects shown as branches.</p>
 </p>
           </div>
         </div>
@@ -66,71 +66,120 @@
     <div class="container">
         <section class="task">
 
-          <h3>Citywalk</h3>
-          <p><p>You must go out in the city of Amsterdam and follow one of the two  routes below. If you want, you can also follow both routes, but that&#39;s up  to you. While you are taking your walk, take pictures of things you think  are interesting; as many as you like. The purpose of this odd request is to  encourage you to make content, which you are going to use in this and later  assignments.</p>
+          <h3>Types of Nodes</h3>
+          <p><p>There are four types of nodes. The document, element, attribute and text  node. They all relate to the HTML, especially element nodes; an image  tag is an example of this. These element nodes have attribute nodes like  classes for instance. And then there is the content, which is within  text nodes. The document node wraps the entire structure. The DevTools can  help understand how these elements are represented.</p>
 </p>
 
           <h5>Instructions</h5>
           <ul>
-            <li><p><p>Take a lot of pictures!</p>
+            <li><p><p>Open the javascript console in your browser.</p>
+</p></li>
+            <li><p><p>Type console.log(document) in the javascript console and press enter. Click on the triangle to unfold the document object and on some further triangles. This will show something very similar to the HTML structure.</p>
+</p></li>
+            <li><p><p>It is not quite the same though. If you type console.dir(document) you can now clearly see the differences.</p>
+</p></li>
+            <li><p><p>Get to know the object</p>
 </p></li>
           </ul>
 
           <h5>Resources</h5>
           <ul>
             <li>
-              <p><a href="https://gist.github.com/Zaturrby/adcf8cde5e06a23e3567">Route 1</a></p>
+              <p>Codeschool: <a href="http://discover-devtools.codeschool.com/chapters/1/challenges/1?locale=en">The DOM viewed trough the DevTools</a></p>
             </li>
             <li>
-              <p><a href="https://gist.github.com/Zaturrby/306d0f8c408fdc9feced">Route 2</a></p>
+              <p>Eloquent Javascript on DOM: <a href="http://eloquentjavascript.net/13_dom.html">Javascript oriented explanation of the DOM</a></p>
+            </li>
+            <li>
+              <p>Wellesley: <a href="http://cs.wellesley.edu/~cs110/lectures/L11/dom.html">Process oriented explanation of the DOM</a></p>
+            </li>
+            <li>
+              <p>Mozilla Developer Network: <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">Explanation focussed on available methods</a></p>
             </li>
           </ul>
           <hr>
         </section>
         <section class="task">
 
-          <h3>Build HTML page</h3>
-          <p><p>The next step is to build a simple html page and make it look nice with  some css. You&#39;re going to use the knowledge you&#39;ve attained or will attain  in the HTML and CSS tutorials. We want you to build a site with the  content you just created!</p>
+          <h3>Relation between Nodes</h3>
+          <p><p>Elements in the DOM are related to each other in a tree structure. Every  element has a parent (except for the document, or root element) and can  have children and siblings. These are  very important relationships. They make it easier to select items when you  don&#39;t know their exact name, or can help you avoid having to use classes for  every element you see. It is also the reason we indent the tags in our document. It would otherwise be impossible to see the tree structure.</p>
 </p>
 
           <h5>Instructions</h5>
           <ul>
-            <li><p><p>Use at least five of the photos you have taken during your city walk accompanied by a short explanation on why you took them.</p>
+            <li><p><p>Try to fix the indentation on the Plunker link below.</p>
 </p></li>
-            <li><p><p>Create a valid HTML file with the necessary tags. Think of the main HTML structure like html, head and body, but also the p tags and img tags and everything else described on the tutorial pages.</p>
-</p></li>
-            <li><p><p>For this assignment its best to create a CSS stylesheet in the head of your document.</p>
-</p></li>
-          </ul>
-
-          <hr>
-        </section>
-        <section class="task">
-
-          <h3>Share it with the world</h3>
-          <p><p>Of course we want to see as well what you&#39;ve done. So you&#39;d better publish  it!</p>
-</p>
-
-          <h5>Instructions</h5>
-          <ul>
-            <li><p><p>Upload your code to Github gists. Make sure you do not post it anonymously!</p>
-</p></li>
-            <li><p><p>Make sure the images are available online as well. You can use a basic image host like Flickr or tinypic.com.</p>
+            <li><p><p>Navigate the document object keeping these terms in mind and see how they are applied.</p>
 </p></li>
           </ul>
 
           <h5>Resources</h5>
           <ul>
             <li>
-              <p>Gist on Github: <a href="https://gist.github.com/">Github Gists</a></p>
-            </li>
-            <li>
-              <p>Flickr: <a href="http://www.flickr.com">Flickr</a></p>
-            </li>
-            <li>
-              <p>Tinypic: <a href="http://www.tinypic.com">Tinypic</a></p>
+              <p>W3schools: <a href="http://www.w3schools.com/dom/dom_nodetree.asp">Explanation focussed on the tree structure</a></p>
             </li>
           </ul>
+          <hr>
+        </section>
+        <section class="task">
+
+          <h3>Interaction with the DOM trough CSS</h3>
+          <p><p>One of the tools you&#39;ve already used to interact with the DOM is CSS. Probably you&#39;ve done this through classes (an attribute node). CSS however lets you interact with the DOM in many ways. You can also navigate the DOM with the relationships.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>Github Gists: <a href="https://gist.githubusercontent.com/Zaturrby/22969282f635e50a9e8b/ raw/f186b852c2cff32591b26a4810e55da00beeb729/treetask.html">Tree Structure Task</a></p>
+            </li>
+            <li>
+              <p>Check task: <a href="http://software.hixie.ch/utilities/js/live-dom-viewer/">Live DOM Tree viewer</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+        <section class="task">
+
+          <h3>Interaction with the DOM through CSS</h3>
+          <p><p>CSS is one of the tools used to interact with the DOM. This is done through 
+classes (an attribute node). CSS however lets you interact with the DOM in 
+many ways, e.g. you can also navigate the DOM using the relationships.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>Mozilla Developer Network: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Pseudo-classes</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+        <section class="task">
+
+          <h3>Interaction with the DOM trough Javascript</h3>
+          <p><p>The DOM functions as a programming interface to interact with your  document. It allows you to change the document instantly. In the previous  task styling was attached to elements with CSS, but the HTML structure did  not change. Elements can be changed using Javascript. Try this out with the  instructions below.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Go to the page of the first task on the Mozilla Developer Network</p>
+</p></li>
+            <li><p><p>Open your DevTools, type in the command below and see what happens</p>
+</p></li>
+            <li><p><p>document.getElementById(&quot;main-header&quot;).innerHTML = &quot;Hello&quot;</p>
+</p></li>
+            <li><p><p>Try moving your newly introduced phrase to another place on the page</p>
+</p></li>
+          </ul>
+
           <hr>
         </section>
     </div>
