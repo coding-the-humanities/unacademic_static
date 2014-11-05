@@ -56,8 +56,7 @@ tasks:
   - title: Make your own template
     description: >
       In this task you will make your very own handlebars web template. 
-      As an example I made a template which makes use of the New York Times 
-      Humanities JSON. 
+      As an example I made a template which makes use of JSON data from the New York Times website.
     instructions:
       - Complete the Plunker task
       - Save the results and share it on our Slack-channel
