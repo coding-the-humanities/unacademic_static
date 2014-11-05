@@ -29,6 +29,24 @@ Handlebars.registerHelper('if', function(conditional, options) {
     return options.inverse(this);
   }
 });
+
+var templateFooter = fs.readFileSync("./assets/modules/footer/footer.hbs", 'utf8');
+var templateNav = fs.readFileSync("./assets/modules/nav/nav.hbs", 'utf8');
+var templateMain = fs.readFileSync("./assets/modules/main/main.hbs", 'utf8');
+
+Handlebars.registerPartial({footer: templateFooter});
+Handlebars.registerPartial({nav: templateNav});
+Handlebars.registerPartial({main: templateMain});
+
+// Registerpartial
+
+// gulp.task('handlePartials', function(){
+//   return gulp.src("./assets/modules/**/*.hbs")
+//     .pipe()
+
+//   Handlebars.registerPartial({foo: partial});
+// });
+
 // PATHS
 
 var paths = {
