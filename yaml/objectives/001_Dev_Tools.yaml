@@ -33,6 +33,11 @@ tasks:
         site:
           name:  Chrome on Dev Tools
         url:     https://developer.chrome.com/devtools
+      - title:   Codeschool on Dev Tools
+        type:    video
+        site:
+          name:  Codeschool
+        url:     http://discover-devtools.codeschool.com/
 
   - title: Changing CSS in Dev Tools
     description: >

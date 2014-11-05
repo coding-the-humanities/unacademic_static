@@ -19,8 +19,9 @@ description:
 tasks:
   - title: Discovering JSON
     description: >
-      JSON is built on two important notions, namely Key/Value pairs and 
-      unordered lists.
+      JSON is built on two important notions. Objects is the first notion. 
+      These are entities with key/value pair. The second notion is arrays or 
+      with another word, unordered lists.
     instructions:
       - Find out what Key/Value pairs are and what their relation is to unordered 
         lists.

@@ -20,52 +20,101 @@ description:
 
 tasks:
   - title: Types of Nodes
-  - title: Relation between Nodes
-  - title: Interacting with Nodes
-
-tasks:
-  - title: Types of Nodes
-    description: >
+    description: |
       There are 4 types of nodes. The document, element, attribute and text node.
-      They cleary relate to the HTML. Especially element nodes relate clearly to the HTML, an
-      image tag is an example of this. These element node have attributes node like a class.
-      And of course content, the text node. The document node wrap  the entire thing.
-
-
-      Open your DevTools to see what the DOM looks like. Use the inspect tool 
-      to inspect the structure and the objects of the web page.
+      They cleary relate to the HTML. Especially element nodes relate clearly to 
+      the HTML, an image tag is an example of this. These element node have 
+      attributes node like a class. And of course the content, within the text 
+      node. The document node wraps the entire thing. To clearly understand 
+      these elements are represented the devTools are really helpful.
     instructions:
-      - Click on the link below
-      - Use your DevTools to inspect the page and see what the DOM looks like
-      - Read the article to elaborate on the structure of the DOM
+      - Open the javascript console in your browser.
+      - Type console.log(document) in the javascript console. This is going to
+        something very comparable to HTML structure. 
+      - But not quite the same.. If you type console.dir(document) you can
+        now clearly see what is different. 
+      - Get to know the object a bit.
     resources:
-      - title:   Document Object Model
-        type:    article
-        site:
-          name:  Mozilla Developer Network
-        url:     https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
-
-  - title: DOM Manipulation
-    description: >
-      Find out how the DOM helps you figure out the structure of your web page.
-    instructions:
-      - Watch the video
-      - Try out the challenge 
-    resources:
-      - title:   DOM Manipulation
+      - title:   The DOM viewed trough the DevTools
         type:    video
         site:
           name:  Codeschool
-        url:     http://discover-devtools.codeschool.com/chapters/1/challenges/1?locale=en
-        
-  - title: Imperative interaction with DOM
+        url:     http://discover-devtools.codeschool.com/chapters/1/challenges/
+                 1?locale=en
+      - title:   Javascript oriented explanation of the DOM
+        type:    book chapter
+        site:
+          name:  Eloquent Javascript on DOM
+        url:     http://eloquentjavascript.net/13_dom.html
+      - title:   Process oriented explanation of the DOM
+        type:    book chapter
+        site:
+          name:  Wellesley
+        url:     http://cs.wellesley.edu/~cs110/lectures/L11/dom.html
+      - title:   Dry explanation that focusses on available methods
+        type:    article
+        site:
+          name:  Mozilla Developer Network
+        url:     https://developer.mozilla.org/en-US/docs/Web/API/
+                 Document_Object_Model/Introduction  
+
+  - title: Relation between Nodes
+    description: |
+      Elements in the DOM are related to each other in a tree structure. Every 
+      element has an parent and could have children and siblings. These are 
+      very important relationships. They make it easier to select items when you 
+      don't know their name exactly or, or can help you avoid giving classes to 
+      every element you see. It is also the reason we indent the tags in our
+      document. Screwing that up will make it next to impossible to see the tree
+      structure. 
+    instructions:
+      - Try and fix the indentation in this file.
+      - Try and navigate document object with these terms in mind and see how 
+        they are applied.
+    resources:
+      - title: Explaination focussed on the tree structure
+        type: article
+        site:
+          name: W3schools
+        url: http://www.w3schools.com/dom/dom_nodetree.asp 
+
+  - title: Interaction with the DOM trough CSS 
+    description: |
+      One of the tools you've already used to interact with the DOM is CSS.
+      Probably you've done this trough classes (an attribute node). CSS however
+      lets you interact with the DOM in many ways. You can also navigate the DOM
+      with the relationships.
+    instruction:
+      - Target elements using the css child and type selectors.
+      - Look at your document, are there classes that could be replace by 
+        selecting the element node?
+      - Could you replace classes with (first/last/nth) child selectors?
+    resources:
+      - title: Plunker with simple HTML example
+        type: task
+        site:
+          name: Plunker
+        url: http://plnkr.co/edit/jywYjwvjFTkhJinHwqcD?p=catalogue
+      - title: Live DOM Tree viewer
+        type: application
+        site:
+          name: Check task
+        url: http://software.hixie.ch/utilities/js/live-dom-viewer/
+      - title: Pseudo-classes
+        type: article
+        site:
+          name: Mozilla Developer Network
+        url: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes    
+
+  - title: Interaction with the DOM trough Javascript
     description: >
-      Use DevTools and interact with DOM in imperative syntax. Sounds complex? 
-      No worries, use your DevTools as described in the DevTools tutorial, 
-      follow the instructions and play around!
+      The DOM functions as an programming interface to interact with your 
+      document. It allows you to change the document on the fly. A moment ago we
+      attached styling to elements with CSS, but we didn't actually change anything.
+      To implement behaviour like that we have Javascript. Try changing some
+      elements with the instructions below.
     instructions:
       - Go to the page of the first task on the Mozilla Developer Network
       - Open your DevTools, type in the command below and see what happens
-      - document.getElementById("main-header").innerHTML = "Coding the humanities repository"
+      - document.getElementById("main-header").innerHTML = "Hello"
       - Try moving the phrase to another place on the page
-      - To do that you have to put in the brackets another Id
