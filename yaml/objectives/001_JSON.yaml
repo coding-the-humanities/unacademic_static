@@ -42,8 +42,8 @@ tasks:
       would expect. A good way to fix these errors is to use a so-called linter to scan 
       your code.
     instructions:
-      - Try to check the plunker below for errors manually. Altough you might want 
-        to do it with the linter...
+      - Try to check JSON data in the plunker below for errors manually. Altough you might want 
+        to do it with the linter (i.e. copy-paste the JSON into JSONlint)...
     resources:
       - title:  Linting Task Plunker
         type:   site
@@ -76,5 +76,5 @@ tasks:
       - title:  Structure Task Plunker
         type:   site
         site:
-          name: Plunker Task draft
+        name: Plunker Task draft
         url:    http://plnkr.co/edit/PwS97MH2VEJDn8B9WYZ6?p=catalogue
