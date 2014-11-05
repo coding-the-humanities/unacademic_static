@@ -11,7 +11,7 @@ description:
   full: >
     JSON is a data format you will encounter very often since it is almost 
     everywhere. Many API's supply you with data in this format. It stands for 
-    JavaScript Object Notation, but it is not exclusively Javascript. Many other 
+    JavaScript Object Notation, but it is not exclusively Javascript. Many other programming
     languages support it as well.
   summary: >
     JSON is an easily parsed and widely used data format.
@@ -19,9 +19,10 @@ description:
 tasks:
   - title: Discovering JSON
     description: >
-      JSON is built on two important notions. Objects is the first notion. 
-      These are entities with key/value pair. The second notion is arrays or 
-      with another word, unordered lists.
+      JSON is built on two important notions. The first notion is objects.
+      These are entities with key/value pairs. The second notion is arrays, 
+      also called unordered lists (unordered in the sense that the order of 
+      the items in the list is not necessarily meaningful).
     instructions:
       - Find out what Key/Value pairs are and what their relation is to unordered 
         lists.
@@ -38,7 +39,7 @@ tasks:
   - title: Linting data
     description: >
       You will come across and make syntax errors, probably more often than you 
-      would expect. A good way to fix these errors is to use a linter to scan 
+      would expect. A good way to fix these errors is to use a so-called linter to scan 
       your code.
     instructions:
       - Try to check the plunker below for errors manually. Altough you might want 
