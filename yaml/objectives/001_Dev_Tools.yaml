@@ -11,7 +11,7 @@ description:
   full: >
     Very important tools to know are the developer tools in browsers. They are used for
     many things like bug testing and experimenting. You can also use it to see
-   the perfomance of the site. You can view your HTML, CSS and script
+    the perfomance of the site. You can view your HTML, CSS and script
     combined, and you can actively interact with it. Google has very nice
     implementations, which is one of the reasons why we use chrome as a
     standard browser.
