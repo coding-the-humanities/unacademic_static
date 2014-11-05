@@ -10,28 +10,27 @@ technologies:
 
 description:
   full: >
-    Now that your feet have recovered from that wonderful trip through Amsterdam,
+    Now that your feet have recovered from the walk through Amsterdam,
     and your fingers have recuperated from repeated clicking on a camera button,
-    it's time to do something with all those beautiful photos.
+    it's time to do something with all the photos.
     However, while you have an innate understanding of why you photographed six
     hundred cats, your fellow students might truly be baffled by this.
     Discuss your photos and the photos of your fellow students and make a
-    selection among those. Then place them in a JSON object.
+    selection. Then place them in a JSON object.
   summary: >
-    Select five photos in groups of three people.
+    Select five photos in groups of three people
 
 tasks:
-  - title: Discussion
+  - title: Discuss your photo's
     description: >
-      Figure out what you find interesting in each others pictures. Is the common ground? 
-      How would you categorise it? There aren't any criteria, so feel free
-      chose whatever you think is best.
+      Figure out what you find interesting in each others pictures. What is the common ground?
+      There aren't any criteria, so choose whatever you think is best.
     instructions:
       - Work in pairs of three or four people
       - Examine your photos and make a group selection of 5 photos
       - You can decide the selection criteria for yourself
 
-  - title: Transformation to Objects. 
+  - title: Transformation to Objects
     description: >
       You decided on several photos. Place these photos in a templated website.
       We've got a plunker set-up with handlebars for you that you can use. Try to
@@ -39,15 +38,14 @@ tasks:
     instructions:
       - Fork this project
       - Create a JSON-structure of your selected photographs
-      - All the photographs are stored in one big array called... "photos"
-      - Every photo is a seperate object. It has the properties title, photourl, 
+      - All the photographs are stored in one big array called "photos"
+      - Every photo is a seperate object. It has the properties title: photourl,
         location, photographer.
-      - Render those pictures on your webpage by using a template. Think of the 
-        proper HTML structure and style the page using CSS.
-      - Post it in our Slack-channel
+      - Render those pictures on your webpage by using a template(user proper HTML and style the page using CSS)
+      - Post it in the Slack-channel
     resources:
-      - title: Assignment set-up 
-        type:  assignment  
-        site: 
-          name: Plunker File 
-        url: http://plnkr.co/edit/hiiAtC?p=info       
+      - title: Assignment set-up
+        type:  assignment
+        site:
+          name: Plunker File
+        url: http://plnkr.co/edit/hiiAtC?p=info

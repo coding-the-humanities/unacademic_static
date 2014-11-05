@@ -9,35 +9,32 @@ technologies:
 
 description:
   full: >
-    The DOM -Document Object Model - is actually the representation of an HTML 
-    document structure. In the DOM you can see the various objects of a page and 
-    how they relate to each other; through the DOM you can interact with these. 
+    The DOM (Document Object Model) is the representation of an HTML
+    document structure. In the DOM you can see the various objects of a page and
+    how they relate to each other; through the DOM you can interact with these.
     The structure of the DOM looks like a tree with the different objects shown
     as branches.
   summary: >
-    The DOM -Document Object Model - is the structural representation of an 
+    The DOM (Document Object Model) is the structural representation of an
     HTML document
 
 tasks:
-  - title: Types of Nodes
+  - title: Types of nodes
     description: >
-      There are four types of nodes. The document, element, attribute and text 
-      node. They all relate to the HTML, especially element nodes; an image 
-      tag is an example of this. These element nodes have attribute nodes like 
-      classes for instance. And then there is the content, which is within 
-      text nodes. The document node wraps the entire structure. The DevTools can 
+      There are four types of nodes. The document, element, attribute and text
+      node. They all relate to the HTML, especially element nodes; an image
+      tag is an example of this. These element nodes have attribute nodes like
+      classes for instance. And then there is the content, which is within
+      text nodes. The document node wraps the entire structure. The Dev Tools can
       help understand how these elements are represented.
     instructions:
-      - Open the javascript console in your browser.
-      - Type console.log(document) in the javascript console and press enter. 
-        Click on the triangle to unfold the document object and on some further 
-        triangles. This will show 
-        something very similar to the HTML structure. 
-      - It is not quite the same though. If you type console.dir(document) you can
-        now clearly see the differences.
-      - Get to know the object 
+      - Open the javascript console in your browser
+      - Type console.log(document) in the javascript console and press enter
+      - Click on the triangle to unfold the document object and on some further
+        triangles. This will show  something very similar to the HTML structure.
+      - Get to know the objects
     resources:
-      - title:   The DOM viewed trough the DevTools
+      - title:   The DOM viewed trough the Dev Tools
         type:    video
         site:
           name:  Codeschool
@@ -56,20 +53,20 @@ tasks:
         type:    article
         site:
           name:  Mozilla Developer Network
-        url:     https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction  
+        url:     https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
 
-  - title: Relation between Nodes
+  - title: Relation between nodes
     description: >
-      Elements in the DOM are related to each other in a tree structure. Every 
-      element has a parent (except for the document, or root element) and can 
-      have children and siblings. These are 
-      very important relationships. They make it easier to select items when you 
-      don't know their exact name, or can help you avoid having to use classes for 
+      Elements in the DOM are related to each other in a tree structure. Every
+      element has a parent (except for the document, or root element) and can
+      have children and siblings. These are
+      very important relationships. They make it easier to select items when you
+      don't know their exact name, or can help you avoid having to use classes for
       every element you see. It is also the reason we indent the tags in our
       document. It would otherwise be impossible to see the tree structure.
     instructions:
       - Try to fix the indentation in the gist below.
-      - Navigate the document object keeping these terms in mind and see 
+      - Navigate the document object keeping these terms in mind and see
         how they are applied.
     resources:
       - title: Explanation focussed on the tree structure
@@ -87,35 +84,34 @@ tasks:
         type: application
         site:
           name: Check task
-        url: http://software.hixie.ch/utilities/js/live-dom-viewer/  
+        url: http://software.hixie.ch/utilities/js/live-dom-viewer/
 
   - title: Interaction with the DOM through CSS
     description: |
-      CSS is one of the tools used to interact with the DOM. This is done through 
-      classes (an attribute node). CSS however lets you interact with the DOM in 
-      many ways, e.g. you can also navigate the DOM using the relationships. This 
+      CSS is one of the tools used to interact with the DOM. This is done through
+      classes (an attribute node). CSS however lets you interact with the DOM in
+      many ways, e.g. you can also navigate the DOM using the relationships. This
       allows you to write cleaner code.
     instruction:
-      - Target elements using the css child and type selectors.
-      - Look at the document, are there classes that could be replaced by 
+      - Target elements using the css child and type selectors
+      - Look at the document, are there classes that could be replaced by
         selecting the element node?
-      - Could you replace classes with (first/last/nth) child selectors?
     resources:
       - title: Pseudo-classes
         type: article
         site:
           name: Mozilla Developer Network
-        url: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes  
+        url: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 
   - title: Interaction with the DOM trough Javascript
     description: >
-      The DOM functions as a programming interface to interact with your 
-      document. It allows you to change the document instantly. In the previous 
-      task styling was attached to elements with CSS, but the HTML structure did 
-      not change. Elements can be changed using Javascript. Try this out with the 
+      The DOM functions as a programming interface to interact with your
+      document. It allows you to change the document instantly. In the previous
+      task styling was attached to elements with CSS, but the HTML structure did
+      not change. Elements can be changed using Javascript. Try this out with the
       instructions below.
     instructions:
       - Go to the page of the first task on the Mozilla Developer Network
-      - Open your DevTools, type in the command below and see what happens
-      - document.getElementById("main-header").innerHTML = "Hello"
+      - Open your DevTools, type in the following command:
+         document.getElementById("main-header").innerHTML = "Hello"
       - Try moving your newly introduced phrase to another place on the page

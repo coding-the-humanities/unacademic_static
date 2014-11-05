@@ -9,21 +9,20 @@ technologies:
 
 description:
   full: >
-    A very important tool to know is the dev tools in browsers. It is used for
-    many things like bug-testing or experimenting. You can also use it to see
-    things like the perfomance of the site. You can view your html, css and script
-    combined, and you can actively interact with it. Google has a very nice
-    implementation of these, which is one of the reasons why we use chrome as a
-    browser.
+    Very important tools to know are the developer tools in browsers. They are used for
+    many things like bug testing and experimenting. You can also use it to see
+   the perfomance of the site. You can view your HTML, CSS and script
+    combined, and you can actively interact with it. Google has very nice
+    implementations, which is one of the reasons why we use chrome as a
+    standard browser.
   summary: >
-    A very important tool to know is the dev tools in browsers. It is used for
-    many things like bug-testing or experimenting.
+    Very important tools to know are the development tools in browsers. They are used for
+    many things like bug testing and experimenting.
 
 tasks:
-  - title: Opening Chrome Dev-Tools
+  - title: Open Chrome Dev Tools
     description: >
-      Get a feel for what the Dev Tools can do. Navigate all of its tools a bit
-      and try out some of its features.
+      Get a feel for what the developer tools can do. Navigate all of its tools a bit and try out some of its features.
     instructions:
       - Open the tools (right-click inspect or Mac:alt+apple+i Windows:ctrl+shift+j)
       - Inspect your document
@@ -39,23 +38,22 @@ tasks:
           name:  Codeschool
         url:     http://discover-devtools.codeschool.com/
 
-  - title: Changing CSS in Dev Tools
+  - title: Change CSS in Dev Tools
     description: >
-      Dev-Tools are a great way to test out some css and see it rendered right
-      away. Often you will run into styling not showing up because you made a
+      Dev Tools are a great way to test out some CSS and see it rendered right
+      away. Often styling will not show because you have made a
       little syntax error. The console allows you to quickly change some of the styling and get direct feedback.
     instructions:
       - Change or add a few CSS values
-      - Experiment a bit with the box-model, add a border or position an element 
-        differently.
+      - Experiment a bit with the box-model, add a border or position an element differently
 
-  - title: Using the Javascript Console
+  - title: Use the Javascript console
     description: >
       The console is a useful tool to test out little bits of code in
       conjuntion with your site. You can test very simple commands or do complex
-      debugging. Your website can output to the console. If you for instance add
-      a console.log("hello") and then press enter, it will show up here.
+      debugging. Your website can output to the console. If you add
+      a console.log("hello") and then press enter, it will show up in the console.
     instructions:
       - Do some basic calculations in the console (for instance 1+1)
       - Try console.log("something")
-      - Create a simple variable (type - var name = "Your Name") and call it by typing name.
+      - Create a simple variable (type - var name = "Your Name") and call it by typing name

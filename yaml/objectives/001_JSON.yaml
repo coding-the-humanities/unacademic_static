@@ -9,25 +9,24 @@ technologies:
 
 description:
   full: >
-    JSON is a data format you will encounter very often since it is almost 
-    everywhere. Many API's supply you with data in this format. It stands for 
+    JSON is a data format that is widely used because it is easily parsed by computers. Many API's supply you with data in this format. It stands for
     JavaScript Object Notation, but it is not exclusively Javascript. Many other programming
     languages support it as well.
   summary: >
     JSON is an easily parsed and widely used data format.
 
 tasks:
-  - title: Discovering JSON
+  - title: Discover JSON
     description: >
       JSON is built on two important notions. The first notion is objects.
-      These are entities with key/value pairs. The second notion is arrays, 
-      also called unordered lists (unordered in the sense that the order of 
+      These are entities with key/value pairs. The second notion is arrays,
+      also called unordered lists (unordered in the sense that the order of
       the items in the list is not necessarily meaningful).
     instructions:
-      - Find out what Key/Value pairs are and what their relation is to unordered 
-        lists.
-      - Get a feel for the syntax by creating a meta-data set for your photos. 
-        It should be an array of objects(the photos) with the name of the 
+      - Find out what Key/Value pairs are and what their relation is to unordered
+        lists
+      - Get a feel for the syntax by creating a meta-data set for your photos.
+        It should be an array of objects(the photos) with the name of the
         photographer, url, location and the summary.
     resources:
       - title:   JSON
@@ -36,15 +35,13 @@ tasks:
           name:  JSON
         url:     http://www.json.org/
 
-  - title: Linting data
+  - title: Check your code
     description: >
-      You will come across and make syntax errors, probably more often than you 
-      would expect. A good way to fix these errors is to use a so-called linter 
-      to scan your code.
+      Syntax errors will be made more often than you
+      would expect. A good way to fix these errors is to use a so-called linter
+      to check your code.
     instructions:
-      - Try to check JSON data in the plunker below for errors manually. Altough 
-        you might want to do it with the linter (i.e. copy-paste the JSON into 
-        JSONlint)...
+      - Try to check JSON data in the plunker below for errors using JSONlint(find link below).
     resources:
       - title:  Linting Task
         type:   gist
@@ -54,25 +51,24 @@ tasks:
                 /raw/c87a031a631bad7b01d0b524e287f3d6aa56e6b9/nytwitherror.json
       - title:  JSON Linter
         type:   site
-        site: 
+        site:
           name: JSONlint
         url:    http://jsonlint.com/
       - title:  JSON Linter for Sublime
-        type:   tool 
+        type:   tool
         site:
           name: JSONlint for Sublime
         url:    https://sublime.wbond.net/packages/JSONLint
 
-  - title: Structuring your data
+  - title: Structure your data
     description: >
-      You now have syntactically correct data. But you are not there yet. 
-      If the data isn't repetitive in some way, or keys are written differently 
-      from item to item, it will still be of no use. What are the important 
+      You now have syntactically correct data. But if the data isn't repetitive in some way,
+      or keys are written differently
+      from item to item, it will still be of no use. What are the important
       things you have to keep track of?
     instructions:
       - Fix the inconsistencies in this file
-      - Pay attention to things like nesting and repetition.
-      - Look back at your own file, is it well structured? 
+      - Look back at your own file, is it well structured?
       - Make sure that every photo's properties are grouped!
     resources:
       - title:  Structure Task

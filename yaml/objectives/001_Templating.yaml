@@ -9,26 +9,26 @@ technologies:
   - Javascript
   - (Handlebars.js)
 
-description: 
+description:
   full: >
     HTML5 allows us to make template elements. A template can best be
     described as a mold with a fixed layout, which can be repeated multiple
-    times. Instead of putting the content directly in the tags (as we did 
+    times. Instead of putting the content directly in the tags (as we did
     in our level 000 HTML course), the content and the tags are completely
     separated. This practice gives much flexibility and endless possibilities.
   summary: >
-    HTML5 allows for template elements. A template is best described as a mold 
+    HTML5 allows for template elements. A template is best described as a mold
     with a fixed layout, which can be repeated multiple times.
 
 tasks:
-  - title: Getting the basics
+  - title: Get the basics
     description: >
       Learn about the basic ideas behind a template.
       Don't worry if you don't grasp everything!
       In the next task you'll see that there are tools available which make the
       use of templates way easier.
     instructions:
-      - Scan through the article.
+      - Scan through the article
     resources:
       - title:   HTML’s New Template Tag
         type:    article
@@ -36,14 +36,11 @@ tasks:
           name:  HTML5 Rocks
         url:     http://www.html5rocks.com/en/tutorials/webcomponents/template/
 
-  - title: Making a template with Handlebars.js
+  - title: Make a template with Handlebars.js
     description: >
-      Luckily there are tools available which make the use of templates a lot 
-      easier. When you use Handlebars.js or Polymer's template binding you 
-      barely have to mess around with any Javascript. Both systems have similar 
-      functions but their syntax is a little different. For instance templates 
-      "directives" in Polymer are written inside the tags as attributes, while 
-      handlebars does it outside the tags.
+      Luckily there are tools available which make the use of templates a lot
+      easier. When you use Handlebars.js you
+      barely have to mess around with any Javascript.
     instructions:
       - Read the article
     resources:
@@ -55,8 +52,8 @@ tasks:
 
   - title: Make your own template
     description: >
-      In this task you will make your very own handlebars web template. 
-      As an example I made a template which makes use of JSON data from the New York Times website.
+      In this task you will make your very own handlebars web template.
+      As an example there is a template which makes use of JSON data from the New York Times website(find on Plunker).
     instructions:
       - Complete the Plunker task
       - Save the results and share it on our Slack-channel
