@@ -68,7 +68,7 @@ tasks:
       every element you see. It is also the reason we indent the tags in our
       document. It would otherwise be impossible to see the tree structure.
     instructions:
-      - Try to fix the indentation on the Plunker link below.
+      - Try to fix the indentation in the gist below.
       - Navigate the document object keeping these terms in mind and see 
         how they are applied.
     resources:
@@ -76,20 +76,7 @@ tasks:
         type: article
         site:
           name: W3schools
-        url: http://www.w3schools.com/dom/dom_nodetree.asp 
-
-  - title: Interaction with the DOM trough CSS 
-    description: >
-      One of the tools you've already used to interact with the DOM is CSS.
-      Probably you've done this through classes (an attribute node). CSS however
-      lets you interact with the DOM in many ways. You can also navigate the DOM
-      with the relationships.
-    instruction:
-      - Target elements using the css child and type selectors.
-      - Look at your document, are there classes that could be replaced by 
-        selecting the element node?
-      - Could you replace classes with (first/last/nth) child selectors?
-    resources:
+        url: http://www.w3schools.com/dom/dom_nodetree.asp
       - title: Tree Structure Task
         type: gist
         site:
@@ -100,13 +87,14 @@ tasks:
         type: application
         site:
           name: Check task
-        url: http://software.hixie.ch/utilities/js/live-dom-viewer/
+        url: http://software.hixie.ch/utilities/js/live-dom-viewer/  
 
   - title: Interaction with the DOM through CSS
     description: |
       CSS is one of the tools used to interact with the DOM. This is done through 
       classes (an attribute node). CSS however lets you interact with the DOM in 
-      many ways, e.g. you can also navigate the DOM using the relationships.
+      many ways, e.g. you can also navigate the DOM using the relationships. This 
+      allows you to write cleaner code.
     instruction:
       - Target elements using the css child and type selectors.
       - Look at the document, are there classes that could be replaced by 
@@ -117,7 +105,7 @@ tasks:
         type: article
         site:
           name: Mozilla Developer Network
-        url: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes    
+        url: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes  
 
   - title: Interaction with the DOM trough Javascript
     description: >
