@@ -8,7 +8,7 @@ technologies:
   - HTML
 
 description: 
-  full: |
+  full: >
     HTML stands for Hypertext Markup Language. When you look at a web page on a 
     web browser you see, at the simplest level, words. HTML instructs a web 
     browser what content to display. In many cases a page also displays images 
@@ -31,16 +31,13 @@ tasks:
       - Read the article.
       - Watch the instruction video.
       - Download a text editor. We recommend Sublime Text 2.
-      - Write in the text editor in your own words what HTML is and what it 
-        consists of.
+      - Write in the text editor in your own words what HTML is and what it consists of.
     resources:
       - title:   Introduction
         type:    article
         site:
           name:  Mozilla Developer Network
-        url: >    
-                 https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/
-                 Introduction
+        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction
       - title:   Introduction video
         type:    video
         site:
@@ -61,14 +58,11 @@ tasks:
     instructions:
       - Read the article.
       - Make a basic html structure containing a head and body.
-      - >
-        Take the text you wrote in the last assignment (or any other text) and 
+      - Take the text you wrote in the last assignment (or any other text) and 
         place it in the body.
-      - >
-        Tag the headings with the h1, 2, 3 or 4 tags, and the paragraphs with 
+      - Tag the headings with the h1, 2, 3 or 4 tags, and the paragraphs with 
         the p tag.
-      - >
-        Save the file, go to the folder it is in and double click on the file to 
+      - Save the file, go to the folder it is in and double click on the file to 
         open it in your browser.
       - Congratulations, you just made a webpage!
     resources:

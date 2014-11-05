@@ -10,7 +10,7 @@ technologies:
   - Gists
 
 description:
-  full: |
+  full: >
     You must be anxious to dive into the wonderful world of web programming.
     But the first thing we want you to do has sadly / luckily nothing to do with 
     code. The Citywalk will combine the knowledge you will get from the first 
@@ -21,7 +21,7 @@ description:
 
 tasks:
   - title: Citywalk
-    description: |
+    description: >
       You must go out in the city of Amsterdam and follow one of the two 
       routes below. If you want, you can also follow both routes, but that's up 
       to you. While you are taking your walk, take pictures of things you think 
@@ -33,36 +33,33 @@ tasks:
       - Take a lot of pictures!
 
     resources:
-      - title: Route 1
-        type:  gist
+      - title:    Route 1
+        type:     gist
         book:
           title:  Ontdek Amsterdam met het Rijksmuseum
           author: Jan Tervoort
-        url:     'https://gist.github.com/Zaturrby/adcf8cde5e06a23e3567'
-      - title:   Route 2
-        type:    gist
+        url:      https://gist.github.com/Zaturrby/adcf8cde5e06a23e3567
+      - title:    Route 2
+        type:     gist
         book:
           title:  Ontdek Amsterdam met het Rijksmuseum
           author: Jan Tervoort
-        url:     'https://gist.github.com/Zaturrby/306d0f8c408fdc9feced' 
+        url:      https://gist.github.com/Zaturrby/306d0f8c408fdc9feced 
 
   - title: Build HTML page
-    description: |
+    description: >
       The next step is to build a simple html page and make it look nice with 
       some css. You're going to use the knowledge you've attained or will attain 
       in the HTML and CSS tutorials. We want you to build a site with the 
       content you just created!
 
     instructions: 
-      - >
-        Use at least five of the photos you have taken during your city walk 
+      - Use at least five of the photos you have taken during your city walk 
         accompanied by a short explanation on why you took them.
-      - >
-        Create a valid HTML file with the necessary tags. Think of the main HTML 
+      - Create a valid HTML file with the necessary tags. Think of the main HTML 
         structure like html, head and body, but also the p tags and 
         img tags and everything else described on the tutorial pages.
-      - >
-        For this assignment its best to create a CSS stylesheet in the head of 
+      - For this assignment its best to create a CSS stylesheet in the head of 
         your document.
 
   - title: Share it with the world
@@ -70,11 +67,9 @@ tasks:
       Of course we want to see as well what you've done. So you'd better publish 
       it!
     instructions: 
-      - >
-        Upload your code to Github gists. Make sure you do not post it 
+      - Upload your code to Github gists. Make sure you do not post it 
         anonymously!
-      - >
-        Make sure the images are available online as well. You can use a basic 
+      - Make sure the images are available online as well. You can use a basic 
         image host like Flickr or tinypic.com.
     resources:
       - title:   Github Gists
@@ -86,11 +81,11 @@ tasks:
         type:    site
         site:
           name:  Flickr
-        url:     'http://www.flickr.com'
+        url:     http://www.flickr.com
       - title:   Tinypic
         type:    Website
         site:
           name:  Tinypic
-        url:     'http://www.tinypic.com' 
+        url:     http://www.tinypic.com 
 
 

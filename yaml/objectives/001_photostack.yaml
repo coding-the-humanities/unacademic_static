@@ -15,7 +15,7 @@ description:
     it's time to do something with all those beautiful photos.
     However, while you have an innate understanding of why you photographed six
     hundred cats, your fellow students might truly be baffled by this.
-    Discuss your photos and the photos of your fellow students and make a
+    Discuss your photos and the photos of your fellow students and make at
     selection among those. Then place them in a JSON object.
   summary: >
     Select five photos in groups of three people.
@@ -40,11 +40,9 @@ tasks:
       - Fork this project
       - Create a JSON-structure of your selected photographs
       - All the photographs are stored in one big array called... "photos"
-      - >
-        Every photo is a seperate object. It has the properties: title, photourl, 
+      - Every photo is a seperate object. It has the properties: title, photourl, 
         location, photographer.
-      - >
-        Render those pictures on your webpage by using a template. Think of the 
+      - Render those pictures on your webpage by using a template. Think of the 
         proper HTML structure and style the page using CSS.
       - Post it in our Slack-channel
     resources:

@@ -8,7 +8,7 @@ technologies:
   - CSS
 
 description: 
-  full: |
+  full: >
     This is the introduction to CSS (cascading style sheets). A CSS file allows 
     you to separate your website's markup content from its style. As always you 
     use your HTML file to arrange the content, but all of the presentation 
@@ -48,17 +48,14 @@ tasks:
     instructions:
       - Read the article.
       - Watch the video.
-      - >
-        Add selectors to the html provided in the resources for the body,
+      - Add selectors to the html provided in the resources for the body,
         the paragraphs and each separate title.
     resources:
       - title:   CSS selectors
         type:    article
         site:
           name:  Mozilla Developer Network
-        url: >   
-                 https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/
-                 Getting_started/Selectors
+        url:     https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
       - title:   CSS Container
         type:    video
         author:  PHPacademy
@@ -82,9 +79,7 @@ tasks:
         type:    article
         site:
           name:  Mozilla Developer Network
-        url: >   
-                 https://developer.mozilla.org/en-US/docs/Web/CSS/
-                 background-color
+        url:     https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
       - title:   Hexidecimal Color Code
         type:    article
         site:
@@ -118,16 +113,16 @@ tasks:
         url:     https://developer.mozilla.org/en-US/docs/Web/CSS/font
 
 resources:
-  - title:   Front-End Foundations
-    type:    tutorial
+  - title:       Front-End Foundations
+    type:        tutorial
     site:
-      name:  CodeSchool
-      url:   http://www.codeschool.com
-    url:   https://www.codeschool.com/courses/front-end-foundations
-  - title:   HTML & CSS
-    type:    book
+      name:      CodeSchool
+      url:       http://www.codeschool.com
+    url:         https://www.codeschool.com/courses/front-end-foundations
+  - title:       HTML & CSS
+    type:        book
     publisher:
-      name:     John Wiley & Sons Inc.
-      location: Indianapolis, IN
-      url:      http://www.wiley.com
-    url: http://www.bol.com/nl/p/html-css/1001004010712714/?featuredProduct
+      name:      John Wiley & Sons Inc.
+      location:  Indianapolis, IN
+      url:       http://www.wiley.com
+    url:         http://www.bol.com/nl/p/html-css/1001004010712714/?featuredProduct

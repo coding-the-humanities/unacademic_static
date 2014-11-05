@@ -22,11 +22,9 @@ tasks:
       JSON is built on two important notions, namely Key/Value pairs and 
       unordered lists.
     instructions:
-      - >
-        Find out what Key/Value pairs are and what their relation is to unordered 
+      - Find out what Key/Value pairs are and what their relation is to unordered 
         lists.
-      - >
-        Get a feel for the syntax by creating a meta-data set for your photos. 
+      - Get a feel for the syntax by creating a meta-data set for your photos. 
         It should be an array of objects(the photos) with the name of the 
         photographer, url, location and the summary.
     resources:
@@ -42,25 +40,24 @@ tasks:
       would expect. A good way to fix these errors is to use a linter to scan 
       your code.
     instructions:
-      - >
-        Try to check the plunker below for errors manually. Altough you might want 
+      - Try to check the plunker below for errors manually. Altough you might want 
         to do it with the linter...
     resources:
-      - title: Linting Task Plunker
-        type: site
+      - title:  Linting Task Plunker
+        type:   site
         site:
           name: Linting Task Plunker
-        url: http://plnkr.co/edit/fb4UaUYvf1TvZKY2cI8P?p=preview
-      - title: JSON Linter
-        type: site
+        url:    http://plnkr.co/edit/fb4UaUYvf1TvZKY2cI8P?p=preview
+      - title:  JSON Linter
+        type:   site
         site: 
           name: JSONlint
-        url: http://jsonlint.com/
-      - title: JSON Linter for Sublime
-        type: tool 
+        url:    http://jsonlint.com/
+      - title:  JSON Linter for Sublime
+        type:   tool 
         site:
           name: JSONlint for Sublime
-        url: https://sublime.wbond.net/packages/JSONLint
+        url:    https://sublime.wbond.net/packages/JSONLint
 
   - title: Structuring your data
     description: >
@@ -71,12 +68,11 @@ tasks:
     instructions:
       - Fix the inconsistencies in this file
       - Pay attention to things like nesting and repetition.
-      - >
-        Look back at your own file, is it well structured? 
-        Make sure that every photo's properties are grouped!
+      - Look back at your own file, is it well structured? 
+      - Make sure that every photo's properties are grouped!
     resources:
-      - title: Structure Task Plunker
-        type: site
+      - title:  Structure Task Plunker
+        type:   site
         site:
           name: Plunker Task draft
-        url: http://plnkr.co/edit/PwS97MH2VEJDn8B9WYZ6?p=catalogue
+        url:    http://plnkr.co/edit/PwS97MH2VEJDn8B9WYZ6?p=catalogue

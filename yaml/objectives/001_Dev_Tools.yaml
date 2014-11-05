@@ -32,7 +32,7 @@ tasks:
         type:    website
         site:
           name:  Chrome on Dev Tools
-        url:   https://developer.chrome.com/devtools
+        url:     https://developer.chrome.com/devtools
 
   - title: Changing CSS in Dev Tools
     description: >
@@ -54,6 +54,4 @@ tasks:
     instructions:
       - Do some basic calculations in the console (for instance 1+1)
       - Try console.log("something")
-      - >
-        Create a simple variable (type - var name = "Your Name")
-        (and call it with - name)
+      - Create a simple variable (type - var name = "Your Name") and call it with - name.

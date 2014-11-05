@@ -22,7 +22,7 @@ tasks:
   - title: Discovering the DOM
     description: >
       Open your DevTools to see what the DOM looks like. Use the inspect tool 
-      to inspect the structure and the objects of the web page
+      to inspect the structure and the objects of the web page.
     instructions:
       - Click on the link below
       - Use your DevTools to inspect the page and see what the DOM looks like
@@ -36,7 +36,7 @@ tasks:
 
   - title: DOM Manipulation
     description: >
-      Find out how the DOM helps you figure out the structure of your web page
+      Find out how the DOM helps you figure out the structure of your web page.
     instructions:
       - Watch the video
       - Try out the challenge 
@@ -53,8 +53,8 @@ tasks:
       No worries, use your DevTools as described in the DevTools tutorial, 
       follow the instructions and play around!
     instructions:
-      - go to the page of the first task on the Mozilla Developer Network
-      - open your DevTools, type in the command below and see what happens
-        document.getElementById("main-header").innerHTML = "Coding the humanities repository"
-      - try moving the phrase to another place on the page
-      - to do that you have to put in the brackets another Id
+      - Go to the page of the first task on the Mozilla Developer Network
+      - Open your DevTools, type in the command below and see what happens
+      - document.getElementById("main-header").innerHTML = "Coding the humanities repository"
+      - Try moving the phrase to another place on the page
+      - To do that you have to put in the brackets another Id

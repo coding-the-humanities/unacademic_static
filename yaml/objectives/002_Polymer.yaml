@@ -39,22 +39,17 @@ tasks:
         type:    website
         site:
           name:  Polymer Project
-        url:   https://www.polymer-project.org/
+        url:     https://www.polymer-project.org/
       - title:   Introduction Video
         type:    video
         site:
           name:  Introduction to Polymer - The Next Generation of Web Development 
-        url:   https://www.youtube.com/watch?v=8-Zq2KUN6jM
+        url:     https://www.youtube.com/watch?v=8-Zq2KUN6jM
       - title:   Web components
         type:    Article
         site:    
-          name:  techcrunch
-          description: >
-                Google Believes Web Components Are The Future Of 
-                Web Development
-        url: > 
-              http://techcrunch.com/2013/05/19/google-believes-web-components
-              -are-the-future-of-web-development/
+          name:  Google Believes Web Components Are The Future Of Web Development
+        url: http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/
 
   - title: Environment
     description: >
@@ -72,18 +67,16 @@ tasks:
     instructions:
       - Set up your environment as described in appendix-A (Polymer-book)
     resources:
-      - title:   Polymer-book
-        type:    book
+      - title:    Polymer-book
+        type:     book
         site:    
-          name:  Chapter-1
-        url: >  
-              http://coding-the-humanities.gitbooks.io/polymer-book/content/
-              appendix_a_setting_up_your_environment/README.html
+          name:   Chapter-1
+        url: http://coding-the-humanities.gitbooks.io/polymer-book/content/appendix_a_setting_up_your_environment/README.html
       - title:    Polyfill definition
-        type:    book
+        type:     book
         site:  
-          name:  Polyfill 
-        url:  http://en.wikipedia.org/wiki/Polyfill
+          name:   Polyfill 
+        url:      http://en.wikipedia.org/wiki/Polyfill
 
   - title: Getting started
     description: >
@@ -103,12 +96,12 @@ tasks:
         type:    book
         site:  
           name:  Chapter-1
-        url:   http://coding-the-humanities.gitbooks.io/polymer-book/content/
+        url:     http://coding-the-humanities.gitbooks.io/polymer-book/content/
       - title:   Templates
         type:    video
         site: 
           name:  DevBytes - Web Components - Template
-        url:   https://www.youtube.com/watch?v=qC5xK6H0GlQ
+        url:     https://www.youtube.com/watch?v=qC5xK6H0GlQ
         
   - title: Refactor
     description: >
@@ -122,17 +115,15 @@ tasks:
       where it is displayed.
     instructions:
       - Use what you have learned from Chapter-1 to refactor your existing code. 
-      - > 
-        Refactor your code to be a single polymer element and display it in your 
-        index.html
+      - Refactor your code to be a single polymer element and display it in your index.html
     resources:
       - title:   Polymer-book
         type:    book
         site:    
           name:  Chapter-1
-        url:   http://coding-the-humanities.gitbooks.io/polymer-book/content/
+        url:     http://coding-the-humanities.gitbooks.io/polymer-book/content/
       - title:   Refactoring definition
         type:    article
         site:   
           name:  Code refactoring
-        url:   http://en.wikipedia.org/wiki/Code_refactoring
+        url:     http://en.wikipedia.org/wiki/Code_refactoring
