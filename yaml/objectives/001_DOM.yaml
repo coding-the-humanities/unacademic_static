@@ -19,8 +19,19 @@ description:
     HTML document
 
 tasks:
-  - title: Discovering the DOM
+  - title: Types of Nodes
+  - title: Relation between Nodes
+  - title: Interacting with Nodes
+
+tasks:
+  - title: Types of Nodes
     description: >
+      There are 4 types of nodes. The document, element, attribute and text node.
+      They cleary relate to the HTML. Especially element nodes relate clearly to the HTML, an
+      image tag is an example of this. These element node have attributes node like a class.
+      And of course content, the text node. The document node wrap  the entire thing.
+
+
       Open your DevTools to see what the DOM looks like. Use the inspect tool 
       to inspect the structure and the objects of the web page.
     instructions:
