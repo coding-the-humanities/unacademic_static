@@ -40,7 +40,7 @@ tasks:
       - Fork this project
       - Create a JSON-structure of your selected photographs
       - All the photographs are stored in one big array called... "photos"
-      - Every photo is a seperate object. It has the properties: title, photourl, 
+      - Every photo is a seperate object. It has the properties title, photourl, 
         location, photographer.
       - Render those pictures on your webpage by using a template. Think of the 
         proper HTML structure and style the page using CSS.
