@@ -21,7 +21,7 @@ description:
 tasks:
   - title: Types of Nodes
     description: >
-      There are 4 types of nodes. The document, element, attribute and text node.
+      There are four types of nodes. The document, element, attribute and text node.
       They cleary relate to the HTML. Especially element nodes relate clearly to 
       the HTML, an image tag is an example of this. These element node have 
       attributes node like a class. And of course the content, within the text 
