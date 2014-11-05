@@ -20,7 +20,7 @@ description:
 
 tasks:
   - title: Types of Nodes
-    description: |
+    description: >
       There are 4 types of nodes. The document, element, attribute and text node.
       They cleary relate to the HTML. Especially element nodes relate clearly to 
       the HTML, an image tag is an example of this. These element node have 
@@ -59,7 +59,7 @@ tasks:
                  Document_Object_Model/Introduction  
 
   - title: Relation between Nodes
-    description: |
+    description: >
       Elements in the DOM are related to each other in a tree structure. Every 
       element has an parent and could have children and siblings. These are 
       very important relationships. They make it easier to select items when you 
@@ -79,7 +79,7 @@ tasks:
         url: http://www.w3schools.com/dom/dom_nodetree.asp 
 
   - title: Interaction with the DOM trough CSS 
-    description: |
+    description: >
       One of the tools you've already used to interact with the DOM is CSS.
       Probably you've done this trough classes (an attribute node). CSS however
       lets you interact with the DOM in many ways. You can also navigate the DOM
