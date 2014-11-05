@@ -1,0 +1,42 @@
+<div class="row customHero">
+  <div class="container">
+    <div class="hero-unit">
+      <div class="col-xs-9">
+        <h3>{{ title }}</h3>
+        <p>{{{markdown description.full}}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  {{#each tasks}}
+    <section class="task">
+
+      <h3>{{title}}</h3>
+      {{#if description}}
+      <p>{{{markdown description}}}</p>
+      {{/if}}
+
+      <h5>Instructions</h5>
+      <ul>
+        {{#each instructions}}
+        <li><p>{{{markdown this}}}</p></li>
+        {{/each}}
+      </ul>
+
+      {{#if resources}}
+      <h5>Resources</h5>
+      <ul>
+        {{#each resources}}
+        <li>
+          <p>{{#if site}}{{site.name}}: {{/if}}<a href="{{url}}">{{title}}</a></p>
+        </li>
+        {{/each}}
+      </ul>
+      {{/if}}
+      <hr>
+    </section>
+  {{/each}}
+</div>
