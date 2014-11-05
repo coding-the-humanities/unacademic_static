@@ -87,7 +87,7 @@ level000:
   - title: CSS
     classtag: css
     summary: Learn about styling web pages with cascading style sheets.
-    url: 000_css
+    url: 000_CSS
 
   - title: Gists
     classtag: gist
@@ -120,7 +120,7 @@ level001:
     summary: HTML5 allows for template elements. A template is best described as a mold with a fixed layout, which can be repeated multiple times.
     url: 001_Templating
 
-  - title: Photo Stack
+  - title: Photostack
     classtag: photoStack
     summary: Select photos, create a JSON-object and make a template.
-    url: 001_photostack
+    url: 001_Photostack
