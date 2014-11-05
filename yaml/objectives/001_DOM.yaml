@@ -112,6 +112,6 @@ tasks:
       instructions below.
     instructions:
       - Go to the page of the first task on the Mozilla Developer Network
-      - Open your DevTools, type in the following command -
-         document.getElementById("main-header").innerHTML = "Hello"
+      - 'Open your DevTools, type in the following command:
+         document.getElementById("main-header").innerHTML = "Hello"'
       - Try moving your newly introduced phrase to another place on the page
