@@ -73,17 +73,17 @@ tasks:
         image host like Flickr or tinypic.com.
     resources:
       - title:   Github Gists
-        type:    Website
+        type:    website
         site:
           name:  Gist on Github
         url:     https://gist.github.com/
       - title:   Flickr
-        type:    site
+        type:    website
         site:
           name:  Flickr
         url:     http://www.flickr.com
       - title:   Tinypic
-        type:    Website
+        type:    website
         site:
           name:  Tinypic
         url:     http://www.tinypic.com 
