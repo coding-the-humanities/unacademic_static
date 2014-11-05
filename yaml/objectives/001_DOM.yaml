@@ -104,7 +104,7 @@ tasks:
 
   - title: Interaction with the DOM through CSS
     description: |
-      CSS is one of the tools used to interact with the DOM. This is done trough 
+      CSS is one of the tools used to interact with the DOM. This is done through 
       classes (an attribute node). CSS however lets you interact with the DOM in 
       many ways, e.g. you can also navigate the DOM using the relationships.
     instruction:
