@@ -15,7 +15,7 @@ description:
     it's time to do something with all those beautiful photos.
     However, while you have an innate understanding of why you photographed six
     hundred cats, your fellow students might truly be baffled by this.
-    Discuss your photos and the photos of your fellow students and make at
+    Discuss your photos and the photos of your fellow students and make a
     selection among those. Then place them in a JSON object.
   summary: >
     Select five photos in groups of three people.
@@ -23,7 +23,7 @@ description:
 tasks:
   - title: Discussion
     description: >
-      Figure out what interesting in each others pictures. What is the common ground? 
+      Figure out what you find interesting in each others pictures. Is the common ground? 
       How would you categorise it? There aren't any criteria, so feel free
       chose whatever you think is best.
     instructions:
@@ -35,7 +35,7 @@ tasks:
     description: >
       You decided on several photos. Place these photos in a templated website.
       We've got a plunker set-up with handlebars for you that you can use. Try to
-      do this part individually again, it important you understand how it works.
+      do this part individually again, it's important you understand how it works.
     instructions:
       - Fork this project
       - Create a JSON-structure of your selected photographs
