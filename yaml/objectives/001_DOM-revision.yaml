@@ -24,11 +24,11 @@ tasks:
   - title: Get to know the difference
     description: >
       When you inspect your document in a browser and look at the elements you 
-      might wonder what the difference actually is. It looks the same. Yet there
-      are many differences beneath the apparent surface. You HTML document sliced
-      into many pieces (objects) and each of these pieces had a lot of methods
-      and properties added to them. Most are way to complicated for now, but it 
-      is good to know they are there. 
+      might wonder what the difference between ordinary HTML actually is. Although 
+      it looks the same there are many differences. Your HTML document is actually 
+      being sliced into many pieces (objects) and each of these pieces have methods
+      and properties added to them. This way the DOM is able to show us more information 
+      on any of these sliced pieces, and allows us to navigate through and interact with them.
     instructions:
       - Open the javascript console in your browser
       - Type console.log(document) in the javascript console and press enter
@@ -42,17 +42,14 @@ tasks:
         type:    video
         site:
           name:  Codeschool
-        url:     http://discover-devtools.codeschool.com/chapters/1/challenges/
-                 1?locale=en
+        url:     http://discover-devtools.codeschool.com/chapters/1/challenges/1?locale=en
 
   - title: Get to know DOM nodes
     description: >
-      Remember the HTML tags? On a more abstract level these can be divided in 
-      seperate nodes. The main bit is called an element node. But they often 
-      consist of more types of nodes: attribute and text nodes are common ones. 
-      Class and href are good examples of attribute nodes. The text node is quite 
-      know as well. It's what put between the opening and closing tag, that isn't 
-      a node of another type. Wrapping the whole document is the most important 
+      Remember the HTML tags? The DOM divides these in to even smaller pieces called nodes.
+      That way a tag becomes a combination of different types of nodes. 
+      There are various types of nodes that all refer to their most basic purpose.
+      Wrapping the whole document is the most important 
       one: the document node. You will often use it as a entry point to interact 
       with your document.
     instructions:
@@ -71,7 +68,7 @@ tasks:
       that has another node inside of it has a parent/child relationship to it.
       There can also be multiple nodes on the same level of nesting. These would
       be called siblings to each other. To be able to distinguish these relations
-      with a quick glance HTML (and other types) are indented based on the level
+      with a quick glance, HTML (and other types) are indented based on the level
       of nesting.
     instructions:
       - Try to fix the indentation in the gist below
@@ -120,9 +117,9 @@ tasks:
 
   - title: Interact with the DOM trough Javascript
     description: >
-      Another way of describing the DOM is that it is an programming
+      Another way of describing the DOM is that it is a programming
       interface or API to your document. It allows you to get specific 
-      information out of your document or change it. In the previous
+      information out of your document or allows you to change it. In the previous
       task styling was attached to elements with CSS, but the HTML structure did
       not change. Javascript however can do this.
     instructions:
