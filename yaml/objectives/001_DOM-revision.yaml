@@ -47,13 +47,13 @@ tasks:
   - title: Get to know DOM nodes
     description: >
       Remember the HTML tags? The DOM divides these in to even smaller pieces called nodes.
+      A node is a point connected to other nodes to create a network.
       That way a tag becomes a combination of different types of nodes. 
       There are various types of nodes that all refer to their most basic purpose.
-      Wrapping the whole document is the most important 
-      one: the document node. You will often use it as a entry point to interact 
+      For example a text node, element node or an attribute node. You will often use it as a entry point to interact 
       with your document.
     instructions:
-      - Try to find each of the nodes types inside console.dir(document)
+      - Try to find each of the node types inside console.dir(document)
     resources:
       - title:   DOM Nodes
         type:    article
