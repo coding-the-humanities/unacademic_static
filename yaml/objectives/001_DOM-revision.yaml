@@ -8,15 +8,13 @@ technologies:
   - DOM
 
 description:
-  full: |
-    "The Document Object Model (DOM) is a cross-platform and language-independent 
-    convention for representing and interacting with objects in HTML, XHTML and 
-    XML documents." -Wikipedia
-
-    In other words, the DOM is an HTML document rendered in a browser. It is a
-    different repesentation with which you can interact. In the DOM you can see
-    the various objects of a page and how they relate to each other in a tree
+  full: >
+    The DOM is a different representation of the HTML in the browser. 
+    In the DOM you can see the various objects on a page and how they relate to each other in a tree
     structure.
+    The DOM can be viewed and manipulated using the javascript console in your browser.
+    Every browser has a console, so don't worry about having to install yet another program on your
+    computer.
 
   summary: >
     The DOM (Document Object Model) is the structural representation of an
@@ -49,14 +47,14 @@ tasks:
 
   - title: Get to know DOM nodes
     description: >
-      'Remember the HTML tags? On a more abstract level these can be divided in 
+      Remember the HTML tags? On a more abstract level these can be divided in 
       seperate nodes. The main bit is called an element node. But they often 
       consist of more types of nodes: attribute and text nodes are common ones. 
       Class and href are good examples of attribute nodes. The text node is quite 
       know as well. It's what put between the opening and closing tag, that isn't 
       a node of another type. Wrapping the whole document is the most important 
       one: the document node. You will often use it as a entry point to interact 
-      with your document.'
+      with your document.
     instructions:
       - Try to find each of the nodes types inside console.dir(document)
     resources:
@@ -68,7 +66,7 @@ tasks:
 
   - title: Understand the relation between nodes
     description: >
-      All nodes in the DOM are have a relation to each other. This can be visualised
+      All nodes in the DOM have a relation to each other. This can be visualised
       in a tree structure and be spoken about in terms of family relations. A node
       that has another node inside of it has a parent/child relationship to it.
       There can also be multiple nodes on the same level of nesting. These would
@@ -89,8 +87,7 @@ tasks:
         type:   gist
         site:
           name: Github Gists
-        url:    https://gist.githubusercontent.com/Zaturrby/22969282f635e50a9e8b/
-                raw/f186b852c2cff32591b26a4810e55da00beeb729/treetask.html
+        url:    https://gist.githubusercontent.com/Zaturrby/22969282f635e50a9e8b/raw/f186b852c2cff32591b26a4810e55da00beeb729/treetask.html
       - title:  Live DOM Tree viewer
         type:   application
         site:
@@ -98,12 +95,12 @@ tasks:
         url:    http://software.hixie.ch/utilities/js/live-dom-viewer/
 
   - title: Interact with the DOM through CSS
-    description: |
-      'The most important reason to get the know the DOM is because it enables
+    description: >
+      The most important reason to get the know the DOM is because it enables
       CSS or Javascript to interact with it. Often this interaction will take
       place trough classes or ids. Both of the languages however also allow you 
       to traverse the DOM with by node relations. The allows you to write cleaner 
-      code. An example of CSS selector that uses these relations is ::first-child.' 
+      code. An example of CSS selector that uses these relations is ::first-child. 
     instruction:
       - Target elements using the CSS (first/last/nth) child and type pseudo 
         class selectors
