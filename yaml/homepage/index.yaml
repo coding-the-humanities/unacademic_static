@@ -4,7 +4,7 @@ locations:
     level000:
         level: level 000
         levelclass: level000
-        currentweek: true
+        currentweek: false
         date: 28 October 2014
         time: 13:00 - 16:00
         location: UvA (OMHP EK.01)
@@ -15,7 +15,7 @@ locations:
     level001:
         level: level 001
         levelclass: level001
-        currentweek: false
+        currentweek: true
         date: 4 November 2014
         time: 13:00 - 16:00
         location: LUSTlab
