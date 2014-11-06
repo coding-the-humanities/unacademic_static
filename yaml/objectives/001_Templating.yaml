@@ -2,7 +2,7 @@ title:      Templating
 level:      1
 points:     100
 mandatory:  false
-category:   script
+category:   markup
 
 technologies:
   - HTML5

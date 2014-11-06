@@ -2,7 +2,7 @@ title:      Dev Tools
 level:      1
 points:     100
 mandatory:  true
-category:   tools
+category:   workflow
 
 technologies:
   - Chrome Dev Tools

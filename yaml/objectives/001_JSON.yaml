@@ -2,7 +2,7 @@ title:      JSON
 level:      1
 points:     100
 mandatory:  false
-category:   markup
+category:   data
 
 technologies:
   - JSON
