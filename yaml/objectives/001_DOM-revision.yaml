@@ -8,33 +8,37 @@ technologies:
   - DOM
 
 description:
-  full: >
-    The DOM (Document Object Model) is the representation of an HTML
-    document structure. In the DOM you can see the various objects of a page and
-    how they relate to each other; through the DOM you can interact with these.
-    The structure of the DOM looks like a tree with the different objects shown
-    as branches.
+  full: |
+    "The Document Object Model (DOM) is a cross-platform and language-independent 
+    convention for representing and interacting with objects in HTML, XHTML and 
+    XML documents." -Wikipedia
+
+    In other words, the DOM is an HTML document rendered in a browser. It is a
+    different repesentation with which you can interact. In the DOM you can see
+    the various objects of a page and how they relate to each other in a tree
+    structure.
+
   summary: >
     The DOM (Document Object Model) is the structural representation of an
     HTML document
 
 tasks:
-  - title: Understand DOM nodes trough the Dev Tools
+  - title: Get to know the difference
     description: >
-      'Remember the HTML tags? On a more abstract level these can be divided in 
-      seperate nodes. The main bit is called an element node. But they often 
-      contain of more types of nodes: attribute and text nodes. Class and href 
-      are common examples of attribute nodes. The text node is quite know as well. 
-      It's what put between the opening and closing tag, that isn't a node itself. 
-      Wrapping the whole document is the most important one: the document node. 
-      You will often use it as a entry point to interact with your document.'
+      When you inspect your document in a browser and look at the elements you 
+      might wonder what the difference actually is. It looks the same. Yet there
+      are many differences beneath the apparent surface. You HTML document sliced
+      into many pieces (objects) and each of these pieces had a lot of methods
+      and properties added to them. Most are way to complicated for now, but it 
+      is good to know they are there. 
     instructions:
       - Open the javascript console in your browser
       - Type console.log(document) in the javascript console and press enter
       - Click on the triangle to unfold the document object and on some further
         triangles. This will show something very similar to the HTML structure.
-      - Get to know how to navigate the tree a bit, but do not worry about all
-        the objects and methods in there.
+      - Get to know how to navigate the tree a bit  
+      - Type console.dir(document) and have a look at that. Do not worry 
+        about all the methods and properties in there too much.
     resources:
       - title:   The DOM viewed trough the Dev Tools
         type:    video
@@ -42,36 +46,39 @@ tasks:
           name:  Codeschool
         url:     http://discover-devtools.codeschool.com/chapters/1/challenges/
                  1?locale=en
-      - title:   Javascript oriented explanation of the DOM
-        type:    book chapter
-        site:
-          name:  Eloquent Javascript on DOM
-        url:     http://eloquentjavascript.net/13_dom.html
-      - title:   Process oriented explanation of the DOM
-        type:    book chapter
-        site:
-          name:  Wellesley
-        url:     http://cs.wellesley.edu/~cs110/lectures/L11/dom.html
-      - title:   Explanation focussed on available methods
+
+  - title: Get to know DOM nodes
+    description: >
+      'Remember the HTML tags? On a more abstract level these can be divided in 
+      seperate nodes. The main bit is called an element node. But they often 
+      consist of more types of nodes: attribute and text nodes are common ones. 
+      Class and href are good examples of attribute nodes. The text node is quite 
+      know as well. It's what put between the opening and closing tag, that isn't 
+      a node of another type. Wrapping the whole document is the most important 
+      one: the document node. You will often use it as a entry point to interact 
+      with your document.'
+    instructions:
+      - Try to find each of the nodes types inside console.dir(document)
+    resources:
+      - title:   DOM Nodes
         type:    article
         site:
           name:  Mozilla Developer Network
-        url:     https://developer.mozilla.org/en-US/docs/Web/API/
-                 Document_Object_Model/Introduction
+        url:     http://www.quirksmode.org/dom/intro.html#nodes
 
   - title: Understand the relation between nodes
     description: >
       All nodes in the DOM are have a relation to each other. This can be visualised
       in a tree structure and be spoken about in terms of family relations. A node
-      can have other nodes inside of it, and thus have a parent/child relationship.
+      that has another node inside of it has a parent/child relationship to it.
       There can also be multiple nodes on the same level of nesting. These would
       be called siblings to each other. To be able to distinguish these relations
       with a quick glance HTML (and other types) are indented based on the level
       of nesting.
     instructions:
       - Try to fix the indentation in the gist below
-      - Navigate the document object keeping these terms in mind and see
-        their application.
+      - Navigate the document object keeping these terms in mind to see their 
+        implementation.
     resources:
       - title:  Explanation focussed on the tree structure
         type:   article
@@ -90,14 +97,13 @@ tasks:
           name: Check task
         url:    http://software.hixie.ch/utilities/js/live-dom-viewer/
 
-  - title: Interaction with the DOM through CSS
+  - title: Interact with the DOM through CSS
     description: |
       'The most important reason to get the know the DOM is because it enables
       CSS or Javascript to interact with it. Often this interaction will take
-      place trough classes or ids. Both of these however also allow you to 
-      traverse the DOM with by node relations. The allows you to write cleaner 
-      code. An example of CSS selector that uses these relations is 
-      ::first-child.' 
+      place trough classes or ids. Both of the languages however also allow you 
+      to traverse the DOM with by node relations. The allows you to write cleaner 
+      code. An example of CSS selector that uses these relations is ::first-child.' 
     instruction:
       - Target elements using the CSS (first/last/nth) child and type pseudo 
         class selectors
@@ -115,15 +121,26 @@ tasks:
           name: Mozilla Developer Network
         url:    https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 
-  - title: Interaction with the DOM trough Javascript
+  - title: Interact with the DOM trough Javascript
     description: >
-      'Another way of describing the DOM is that it is an programming
+      Another way of describing the DOM is that it is an programming
       interface or API to your document. It allows you to get specific 
       information out of your document or change it. In the previous
       task styling was attached to elements with CSS, but the HTML structure did
-      not change. Elements can be changed using Javascript. Try this out:'
+      not change. Javascript however can do this.
     instructions:
       - Go to the page of the first task on the Mozilla Developer Network
-      - 'Open your DevTools, type in the following command:
-         document.getElementById("main-header").innerHTML = "Hello World"'
+      - 'Open your DevTools, type in the following command: 
+        document.getElementById("main-header").innerHTML = "Hello World"'
       - Try moving your newly introduced phrase to another place on the page
+    resources:
+      - title:   Process oriented explanation of the DOM
+        type:    book chapter
+        site:
+          name:  Wellesley
+        url:     http://cs.wellesley.edu/~cs110/lectures/L11/dom.html
+      - title:   Javascript oriented explanation of the DOM
+        type:    book chapter
+        site:
+          name:  Eloquent Javascript on DOM
+        url:     http://eloquentjavascript.net/13_dom.html
