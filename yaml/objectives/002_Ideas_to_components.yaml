@@ -52,8 +52,8 @@ tasks:
   - title: Make a component
     description: >
       It's time to build your component. Check out the accompanying Plunker; you 
-      have already built your own Polymer elements. You can use them to 
-      build this component. Save it once you are done and share the URL in our 
+      have already built your own Polymer elements. You can use these to realise 
+      the idea chosen. Save it once you are done and share the URL in our 
       Slack-channel.
 
     instructions:
