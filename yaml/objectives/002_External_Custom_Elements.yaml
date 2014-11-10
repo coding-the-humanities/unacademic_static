@@ -10,22 +10,22 @@ technologies:
 
 description:
   full: >
-    In web development some key principles proved to be very important. When starting
-    a project, things start to get complicated fast. That is why we must consider maintainability.
-    A project should also be able to grow, for example by adding new features or ellaborating on existing 
-    ones. This practice is also known as scalability. In order to collaborate, a team should be able to easily share
-    their work. Web components is one possible answer to these problems, because you can add features 
-    by simply importing a component. This method also results in clean and readable code. 
+    In web development some key principles proved to be very important. When working on
+    a project, things can get complicated fast. That is why we must consider the maintainability of the project.
+    A project should be able to grow easily, for example by adding new features. In order to encourage growth, 
+    we must consider the scalability of the project. In order for numerous team members to collaborate, 
+    a team should be able to easily share their work. Web components area good way to enforce collaboation,
+    because you can add features by simply importing a component. This method also results in clean and readable code. 
     With scalabality in mind, components can be combined, stacked or replaced. And most importantly 
-    because components are completely encapsulated it provides an easy way to share and reuse code.
-    Working with Web components is not only about creating your own custom elements but also how to
-    incorporate other people's custom elements. Why create something that has already been created.
+    because components are completely encapsulated, it provides an easy way to share and reuse code.
+    Working with web components is not only about creating your own custom elements but also about 
+    incorporating other people's custom elements. Why create something that has already been created?
     Instead of just collaborating with your team why not share your components with the world?
     This idea resulted in an active community sharing their components. There are many components available;
     one could build an entire web app just from external components.
 
   summary: >
-    Custom Elements provide an easy way to share and reuse code. 
+    Web components provide an easy way to share and reuse code. 
 
 tasks:
   - title: Discover the power of web components
@@ -62,10 +62,9 @@ tasks:
       Google provides web developers with tools to incorporate Google services on their website.
       For example to incorporate Google maps, you need to do quite a bit of work to get it working.
       This includes creating mark up, scripts and communicating with their API. These are steps one 
-      have to take everytime they need to incorporate google maps, besides these steps always remain
-      the same. With the google maps custom element this process is simplified. You can import the 
-      element with a single line. You can then use it as many times as you like and modify it by adding 
-      attributes.
+      have to take everytime they need to incorporate google maps. With the google maps custom element 
+      this process is simplified. You can import the element with a single line. 
+      You can then use it as many times as you like and modify it by adding attributes.
     instructions:
       - Open the plunker file
       - Import the Google maps component
