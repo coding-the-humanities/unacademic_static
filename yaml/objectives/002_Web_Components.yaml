@@ -8,10 +8,8 @@ technologies:
   - Polymer
 
 description:
-  summary: > 
-    Web Components are the future of web development, but what are they? 
   full: >
-    Web Components are the future of web development, but what are they? 
+    Web components are the future of web development, but what are they? 
     Remeber the <img> element, that allows you to embed an image to your 
     website? What if you could create your own custom element. For example 
     we could create an element called <my-clock> that would insert a clock 
@@ -22,18 +20,19 @@ description:
     the web. This means we can easily create widgets and other useful
     elements that can be easily shared, without having to retype or 
     rework code. That is the beauty of web components.
-
+  summary: > 
+    Web components are the future of web development, but what are they? 
 tasks:
   - title: Familiarise yourself with Polymer
     description: >
-      Polymer is a library build on top of web components making the 
+      Polymer is a library built on top of web components making the 
       development of web components easier. Polymer has a certain way 
       of thinking how these web components are best used and created. 
       First familiarise yourself with Polymer and its methodology. 
       Check out the website and the introduction video.
     instructions:
-      - Read up on Polymer on the website
-      - Watch the introduction video by Matthew McNulty
+      - Read up on Polymer on the Polymer Project website
+      - Watch the introduction video by Matthew McNulty (link below)
     resources:
       - title:   Polymer 
         type:    website
@@ -51,6 +50,7 @@ tasks:
           name:  techcrunch
           description: Google Believes Web Components Are The Future Of Web Development
         url:   http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/
+        
   - title: Relay information between Polymer elements
     description: >
       You are about to build your first Polymer elements. Keep in mind that you
@@ -59,11 +59,11 @@ tasks:
       your elements, and how to exchange information between elements 
       using so-called attributes.
     instructions: 
-      - Go to the Plunker link below. Fork the code and create your own elements.
-      - Link them to the index page as shown with the hello-page example. 
-      - Define and use your own custom attributes in your elements.
-      - Hit Run to see what it looks like.
-      - Use the resources below to elaborate on your code.
+      - Go to the Plunker link below, fork the code and create your own elements
+      - Link them to the index page as shown with the hello-page example
+      - Define and use your own custom attributes in your elements
+      - Hit Run to see what it looks like
+      - Use the resources below to elaborate on your code
     resources: 
       - title: Make and Combine your own Elements
         type:  website
