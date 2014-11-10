@@ -1,0 +1,84 @@
+title:      External Custom Elements
+level:      1
+points:     100
+mandatory:  true
+category:   workflow
+
+technologies:
+  - Webcomponents
+  - Polymer
+
+description:
+  full: >
+    In web development some key principles proved to be very important. When starting
+    a project, things start to get complicated fast. That is why we must consider maintainability.
+    A project should also be able to grow for example adding new features or ellaborating on existing 
+    ones, this is called scalability. In order to collaborate, a team should be able to easily share
+    their work. Webcomponents is one possible anwser to these problems, because they allow easy 
+    implementation of features by simply importing them, keeping clean and readable code. 
+    With scalabality in mind, components can be combined, stacked or replaced. And most importantly 
+    because components are completely encapsulated it provides an easy way to share and reuse code.
+    Working with Webcomponents is not only about creating your own custom elements but also how to
+    incorporate other people's custom elements. Why create something that has already been created.
+    Instead of just collaborating with your team why not share your components with the world?
+    This idea resulted in an active community sharing their components. There are many components available
+    one could build an entire web app just from external components.
+
+  summary: >
+    Custom Elements provide an easy way to share and reuse code. 
+
+tasks:
+  - title: Discover the power of web components
+    description: >
+      Polymer already provides many standardized custom elements that are useful for building your own
+      web app. These components are designed to be like building blocks, you can mix and match and add your own.
+      These components are a great way to get started with building a web app of your own. To help you
+      visualise the way these components work together, Polymer has created a web tool called designer.
+      In designer you can choose from all the web components Polymer has to offer and drag and drop
+      them on the canvas.
+    instructions:
+      - Have a look at all the components out there
+      - Open the Polymer Designer and start combining some components
+    resources:
+      - title:   library of custom elements
+        type:    video
+        site:
+          name:  custom elements community
+        url:     http://customelements.io/
+      - title:   Polymer Designer
+        type:    tool
+        site:
+          name:  Polymer Designer
+        url:     https://www.polymer-project.org/tools/designer/
+      - title:   Polymer Designer tutorial
+        type:    video
+        site:
+          name:  Introducing the Polymer Designer tool
+        url:     https://www.youtube.com/watch?v=djQh8XKRzRg
+
+
+  - title: Incorporate an external component
+    description: >
+      Google provides web developpers with tools to incorporate google services on their website.
+      For example to incorporate google maps, you need to do quite a bit of work to get it working.
+      This includes creating mark up, scripts and communicating with their API. These are steps one 
+      have to take everytime they need to incorporate google maps, besides these steps always remain
+      the same. With the google maps custom element this process is simplified. You can import the 
+      element with a single line. You can then use it as many times as you like and modify it by adding 
+      attributes.
+    instructions:
+      - Open the plunker file
+      - Import the google maps component
+    resources:
+      - title:   Google Web Components
+        type:    repository
+        site:
+          name:  Github google web componenst repository
+        url:     https://github.com/GoogleWebComponents/google-map
+      - title:   Google-map Components
+        type:    website
+        site:
+          name:  google-map explenation
+        url:     http://googlewebcomponents.github.io/google-map/components/google-map/
+
+  
