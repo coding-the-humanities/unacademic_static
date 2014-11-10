@@ -56,4 +56,18 @@ tasks:
         url:   http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/
   -title:  Relay information between Polymer elements
       description: >
-        
+        You have built your first elements but you have to make them communicate
+        with one another in order to get your code actually working. Now you will learn how
+        to call and connect your elements with one another and in your HTML page.
+      instructions: 
+        - 
+        -
+      resources: 
+      - title: Plunker
+
+      - title: Combining Multiple Elements
+        type: book
+        site:
+          name: polymer-book
+        url: http://coding-the-humanities.gitbooks.io/polymer-book/content/chapter_2_combining_multiple_elements/README.html
+
