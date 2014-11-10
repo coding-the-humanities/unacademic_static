@@ -54,10 +54,10 @@ tasks:
   - title: Relay information between Polymer elements
     description: >
       You are about to build your first Polymer elements. Keep in mind that you
-      also have to make these elements communicate with one another in order 
-      to get your code actually working. You will learn how to call and connect 
-      your elements with one another, and how to exchange information using 
-      so-called attributes.
+      have to make these elements communicate with one another in order 
+      to get your code to actually work. You will learn how to call and connect 
+      your elements, and how to exchange information between elements 
+      using so-called attributes.
     instructions: 
       - Go to the Plunker link below. Fork the code and create your own elements.
       - Link them to the index page as shown with the hello-page example. 
