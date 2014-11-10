@@ -4,9 +4,6 @@ points:     100
 mandatory:  true
 category:   markup
 
-summary: > 
-  Web Components are the future of web development, but what are they? 
-
 technologies:
   - Polymer
 
@@ -54,20 +51,20 @@ tasks:
           name:  techcrunch
           description: Google Believes Web Components Are The Future Of Web Development
         url:   http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/
-  -title:  Relay information between Polymer elements
-      description: >
-        You are about to build your first Polymer elements; keep in mind that you
-        also have to make these elements communicate with one another in order 
-        to get your code actually working. You will learn how to call and connect 
-        your elements with one another, and how to exchange information using 
-        so-called attributes.
-      instructions: 
-        - Go to the Plunker link below. Fork the code to create your own elements.
-        - Link them to the index page as shown in the hello-page example. 
-        - Define and use your own custom attributes in your elements.
-        - Hit Run to see what it looks like.
-        - Use the references below to elaborate on your code.
-      resources: 
+  - title: Relay information between Polymer elements
+    description: >
+      You are about to build your first Polymer elements. Keep in mind that you
+      also have to make these elements communicate with one another in order 
+      to get your code actually working. You will learn how to call and connect 
+      your elements with one another, and how to exchange information using 
+      so-called attributes.
+    instructions: 
+      - Go to the Plunker link below. Fork the code and create your own elements.
+      - Link them to the index page as shown with the hello-page example. 
+      - Define and use your own custom attributes in your elements.
+      - Hit Run to see what it looks like.
+      - Use the resources below to elaborate on your code.
+    resources: 
       - title: Make and Combine your own Elements
         type:  website
         site:
