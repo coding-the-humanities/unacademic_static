@@ -1,0 +1,55 @@
+title:      Web Architecture
+level:      1
+points:     100
+mandatory:  true
+category:   workflow
+
+technologies:
+  - Ajax
+
+description:
+  full: >
+    When a web page is rendered inside your browser, data is being transmitted. The information needed to render the page
+    is stored on the server. In order to get that information your browser needs to request that information. 
+    These request are called http requests and they are the foundation for any web application. Http requests make it possible
+    to communicate and transfer data. This communication between client (your browser) and server is what happens when you 
+    click a button and the page changes a new request is send. But what if we want to just change a little piece of our website.
+    Whenever you want to show a change on the page, we need to send an http request to refresh te entire page,
+    even if we just want to change one little piece of it. If we would have a widget that needs to update regularly this 
+    would make the use of the site impossible. Having to wait for everything. This is where Ajax comes in. Ajax is a method
+    to communicate with a server in the background, without interfering with the current state of the page. 
+    This technique is what makes modern web apps possible. 
+  summary: >
+    http requests and communicating with the server. 
+
+tasks:
+  - title: Ajax
+    description: >
+      Ajax is a group of interrelated Web development techniques used on the client-side to communicate with the server
+      in the background. Ajax works on the client side meaning your browser. If you take a look at the infographic you can
+      see this concept visualised, the Ajax engine is nested inside the browser. The infographic is the best way to understanding
+      the difference between the traditional (rerendering entire page) and the Ajax method.
+    instructions:
+      - read the resources to get an understanding of the concepts
+    resources:
+      - title:   Ajax wikipedia
+        type:    article
+        site:
+          name:  Ajax Definition
+        url:     http://en.wikipedia.org/wiki/Ajax_(programming)
+      - title:   Server and Client side explaination
+        type:    video
+        site:
+          name:  How the Internet Works in 5 Minutes
+        url:     https://www.youtube.com/watch?v=7_LPdttKXPc
+      - title:   Ajax model infographic
+        type:    image
+        site:
+          name:  traditional model versus Ajax model
+        url:     http://www.techbubbles.com/wp-content/uploads/2009/01/ajax.png
+
+  - title: Ajax and Polymer
+    description: >
+     
+    instructions:
+      - component
