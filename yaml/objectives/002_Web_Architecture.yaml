@@ -54,6 +54,24 @@ tasks:
 
   - title: Ajax and Polymer
     description: >
-     
+      Polymer has a really nice way to handle Ajax requests; core-ajax. 
+      This component allows programmers to easily query API's and manipulate that data.
+      But that's not all, because it is just another polymer element!
+      Take a look at the following Plunker link.
+      It's not done yet, but it's up to you to finish it.
     instructions:
-      - component
+      - Look at the code of rijksmuseum-query.html and index.html
+      - Make the page display artworks of your favorite painter and 
+        their titles using the repeat attribute of Polymer
+      - (Hint: look in the Javascript console in your browser)
+    resources:
+      - title:   Core Ajax
+        type:    article
+        site:    
+          name:  Polymer core-ajax
+        url:     https://www.polymer-project.org/docs/elements/core-elements.html#core-ajax
+    - title:     Smokey the Salmon's Plunker
+        type:    code
+        site:    
+          name:  Final Assignment Level 2
+        url:     http://plnkr.co/edit/nwDL4l
