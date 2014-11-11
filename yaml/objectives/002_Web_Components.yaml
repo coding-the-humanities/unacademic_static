@@ -33,6 +33,9 @@ tasks:
     instructions:
       - Read up on Polymer on the Polymer Project website
       - Watch the introduction video by Matthew McNulty (link below)
+      - Click on the Plunker link and fork the posted code
+      - Make your own Polymer element as shown in the example
+      - Hit run to see what it looks like
     resources:
       - title:   Polymer 
         type:    website
@@ -50,3 +53,8 @@ tasks:
           name:  techcrunch
           description: Google Believes Web Components Are The Future Of Web Development
         url:   http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/
+      - title: Build one element
+        type: tool
+        site:
+          name: Plunker
+        url: http://plnkr.co/edit/mN4hsk1fgO9UR01cjwmd
