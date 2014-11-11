@@ -1,4 +1,4 @@
-title:      Two-way Data Binding
+title:      Communication Between Elements
 level:      2
 points:     100
 mandatory:  true
@@ -9,15 +9,18 @@ technologies:
 
 description:
   full: >
-    In the previous level you did a task on templating. On Plunker, the page 
-    automatically reloads everytime you make a change; on a real web application 
-    though this is not a desirable behaviour. By using two-way data binding the 
-    DOM element changes when the data is changed and vice versa. 
+    
   summary: > 
-    By using two-way data binding the DOM element changes when the data is 
-    changed and vice versa.
     
 tasks:
+  - title: Make the content in an element change
+    description: >
+      
+      In the previous level you did a task on templating. On Plunker, the page 
+      automatically reloads everytime you make a change; on a real web application 
+      though this is not a desirable behaviour. By using two-way data binding the 
+      DOM element changes when the data is changed and vice versa.
+
   - title: Relay information between Polymer elements
     description: >
       You have already built a Polymer element. You now have to make these 
