@@ -1,0 +1,29 @@
+- title: Relay information between Polymer elements
+    description: >
+      You are about to build your first Polymer elements. Keep in mind that you
+      have to make these elements communicate with one another in order 
+      to get your code to actually work. You will learn how to call and connect 
+      your elements, and how to exchange information between elements 
+      using so-called attributes.
+    instructions: 
+      - Go to the Plunker link below, fork the code and create your own elements
+      - Link them to the index page as shown with the hello-page example
+      - Define and use your own custom attributes in your elements
+      - Hit Run to see what it looks like
+      - Use the resources below to elaborate on your code
+    resources: 
+      - title: Make and Combine your own Elements
+        type:  website
+        site:
+          name: Plunker
+        url: http://plnkr.co/edit/tDnRCXvoA6ZHag2SoNBf
+      - title: Combining Multiple Elements
+        type: book
+        site:
+          name: Polymer-book
+        url: http://coding-the-humanities.gitbooks.io/polymer-book/content/chapter_2_combining_multiple_elements/README.html
+      - title: Communication and Message Passing
+        type: website
+        site:
+          name: Polymer Project
+        url: https://www.polymer-project.org/articles/communication.html
