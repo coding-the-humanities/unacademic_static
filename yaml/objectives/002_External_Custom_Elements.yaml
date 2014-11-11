@@ -37,14 +37,10 @@ tasks:
       In designer you can choose from all the web components Polymer has to offer and drag and drop
       them on the canvas.
     instructions:
-      - Have a look at all the components out there
       - Open the Polymer Designer and start combining some components
+      - Also review the code by pressing the < > incorporating
+      - Try to understand what changes in the code when you add a component
     resources:
-      - title:   library of custom elements
-        type:    video
-        site:
-          name:  custom elements community
-        url:     http://customelements.io/
       - title:   Polymer Designer
         type:    tool
         site:
@@ -59,23 +55,30 @@ tasks:
 
   - title: Incorporate an external component
     description: >
-      Google provides web developers with tools to incorporate Google services on their website.
-      For example to incorporate Google maps, you need to do quite a bit of work to get it working.
-      This includes creating mark up, scripts and communicating with their API. These are steps one 
-      have to take everytime they need to incorporate google maps. With the google maps custom element 
-      this process is simplified. You can import the element with a single line. 
-      You can then use it as many times as you like and modify it by adding attributes.
+      Polymer is not the only party that produces components for everybody to use. there are many
+      individuals and companies who share their components with the world. Customelements.io is a community where 
+      you can upload and find custom elements. For example in the list you will find a custom element
+      that creates a github profile card. You could import the element with a single line.
+      then you can duplicate it as many times as you like and modify it by adding or changing the attributes. 
     instructions:
       - Open the plunker file
-      - Import the Google maps component
+      - The file is missing an important line of code you have to import github.html 
+      - Link the github.html file inside the <head> to make the components work
+      - Add another card and change the attribute to display your github profile
     resources:
-      - title:   Google Web Components
-        type:    repository
-        site:
-          name:  Github Google web components repository
-        url:     https://github.com/GoogleWebComponents/google-map
-      - title:   Google-map Components
+      - title:   Add your personal github-card
         type:    website
         site:
-          name:  google-map explanation
-        url:     http://googlewebcomponents.github.io/google-map/components/google-map/
+          name:  Plunker
+        url:     http://plnkr.co/edit/owzD5eWdsEhxdSEJwMkh
+      - title:   HTML import of webcomponents 
+        type:    article
+        site:
+          name:  HTML Imports
+        url:     http://www.html5rocks.com/en/tutorials/webcomponents/imports/#started
+      - title:   library of custom elements
+        type:    website
+        site:
+          name:  custom elements community
+        url:     http://customelements.io/
+
