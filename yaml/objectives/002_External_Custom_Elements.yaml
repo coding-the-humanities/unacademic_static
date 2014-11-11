@@ -10,18 +10,23 @@ technologies:
 
 description:
   full: >
-    In web development some key principles proved to be very important. When working on
-    a project, things can get complicated fast. That is why we must consider the maintainability of the project.
-    A project should be able to grow easily, for example by adding new features. In order to encourage growth, 
-    we must consider the scalability of the project. In order for numerous team members to collaborate, 
-    a team should be able to easily share their work. Web components area good way to enforce collaboation,
-    because you can add features by simply importing a component. This method also results in clean and readable code. 
-    With scalabality in mind, components can be combined, stacked or replaced. And most importantly 
-    because components are completely encapsulated, it provides an easy way to share and reuse code.
+    In web development some key principles proved to be very important. 
+    When working on a project, things can get complicated fast. 
+    That is why we must consider the maintainability of the project.
+    A project should be able to grow easily, for example by adding new features. 
+    In order for numerous team members to collaborate, a team should be able to easily share their work. 
+    Web components are a good way to enforce collaboration, 
+    because you can add features by simply importing a component. 
+    This method also results in clean and readable code. 
+    With scalabality and maintainability in mind, components can be combined, stacked or replaced. 
+    And most importantly because components are completely encapsulated, 
+    it provides an easy way to share and reuse code.
     Working with web components is not only about creating your own custom elements but also about 
-    incorporating other people's custom elements. Why create something that has already been created?
+    incorporating other people's custom elements. 
+    Why create something that has already been created?
     Instead of just collaborating with your team why not share your components with the world?
-    This idea resulted in an active community sharing their components. There are many components available;
+    This idea has ammassed an active community over time that share their components. 
+    There are many components available;
     one could build an entire web app just from external components.
 
   summary: >
@@ -33,8 +38,8 @@ tasks:
       Polymer already provides many standardized custom elements that are useful for building your own
       web app. These components are designed to act as building blocks: you can mix and match and add your own.
       These components are a great way to get started with building a web app of your own. To help you
-      visualize the way these components work together, Polymer has created a web tool called designer.
-      In designer you can choose from all the web components Polymer has to offer and drag and drop
+      visualize the way these components work together, Polymer has created a web tool called Designer.
+      In Designer you can choose from all the web components Polymer has to offer and drag and drop
       them on the canvas.
     instructions:
       - Have a look at all the components out there
@@ -61,8 +66,8 @@ tasks:
     description: >
       Google provides web developers with tools to incorporate Google services on their website.
       For example to incorporate Google maps, you need to do quite a bit of work to get it working.
-      This includes creating mark up, scripts and communicating with their API. These are steps one 
-      have to take everytime they need to incorporate google maps. With the google maps custom element 
+      This includes creating markup, scripts and communicating with their API. These are steps one 
+      have to take everytime they need to incorporate Google Maps. With the Google Maps custom element 
       this process is simplified. You can import the element with a single line. 
       You can then use it as many times as you like and modify it by adding attributes.
     instructions:
