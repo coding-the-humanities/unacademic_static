@@ -12,8 +12,7 @@ description:
     Now that you have come up with tons of ideas on how to implement the Rijksmuseum 
     API, it's time to put one of those ideas into a real web component.
     It could be anything: switches, knobs, an image viewer etc. Your project 
-    group's only limitation is its own technical capabilities. 
-
+    group's only limitation is its own imagination (and perhaps technical capabilities).
   summary: >
     Now that you came up with tons of ideas on how to implement the Rijksmuseum 
     API, put one of those ideas into a real web component.
@@ -47,7 +46,7 @@ tasks:
       this web component. How does the user interact with it? Which features are 
       essential, and which ones are less important?
     instructions:
-      - Group discussion
+      - Have a group discussion
 
   - title: Make a web component
     description: >
