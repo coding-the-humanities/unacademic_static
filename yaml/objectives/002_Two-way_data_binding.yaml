@@ -9,18 +9,23 @@ technologies:
 
 description:
   full: >
-    
+    In the previous level you did a task on templating. On Plunker, the page 
+    automatically reloads everytime you make a change; on a real web application 
+    though this is not a desirable behaviour. By using two-way data binding the 
+    DOM element changes when the data is changed and vice versa. 
   summary: > 
+    By using two-way data binding the DOM element changes when the data is 
+    changed and vice versa.
     
-
-- title: Relay information between Polymer elements
+tasks:
+  - title: Relay information between Polymer elements
     description: >
       You have already built a Polymer element. You now have to make these 
       elements communicate with one another in order to get your code 
       to actually work. You will learn how to call and connect your elements, 
       and how to exchange information between elements using so-called attributes.
     instructions: 
-      - Go to the Plunker link below, fork the code and create your own elements
+      - Go to the Plunker link below, fork the code and create your own element
       - Link them to the index page as shown with the hello-page example
       - Define and use your own custom attributes in your elements
       - Hit Run to see what it looks like
@@ -30,7 +35,7 @@ description:
         type:  tool
         site:
           name: Plunker
-        url: http://plnkr.co/edit/tDnRCXvoA6ZHag2SoNBf
+        url: http://plnkr.co/edit/CoZwTwm8MkOJTNffeyg3
       - title: Combining Multiple Elements
         type: book
         site:

@@ -70,7 +70,7 @@ tasks:
         site:    
           name:  Polymer core-ajax
         url:     https://www.polymer-project.org/docs/elements/core-elements.html#core-ajax
-    - title:     Smokey the Salmon's Plunker
+      - title:     Smokey the Salmon's Plunker
         type:    code
         site:    
           name:  Final Assignment Level 2
