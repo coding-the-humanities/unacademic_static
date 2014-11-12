@@ -16,8 +16,8 @@ description:
   are very powerful, they can instantly relay information and can change each 
   others content. 
   summary: > 
-    Get components to communicate, when connected they can instantly relay 
-    information and can change each others content. 
+  Get components to communicate, when connected they can instantly relay 
+  information and can change each others content. 
 tasks:
   - title: Make the content in an element change
     description: >
