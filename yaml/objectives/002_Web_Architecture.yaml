@@ -19,11 +19,11 @@ description:
     Having to wait for everything. This is where Ajax comes in. Ajax is a method
     to communicate with a server in the background, without interfering with the current state of the page. 
     This technique is what makes modern web apps possible. 
-  summary: >
+  summary: 
     Http requests and communicating with the server. 
 
 tasks:
-  - title: Familiarise with Ajax
+  - title: Get Familiarised with Ajax
     description: >
       Ajax is a group of interrelated web development techniques used on the client-side to 
       communicate with the server that runs in the background. Ajax works on the client side meaning:  
@@ -31,7 +31,7 @@ tasks:
       a good way to grasp the difference between the traditional (rerendering entire page) and the Ajax method.
     instructions:
       - Look at the infographic the link you can find below
-      - Read the resources below to get an understanding of what Ajax entails
+      - Read the resources below to get an understanding of what Ajax entails.
     resources:
       - title:   Ajax wikipedia
         type:    article
@@ -58,17 +58,16 @@ tasks:
       to finish it.
     instructions:
       - Look at the code of rijksmuseum-query.html and index.html
-      - Make the page display artworks of your favorite painter and 
-        their titles using the repeat attribute of Polymer
-      - (Hint: look in the Javascript console in your browser)
+      - Make the page display artworks of your favorite painter and their titles using the repeat attribute of Polymer
+      - (Hint, look in the Javascript console in your browser)
     resources:
       - title:   Core Ajax
         type:    article
-        site:    
+        site:
           name:  Polymer core-ajax
         url:     https://www.polymer-project.org/docs/elements/core-elements.html#core-ajax
       - title:     Smokey the Salmon's Plunker
         type:    code
-        site:    
+        site:
           name:  Final Assignment Level 2
         url:     http://plnkr.co/edit/nwDL4l
