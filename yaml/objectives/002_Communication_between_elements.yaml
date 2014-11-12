@@ -18,8 +18,9 @@ tasks:
       
       In the previous level you did a task on templating. On Plunker, the page 
       automatically reloads everytime you make a change; on a real web application 
-      though this is not a desirable behaviour. By using two-way data binding the 
-      DOM element changes when the data is changed and vice versa.
+      though, this is not a desirable behaviour; only the DOM element that changes
+      should be reloaded. By using two-way data binding, only the relevant DOM 
+      element changes when the data is changed and vice versa.
 
   - title: Relay information between Polymer elements
     description: >
