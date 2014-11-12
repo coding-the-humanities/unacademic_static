@@ -10,9 +10,11 @@ technologies:
 description:
   full: >
     Web components are the future of web development, but what are they? 
+
     We can for example create an element called <my-clock> that would insert a clock 
     displaying the time. Like any other element we could then reuse our 
     clock element whenever and wherever we need.  
+
     Web components enable truly encapsulated and reusable components for
     the web. This means we can easily create widgets and other useful
     elements that can be easily shared, without having to retype or 
@@ -20,7 +22,7 @@ description:
   summary: > 
     Web components are reusable code elements  
 tasks:
-  - title: Familiarise yourself with Polymer
+  - title: Learn about Polymer
     description: >
       Polymer is a library built on top of web components, making the 
       development of web components easier. Polymer has a certain way 
@@ -40,8 +42,8 @@ tasks:
         site:
           name:  Introduction to Polymer - The Next Generation of Web Development 
         url:   https://www.youtube.com/watch?v=8-Zq2KUN6jM
-      
-  - title: Build your own Polymer element
+
+  - title: Build your first Polymer element
     description: >
       Use the information that you have gathered on the Polymer website and 
       through watching the video to build your very own Polymer element and make 
@@ -53,7 +55,7 @@ tasks:
     resources:
       - title:   Web components
         type:    Article
-        site:    
+        site:
           name:  techcrunch
           description: Google Believes Web Components Are The Future Of Web Development
         url:   http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/

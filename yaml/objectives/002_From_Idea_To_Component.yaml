@@ -1,8 +1,8 @@
-title:      From Ideas to Components
+title:      From Idea To Component
 level:      2
 points:     100
 mandatory:  true
-category:   assignment
+category:   general
 
 technologies:
   - Webcomponents 
@@ -42,7 +42,7 @@ tasks:
           name:  Sneakpeekit
         url:     http://sneakpeekit.com/browser-sketchsheets/#tab-32-3
 
-  - title: Pick one web component
+  - title: Choose a Web Component
     description: >
       Once your group has finished drawing a wireframe, you have to choose a 
       web component. Which one would be the best to choose? Try to further specify 
@@ -51,7 +51,7 @@ tasks:
     instructions:
       - Have a group discussion
 
-  - title: Make a web component
+  - title: Make a Web Component
     description: >
       It's time to build your web component. Check out the accompanying Plunker; you 
       have already built your own Polymer elements. You can use these to realize 

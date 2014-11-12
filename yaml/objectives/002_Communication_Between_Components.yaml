@@ -1,4 +1,4 @@
-title:      Communication Between Elements
+title:      Communication Between Components
 level:      2
 points:     100
 mandatory:  true
@@ -9,12 +9,15 @@ technologies:
 
 description:
   full: >
-    Components are as discussed encapsulated. This means they function
-    completely on their own. But what if we want these components to communicate 
-    with each other? Because of their encapsulated nature we need to explicitly tell
-    the components what they want to receive or send. The components when connected 
-    are very powerful, they can instantly relay information and can change each 
-    others content. 
+
+    By default, web Components are encapsulated. This means they function
+    completely on their own. But what if you actually want them to communicate
+    with each other? Because of their encapsulation we need to explicitly tell
+    the components what data they want to receive or send. 
+
+    When connected components are very powerful. They can instantly relay 
+    information and can change each others content. 
+
   summary: > 
     Get components to communicate and change each others content. 
 tasks:
