@@ -70,7 +70,7 @@ tasks:
       and modify it by adding or changing the attributes. 
     instructions:
       - Open the plunker file
-      - The file is missing an important line of code you have to import 
+      - The file is missing an important line of code. You have to import 
         github.html
       - Link the github.html file inside the <head> to make the components work
       - Add another card and change the attribute to display your github profile
