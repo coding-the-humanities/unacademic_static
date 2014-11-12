@@ -9,13 +9,18 @@ technologies:
 
 description:
   full: >
-    
+  Components are as discussed encapsulated. This means they function
+  completely on their own. But what if we want these components to communicate 
+  with each other? Because of their encapsulated nature we need to explicitly tell
+  the components what they want to receive or send. The components when connected 
+  are very powerful, they can instantly relay information and can change each 
+  others content. 
   summary: > 
-    
+    Get components to communicate, when connected they can instantly relay 
+    information and can change each others content. 
 tasks:
   - title: Make the content in an element change
     description: >
-      
       In the previous level you did a task on templating. On Plunker, the page 
       automatically reloads everytime you make a change; on a real web application 
       though, this is not a desirable behaviour; only the DOM element that changes
