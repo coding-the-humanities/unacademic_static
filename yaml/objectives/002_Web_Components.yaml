@@ -10,32 +10,25 @@ technologies:
 description:
   full: >
     Web components are the future of web development, but what are they? 
-    Remeber the <img> element, that allows you to embed an image to your 
-    website? What if you could create your own custom element. For example 
-    we could create an element called <my-clock> that would insert a clock 
+    We can for example create an element called <my-clock> that would insert a clock 
     displaying the time. Like any other element we could then reuse our 
-    clock element whenever and wherever we need. This is exactly what 
-    web components allow us to do, to create custom HTML elements. 
+    clock element whenever and wherever we need.  
     Web components enable truly encapsulated and reusable components for
     the web. This means we can easily create widgets and other useful
     elements that can be easily shared, without having to retype or 
     rework code. That is the beauty of web components.
   summary: > 
-    Web components are the future of web development, but what are they? 
+    Web components are reusable code elements  
 tasks:
   - title: Familiarise yourself with Polymer
     description: >
-      Polymer is a library built on top of web components making the 
+      Polymer is a library built on top of web components, making the 
       development of web components easier. Polymer has a certain way 
       of thinking how these web components are best used and created. 
       First familiarise yourself with Polymer and its methodology. 
-      Check out the website and the introduction video.
     instructions:
       - Read up on Polymer on the Polymer Project website
       - Watch the introduction video by Matthew McNulty (link below)
-      - Click on the Plunker link and fork the posted code
-      - Make your own Polymer element as shown in the example
-      - Hit run to see what it looks like
     resources:
       - title:   Polymer 
         type:    website
@@ -47,6 +40,17 @@ tasks:
         site:
           name:  Introduction to Polymer - The Next Generation of Web Development 
         url:   https://www.youtube.com/watch?v=8-Zq2KUN6jM
+      
+  - title: Build your own Polymer element
+    description: >
+      Use the information that you have gathered on the Polymer website and 
+      through watching the video to build your very own Polymer element and make 
+      the magic happen!
+    instructions:
+      - Use the Plunker link below and fork the posted code
+      - Make your own Polymer element as shown in the example
+      - Hit run to see what it looks like
+    resources:
       - title:   Web components
         type:    Article
         site:    
