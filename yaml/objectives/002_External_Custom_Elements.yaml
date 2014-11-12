@@ -61,10 +61,10 @@ tasks:
 
   - title: Incorporate an external component
     description: >
-      Polymer is not the only party that produces components for everybody to 
+      Polymer is not the only community that produces components for everybody to 
       use. there are many individuals and companies who share their components 
       with the world. Customelements.io is a community where you can upload and 
-      find custom elements. For example in the list you will find a custom 
+      find custom elements. For example, in the list you will find a custom 
       element that creates a github profile card. You could import the element 
       with a single line. then you can duplicate it as many times as you like 
       and modify it by adding or changing the attributes. 
