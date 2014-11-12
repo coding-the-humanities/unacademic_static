@@ -24,7 +24,7 @@ tasks:
 
   - title: Relay information between Polymer elements
     description: >
-      You have already built a Polymer element. You now have to make these 
+      You have already built a Polymer element. You now have to make your 
       elements communicate with one another in order to get your code 
       to actually work. You will learn how to call and connect your elements, 
       and how to exchange information between elements using so-called attributes.
