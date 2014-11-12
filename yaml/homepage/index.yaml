@@ -15,7 +15,7 @@ locations:
     level001:
         level: level 001
         levelclass: level001
-        currentweek: true
+        currentweek: false
         date: 4 November 2014
         time: 13:00 - 16:00
         location: LUSTlab
@@ -26,7 +26,7 @@ locations:
     level002:
         level: level 002
         levelclass: level002
-        currentweek: false
+        currentweek: true
         date: 11 November 2014
         time: 13:00 - 17:00
         location: UvA (OMHP EK.01)  
@@ -124,3 +124,29 @@ level001:
     classtag: photoStack
     summary: Select photos, create a JSON-object and make a template.
     url: 001_Photostack
+
+level002:
+  - title: Web Architecture
+    classtag: webArchitecture
+    summary: Http requests and communicating with the server.
+    url: 002_Web_Architecture
+
+  - title: Web Components
+    classtag: webComponents
+    summary: Web components are the future of web development, but what are they?
+    url: 002_Web_Components
+
+  - title: External Custom Elements
+    classtag: externalCustomElements
+    summary: Web components provide an easy way to share and reuse code.
+    url: 002_External_Custom_Elements
+
+  - title: Communication Between Elements
+    classtag: communicationBetweenElements
+    summary: Under construction
+    url: under_construction
+
+  - title: Ideas to Components
+    classtag: fromIdeasToComponents
+    summary: Now that you came up with tons of ideas on how to implement the Rijksmuseum API, put one of those ideas into a real web component.
+    url: 002_Ideas_to_components
