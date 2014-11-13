@@ -136,12 +136,12 @@ level002:
     summary: Web components are the future of web development, but what are they?
     url: 002_Web_Components
 
-  - title: External Custom Elements
+  - title: Custom Elements
     classtag: externalCustomElements
     summary: Web components provide an easy way to share and reuse code.
-    url: 002_External_Custom_Elements
+    url: 002_Custom_Elements
 
-  - title: Communication Between Elements
+  - title: Communication Between Components
     classtag: communicationBetweenElements
     summary: Under construction
     url: under_construction
