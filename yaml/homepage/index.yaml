@@ -146,7 +146,7 @@ level002:
     summary: Under construction
     url: under_construction
 
-  - title: Ideas to Components
-    classtag: fromIdeasToComponents
-    summary: Now that you came up with tons of ideas on how to implement the Rijksmuseum API, put one of those ideas into a real web component.
-    url: 002_Ideas_to_components
+  - title: From Idea to Component
+    classtag: fromIdeaToComponent
+    summary: Transform one of your ideas into a real webcomponent.
+    url: 002_From_Idea_To_Component
