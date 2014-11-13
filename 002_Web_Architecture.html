@@ -55,9 +55,10 @@
       <div class="container">
         <div class="hero-unit">
           <div class="col-xs-9">
-            <h3>Web Components</h3>
-            <p><p>Web components are the future of web development, but what are they? 
-We can for example create an element called <my-clock> that would insert a clock  displaying the time. Like any other element we could then reuse our  clock element whenever and wherever we need.<br>Web components enable truly encapsulated and reusable components for the web. This means we can easily create widgets and other useful elements that can be easily shared, without having to retype or  rework code. That is the beauty of web components.</p>
+            <h3>Web Architecture</h3>
+            <p><p>When a web page is rendered in your browser, data is being transmitted over the internet. The information that is needed to render a page is stored on a server. In order to retrieve that data the browser needs to request it from the server. These request are using a protocol called http which is the foundation of any web application.
+Whenever you want to show a change on the page, we need to send an http request to refresh the entire page, even if we just want to change one little piece of it. If we would have a widget that needs to update regularly this is obviously not the most efficient way of doing this, because it constantly has to wait for everything.
+This is where Ajax comes in. Ajax is a method to communicate with a server in the background, without interfering with the current state of the page. This technique is what makes modern web apps possible.</p>
 </p>
           </div>
         </div>
@@ -68,52 +69,58 @@ We can for example create an element called <my-clock> that would insert a clock
     <div class="container">
         <section class="task">
 
-          <h3>Learn about Polymer</h3>
-          <p><p>Polymer is a library built on top of web components, making the  development of web components easier. Polymer has a certain way  of thinking how these web components are best used and created.  First familiarise yourself with Polymer and its methodology. </p>
+          <h3>Learn the Basics</h3>
+          <p><p>Ajax is a group of interrelated web development techniques used on the client-side to communicate with the server that runs in the background. Ajax works on the client side meaning: your browser.
+The video and infographic explain the differences between the traditional (rerendering entire page) and the Ajax method.</p>
 </p>
 
           <h5>Instructions</h5>
           <ul>
-            <li><p><p>Read up on Polymer on the Polymer Project website</p>
+            <li><p><p>Look at the infographic the link you can find below</p>
 </p></li>
-            <li><p><p>Watch the introduction video by Matthew McNulty (link below)</p>
+            <li><p><p>Read the resources below to get an understanding of what Ajax entails.</p>
 </p></li>
           </ul>
 
           <h5>Resources</h5>
           <ul>
             <li>
-              <p>Polymer Project: <a href="https://www.polymer-project.org/">Polymer</a></p>
+              <p>Ajax Definition: <a href="http://en.wikipedia.org/wiki/Ajax_(programming)">Ajax wikipedia</a></p>
             </li>
             <li>
-              <p>Introduction to Polymer - The Next Generation of Web Development: <a href="https://www.youtube.com/watch?v=8-Zq2KUN6jM">Introduction Video</a></p>
+              <p>How the Internet Works in 5 Minutes: <a href="https://www.youtube.com/watch?v=7_LPdttKXPc">Server and Client side explaination</a></p>
+            </li>
+            <li>
+              <p>traditional model versus Ajax model: <a href="http://www.techbubbles.com/wp-content/uploads/2009/01/ajax.png">Ajax model infographic</a></p>
             </li>
           </ul>
           <hr>
         </section>
         <section class="task">
 
-          <h3>Build your first Polymer element</h3>
-          <p><p>Use the information that you have gathered on the Polymer website and  through watching the video to build your very own Polymer element and make  the magic happen!</p>
+          <h3>Combine Ajax and Polymer</h3>
+          <p><p>Polymer provides a handy, simplified interface to handle Ajax requests; it&#39;s called &#39;Core-Ajax&#39;. This component allows programmers to easily query API&#39;s and manipulate that data.
+But that&#39;s not all. Since is just another polymer element, Core-Ajax also makes it very easy to share data between different components.
+Take a look at the Plunker link below. It&#39;s not done yet, but it&#39;s up to you to finish it.</p>
 </p>
 
           <h5>Instructions</h5>
           <ul>
-            <li><p><p>Use the Plunker link below and fork the posted code</p>
+            <li><p><p>Look at the code of rijksmuseum-query.html and index.html</p>
 </p></li>
-            <li><p><p>Make your own Polymer element as shown in the example</p>
+            <li><p><p>Make the page display artworks of your favorite painter and their titles using the repeat attribute of Polymer</p>
 </p></li>
-            <li><p><p>Hit run to see what it looks like</p>
+            <li><p><p>(Hint&#39;:&#39; &#39;look in the Javascript console in your browser)</p>
 </p></li>
           </ul>
 
           <h5>Resources</h5>
           <ul>
             <li>
-              <p>techcrunch: <a href="http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/">Web components</a></p>
+              <p>Polymer core-ajax: <a href="https://www.polymer-project.org/docs/elements/core-elements.html#core-ajax">Core Ajax</a></p>
             </li>
             <li>
-              <p>Plunker: <a href="http://plnkr.co/edit/mN4hsk1fgO9UR01cjwmd">Build one element</a></p>
+              <p>Final Assignment Level 2: <a href="http://plnkr.co/edit/nwDL4l">Rijksmuseum Plunker</a></p>
             </li>
           </ul>
           <hr>
