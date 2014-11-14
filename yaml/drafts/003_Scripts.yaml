@@ -1,0 +1,63 @@
+title:      Scripts
+level:      2
+points:     100
+mandatory:  false
+category:   workflow
+
+technologies:
+  - HTML
+  - Javascript
+
+description:
+  full: >
+    So far you have included noscript inside your polymer element. The reason is
+    because untill now we did not use the script functionalities. A script is 
+    a small bit of code that enables web browsers to do something more than just 
+    displaying static results. Scripts are used in web design to 
+    create dynamic pages. 
+  summary: >
+    A script is a small bit of code that allows for dynamic pages
+tasks:
+  - title: Script tag
+    description: >
+      If HTML is the sructure of your page and CSS the styling, scripts allow
+      for behaviour. To add behaviour you create a script tag and inside most
+      commonly JavaScript is used. JavaScript works by finding a target HTML
+      element, and then doing something to it, just like CSS, but the way it 
+      operates, the syntax etc. is rather different.
+    instructions:
+      - Add the script tag
+      - Target an element to use in script
+    resources:
+      - title:   wip
+        type:    article
+        site:
+          name:  wip
+        url:     http
+  - title: Objects
+    description: >
+      Objects
+    instructions:
+      - 
+    resources:
+      - title:   C
+        type:    article
+        site:
+          name:  P
+        url:     http
+  - title: Scripts in Polymer
+    description: >
+      When your polymer-element does not contain a script you should always
+      explicitly mention this by adding the noscript attribute, otherwise it
+      will not work. In Polymer the script should always be included in the element it refers to.
+      The reason is to keep the element encapsulated. 
+    instructions:
+      - Look at the code of rijksmuseum-query.html and index.html
+      - Make the page display artworks of your favorite painter and their titles using the repeat attribute of Polymer
+      - (Hint':' 'look in the Javascript console in your browser)
+    resources:
+      - title:   Core Ajax
+        type:    article
+        site:
+          name:  Polymer core-ajax
+        url:     https://www.polymer-project.org/docs/elements/core-elements.html#core-ajax
