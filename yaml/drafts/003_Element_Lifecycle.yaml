@@ -32,7 +32,7 @@ tasks:
       specifies some of the lifecycles.  
     instructions:
       - Have a look at Polymer's lifecycle
-      - You could also take a look at W3C's specification, but beware, it's quite technical
+      - You could also take a look at W3C's specifications, but beware, it's get into quite some technical details
     resources:
       - title:   Polymer Lifecycle
         type:    article
