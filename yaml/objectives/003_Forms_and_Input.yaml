@@ -1,0 +1,39 @@
+title:      Forms and Input
+level:      3
+points:     100
+mandatory:  true
+category:   markup
+
+technologies:
+  - HTML
+
+description:
+  full: > 
+   We regularly come across fields on a website used to collect 
+   user input, like name, surname, a checkbox or a button. These certain features 
+   on a website are collectively called a form. A form consists of different 
+   form elements called input which in its turn has numerous different types. So, 
+   a form can have for instance three input elements: two with type "text" for 
+   name and surname and one third with type "submit"; the well known submit 
+   button.
+  summary: > 
+   Forms are used to collect user input, like name, surname, selected answers or
+   messages. 
+tasks:
+  - title: 
+    description: > 
+       
+    instructions:
+      - 
+      - 
+    resources:
+      - title:   HTML Forms Guide
+        type:    website
+        site:
+          name:  Mozilla Developer Network
+        url:   https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form
+      - title:   HTML Input Element
+        type:    website
+        site:
+          name:   Mozilla Developer Network
+        url:   	https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form#The_%3Cinput%3E_element
