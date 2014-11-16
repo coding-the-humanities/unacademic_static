@@ -40,10 +40,10 @@ locations:
         currentweek: false
         date: 18 November 2014
         time: 13:00 - 16:00
-        location: Sandberg Institute (TBA)  
-        street: Fred. Roeskestraat 98
+        location: UvA Vendelstraat 
+        street: Vendelstraat (see Slack-channel)
         city: Amsterdam
-        urlmaps: https://www.google.nl/maps/place/Fred.+Roeskestraat+98A,+1076+ED+Amsterdam/@52.3413035,4.8599852,15z/data=!4m2!3m1!1s0x47c5e1fc2a55fbe9:0xe8018c026ad7b37f?sa=X&ei=pOhUVO64IoHQOprvgbgP&ved=0CCAQ8gEwAA
+        urlmaps: https://www.google.nl/maps/dir/52.3689008,4.8958591/52.3689587,4.8958847/@52.3688411,4.8938477,17z/data=!4m2!4m1!3e2
 
     level004:
         level: level 004
