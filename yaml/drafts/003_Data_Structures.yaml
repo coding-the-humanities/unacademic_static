@@ -1,0 +1,92 @@
+title:      Data Structures
+level:      3
+points:     100
+mandatory:  false
+category:   theory
+
+technologies:
+  - Javascript
+
+description:
+  full: >
+    Data comes in many forms, and data structures equally so.
+    But as terrifying as arrays and objects might seem at first glance,
+    they're easy to grasp in reality.
+    Variables and data are used in all programming languages (and one could
+    even say in natural languages).
+    The ways they are and can be structured vary from language to language,
+    but usually values are put in lists and lists within lists.
+  summary: >
+    Data comes in many forms, and data structures equally so.
+
+tasks:
+  - title: Variables
+    description: >
+      Variables are the smallest particles of data you can manipulate
+      with Javascript. They can be numbers, letters, true or false statements
+      (booleans) and also arrays (lists).
+      Variables are declared by putting 'var' in front of a word that
+      is just a name for the thing inside. 
+    instructions:
+    resources:
+      - title:    Values, Variables and Literals
+        type:     article
+        site:    
+          name:   Mozzila Developer Network
+        url:      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals
+      - title:    Basic Javascript
+        type:     article
+        site:
+          name:   Eloquent Javascript
+        url:      http://eloquentjavascript.net/1st_edition/chapter2.html
+
+  - title: Strings
+    description: >
+      Strings are essentially a number of characters glued together.
+      Strings can form words, sentences, URL's; basically anything.
+      One important aspect of strings is that they are arrays,
+      and like arrays they index at zero.
+      Quotes ("") denote strings.
+    instructions:
+    resources:
+      - title:    
+        type:    
+        site:
+          name:  
+        url:     
+
+  - title: Arrays
+    description: >
+      Arrays are lists of data.
+      Some only contain numbers, some contain characters.
+      While strings are arrays, arrays may contain multiple strings.
+      Arrays may even contain multiple arrays!
+      The [] brackets are used to indicate arrays.
+    instructions:
+    resources:
+      - title:   
+        type:    
+        site:
+          name:  
+        url:     
+
+  - title: Objects
+    description: >
+      Objects are slightly more intricate than arrays,
+      but only slightly so. 
+      Whereas arrays are simply lists, objects are lists
+      with keys.
+      These keys are words under which values are files.
+      A quick example would look like this: {name: "Katherine Janeway"};.
+    instructions:
+    resources:
+      - title:    Data Structures: Objects and Arrays
+        type:     article
+        site:
+          name:   Eloquent Javascript
+        url:      http://eloquentjavascript.net/04_data.html
+      - title:    Data Structures
+        type:    
+        site:
+          name:  
+        url:      http://eloquentjavascript.net/1st_edition/chapter4.html
