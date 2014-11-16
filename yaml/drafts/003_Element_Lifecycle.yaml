@@ -32,7 +32,7 @@ tasks:
       specifies some of the lifecycles.  
     instructions:
       - Have a look at Polymer's lifecycle
-      - You could also take a look at W3C's specifications, but beware, it's get into quite some technical details
+      - You could also take a look at W3C's specifications, but beware, it does get into some technical details
     resources:
       - title:   Polymer Lifecycle
         type:    article
@@ -47,7 +47,7 @@ tasks:
 
   - title: Design a loading screen
     description: >
-      One way you could use element lifecycles is by designing
+      One way you could use an element lifecycle is by designing
       a loading screen. For instance: the element that contains the
       the loading screen can be the first element that is put
       into the page. Once the DOM has finished loading we simply
