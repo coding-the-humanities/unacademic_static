@@ -12,15 +12,15 @@ description:
    We regularly come across fields on a website used to collect 
    user input, like names, surnames, checkbox answers or buttons. This bundle of 
    features on a website is collectively called a form. A form consists of 
-   different form elements called input which in its turn has numerous different 
-   types. So, a form can have for instance three input elements: two with type 
-   "text" for name and surname and one third with type "submit"; the well known 
-   submit button.
+   different form elements called input elements which in their turn have 
+   numerous different types. So, a form can have for instance three input 
+   elements: two with type "text" for name and surname and one third with type 
+   "submit"; the well known submit button.
   summary: > 
-   Forms are used to collect user input, like name, surname, selected answers or
-   messages. 
+   Forms are used to collect user input, like names, surnames, selected answers 
+   or messages.
 tasks:
-  - title: 
+  - title: Catch up on the basics of Forms and Input types
     description: > 
        
     instructions:
@@ -37,3 +37,10 @@ tasks:
         site:
           name:   Mozilla Developer Network
         url:   	https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form#The_%3Cinput%3E_element
+  - title: Make a form compiling different input types
+    description: >
+
+    instructions:
+      -
+      -
+    resources:
