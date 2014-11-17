@@ -1,0 +1,64 @@
+title:      Forms
+level:      3
+points:     100
+mandatory:  true
+category:   markup
+
+technologies:
+  - HTML Forms
+
+description:
+  full: > 
+   We regularly come across fields on web pages used to collect 
+   user input, like names, e-mail addresses, checkbox answers or messages. 
+   This bundle of features on a website is a form. A form consists of
+   different form elements called controls or widgets. Controls are usually defined 
+   by input elements which in their turn have numerous different types. So, a 
+   form can have for instance three input elements: one with type "text" for 
+   name, another one with type "e-mail" for e-mail address and one third with 
+   type "submit"; the well known submit button.
+  summary: > 
+   Forms are used to collect user input, like names, e-mail addresses, selected 
+   answers or messages.
+tasks:
+  - title: HTML Forms
+    description: > 
+       HTML Forms help us collect data. But what is the best way to ask 
+       for specific information and the most effective structure? 
+       What can be included in order to make it easier for the user to submit
+       these data?
+    instructions:
+      - Catch up on the basics of Forms
+      - Think about what you would wish to include in a form
+      - Design a sketch of a form
+    resources:
+      - title:   My Fisrt HTML Form
+        type:    website
+        site:
+          name:  Mozilla Developer Network
+        url:   https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form
+   - title: Input
+     description: >
+        The most common control for defining a form element is the <input>
+        element. Input elements can have a multitude of types, defined by the 
+        tag attribute. However, they are not the only types of form elements.
+     instructions:
+       - Discover the different types of <input> elements
+       - Learn the difference between the various form elements 
+      - title:   The <input> element
+        type:    website
+        site:
+          name:   Mozilla Developer Network
+        url:   	https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/How_to_structure_an_HTML_form#The_%3Cinput%3E_element
+      - title: The native form widgets
+      type: website
+      site: 
+        name: Mozilla Developer Network
+      urL: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets  
+  - title: Make a form compiling different input types
+    description: >
+
+    instructions:
+      -
+      -
+    resources:
