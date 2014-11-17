@@ -28,6 +28,7 @@ tasks:
       Variables are declared by putting 'var' in front of a word that
       is just a name for the thing inside. 
     instructions:
+      - Read the articles
     resources:
       - title:    Values, Variables and Literals
         type:     article
@@ -47,13 +48,24 @@ tasks:
       One important aspect of strings is that they are arrays,
       and like arrays they index at zero.
       Quotes ("") denote strings.
+      The objective is to manipulate strings into doing what you want,
+      by writing a little program.
     instructions:
+      - Read the article
+      - Copy and paste the article (or any other text) into one long string
+        in your text editor
+      - Change all characters to lower case
+      - Make another string, this time of your name
+      - Using a number of for loops and if statements,
+        capitalise letters in the long text so that it shows your name over and
+        over again
+      - If you get confused, take a look at the Arrays objective first
     resources:
-      - title:    
-        type:    
-        site:
-          name:  
-        url:     
+      - title:    Strings
+        type:     article
+        site:   
+          name:   Quirks Mode 
+        url:      http://www.quirksmode.org/js/strings.html
 
   - title: Arrays
     description: >
@@ -63,12 +75,18 @@ tasks:
       Arrays may even contain multiple arrays!
       The [] brackets are used to indicate arrays.
     instructions:
+      - Read the article
+      - Make an array containing the titles of five of your favorite books,
+        movies, series or albums/songs
+      - Add a title once using the push method, once using the unshift method,
+        and once using a different method
+      - Remove a title three times using different methods each time
     resources:
-      - title:   
-        type:    
-        site:
-          name:  
-        url:     
+      - title:    Arrays
+        type:     article
+        site:     
+          name:   Mozzilla Developer Network
+        url:      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
   - title: Objects
     description: >
@@ -78,7 +96,16 @@ tasks:
       with keys.
       These keys are words under which values are files.
       A quick example would look like this: {name: "Katherine Janeway"};.
+      One fun aspect of Javascript is that virtually everything
+      is an object.
     instructions:
+      - Read the articles
+      - Make an object containing the titles of five of your favorite books,
+        movies, series or albums/songs using the creators as keys and the titles
+        as values
+      - Expand the object by making objects within the object for every key,
+        adding subkeys and values for creator, title, year, and the reason
+        why you think this particular artwork is so awesome
     resources:
       - title:    Data Structures: Objects and Arrays
         type:     article
@@ -86,7 +113,12 @@ tasks:
           name:   Eloquent Javascript
         url:      http://eloquentjavascript.net/04_data.html
       - title:    Data Structures
-        type:    
+        type:     article
         site:
-          name:  
+          name:   Eloquent Javascript
         url:      http://eloquentjavascript.net/1st_edition/chapter4.html
+      - title:    How is almost everything in Javascript an object?
+        type:     thread
+        site:
+          name:   Stack Overflow
+        url:      http://stackoverflow.com/questions/9108925/how-is-almost-everything-in-javascript-an-object
