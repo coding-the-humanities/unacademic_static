@@ -15,7 +15,7 @@ description:
    different form elements called controls or widgets. Controls are usually defined 
    by input elements which in their turn have numerous different types. So, a 
    form can have for instance three input elements: one with type "text" for 
-   name, another one with type "e-mail" for e-mail address and one third with 
+   name, another one with type "email" for e-mail address and one third with 
    type "submit"; the well known submit button.
   summary: > 
    Forms are used to collect user input, like names, e-mail addresses, selected 
@@ -23,8 +23,8 @@ description:
 tasks:
   - title: HTML Forms
     description: > 
-       HTML Forms help us collect data. But what is the best way to ask 
-       for specific information and the most effective structure? 
+       HTML Forms help us collect data. But what is the best way and the most 
+       effective structureto ask for specific information? 
        What can be included in order to make it easier for the user to submit
        these data?
     instructions:
@@ -41,7 +41,7 @@ tasks:
      description: >
         The most common control for defining a form element is the <input>
         element. Input elements can have a multitude of types, defined by the 
-        tag attribute. However, they are not the only types of form elements.
+        type attribute. However, they are not the only types of form elements.
      instructions:
        - Discover the different types of <input> elements
        - Learn the difference between the various form elements 
