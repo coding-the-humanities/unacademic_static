@@ -11,17 +11,19 @@ description:
   full: > 
    We regularly come across fields on web pages used to collect 
    user input, like names, e-mail addresses, checkbox answers or messages. 
-   This bundle of features on a website is a form. A form consists of
-   different form elements called controls or widgets. Controls are usually defined 
-   by input elements which in their turn have numerous different types. So, a 
-   form can have for instance three input elements: one with type "text" for 
-   name, another one with type "email" for e-mail address and one third with 
-   type "submit"; the well known submit button.
+   This bundle of features on a website is a form. 
+
+   A form consists of different form elements called controls or widgets.
+   Controls are usually defined by input elements which in their turn have
+   numerous different types. So, a form can have for instance three input
+   elements. one with type "text" for name, another one with type "email"
+   for e-mail address and one third with type "submit"; the well known submit 
+   button.
   summary: > 
    Forms are used to collect user input, like names, e-mail addresses, selected 
    answers or messages.
 tasks:
-  - title: HTML Forms
+  - title: Sketch an HTML Form
     description: > 
        HTML Forms help us collect data. But what is the best way and the most 
        effective structureto ask for specific information? 
@@ -37,7 +39,7 @@ tasks:
         site:
           name:  Mozilla Developer Network
         url:   https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form
-   - title: Input
+   - title: Explore Input
      description: >
         The most common control for defining a form element is the <input>
         element. Input elements can have a multitude of types, defined by the 
@@ -55,9 +57,9 @@ tasks:
       site: 
         name: Mozilla Developer Network
       urL: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets  
-  - title: Make a form compiling different widgets
-    description: >
-      
+  - title: Make an HTML form
+    description: > 
+
     instructions:
       -
       -
