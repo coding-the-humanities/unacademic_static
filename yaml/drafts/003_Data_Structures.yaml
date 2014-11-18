@@ -11,10 +11,11 @@ description:
   full: >
     Data comes in many forms, and data structures equally so.
     But as terrifying as arrays and objects might seem at first glance,
-    they are easy to grasp in reality.
-    Variables and data are used in all programming languages (and one could
-    even say in natural languages).
-    The ways they are and can be structured vary from language to language,
+    they are easy to grasp in reality. 
+    
+    Data structures are used in all programming languages (and one 
+    could even say in natural languages). The ways they are and 
+    can be structured vary from language to language,
     but usually values are put in lists and lists within lists.
   summary: >
     Data comes in many forms, and data structures equally so.
