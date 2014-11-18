@@ -11,7 +11,7 @@ description:
   full: >
     Data comes in many forms, and data structures equally so.
     But as terrifying as arrays and objects might seem at first glance,
-    they're easy to grasp in reality.
+    they are easy to grasp in reality.
     Variables and data are used in all programming languages (and one could
     even say in natural languages).
     The ways they are and can be structured vary from language to language,
@@ -20,26 +20,39 @@ description:
     Data comes in many forms, and data structures equally so.
 
 tasks:
-  - title: Variables
+  - title: Numbers
     description: >
-      Variables are the smallest particles of data you can manipulate
-      with Javascript. They can be numbers, letters, true or false statements
-      (booleans) and also arrays (lists).
-      Variables are declared by putting 'var' in front of a word that
-      is just a name for the thing inside. 
+      Numbers are at the core of programming,
+      not just webprogramming, but all programming.
+      In fact, that computers run on binary code,
+      i.e. zeroes and ones, can be considered common knowledge.
+      But since writing programs in binary is a hell of a job,
+      computer scientists have developed a number of ways
+      to represent numbers.
     instructions:
-      - Read the articles
+      - Read the articles ("How numbers are encoded" is optional)
+      - Watch the video
     resources:
-      - title:    Values, Variables and Literals
-        type:     article
-        site:    
-          name:   Mozzila Developer Network
-        url:      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals
-      - title:    Basic Javascript
+      - title:    Javascript Numbers
+        type:     reference
+        site:     
+          name:   W3C Schools
+        url:      http://www.w3schools.com/js/js_numbers.asp
+      - title:    Numbers
         type:     article
         site:
-          name:   Eloquent Javascript
-        url:      http://eloquentjavascript.net/1st_edition/chapter2.html
+          name:   Mozilla Developer Network
+        url:      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+      - title:    How numbers are encoded in Javascript
+        type:     article
+        site:     
+          name:   2 Ality
+        url:      http://www.2ality.com/2012/04/number-encoding.html
+      - title:    Javascript Numbers
+        type:     video
+        site:
+          name:   Youtube - Chris Walker
+        url:      http://youtu.be/VTCvtXWLXLc
 
   - title: Strings
     description: >
@@ -59,7 +72,7 @@ tasks:
       - Using a number of for loops and if statements,
         capitalise letters in the long text so that it shows your name over and
         over again
-      - If you get confused, take a look at the Arrays objective first
+      - If you get confused, take a look at the Arrays task first
     resources:
       - title:    Strings
         type:     article
@@ -85,7 +98,7 @@ tasks:
       - title:    Arrays
         type:     article
         site:     
-          name:   Mozzilla Developer Network
+          name:   Mozilla Developer Network
         url:      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
   - title: Objects
@@ -95,7 +108,8 @@ tasks:
       Whereas arrays are simply lists, objects are lists
       with keys.
       These keys are words under which values are files.
-      A quick example would look like this: {name: "Katherine Janeway"};.
+      A quick example would look like this: 
+      var captain = {name: "Katherine Janeway"};
       One fun aspect of Javascript is that virtually everything
       is an object.
     instructions:
