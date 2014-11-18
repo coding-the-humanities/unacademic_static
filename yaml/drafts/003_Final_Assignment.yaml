@@ -1,0 +1,45 @@
+title:      
+level:      
+points:     
+mandatory:  
+category:   
+
+technologies:
+
+description:
+  full: > you made a mockup on paper maybe you want to rethink it, now you will make 
+  a mockup using polymer. the functionalities do not have to work yet, but you will make
+  them respond. This is a group assignment so make sure you all agree on the design of
+  the mockup and divide the components or features amongst yourselves.
+  summary: >
+
+tasks: 
+  - title: Make a mockup using Polymer components use your previous drawing and create components
+  place it on the screen accordingly
+    description: >
+    instructions:
+    resources:
+      - title:   Mockup definition wikipedia
+        type:    
+        site:    
+          name:  Mockup definition wikipedia
+        url:     http://en.wikipedia.org/wiki/Mockup
+
+  - title: create minimum of one input field using javascript scripts 
+    description: >
+    instructions:
+    resources:
+      - title:   
+        type:    
+        site:
+          name:  
+        url:     
+
+  - title: create "mirroring back the input for the user" response with alert message.
+    instructions:
+    resources:
+      - title:   
+        type:    
+        site:
+          name:  
+        url:     
