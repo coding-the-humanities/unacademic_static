@@ -26,7 +26,7 @@ locations:
     level002:
         level: level 002
         levelclass: level002
-        currentweek: true
+        currentweek: false
         date: 11 November 2014
         time: 13:00 - 17:00
         location: UvA (OMHP EK.01)  
@@ -37,7 +37,7 @@ locations:
     level003:
         level: level 003
         levelclass: level003
-        currentweek: false
+        currentweek: true
         date: 18 November 2014
         time: 13:00 - 16:00
         location: UvA Vendelstraat 
@@ -150,3 +150,29 @@ level002:
     classtag: fromIdeaToComponent
     summary: Transform one of your ideas into a real webcomponent.
     url: 002_From_Idea_To_Component
+
+level003:
+  - title: Forms
+    classtag: forms
+    summary: Forms are used to collect user input, like names, e-mail addresses, selected answers or messages.
+    url: 003_Forms
+
+  - title: Data structures
+    classtag: dataStructures
+    summary: Data comes in many forms, and data structures equally so.
+    url: 003_Data_Structures
+
+  - title: Component Lifecycle
+    classtag: componentLifecycle
+    summary: Just like organisms have a certain lifecycle, webcomponents have a lifecycle of their own.
+    url: 003_Component_Lifecycle
+
+  - title: Scripts
+    classtag: scripts
+    summary: A script is a small bit of code that allows for dynamic pages
+    url: 003_Scripts
+
+  - title: Final Assignment
+    classtag: finalAssignment
+    summary: Yet to come
+    url: 003_Final_Assigment
