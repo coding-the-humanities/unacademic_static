@@ -1,45 +1,55 @@
-title:      
-level:      
-points:     
-mandatory:  
-category:   
+title:      Paper to Polymer
+level:      3
+points:     100
+mandatory:  true
+category:   design
 
 technologies:
+  - Polymer
+  - Javascript
 
 description:
-  full: > you made a mockup on paper maybe you want to rethink it, now you will make 
-  a mockup using polymer. the functionalities do not have to work yet, but you will make
-  them respond. This is a group assignment so make sure you all agree on the design of
-  the mockup and divide the components or features amongst yourselves.
+  full: > 
+    You made a mockup on paper and now you will make a mockup using Polymer.
+    Maybe you want to rethink your design, maybe not.
+    That is your choice.
+    The functionalities do not have to work yet, but you will make them respond. 
+    This is a group assignment so make sure you all agree on the design of
+    the mockup and divide the components or features amongst yourselves.
   summary: >
+    From paper to Polymer, taking mocking up to a next level.
 
 tasks: 
-  - title: Make a mockup using Polymer components use your previous drawing and create components
-  place it on the screen accordingly
+  - title: Components
     description: >
+      The very first step is transforming your paper mockup into seperate
+      Polymer elements.
+      Think in modules, break up everything into the tiniest seperate component
+      possible.
     instructions:
+      - Make a mockup using Polymer components use your previous drawing 
+        and create components place it on the screen accordingly.
     resources:
-      - title:   Mockup definition wikipedia
-        type:    
+      - title:    Mockup Definition
+        type:     article
         site:    
-          name:  Mockup definition wikipedia
-        url:     http://en.wikipedia.org/wiki/Mockup
+          name:   Mockup definition wikipedia
+        url:      http://en.wikipedia.org/wiki/Mockup
 
-  - title: create minimum of one input field using javascript scripts 
+  - title: Input
     description: >
+      Make a number of input fields. 
+      This number can also be one.
     instructions:
-    resources:
-      - title:   
-        type:    
-        site:
-          name:  
-        url:     
+      - Create a minimum of one input field using Javascript scripts (javascripts?)
 
-  - title: create "mirroring back the input for the user" response with alert message.
+  - title: Responses
+    description: >
+      The input fields do not truly have to work yet,
+      they only need to give some sort of feedback.
+      This is easily accomplished with an alert.
+      However, if you want to go overboard
+      and add computational fireworks to your mockup,
+      you are welcome to do that.
     instructions:
-    resources:
-      - title:   
-        type:    
-        site:
-          name:  
-        url:     
+      - Create a "mirroring back the input for the user" response

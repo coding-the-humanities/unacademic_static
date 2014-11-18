@@ -1,4 +1,4 @@
-title:      Element Lifecycle
+title:      Component Lifecycle
 level:      3
 points:     100
 mandatory:  true
@@ -11,15 +11,14 @@ technologies:
 description:
   full: >
     Just like organisms have a certain lifecycle, webcomponents have a 
-    lifecycle of their own. For example: an element can be generated
-    in your browser (DOM). It's attributes can be changed, or it can be 
-    detached from the DOM. By using Javascript we can tap into this
+    lifecycle of their own. For example: a component can be generated
+    in your browser (DOM). Its attributes can be changed, or it can be 
+    detached from the DOM. By using JavaScript we can tap into this
     lifecycle and add a certain amount of interactivity (lifecycle callback).
     For instance, you could make a loading screen by using this principle: One 
     of the first things we load into the DOM is a big component which covers 
     the whole screen (the loading page). Once the DOM is fully initiliazed we
     simply remove/detach this element from the DOM.
-    [Misschien ander voorbeeld dan loading screen gebruiken omdat ik dit ook al als opdracht gebruik]
   summary: >
     Just like organisms have a certain lifecycle, webcomponents have a 
     lifecycle of their own.
@@ -32,7 +31,7 @@ tasks:
       specifies some of the lifecycles.  
     instructions:
       - Have a look at Polymer's lifecycle
-      - You could also take a look at W3C's specifications, but beware, it does get into some technical details
+      - You could also take a look at the official W3C specifications, but beware, it does get into some technical details
     resources:
       - title:   Polymer Lifecycle
         type:    article
@@ -45,19 +44,14 @@ tasks:
           name:  Custom Elements: W3C Editor's Draft 14 November 2014
         url:     http://w3c.github.io/webcomponents/spec/custom/#custom-element-lifecycle
 
-  - title: Design a loading screen
+    - title: Design a carousel
     description: >
-      One way you could use an element lifecycle is by designing
-      a loading screen. For instance: the element that contains the
-      the loading screen can be the first element that is put
-      into the page. Once the DOM has finished loading we simply
-      remove this element.
+      Bladiebladiebla
     instructions:
-      - Use the Polymer documentation to find a lifecycle that fits this purpose
-      - Insert this lifecycle method into the Plunker script
+      - Design a carousel
     resources:
-      - title:   Design your own loading screen
+      - title:   Change the currency
         type:    article
         site:
           name:  Plunker
-        url:     http://plnkr.co/edit/5qvY8dDouadcbO5MnmrO
+        url:     http://plnkr.co/edit/VIyCvXp5tOA3XeMUNUaJ
