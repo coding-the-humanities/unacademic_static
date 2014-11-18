@@ -55,9 +55,9 @@ tasks:
       site: 
         name: Mozilla Developer Network
       urL: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets  
-  - title: Make a form compiling different input types
+  - title: Make a form compiling different widgets
     description: >
-
+      
     instructions:
       -
       -
