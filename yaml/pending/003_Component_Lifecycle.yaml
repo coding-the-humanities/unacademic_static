@@ -44,14 +44,27 @@ tasks:
           name:  Custom Elements: W3C Editor's Draft 14 November 2014
         url:     http://w3c.github.io/webcomponents/spec/custom/#custom-element-lifecycle
 
-    - title: Design a carousel
+    - title: Design a slideshow
     description: >
-      Bladiebladiebla
+      Your city walk to Amsterdam did not go unnoticed. Your friends and your 
+      entire neighborhood asked you to share your experiences of your exotic 
+      trip to Amsterdam. They want you to give a quick presentation about it. 
+      Unfortunately your Microsoft Powerpoint trial just expired.  Luckily your 
+      newly acquired coding skills will save the day. By using component 
+      lifecycles we can make a really simple image carousel or a slideshow. 
+      Check out the accompanying Plunker. Almost everything has been set, you 
+      only need to change two simple things. First you need to change the 
+      photographs in the links array to your own photographs. Secondly you 
+      need to figure out which two lifecycles we need to make the script 
+      running. Remember to check out the Polymer reference guide in the previous 
+      task.
     instructions:
-      - Design a carousel
+      - Go to the Plunker-task
+      - Change the images in the links array to your own photographs
+      - Change the text "PUTLIFECYCLEHERE" to the accompanying lifecycle.
     resources:
-      - title:   Change the currency
-        type:    article
+      - title:   Design a slideshow
+        type:    plunker
         site:
           name:  Plunker
-        url:     http://plnkr.co/edit/VIyCvXp5tOA3XeMUNUaJ
+        url:     http://plnkr.co/edit/C5dsXZ8imWF4JG50SH1r
