@@ -122,7 +122,7 @@ tasks:
         adding subkeys and values for creator, title, year, and the reason
         why you think this particular artwork is so awesome
     resources:
-      - title:    Data Structures: Objects and Arrays
+      - title:    Data Structures':' Objects and Arrays
         type:     article
         site:
           name:   Eloquent Javascript

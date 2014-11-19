@@ -41,12 +41,12 @@ tasks:
           name:   Mozilla Developer Network
         url:      https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form
 
-   - title: Explore Form Elements
-     description: >
+  - title: Explore Form Elements
+    description: >
         The most common way to define a form element is the <input>
         element. Input elements can have a multitude of types, defined by the 
         type attribute. However, they are not the only types of form elements.
-     instructions:
+    instructions:
        - Discover the different types of <input> elements
        - Learn the difference between the various form elements 
     resources:
