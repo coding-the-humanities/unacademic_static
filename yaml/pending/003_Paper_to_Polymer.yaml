@@ -52,4 +52,10 @@ tasks:
       and add computational fireworks to your mockup,
       you are welcome to do that.
     instructions:
-      - Create a "mirroring back the input for the user" response
+      - Create an alert response for every module that requires user interaction
+    resources:
+      - title:    Alert response
+        type:     article
+        site:    
+          name:   Alert response W3C
+        url:      http://www.w3schools.com/js/js_popup.asp
