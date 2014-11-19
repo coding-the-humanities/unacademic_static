@@ -11,11 +11,11 @@ technologies:
 description:
   full: >
     Just like organisms have a certain lifecycle, webcomponents have a 
-    lifecycle of their own. For example: a component can be generated
+    lifecycle of their own. For example a component can be generated
     in your browser (DOM). Its attributes can be changed, or it can be 
     detached from the DOM. By using JavaScript we can tap into this
     lifecycle and add a certain amount of interactivity (lifecycle callback).
-    For instance, you could make a loading screen by using this principle: One 
+    For instance, you could make a loading screen by using this principle. One 
     of the first things we load into the DOM is a big component which covers 
     the whole screen (the loading page). Once the DOM is fully initiliazed we
     simply remove/detach this element from the DOM.
