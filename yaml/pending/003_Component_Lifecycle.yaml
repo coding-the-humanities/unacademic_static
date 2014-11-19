@@ -31,7 +31,8 @@ tasks:
       specifies some of the lifecycles.  
     instructions:
       - Have a look at Polymer's lifecycle
-      - You could also take a look at the official W3C specifications, but beware, it does get into some technical details
+      - You could also take a look at the official W3C specifications, but beware, 
+      it does get into some technical details
     resources:
       - title:   Polymer Lifecycle
         type:    article
@@ -46,10 +47,10 @@ tasks:
 
     - title: Design a slideshow
     description: >
-      Your city walk to Amsterdam did not go unnoticed. Your friends and your 
+      Your city walk through Amsterdam did not go unnoticed. Your friends and your 
       entire neighborhood asked you to share your experiences of your exotic 
-      trip to Amsterdam. They want you to give a quick presentation about it. 
-      Unfortunately your Microsoft Powerpoint trial just expired.  Luckily your 
+      trip through Amsterdam. They want you to give a quick presentation about it. 
+      Unfortunately your Microsoft Powerpoint trial just expired.Luckily your 
       newly acquired coding skills will save the day. By using component 
       lifecycles we can make a really simple image carousel or a slideshow. 
       Check out the accompanying Plunker. Almost everything has been set, you 
@@ -59,9 +60,9 @@ tasks:
       running. Remember to check out the Polymer reference guide in the previous 
       task.
     instructions:
-      - Go to the Plunker-task
+      - Go to the Plunker-task (link below)
       - Change the images in the links array to your own photographs
-      - Change the text "PUTLIFECYCLEHERE" to the accompanying lifecycle.
+      - Change the text "PUTLIFECYCLEHERE" to the accompanying lifecycle
     resources:
       - title:   Design a slideshow
         type:    plunker
