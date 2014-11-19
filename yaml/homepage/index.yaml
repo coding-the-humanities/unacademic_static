@@ -29,7 +29,7 @@ locations:
         currentweek: false
         date: 11 November 2014
         time: 13:00 - 17:00
-        location: UvA (OMHP EK.01)  
+        location: UvA (OMHP EK.01)
         street: Oudemanhuispoort 4 - 6
         city: Amsterdam
         urlmaps: https://www.google.nl/maps/place/Oudemanhuispoort+4,+1012+CN+Amsterdam/@52.3693635,4.8955403,18z/data=!3m1!4b1!4m2!3m1!1s0x47c609bf77e1b941:0x7def30913c530129
@@ -40,7 +40,7 @@ locations:
         currentweek: true
         date: 18 November 2014
         time: 13:00 - 16:00
-        location: UvA Vendelstraat 
+        location: UvA Vendelstraat
         street: Vendelstraat (see Slack-channel)
         city: Amsterdam
         urlmaps: https://www.google.nl/maps/dir/52.3689008,4.8958591/52.3689587,4.8958847/@52.3688411,4.8938477,17z/data=!4m2!4m1!3e2
@@ -51,7 +51,7 @@ locations:
         currentweek: false
         date: 25 November 2014
         time: 13:00 - 17:00
-        location: UvA (OMHP EK.01)  
+        location: UvA (OMHP EK.01)
         street: Oudemanhuispoort 4 - 6
         city: Amsterdam
         urlmaps: https://www.google.nl/maps/place/Oudemanhuispoort+4,+1012+CN+Amsterdam/@52.3693635,4.8955403,18z/data=!3m1!4b1!4m2!3m1!1s0x47c609bf77e1b941:0x7def30913c530129
@@ -62,7 +62,7 @@ locations:
         currentweek: false
         date: 2 December 2014
         time: 10:00 - 13:00
-        location: UvA (TBA)  
+        location: UvA (TBA)
         street: Oudemanhuispoort 4 - 6
         city: Amsterdam
         urlmaps: https://www.google.nl/maps/place/Oudemanhuispoort+4,+1012+CN+Amsterdam/@52.3693635,4.8955403,18z/data=!3m1!4b1!4m2!3m1!1s0x47c609bf77e1b941:0x7def30913c530129
@@ -73,7 +73,7 @@ locations:
         currentweek: false
         date: 9 December 2014
         time: 13:00 - 16:00
-        location: Sandberg  
+        location: Sandberg
         street: Fred. Roeskestraat 98
         city: Amsterdam
         urlmaps: https://www.google.nl/maps/place/Fred.+Roeskestraat+98A,+1076+ED+Amsterdam/@52.3413035,4.8599852,15z/data=!4m2!3m1!1s0x47c5e1fc2a55fbe9:0xe8018c026ad7b37f?sa=X&ei=pOhUVO64IoHQOprvgbgP&ved=0CCAQ8gEwAA
@@ -172,7 +172,7 @@ level003:
     summary: A script is a small bit of code that allows for dynamic pages
     url: 003_Scripts
 
-  - title: Final Assignment
+  - title: From Paper to Polymer
     classtag: finalAssignment
     summary: Yet to come
-    url: 003_Final_Assigment
+    url: 003_From_Paper_to_Polymer

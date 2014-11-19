@@ -1,4 +1,4 @@
-title:      Paper to Polymer
+title:    From  Paper to Polymer
 level:      3
 points:     100
 mandatory:  true
@@ -9,17 +9,17 @@ technologies:
   - Javascript
 
 description:
-  full: > 
+  full: >
     You have made a mockup on paper and now you will make a mockup using Polymer.
     Maybe you want to rethink your design, maybe not.
     That is your choice.
-    The functionalities do not have to work yet, but you will have to create a response. 
+    The functionalities do not have to work yet, but you will have to create a response.
     This is a group assignment, so make sure you all agree on the design of
     the mockup and divide the components or features amongst yourselves.
   summary: >
     From paper to Polymer, taking mocking up to a next level.
 
-tasks: 
+tasks:
   - title: Think in Components
     description: >
       The very first step is transforming your paper mockup into seperate
@@ -27,21 +27,21 @@ tasks:
       Think in modules, break up everything into the tiniest seperate component
       possible.
     instructions:
-      - Make a mockup using Polymer components use your previous drawing 
+      - Make a mockup using Polymer components use your previous drawing
         and create components place it on the screen accordingly
     resources:
       - title:    Mockup Definition
         type:     article
-        site:    
+        site:
           name:   Mockup definition wikipedia
         url:      http://en.wikipedia.org/wiki/Mockup
 
   - title: Ask for Input
     description: >
-      Make a number of input fields. 
+      Make a number of input fields.
       This number can also be one.
     instructions:
-      - Create a minimum of one input field using Javascript  
+      - Create a minimum of one input field using Javascript
 
   - title: Give a Response
     description: >
@@ -56,6 +56,6 @@ tasks:
     resources:
       - title:    Alert response
         type:     article
-        site:    
+        site:
           name:   Alert response W3C
         url:      http://www.w3schools.com/js/js_popup.asp
