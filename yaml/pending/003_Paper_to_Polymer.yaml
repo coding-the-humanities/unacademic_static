@@ -28,7 +28,7 @@ tasks:
       possible.
     instructions:
       - Make a mockup using Polymer components use your previous drawing 
-        and create components place it on the screen accordingly.
+        and create components place it on the screen accordingly
     resources:
       - title:    Mockup Definition
         type:     article
