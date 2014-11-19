@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CTH Unacademic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+          <a class="navbar-brand navbar-left" href="./" >Unacademic</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./syllabus.html">Syllabus</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="slide-panel">
+      <button type="button" class="btn btn-danger" id="opener"><i class="fui-list-columned"></i></button>
+      <h6>Level 0</h6>
+      <ul>
+        <li><a href="./000_HTML.html">HTML</a></li>
+        <li><a href="./000_CSS.html">CSS</a></li>
+        <li><a href="./000_Gists.html">Gists</a></li>
+        <li><a href="./000_City_Walk.html">City Walk</a></li>
+      </ul>
+      <h6>Level 1</h6>
+       <ul>
+        <li><a href="./001_Dev_Tools.html">Dev Tools</a></li>
+        <li><a href="./001_DOM.html">DOM</a></li>
+        <li><a href="./001_JSON.html">JSON</a></li>
+        <li><a href="./001_Templating.html">Templating</a></li>
+        <li><a href="./001_Photostack.html">Photostack</a></li>
+      </ul>
+    </div>
+
+    <div class="row customHero">
+      <div class="container">
+        <div class="hero-unit">
+          <div class="col-xs-9">
+            <h3>Scripts</h3>
+            <p><p>A script is a small bit of code that enables web browsers to do something  more than just displaying static results. Scripts are used in web design to  create dynamic pages. So far you have included noscript inside your polymer  element. The reason is because untill now we did not use the script  functionalities. There are some big differences between regular HTML scripts  and Polymer scripts. Scripts are extremely powerful and are responsible for the behaviour of your web-app.</p>
+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+        <section class="task">
+
+          <h3>Create a script</h3>
+          <p><p>Where HTML specifies the strucutre, and CSS the styling, scripts allow for behaviour. To add behaviour you create a script tag and inside most commonly JavaScript is used. JavaScript works by finding a target HTML element, and then doing something to it, just like CSS, but the syntax is  different.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Open the plunker file in the resources and press run</p>
+</p></li>
+            <li><p><p>Add the script tag</p>
+</p></li>
+            <li><p><p>Inside the script tag target the blockquote by using its ID</p>
+</p></li>
+            <li><p><p>Change the background color of the element using a script</p>
+</p></li>
+            <li><p><p>The font of the author is too small make it bigger using a script</p>
+</p></li>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>Plunker: <a href="http://plnkr.co/edit/lmjA9BMq1sRUOri6XgjT">Create a script</a></p>
+            </li>
+            <li>
+              <p>w3c script tag: <a href="http://www.w3schools.com/tags/tag_script.asp">Script tag</a></p>
+            </li>
+            <li>
+              <p>Where should the script tag be placed in html: <a href="https://www.youtube.com/watch?v=uUQ4HRAJzsg">Script tag placement and element targeting</a></p>
+            </li>
+            <li>
+              <p>JavaScript HTML DOM - Changing CSS: <a href="http://www.w3schools.com/js/js_htmldom_css.asp">Change the styling using a script</a></p>
+            </li>
+            <li>
+              <p>HTML DOM Style Object: <a href="http://www.w3schools.com/jsref/dom_obj_style.asp">List of style object properties</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+        <section class="task">
+
+          <h3>Set up a Script in Polymer</h3>
+          <p><p>Now you know how to use scripts in regular HTML  but how do you do that in Polymer? When you do not include a script, you need to explicitly  tell Polymer that by adding the noscript attribute. When you do, you leave that attribute out. In Polymer the syntax to include a script is different from that in  regular HTML. Till now all the Polymer elements included this noscript. This time we add the basic syntax to include a script inside a Polymer  component.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Open the plunker file</p>
+</p></li>
+            <li><p><p>Look at the basic script set up syntax</p>
+</p></li>
+            <li><p><p>Remove the no script to start using the script</p>
+</p></li>
+            <li><p><p>You do not have to add a script try to understand the syntax needed to allow the script to work</p>
+</p></li>
+            <li><p><p>The values that are set contain content try to find where that content is transferred to</p>
+</p></li>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>Plunker: <a href="http://plnkr.co/edit/wwHpnPLz2UnNujnGzkTl?p=preview">Set up a script in Polymer</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+        <section class="task">
+
+          <h3>Create Scripts with Polymer</h3>
+          <p><p>In this case we will use the script to set our values, and we will use the double bracket method (like handlebars) to insert those values  elsewhere.  In Polymer we do not have to target specific elements. The element containing the script already indicates where we want our script to run.  This is an example where we do not just alter the styling anymore  but use a script to store information. This is useful in combination with the repeat attribute of Polymer&#39;s template tag. </p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Open the plunker file</p>
+</p></li>
+            <li><p><p>Inside the script there are two objects styles and quotes</p>
+</p></li>
+            <li><p><p>Inside the blockquote you will find the word category</p>
+</p></li>
+            <li><p><p>Replace the word category with a word that appropriatly describes it like &quot;humor&quot; or &quot;sad&quot;</p>
+</p></li>
+            <li><p><p>Replace it by adding a field in the quotes object and using the double brackets to display it where it says category</p>
+</p></li>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>Plunker: <a href="http://plnkr.co/edit/U5sNTvbT4oX00xkVPuDq?p=preview">Create a script in Polymer</a></p>
+            </li>
+            <li>
+              <p>Polymer Project: <a href="https://www.polymer-project.org/docs/start/creatingelements.html">Create elements with scripts</a></p>
+            </li>
+            <li>
+              <p>Polymer Project: <a href="https://www.polymer-project.org/docs/polymer/polymer.html">Polymer developer guide</a></p>
+            </li>
+            <li>
+              <p>Polymer Book: <a href="http://coding-the-humanities.gitbooks.io/polymer-book/content/index.html">Basics of Polymer</a></p>
+            </li>
+            <li>
+              <p>Polymer Project: <a href="https://www.polymer-project.org/articles/communication.html">Advanced messaging and scripts in Polymer</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+    </div>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-7">
+            <h3 class="footer-title">Coding The Humanities</h3>
+            <p>Coding the Humanities teaches scholars how to do research through coding.</p>
+            <p>To learn more, visit our site: <a href="http://codingthehumanities.com/">codingthehumanities.com</a></p>
+            <ul class="list-inline banner-social-buttons">
+              <li>
+              <a href="https://www.facebook.com/codingthehumanities" target="_blank"> <span class="fui-facebook"></span></a>
+              </li>
+              <li>
+              <a href="https://twitter.com/humanizecode" target="_blank"><span class="fui-twitter"></span></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Our Partners</h3>
+              <ul >
+                <li><a href="http://www.uva.nl/home" target="_blank" style="text-decoration: none; color: white;">University of Amsterdam</a></li>
+                <li><a href="http://sandberg.nl/" target="_blank" style="text-decoration: none; color: white;">Sandberg Institute</a></li>
+                <li><a href="http://codingthehumanities.com/" target="_blank" style="text-decoration: none; color: white;">Coding the Humanities</a></li>
+                <li><a href="http://www.augmentingmasterpieces.nl/" target="_blank" style="text-decoration: none; color: white;">Augmenting Masterpieces</a></li>
+                <li><a href="http://lustlab.net/" target="_blank" style="text-decoration: none; color: white;">Lust / LustLab</a></li>
+                <li><a href="https://www.uncinc.nl/" target="_blank" style="text-decoration: none; color: white;">UncInc</a></li>
+                <li><a href="http://bocoup.com/" target="_blank" style="text-decoration: none; color: white;"> Bocoup Boston</a></li>
+                <li><a href="https://www.rijksmuseum.nl/" target="_blank" style="text-decoration: none; color: white;">Rijksmuseum</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/flat-ui.min.js"></script>
+    <script src="js/application.js"></script>
+  </body>
+</html>
