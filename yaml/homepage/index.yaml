@@ -169,10 +169,10 @@ level003:
 
   - title: Scripts
     classtag: scripts
-    summary: A script is a small bit of code that allows for dynamic pages
+    summary: A script is a small bit of code that allows for dynamic pages.
     url: 003_Scripts
 
   - title: From Paper to Polymer
     classtag: finalAssignment
-    summary: Yet to come
+    summary: From paper to Polymer, taking mocking up to a next level.
     url: 003_From_Paper_to_Polymer
