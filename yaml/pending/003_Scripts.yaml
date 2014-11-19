@@ -73,9 +73,9 @@ tasks:
       - open the plunker file
       - look at the basic script set up syntax
       - remove the no script to start using the script
-      - >You do not have to add a script try to understand the syntax needed
+      - You do not have to add a script try to understand the syntax needed
         to allow the script to work
-      - > The values that are set contain content try to find where that content 
+      - The values that are set contain content try to find where that content 
         is transferred to 
     resources:
       - title:   Set up a script in Polymer
@@ -97,9 +97,9 @@ tasks:
       - Open the plunker file
       - Inside the script there are two objects styles and quotes
       - Inside the blockquote you will find the word category
-      - > Replace the word category with a word that appropriatly describes
+      - Replace the word category with a word that appropriatly describes
         it like humor or sad
-      - > Replace it by adding a field in the quotes object and using the double
+      - Replace it by adding a field in the quotes object and using the double
         brackets to display it where it says category
     resources:
       - title:   Create a script in Polymer
