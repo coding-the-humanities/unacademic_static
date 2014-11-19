@@ -21,7 +21,7 @@ description:
     Data comes in many forms, and data structures equally so.
 
 tasks:
-  - title: Numbers
+  - title: Get a grip on Numbers
     description: >
       Numbers are at the core of programming,
       not just webprogramming, but all programming.
@@ -31,7 +31,7 @@ tasks:
       computer scientists have developed a number of ways
       to represent numbers.
     instructions:
-      - Read the articles ("How numbers are encoded" is optional)
+      - Read the articles you can find below ("How numbers are encoded" is optional)
       - Watch the video
     resources:
       - title:    Javascript Numbers
@@ -55,7 +55,7 @@ tasks:
           name:   Youtube - Chris Walker
         url:      http://youtu.be/VTCvtXWLXLc
 
-  - title: Strings
+  - title: Get a grip on Strings
     description: >
       Strings are essentially a number of characters glued together.
       Strings can form words, sentences, URL's; basically anything.
@@ -81,7 +81,7 @@ tasks:
           name:   Quirks Mode 
         url:      http://www.quirksmode.org/js/strings.html
 
-  - title: Arrays
+  - title: Get a grip on Arrays
     description: >
       Arrays are lists of data.
       Some only contain numbers, some contain characters.
