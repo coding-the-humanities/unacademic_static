@@ -1,0 +1,48 @@
+title: Enumeration     
+level:      
+points:     
+mandatory:  
+category:   
+
+technologies:
+  - 
+
+description:
+  full: > Enumeration is ordering, Some sets can be enumerated by means of a natural ordering
+  Ordered lists/ unordered lists. he precise requirements for an enumeration for example, 
+    whether the set must be finite, or whether the list is allowed to contain repetitions
+  summary: >
+
+tasks:
+  - title: Ordered and Unorderd lists
+    description: > Background information on these concepts why they are used in Computer
+    Science. What the difference is and more of a generic deeper understanding
+    instructions: Plunker file with two set ups
+    resources:
+      - title:   
+        type:    
+        site:    
+          name:  
+        url:     
+
+  - title: Each
+    description: > For each and reduce, using javascript to manipulate a plunker file
+    description of these two concepts, Focus on Javascript 
+    instructions:
+    resources:
+      - title:   
+        type:    
+        site:    
+          name:  
+        url:     
+
+  - title: Combine template repeat and polymer core rijksmuseum API 
+    description: > Using a plunker file create a timeline with pictures displaying the
+    correct year. combining their knowledge 
+    instructions:
+    resources:
+      - title:   
+        type:    
+        site:
+          name:  
+        url:       
