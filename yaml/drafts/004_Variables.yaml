@@ -1,0 +1,92 @@
+title:      Variables
+level:      4
+points:     100
+mandatory:  false
+category:   theory
+
+technologies:
+  - Javascript
+
+description:
+  full: >
+    Variables are containers for data,and like many other containers 
+    they are often labelled with a name.
+    Because confusing H2O with H2O2 by mistake will most likely kill you, 
+    it is usefull to label your containers so that you have a good idea
+    what is inside. 
+    In this case: "water" and "hydrogen peroxide" would be apt container names.
+
+    Variables are what drive programs.
+  summary: >
+
+tasks:
+  - title:
+    description: >
+    instructions:
+    resources:
+      - title:    
+        type:     
+        site:     
+          name:   
+        url:      
+
+
+  - title: Math
+    description: >
+      For most humanities students math is a scary word,
+      but computers are actually particularly suited for
+      mathematical jobs.
+      In other words; your computer makes math less scary.
+      Simple mathematical operations are the usual 
+      addition (+), substraction (-), division (/)
+      and multiplication (*).
+      More complex operations can be performed with
+      the so called Math object. 
+    instructions:
+    resources:
+      - title:   
+        type:    
+        site:
+          name:  
+        url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+
+  - title: Scope
+    description: >
+      Scope is the concept of where variables can be accessed.
+      For example, a variable that is declared within a function
+      cannot really be accessed from the outside.
+      However, a variable outside a function can be accessed
+      from within the function.
+      Scope is very important to keep in mind,
+      because faulty scoping can mess up any program.
+    instructions:
+    resources:
+      - title:   
+        type:    
+        site:
+          name:  
+        url:     
+
+  - title: Var and Let
+    description: >
+      In the new Javascript there are two different types
+      of variables. 
+      Var is the one mostly used, let is the new one.
+      Chances are you will seldomly to never use the latter.
+      Let is a special type of variable that can only be accessed
+      in the code block where it is declared in.
+      Because this is such a new technology, this task is not
+      mandatory at all. 
+      It simply lets you get a closer look at the principle of
+      scope.
+    instructions:
+      - Read the article
+    resources:
+      - title:   
+        type:    
+        site:    
+          name:  
+        url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+
+http://www.tizag.com/javascriptT/javascriptvariables.php
+http://webcheatsheet.com/javascript/variables.php
