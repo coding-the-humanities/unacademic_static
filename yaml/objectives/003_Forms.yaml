@@ -59,7 +59,7 @@ tasks:
         type:     website
         site: 
           name:   Mozilla Developer Network
-        urL:      https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets  
+        urL:      https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/The_native_form_widgets
 
   - title: Build an HTML Form
     description: > 

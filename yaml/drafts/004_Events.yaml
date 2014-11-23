@@ -1,0 +1,56 @@
+title:      Events
+level:      4
+points:     100
+mandatory:  false
+category:   script
+
+technologies:
+  - Javascript
+  - HTML  
+
+description:
+  full: >
+    All interactions users have on a web page are essentially events. Events are 
+    triggered by the user when for example clicking with the mouse on an 
+    image or pressing a key. So, an event happens when you are visiting a web 
+    page and then decide to click on (something) or just resize the page. An event
+    is a notification that something has taken place, and this notification 
+    message then triggers a script and this script executes a function.
+  summary: >
+    All interactions users have on a web page are essentially events.
+
+tasks:
+  - title: Learn why events are important
+    description: >
+    instructions:
+    resources:  
+      - title:   Introduction to Events 
+        type:    website 
+        site:    
+          name:  QuirqsMode.org
+        url:     http://www.quirksmode.org/js/introevents.html
+
+  - title: Find out what the event handlers are
+    description: >
+    instructions:
+    resources:
+      - title:   Handling Events
+        type:    website
+        site:
+          name:  Eloquent Javascript
+        url:     http://eloquentjavascript.net/14_event.html
+
+  - title: Make your own event on a timeline
+    description: > 
+        What would be the best way to interact with the users of your web page?
+        Interactivity is an important factor to make a website appealing. 
+    instructions:
+      - Think of what type of event you would like to use on your page
+      - Use the timeline on the link below
+      - Write your own event 
+    resources:
+      - title:   Write an event
+        type:    tool 
+        site:
+          name:  Plunker
+        url:     
