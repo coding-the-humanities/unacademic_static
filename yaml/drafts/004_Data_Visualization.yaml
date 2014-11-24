@@ -22,19 +22,26 @@ description:
     of data visualization, and you will make a bar chart by using the Rijksmuseum
     API.
   summary: >
-
+  In this objective you will have a quick introduction to the basics of data 
+  visualization
 
 tasks:
   - title: Introduce yourself to the basics of data visualization
     description: >
+      A lot has been written about data visualization, and we could easily cover an
+      entire level with data visualization. In this task you will watch a short
+      8 minute documentary by the American Public Broadcasting Service. You will also
+      read the first chapter of Tufte's book The Visual Display of Quantitive Information.
     instructions:
+      - Watch the YouTube movie
+      - Have a look at Tufte's article
     resources:
       - title:   The art of Data Visualization
         type:    
         site:    YouTube
           name:  
         url:     http://www.youtube.com/watch?v=AdSZJzb-aX8
-      - title:   Edward R. Tufte: The Visual Display of Quantitive Information
+      - title:   Edward R. Tufte: The Visual Display of Quantitive Information; First chapter
         type:    
         site:    Colorado.edu
           name:  
@@ -42,10 +49,18 @@ tasks:
 
   - title: Generate a bar chart by using the Rijksmuseum API
     description: >
+      By using very simple CSS we are able to create a (very simple) bar chart.
+      A bar chart is in the very essence nothing more than a rectangular shape with a color in it.
+      In this case we made a bar chart which shows the number of art works of four different artists in the Rijksmuseum.
+      To create a bar chart, we can simply make a div, and attach a fix height to it (for instance; height: 30 px). Next we give it
+      a white background color (background-color: #fff). Now there's only one thing left: the length
+      of the bar. We can use the css width property to give the bar it's length. However, how do we know it's
+      length? We can get this number from the Rijksmuseum API, divide it by ten, and inject it to the css.
     instructions:
+      -> Go to the Plunker, you can find the intructions below the page
     resources:
       - title:  Generate your own bar chart 
         type:   Plunker
         site:   Plunker 
-          name:  
-        url:     
+          name: Plunker
+        url:    http://plnkr.co/edit/Kg9PWm
