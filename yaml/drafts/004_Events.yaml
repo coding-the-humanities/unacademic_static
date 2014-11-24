@@ -12,17 +12,23 @@ description:
   full: >
     All interactions users have on a web page are essentially events. Events are 
     triggered by the user when for example clicking with the mouse on an 
-    image or pressing a key. So, an event happens when you are visiting a web 
-    page and then decide to click on (something) or just resize the page. An event
-    is a notification that something has taken place, and this notification 
-    message then triggers a script and this script executes a function.
+    image or pressing a key. So, an event happens when you visit a web page and 
+    this page has just finished loading, when you decide to click on the button 
+    of an HTML form or just when you close a web page. An event is a 
+    notification that an action has taken place; this notification triggers a 
+    script, which in turn executes a function. These scripts, each associated 
+    with a specific type of event, are called event handlers.
   summary: >
     All interactions users have on a web page are essentially events.
 
 tasks:
-  - title: Learn why events are important
+  - title: Find out why events are important
     description: >
+        Events allow as a matter of fact for interactivity on web pages. They 
+        actually make web content dynamic and enable Javascript to execute 
+        certain functions.
     instructions:
+      - Read up on the article below
     resources:  
       - title:   Introduction to Events 
         type:    website 
@@ -30,27 +36,43 @@ tasks:
           name:  QuirqsMode.org
         url:     http://www.quirksmode.org/js/introevents.html
 
-  - title: Find out what the event handlers are
+  - title: Understand event handling
     description: >
+        Event handlers are Javascript code snippets that call certain functions
+        when triggered by an event. For example, the onload event handler can 
+        trigger - the often hated - pop-up windows when the page you have just 
+        visited finished loading.
     instructions:
+      - Read the articles
+      - Learn about the different types of event handlers
     resources:
+      - title:   Javascript events
+        type:    website
+        site:
+          name:  W3C schools
+        url:     http://www.w3schools.com/js/js_events.asp
+      - title:   Example: Catching a mouse click
+        type:    website
+        site:
+          name:  Mozilla Developer Network
+        url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Getting_Started#Example:_Catching_a_mouse_click
       - title:   Handling Events
         type:    website
         site:
           name:  Eloquent Javascript
         url:     http://eloquentjavascript.net/14_event.html
 
-  - title: Make your own event on a timeline
+  - title: Set up your own event
     description: > 
-        What would be the best way to interact with the users of your web page?
-        Interactivity is an important factor to make a website appealing. 
+        Interactivity is an important element to make a website appealing.
+        What would be the best way for users to interact with your web page?
     instructions:
       - Think of what type of event you would like to use on your page
-      - Use the timeline on the link below
+      - Fork the code on the Plunker link below
       - Write your own event 
     resources:
       - title:   Write an event
         type:    tool 
         site:
           name:  Plunker
-        url:     
+        url:     http://plnkr.co/edit/CscY3VQIPZXJEUVMBU7E
