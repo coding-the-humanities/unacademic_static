@@ -22,7 +22,7 @@ description:
     All interactions users have on a web page are essentially events.
 
 tasks:
-  - title: Find out why events are important
+  - title: Understand events
     description: >
         Events allow as a matter of fact for interactivity on web pages. They 
         actually make web content dynamic and enable Javascript to execute 
@@ -36,7 +36,7 @@ tasks:
           name:  QuirqsMode.org
         url:     http://www.quirksmode.org/js/introevents.html
 
-  - title: Understand event handling
+  - title: Unravel event handling
     description: >
         An action triggers an event; an event calls an event handler; 
         an event handler executes a script; a script runs functions.
@@ -66,7 +66,7 @@ tasks:
 
   - title: Set up your own event
     description: > 
-        Interactivity is an important element to make a website appealing.
+        Interactivity is an important element for making a website appealing.
         What would be the best way for users to interact with your web page?
     instructions:
       - Think of what type of event you would like to use on your page
