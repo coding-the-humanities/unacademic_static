@@ -38,13 +38,15 @@ tasks:
 
   - title: Understand event handling
     description: >
+        An action triggers an event; an event calls an event handler; 
+        an event handler executes a script; a script runs functions.
         Event handlers are simple scripts that call certain functions
-        when triggered by an event. For example, the onload event handler can 
-        trigger - the often hated - pop-up windows when the page you have just 
+        For example, the onload event handler can trigger 
+        - the often hated - pop-up windows when the page you have just 
         visited finished loading.
     instructions:
       - Read the articles
-      - Learn about the different types of event handlers
+      - Learn about the different types of events
     resources:
       - title:   Javascript events
         type:    website
