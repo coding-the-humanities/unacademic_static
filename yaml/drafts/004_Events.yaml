@@ -38,7 +38,7 @@ tasks:
 
   - title: Understand event handling
     description: >
-        Event handlers are Javascript code snippets that call certain functions
+        Event handlers are simple scripts that call certain functions
         when triggered by an event. For example, the onload event handler can 
         trigger - the often hated - pop-up windows when the page you have just 
         visited finished loading.
