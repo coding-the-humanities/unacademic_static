@@ -1,48 +1,106 @@
 title: Enumeration     
-level:      
+level: 004     
 points:     
 mandatory:  
-category:   
+category: script  
 
 technologies:
-  - 
+  - HTML
+  - Javascript
 
 description:
-  full: > Enumeration is ordering, Some sets can be enumerated by means of a natural ordering
-  Ordered lists/ unordered lists. he precise requirements for an enumeration for example, 
-    whether the set must be finite, or whether the list is allowed to contain repetitions
-  summary: >
+  full: > Enumeration as you might have guessed has got something to do with numbers. 
+  An enumeration is a list of objects that has been ordered in a certain way so each 
+  of the objects inside the list has its unique place. The way arrays are ordered influences 
+  the way we can manipulate them. With Javascript we have some techniques at our disposal 
+  to alter these orders or use them to our advantage. 
+  summary: > An enumeration is a list of objects that has been ordered, this order allows us 
+  to manipulate.....
 
 tasks:
-  - title: Ordered and Unorderd lists
-    description: > Background information on these concepts why they are used in Computer
-    Science. What the difference is and more of a generic deeper understanding
+  - title: Count the computer way
+    description: > You may have come across this concept before but in computer science 
+    counting starts at 0. This is important to remember when working with arrays. It 
+    means the second object in the array is assigned to the number 1. In HTML markup there
+    are a couple of ways to display lists. The unordered list which means that the order is 
+    not indexed with numbers, and the ordered list where every number has some text assigned 
+    to it.
     instructions: Plunker file with two set ups
+    - the numbers are scrambled 
+    - Assign the correct index numbers
     resources:
       - title:   
         type:    
         site:    
           name:  
-        url:     
-
-  - title: Each
-    description: > For each and reduce, using javascript to manipulate a plunker file
-    description of these two concepts, Focus on Javascript 
+        url:     http://webdesignfromscratch.com/html-css/html-lists/
+  - title: ForEach
+    description: > An Array is a collection of objects, each of these objects are assigned
+    a number, this indexation of arrays allows to target specific objects. In this way you
+    can think of an array as an ordered list, and each object has its number assigned to it.
+    ForEach is a technique that uses this index to iterate over the array and allows us to
+    alter each object seperately with only one command. We simply state what we want to happen
+    to a object inside the array, but use the properties unique to that object. So for each object
+    inside the array we do something. The computer knows which object has what unique properties
+    because they have their unique numbers assigned to them like an ordered list. This does mean 
+    that the way you order your objects may be important.  
+    instructions:
+      - Open the plunker file
+      - 
+    resources:
+      - title:   Array enumeration
+        type:    video
+        site:    
+          name:  
+        url:     http://www.kraigbrockschmidt.com/2013/01/22/array-enumeration-javascript/
+      - title:   ForEach tutorial
+        type:    video
+        site:    
+          name:  
+        url:     https://www.youtube.com/watch?v=skrRDG-pQJU 
+      - title:   ForEach explanation
+        type:    video
+        site:    
+          name:  
+        url:     https://www.youtube.com/watch?v=zdh4MK12Ha4 
+      - title:   ForEach MDN
+        type:    article
+        site:    
+          name:  
+        url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in 
+  - title: Reduce
+    description: > Because every object inside an array has its unique number, we can
+    do some math with them. With math we can manipulate the way the array is ordered or 
+    constructed. For example instead of an ascending list we could make it descending. With
+    reduce we can do some more advanced alterations like concatenating seperate arrays.
+    In this case we will be (EXAMPLE)
     instructions:
     resources:
-      - title:   
-        type:    
+      - title:   Reduce MDN
+        type:    article
         site:    
           name:  
-        url:     
-
+        url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+      - title:   Reduce tutorial
+        type:    video
+        site:    
+          name:  
+        url:     https://www.youtube.com/watch?v=CC9OBBuYZyo (reduce video)
   - title: Combine template repeat and polymer core rijksmuseum API 
-    description: > Using a plunker file create a timeline with pictures displaying the
-    correct year. combining their knowledge 
+    description: > In Polymer these concepts translate much in the same way but with 
+    a few changes. It actually makes it easier, It combines the syntax that we have 
+    already seen with forEach in Javascript and the each method with handlebars. By 
+    inserting some syntax we know from JavaScript into our markup we can easily iterate over entire
+    arrays and display them as we defined in our markup. 
     instructions:
     resources:
-      - title:   
+      - title:   Plunker
         type:    
         site:
           name:  
-        url:       
+        url:     
+      - title:   Polymer template repeat
+        type:    article
+        site:
+          name:  Data binding overview
+        url:     https://www.polymer-project.org/docs/polymer/databinding.html
