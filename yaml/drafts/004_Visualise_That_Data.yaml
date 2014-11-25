@@ -10,12 +10,12 @@ technologies:
 
 description:
   full: >
-    For this assignment you need to combine all your knowledge to create a 
+    For this assignment you need to combine your knowledge to create a 
     radar graph using an external component. You will combine this component
     with the Rijksmuseum API by selecting and using specific data which you will
     then have to represent on the graph. 
   summary: >
-    For this assignment you need to combine all your knowledge to create a radar 
+    For this assignment you need to combine your knowledge to create a radar 
     graph using an external component and the Rijksmuseum API.
 tasks:
   - title: Add data to the graph
