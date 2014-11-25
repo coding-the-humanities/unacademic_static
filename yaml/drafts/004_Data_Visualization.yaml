@@ -10,19 +10,18 @@ technologies:
 
 description:
   full: >
-    Most of the JSON files we've been looking into so far have been pretty 
+    Most of the JSON files we have been looking into so far have been pretty 
     complex. It usually takes quite some time to wrap your head around them, and
     the same applies for most of the other data formats we encounter. However,
     there are ways to interpret the data more easily, and to make them accessible 
     for a broader audience. 
 
-    One way we could do this is by data visualization.
-    As the name implies it is basically the visual interpretation of data. You
-    could visualize the data as bars, charts, lines etcetera. However the more
+    One way to do this is with data visualization. As the name implies, 
+    it is basically the visual interpretation of data. You could visualize 
+    the data as bars, charts, lines etcetera. However, the more
     advanced data visualizations go well beyond the point of simple lines and
     bar charts. In this objective you will have a quick introduction to the basics 
-    of data visualization, and you will make a bar chart by using the Rijksmuseum
-    API.
+    of data visualization, and you will make a bar chart using the Rijksmuseum API.
   summary: >
     In this objective you will have a quick introduction to the basics of data 
     visualization
@@ -32,10 +31,10 @@ tasks:
     description: >
       A lot has been written about data visualization, and we could easily cover an
       entire level with data visualization. In this task you will watch a short
-      8 minute documentary by the American Public Broadcasting Service. You will also
+      eight-minute documentary by the American Public Broadcasting Service. You will also
       read the first chapter of Tufte's book *The Visual Display of Quantitive Information*.
     instructions:
-      - Watch the YouTube movie
+      - Watch the YouTube clip
       - Have a look at Tufte's article
     resources:
       - title:    The art of Data Visualization
@@ -49,17 +48,19 @@ tasks:
           name:   Colorado.edu
         url:      http://www.colorado.edu/UCB/AcademicAffairs/ArtsSciences/geography/foote/maps/assign/reading/TufteCoversheet.pdf
 
-  - title: Generate a bar chart by using the Rijksmuseum API
+  - title: Generate a bar chart using the Rijksmuseum API
     description: >
-      By using very simple CSS we are able to create a bar chart.
-      A bar chart is in the very essence nothing more than a rectangular shape with a color in it.
-      In this case we made a bar chart which shows the number of art works of four different artists in the Rijksmuseum.
-      To create a bar chart, we can simply make a div, and attach a fix height to it (for instance; height: 30 px). 
+      By using very simple CSS we are able to create a bar chart. A bar chart 
+      is essentially nothing more than a rectangular shape with a color in it.
+      In this case we made a bar chart which shows the number of art works of 
+      four different artists in the Rijksmuseum. To create a bar chart, we can 
+      simply make a div, and attach a fix height to it (for instance; height: 30 px). 
       Next we give it a white background color (background-color: #fff). 
       We can use the CSS width property to give the bar its length. 
-      We can get this number from the Rijksmuseum API, divide it by ten, and inject it to the CSS.
+      We can get this number from the Rijksmuseum API, divide it by ten, 
+      and inject it to the CSS.
     instructions:
-      - Go to the Plunker
+      - Go to the Plunker file
       - Run the program
       - Follow the instructions
       - Change the datatype of the query
