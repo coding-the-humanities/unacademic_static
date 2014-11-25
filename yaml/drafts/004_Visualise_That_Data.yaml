@@ -1,0 +1,35 @@
+title:      Visualise That Data
+level:      4
+points:     100
+mandatory:  true
+category:   design
+
+technologies:
+  - Polymer
+  - Javascript
+
+description:
+  full: >
+    For this assignment you need to combine all your knowledge to create a 
+    radar graph using an external component. You will combine this component
+    with the Rijksmuseum API by selecting and using specific data which you will
+    then have to represent on the graph. 
+  summary: >
+    For this assignment you need to combine all your knowledge to create a radar 
+    graph using an external component and the Rijksmuseum API.
+tasks:
+  - title: Finish it
+    description: >
+      This graph will be based on the life and work of rembrand van rijn
+      and must have the following parameters cities" quantity work"  in what 
+      city did he make the most work.
+    instructions:
+      - This plunker contains everything you need
+      - add all the correct paramaters to the component
+      - visualise
+    resources:
+      - title:    Plunker
+        type:     article
+        site:
+          name:   Mockup definition wikipedia
+        url:      http://en.wikipedia.org/wiki/Mockup
