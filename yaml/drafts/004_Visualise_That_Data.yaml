@@ -1,4 +1,4 @@
-title:      Visualise That Data
+title:      Visualize That Data
 level:      4
 points:     100
 mandatory:  true
@@ -36,7 +36,7 @@ tasks:
       - title:    Plunker
         type:     Tool
         site:
-          name:   Visualise that data
+          name:   Visualize that data
         url:      http://plnkr.co/edit/tCsasJ
       - title:    Chart.js Polymer page
         type:     Article
