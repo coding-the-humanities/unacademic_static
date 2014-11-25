@@ -18,18 +18,20 @@ description:
     For this assignment you need to combine all your knowledge to create a radar 
     graph using an external component and the Rijksmuseum API.
 tasks:
-  - title: Finish it
+  - title: Add data to the graph
     description: >
-      This graph will be based on the life and work of rembrand van rijn
-      and must have the following parameters cities" quantity work"  in what 
-      city did he make the most work.
+      This graph will be based on the life and work of Rembrandt van Rijn
+      and must have two parameters; location and quantity of works. So, 
+      the graph will actually answer the question in which location did Rembrandt
+      produced most of his works. The Plunker file below contains everything you
+      need to complete the assignment. 
     instructions:
-      - This plunker contains everything you need
-      - add all the correct paramaters to the component
-      - visualise
+      - Fork the Plunker code below
+      - Add all the correct paramaters to the component
+      - Hit Run to see if your code works
     resources:
       - title:    Plunker
-        type:     article
+        type:     Tool
         site:
-          name:   Mockup definition wikipedia
-        url:      http://en.wikipedia.org/wiki/Mockup
+          name:   Visualise that data
+        url:      
