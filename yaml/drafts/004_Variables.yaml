@@ -5,7 +5,7 @@ mandatory:  false
 category:   theory
 
 technologies:
-  - Javascript
+  - JavaScript
 
 description:
   full: >
@@ -21,18 +21,18 @@ description:
     Variables are labelled containers for data.
 
 tasks:
-  - title: Variable types
+  - title: Variable
     description: >
-      Javascript is a so called "dynamically typed language",
+      JavaScript is a so called "dynamically typed language",
       which means variables only have to be declared as variables
       and not as the type of variable it is.
       In other words; a programmer only has to say "this is a variable",
-      and Javascript does the rest of the work.
+      and JavaScript does the rest of the work.
       This is in stark contrast with languages such as C,
       in which you not only have to say that something is a number,
       but also what kind of number.
-      However, since Javascript only has three types of data,
-      so it is not a problem quickly encountered.
+      However, you won't encounter such problems in JavaScript,
+      since JavaScript only has three types of data.
     instructions:
       - Watch the video
       - Read the article
@@ -42,11 +42,11 @@ tasks:
         site:
           name:   Youtube - The New Boston
         url:      http://youtu.be/sY8qiSaAi9g
-      - title:    Javascript Variables
+      - title:    JavaScript Variables
         type:     article
         site:     
           name:   Tutorials Point
-        url:      http://www.tutorialspoint.com/javascript/javascript_variables.htm
+        url:      http://www.tutorialspoint.com/JavaScript/JavaScript_variables.htm
 
   - title: Scope
     description: >
@@ -70,8 +70,8 @@ tasks:
       - title:    Scopes and Variables 
         type:     article
         site:     
-          name:   Javascript Workflow for Dummies
-        url:      http://anthonypigeot.com/javascript-workflow-for-dummies-scopes-and-variables/
+          name:   JavaScript Workflow for Dummies
+        url:      http://anthonypigeot.com/JavaScript-workflow-for-dummies-scopes-and-variables/
       - title:    Global & Local Variables
         type:     video
         site:
@@ -80,16 +80,17 @@ tasks:
 
   - title: Var and Let
     description: >
-      In the new Javascript there are two different types
+      In the new JavaScript there are two different types
       of variables. 
       Var is the one mostly used, let is the new one.
       Chances are you will seldomly to never use the latter.
       Let is a special type of variable that can only be accessed
       in the code block where it is declared in.
       Because this is such a new technology, this task is not
-      mandatory.
+      mandatory. Therefore do not worry if you can not grasp
+      the concept completely.
       However, it lets you get a closer look at the principle of
-      scope and a slight glipse into the future of Javascript.
+      scope and a slight glipse into the future of JavaScript.
     instructions:
       - Read the article
     resources:
