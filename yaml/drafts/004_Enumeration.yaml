@@ -20,7 +20,7 @@ description:
     the objects inside the list has its unique place.
 
 tasks:
-  - title: Count zero
+  - title: Count like a computer
     description: > 
       You may have come across this concept before but in computer science 
       counting starts at 0. This is important to remember when working with arrays. It 
@@ -31,10 +31,15 @@ tasks:
     - the numbers are scrambled 
     - Assign the correct index numbers
     resources:
-      - title:   
-        type:    
+      - title:   JavaScript Array indexOf() Method
+        type:    article
         site:    
           name:  
+        url:     http://www.w3schools.com/jsref/jsref_indexof_array.asp
+      - title:   unordered and ordered lists
+        type:    article
+        site:    
+          name:  html-lists
         url:     http://webdesignfromscratch.com/html-css/html-lists/
   - title: ForEach
     description: > 
@@ -48,9 +53,17 @@ tasks:
       because they have their unique numbers assigned to them like an ordered list. This does mean 
       that the way you order your objects may be important.  
     instructions:
-      - Open the plunker file
-      -
+      - Read and watch the resources
+      - Open the plunker file 
+      - For each object in the array the value and the index number is displayed
+      - change the array by adding a number or maybe some text
+      - As you can see the index counts differently and starts from 0
     resources:
+      - title:   Expand the array
+        type:    website
+        site:
+          name:  Plunker
+        url:     http://plnkr.co/edit/NWG1Ru0hXhiklpW3SbP4?p=preview
       - title:   Array enumeration
         type:    video
         site:    
@@ -74,31 +87,44 @@ tasks:
   - title: Learn how to use the filter
     description: > 
       Because every object inside an array has its unique number, we can
-      do some math with them. With math we can manipulate the way the array is ordered or 
-      constructed. Or we can filter ......
+      do some math with them. We can manipulate the way the array is ordered or 
+      constructed. Or we can filter out only the things we need.
     instructions:
+      - Open the plunker file 
+      - Explore the possibilities of filter and sort 
     resources:
-      - title:   Reduce MDN
+      - title:   Explore filter and sort
+        type:    website
+        site:
+          name:  Plunker
+        url:     http://plnkr.co/edit/MLZC1cKArDm17vZtwLud?p=preview
+      - title:   Filter
         type:    article
-        site:    
-          name:  
-        url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
-      - title:   Reduce tutorial
-        type:    video
-        site:    
-          name:  
-        url:     https://www.youtube.com/watch?v=CC9OBBuYZyo (reduce video)
+        site:
+          name:  Array.prototype.filter()
+        url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+      - title:   Sort
+        type:    article
+        site:
+          name:  Array.prototype.filter()
+        url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
   - title: Combine template repeat and polymer core rijksmuseum API 
     description: > 
       In Polymer these concepts translate much in the same way but with 
       a few changes. It actually makes it easier, combining the syntax that we have 
-      already seen with forEach in Javascript and the each method with handlebars. By 
-      inserting some JavaScript syntax into our markup we can easily iterate over entire
-      arrays and display them as we defined in our markup. 
+      already seen with forEach in Javascript and the each method with handlebars. 
+      Using the rijksmuseum API custom element we can filter the array to show us only 
+      the years artworks by Rembrandt were made. With these techniques we could make a 
+      timeline.
     instructions:
+      - Open the plunker
+      - 
     resources:
-      - title:   Plunker
-        type:    
+      - title:   Explore filter and sort
+        type:    website
+        site:
+          name:  Plunker
+        url:     http://plnkr.co/edit/MLZC1cKArDm17vZtwLud?p=preview   
         site:
           name:  
         url:     
