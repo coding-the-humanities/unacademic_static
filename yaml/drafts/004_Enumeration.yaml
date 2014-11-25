@@ -68,12 +68,10 @@ tasks:
         site:    
           name:  
         url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in 
-  - title: Reduce
+  - title: Filter & sort
     description: > Because every object inside an array has its unique number, we can
     do some math with them. With math we can manipulate the way the array is ordered or 
-    constructed. For example instead of an ascending list we could make it descending. With
-    reduce we can do some more advanced alterations like concatenating seperate arrays.
-    In this case we will be (EXAMPLE)
+    constructed. Or we can filter ......
     instructions:
     resources:
       - title:   Reduce MDN
