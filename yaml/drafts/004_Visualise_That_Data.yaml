@@ -20,18 +20,26 @@ description:
 tasks:
   - title: Add data to the graph
     description: >
-      This graph will be based on the life and work of Rembrandt van Rijn
+      This graph will be based on the life and work of Karel Appel
       and must have two parameters; location and quantity of works. So, 
-      the graph will actually answer the question in which location did Rembrandt
+      the graph will actually answer the question in which location did Karel Appel
       produced most of his works. The Plunker file below contains everything you
       need to complete the assignment. 
     instructions:
       - Fork the Plunker code below
-      - Add all the correct paramaters to the component
-      - Hit Run to see if your code works
+      - Pick another chart from the chart.js Polymer page
+      - Look for an artist in the Rijksmuseum API
+      - Count all the productionPlaces
+      - Put all this data in your new chart
+      - Save it and post it in our Slack-channel
     resources:
       - title:    Plunker
         type:     Tool
         site:
           name:   Visualise that data
-        url:      
+        url:      http://plnkr.co/edit/tCsasJ
+      - title:    Chart.js Polymer page
+        type:     Article
+        site:     Github
+          name:   Github
+        url:      https://github.com/robdodson/chart-elements
