@@ -12,12 +12,13 @@ description:
   full: >
     All interactions users have on a web page are essentially events. Events are 
     triggered by the user when for example clicking with the mouse on an 
-    image or pressing a key. So, an event happens when you visit a web page and 
-    this page has just finished loading, when you decide to click on the button 
-    of an HTML form or just when you close a web page. An event is a 
-    notification that an action has taken place; this notification triggers a 
-    script, which in turn executes a function. These scripts, each associated 
-    with a specific type of event, are called event handlers.
+    image or pressing a key or even when the webpage finished loading. 
+    An event is simply a notification that an action has taken place. Simply noting
+    a change is not enough though, in order to actually do something with this information
+    we have to hook an action to it and listen to the specific events. 
+    We can add this hook by using event handlers, they allow us to listen
+    to a particular event and execute a function when it is triggered. Events are 
+    about broadcasting and receiving, when received it needs to be processed.
   summary: >
     All interactions users have on a web page are essentially events.
 
@@ -39,7 +40,7 @@ tasks:
   - title: Unravel event handling
     description: >
         An action triggers an event; an event calls an event handler; 
-        an event handler executes a script; a script runs functions.
+        an event handler executes a function.
         Event handlers are simple scripts that call certain functions.
         For example, the onload event handler can trigger a pop-up window 
         when the page you have visited just finished loading.
@@ -65,15 +66,27 @@ tasks:
 
   - title: Set up your own event
     description: > 
-        Interactivity is an important element for making a website appealing.
-        What would be the best way for users to interact with your web page?
+        Interactivity is important for making a website appealing. There are many 
+        events and all have there specific eventhandler like onmousedown triggers when
+        obviously the mousclick is clicked. But there are many more have a look
+        at the wide range of eventhandlers and choos the one you need to complete the next
+        task. 
     instructions:
-      - Think of what type of event you would like to use on your page
       - Fork the code on the Plunker link below
-      - Write your own event 
+      - Inside the script tag there are two functions
+      - The first function is already at work but the second mUp is not being called yet
+      - The function mUp is supposed to be executed when the mouse is up so not clicked
+      - Add the appropriate eventhandler to call the mUp function when the mouse is up  
     resources:
-      - title:   Write an event
+      - title:   Set up your event
         type:    tool 
         site:
           name:  Plunker
-        url:     http://plnkr.co/edit/CscY3VQIPZXJEUVMBU7E
+        url:     http://plnkr.co/edit/168kcUcXouAFfBRDNj6e?p=preview
+      - title:   List of DOM events with eventhandler
+        type:    article 
+        site:
+          name:  w3c list of DOM events
+        url:     http://www.w3schools.com/jsref/dom_obj_event.asp
+
+
