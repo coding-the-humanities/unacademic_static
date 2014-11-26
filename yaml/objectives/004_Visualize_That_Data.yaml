@@ -10,21 +10,21 @@ technologies:
 
 description:
   full: >
-    For this assignment you need to combine your knowledge to create a 
+    For this assignment you need to combine your knowledge to create a
     radar graph using an external component. You will combine this component
     with the Rijksmuseum API by selecting and using specific data which you will
-    then have to represent on the graph. 
+    then have to represent on the graph.
   summary: >
-    For this assignment you need to combine your knowledge to create a radar 
+    For this assignment you need to combine your knowledge to create a radar
     graph using an external component and the Rijksmuseum API.
 tasks:
   - title: Add data to the graph
     description: >
       This graph will be based on the life and work of Karel Appel
-      and must have two parameters; location and quantity of works. So, 
+      and must have two parameters; location and quantity of works. So,
       the graph will actually answer the question in which location did Karel Appel
       produce most of his works. The Plunker file below contains everything you
-      need to complete the assignment. 
+      need to complete the assignment.
     instructions:
       - Fork the Plunker code below
       - Pick another chart from the chart.js Polymer page
@@ -40,6 +40,5 @@ tasks:
         url:      http://plnkr.co/edit/tCsasJ
       - title:    Chart.js Polymer page
         type:     Article
-        site:     Github
-          name:   Github
+        site:   Github
         url:      https://github.com/robdodson/chart-elements
