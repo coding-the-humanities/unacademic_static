@@ -23,7 +23,7 @@ tasks:
       This graph will be based on the life and work of Karel Appel
       and must have two parameters; location and quantity of works. So, 
       the graph will actually answer the question in which location did Karel Appel
-      produced most of his works. The Plunker file below contains everything you
+      produce most of his works. The Plunker file below contains everything you
       need to complete the assignment. 
     instructions:
       - Fork the Plunker code below
