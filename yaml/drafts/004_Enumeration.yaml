@@ -127,7 +127,7 @@ tasks:
       - Now you will see just a list with some years, thats ok because now you have to sort them
       - Use the sort method to make the years in ascending order
     resources:
-      - title:   Explore filter and sort
+      - title:   Template Repeat and Sort
         type:    website
         site:
           name:  Plunker
