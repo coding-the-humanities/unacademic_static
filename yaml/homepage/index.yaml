@@ -37,7 +37,7 @@ locations:
     level003:
         level: level 003
         levelclass: level003
-        currentweek: true
+        currentweek: false
         date: 18 November 2014
         time: 13:00 - 16:00
         location: UvA Vendelstraat
@@ -48,7 +48,7 @@ locations:
     level004:
         level: level 004
         levelclass: level004
-        currentweek: false
+        currentweek: true
         date: 25 November 2014
         time: 13:00 - 17:00
         location: UvA (OMHP EK.01)
