@@ -1,8 +1,8 @@
-title: Enumeration     
-level: 4     
-points: 100   
-mandatory: false
-category: script  
+title:      Enumeration     
+level:      4     
+points:     100   
+mandatory:  false
+category:   script  
 
 technologies:
   - HTML
@@ -27,23 +27,23 @@ tasks:
       means the second object in the array is assigned to the digit 1. In HTML markup there
       are a couple of ways to display lists; the unordered list which means that the order is 
       not indexed with numbers, and the ordered list where every item has a number assigned.
-    instructions: Plunker file with two set ups
-    - the numbers are scrambled 
+    instructions: 
+    - The numbers are scrambled 
     - Assign the correct index numbers
     resources:
       - title:   JavaScript Array indexOf() Method
         type:    article
         site:    
-          name:  
+          name:  Arrays
         url:     http://www.w3schools.com/jsref/jsref_indexof_array.asp
-      - title:   unordered and ordered lists
+      - title:   Unordered and ordered lists
         type:    article
         site:    
-          name:  html-lists
+          name:  Html Lists
         url:     http://webdesignfromscratch.com/html-css/html-lists/
   - title: ForEach
     description: > 
-      An Array is a collection of objects, each of these objects is assigned
+      An array is a collection of objects, each of these objects is assigned
       a number. This indexation of arrays allows for targeting specific objects. In this way you
       can think of an array as an ordered list, and each object has its number assigned to it.
       ForEach is a technique that uses this index to iterate over the array and allows us to
@@ -67,7 +67,7 @@ tasks:
       - title:   Array enumeration
         type:    video
         site:    
-          name:  
+          name:  Kraig Brock Schmidt
         url:     http://www.kraigbrockschmidt.com/2013/01/22/array-enumeration-javascript/
       - title:   ForEach tutorial
         type:    video
@@ -77,12 +77,12 @@ tasks:
       - title:   ForEach explanation
         type:    video
         site:    
-          name:  
+          name:  Youtube
         url:     https://www.youtube.com/watch?v=zdh4MK12Ha4 
       - title:   ForEach MDN
         type:    article
         site:    
-          name:  
+          name:  Mozilla Developer Network
         url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in 
   - title: Learn how to use the filter
     description: > 
@@ -101,30 +101,31 @@ tasks:
       - title:   Filter
         type:    article
         site:
-          name:  Array.prototype.filter()
+          name:  Mozilla Developer Network - Filter
         url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
       - title:   Sort
         type:    article
         site:
-          name:  Array.prototype.filter()
+          name:  Mozilla Developer Network - Sort
         url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
-  - title: Combine template repeat and polymer core rijksmuseum API 
+  - title: Combine template repeat and the Rijksmuseum API 
     description: > 
       In Polymer these concepts translate much in the same way but with 
-      a few changes. It actually makes it easier, combining the syntax that we have 
+      a few changes. It actually makes things easier, combining the syntax that we have 
       already seen with forEach in Javascript and the each method with handlebars. 
-      Using the rijksmuseum API custom element we can filter the array to show us only 
+      Using the Rijksmuseum API custom element we can filter the array to show us only 
       the years artworks by Rembrandt were made. The end result should be
       a simple list of the years he produced his work in ascending order.
-      In the plunker provided we already made a script that pulls out only the years 
+      In the Plunker provided we already made a script that pulls out only the years 
       of his artworks. You must display the years using template repeat and sort the list.
     instructions:
       - Open the plunker
       - Look at rijksmuseum.html 
       - Inside the script tag there is a little script that pulls out only the year each artwork was produced
       - But the year of each artwork is not yet displayed, we need a template repeat for that
-      - Display the year of each artwork with a template repeat between the comment lines (remember to look at the variables)
-      - Now you will see just a list with some years, thats ok because now you have to sort them
+      - Display the year of each artwork with a template repeat between the comment lines 
+        (remember to look at the variables)
+      - Now you will see just a list with some years
       - Use the sort method to make the years in ascending order
     resources:
       - title:   Template Repeat and Sort
