@@ -131,7 +131,7 @@ tasks:
         type:    website
         site:
           name:  Plunker
-        url:     http://plnkr.co/edit/MLZC1cKArDm17vZtwLud?p=preview   
+        url:     http://plnkr.co/edit/k9s4be?p=preview
       - title:   Template repeat
         type:    article
         site:
