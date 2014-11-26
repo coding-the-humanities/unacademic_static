@@ -114,22 +114,32 @@ tasks:
       a few changes. It actually makes it easier, combining the syntax that we have 
       already seen with forEach in Javascript and the each method with handlebars. 
       Using the rijksmuseum API custom element we can filter the array to show us only 
-      the years artworks by Rembrandt were made. With these techniques we could make a 
-      timeline.
+      the years artworks by Rembrandt were made. The end result should be
+      a simple list of the years he produced his work in ascending order.
+      In the plunker provided we already made a script that pulls out only the years 
+      of his artworks. You must display the years using template repeat and sort the list.
     instructions:
       - Open the plunker
-      - 
+      - Look at rijksmuseum.html 
+      - Inside the script tag there is a little script that pulls out only the year each artwork was produced
+      - But the year of each artwork is not yet displayed, we need a template repeat for that
+      - Display the year of each artwork with a template repeat between the comment lines (remember to look at the variables)
+      - Now you will see just a list with some years, thats ok because now you have to sort them
+      - Use the sort method to make the years in ascending order
     resources:
       - title:   Explore filter and sort
         type:    website
         site:
           name:  Plunker
         url:     http://plnkr.co/edit/MLZC1cKArDm17vZtwLud?p=preview   
-        site:
-          name:  
-        url:     
-      - title:   Polymer template repeat
+      - title:   Template repeat
         type:    article
         site:
-          name:  Data binding overview
-        url:     https://www.polymer-project.org/docs/polymer/databinding.html
+          name:  Data binding template repeat
+        url:     https://www.polymer-project.org/docs/polymer/template.html
+      - title:   Sort
+        type:    article
+        site:
+          name:  JavaScript Array sort() Method
+        url:     http://www.w3schools.com/jsref/jsref_sort.asp
+
