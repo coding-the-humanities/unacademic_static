@@ -10,7 +10,7 @@ technologies:
 
 description:
   full: >
-    All interactions users have on a web page are essentially events. Events are 
+    All interactions that users have on a web page are essentially events. Events are 
     triggered by the user when for example clicking with the mouse on an 
     image or pressing a key or even when the webpage finished loading. 
     An event is simply a notification that an action has taken place. Simply noting
@@ -18,7 +18,7 @@ description:
     we have to hook an action to it and listen to the specific events. 
     We can add this hook by using event handlers, they allow us to listen
     to a particular event and execute a function when it is triggered. Events are 
-    about broadcasting and receiving, when received it needs to be processed.
+    about broadcasting and receiving, when a notification is received it needs to be processed.
   summary: >
     All interactions users have on a web page are essentially events.
 
