@@ -39,8 +39,9 @@ tasks:
       - title:   Unordered and ordered lists
         type:    article
         site:    
-          name:  Html Lists
+          name:  HTML Lists
         url:     http://webdesignfromscratch.com/html-css/html-lists/
+
   - title: ForEach
     description: > 
       An array is a collection of objects, each of these objects is assigned
@@ -83,7 +84,8 @@ tasks:
         type:    article
         site:    
           name:  Mozilla Developer Network
-        url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in 
+        url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in
+
   - title: Learn how to use the filter
     description: > 
       Because every object inside an array has its unique number, we can
@@ -108,6 +110,7 @@ tasks:
         site:
           name:  Mozilla Developer Network - Sort
         url:     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
   - title: Combine template repeat and the Rijksmuseum API 
     description: > 
       In Polymer these concepts translate much in the same way but with 
