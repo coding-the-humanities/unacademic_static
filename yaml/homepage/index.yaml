@@ -37,7 +37,7 @@ locations:
     level003:
         level: level 003
         levelclass: level003
-        currentweek: true
+        currentweek: false
         date: 18 November 2014
         time: 13:00 - 16:00
         location: UvA Vendelstraat
@@ -48,7 +48,7 @@ locations:
     level004:
         level: level 004
         levelclass: level004
-        currentweek: false
+        currentweek: true
         date: 25 November 2014
         time: 13:00 - 17:00
         location: UvA (OMHP EK.01)
@@ -176,3 +176,31 @@ level003:
     classtag: finalAssignment
     summary: From paper to Polymer, taking mocking up to a next level.
     url: 003_From_Paper_to_Polymer
+
+level004:
+- title: Data Visualization
+classtag: dataVisualization
+summary: In this objective you will have a quick introduction to the basics of data visualization.
+url: 004_Data_Visualization
+
+- title: Enumeration
+classtag: dataStructures
+summary: An enumeration is a list of objects that has been ordered in a certain way so each
+    the objects inside the list has its unique place.
+url: 004_Enumeration
+
+- title: Events
+classtag: events
+summary: All interactions users have on a web page are essentially events.
+url: 004_Events
+
+- title:
+classtag:
+summary:
+url:
+
+- title: Visualize That Data
+classtag: visualizeThatData
+summary: For this assignment you need to combine your knowledge to create a radar
+    graph using an external component and the Rijksmuseum API.
+url: 004_Visualize_That_Data

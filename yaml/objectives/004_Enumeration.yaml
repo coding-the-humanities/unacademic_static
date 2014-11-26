@@ -113,7 +113,7 @@ tasks:
 
   - title: Combine template repeat and the Rijksmuseum API 
     description: > 
-      In Polymer these concepts translate much in the same way but with 
+      In Polymer these concepts translate in much the same way but with 
       a few changes. It actually makes things easier, combining the syntax that we have 
       already seen with forEach in Javascript and the each method with handlebars. 
       Using the Rijksmuseum API custom element we can filter the array to show us only 
