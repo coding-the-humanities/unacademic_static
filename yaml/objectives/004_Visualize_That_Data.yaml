@@ -38,7 +38,8 @@ tasks:
         site:
           name:   Visualize that data
         url:      http://plnkr.co/edit/tCsasJ
+
       - title:    Chart.js Polymer page
-        type:     Article
+        type:   Article
         site:   Github
-        url:      https://github.com/robdodson/chart-elements
+        url:    https://github.com/robdodson/chart-elements
