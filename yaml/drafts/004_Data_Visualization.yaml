@@ -51,12 +51,14 @@ tasks:
   - title: Generate a bar chart using the Rijksmuseum API
     description: >
       By using very simple CSS we are able to create a bar chart. A bar chart 
-      is essentially nothing more than a rectangular shape with a color in it.
+      is essentially nothing more than a set of colored rectangular shapes.
       In this case we made a bar chart which shows the number of art works of 
       four different artists in the Rijksmuseum. To create a bar chart, we can 
-      simply make a div, and attach a fix height to it (for instance; height: 30 px). 
-      Next we give it a white background color (background-color: #fff). 
-      We can use the CSS width property to give the bar its length. 
+      simply make a number of div elements (the bars), and attach a height to 
+      each (for instance; height: 30 px). 
+      Next we give them a white background color (background-color: #fff). 
+      We can use the CSS width property to give the bar its length based on 
+      the number of artworks. 
       We can get this number from the Rijksmuseum API, divide it by ten, 
       and inject it to the CSS.
     instructions:
