@@ -42,8 +42,8 @@
             <li class="test"><a href="#level000" data-target="#level000, #level000Location" data-toggle="tab">level 000</a></li>
             <li class="test"><a href="#level001" data-target="#level001, #level001Location" data-toggle="tab">level 001</a></li>
             <li class="test"><a href="#level002" data-target="#level002, #level002Location" data-toggle="tab">level 002</a></li>
-            <li class="test active"><a href="#level003" data-target="#level003, #level003Location" data-toggle="tab">level 003</a></li>
-            <li class="test"><a href="#level004" data-target="#level004, #level004Location" data-toggle="tab">level 004</a></li>
+            <li class="test"><a href="#level003" data-target="#level003, #level003Location" data-toggle="tab">level 003</a></li>
+            <li class="test active"><a href="#level004" data-target="#level004, #level004Location" data-toggle="tab">level 004</a></li>
             <li class="test"><a href="#level005" data-target="#level005, #level005Location" data-toggle="tab">level 005</a></li>
             <li class="test"><a href="#level006" data-target="#level006, #level006Location" data-toggle="tab">level 006</a></li>
       </ul>
@@ -52,7 +52,7 @@
 <div class="col-xs-12 col-sm-9 courseContentContainer">
 
   <div class="row">
-    
+
     <!-- Container courseBlocks -->
     <div class="col-xs-12 col-sm-12 col-md-8">
 
@@ -211,7 +211,7 @@
 
     </div><!--/tab-panel-->
 
-     <div role="tabpanel" class="tab-pane active" id="level003" class="tab-content">
+     <div role="tabpanel" class="tab-pane" id="level003" class="tab-content">
 
       <div class="row courseBlockInput">
 
@@ -265,9 +265,63 @@
 
     </div><!--/tab-panel-->
 
+         <div role="tabpanel"  class="tab-pane active" id="level004" class="tab-content">
+
+      <div class="row courseBlockInput">
+
+        <div class="col-xs-12 col-sm-6 courseBlock dataVisualizationBlock" onclick="location.href='004_Data_Visualization.html';">
+          <h3 class="courseTag">Data Visualization</h3>
+            <br>
+          <p class="courseText">
+            In this objective you will have a quick introduction to the basics of data visualization.
+          </p>
+            <br>
+            <a href="004_Data_Visualization.html" class="courseCTA">Do the task</a>
+        </div>
+        <div class="col-xs-12 col-sm-6 courseBlock dataStructuresBlock" onclick="location.href='004_Enumeration.html';">
+          <h3 class="courseTag">Enumeration</h3>
+            <br>
+          <p class="courseText">
+            An enumeration is a list of objects that has been ordered in a certain way so each the objects inside the list has its unique place.
+          </p>
+            <br>
+            <a href="004_Enumeration.html" class="courseCTA">Do the task</a>
+        </div>
+        <div class="col-xs-12 col-sm-6 courseBlock eventsBlock" onclick="location.href='004_Events.html';">
+          <h3 class="courseTag">Events</h3>
+            <br>
+          <p class="courseText">
+            All interactions users have on a web page are essentially events.
+          </p>
+            <br>
+            <a href="004_Events.html" class="courseCTA">Do the task</a>
+        </div>
+        <div class="col-xs-12 col-sm-6 courseBlock variablesBlock" onclick="location.href='004_Variables.html';">
+          <h3 class="courseTag">Variables</h3>
+            <br>
+          <p class="courseText">
+            Variables are labelled containers for data.
+          </p>
+            <br>
+            <a href="004_Variables.html" class="courseCTA">Do the task</a>
+        </div>
+        <div class="col-xs-12 col-sm-6 courseBlock visualizeThatDataBlock" onclick="location.href='004_Visualize_That_Data.html';">
+          <h3 class="courseTag">Visualize That Data</h3>
+            <br>
+          <p class="courseText">
+            For this assignment you need to combine your knowledge to create a radar graph using an external component and the Rijksmuseum API.
+          </p>
+            <br>
+            <a href="004_Visualize_That_Data.html" class="courseCTA">Do the task</a>
+        </div>
+
+        </div>
+
+    </div><!--/tab-panel-->
+
   </div> <!--/tab-container-->
 </div><!--/container courseblocks-->
-    
+
 
 
 
@@ -321,7 +375,7 @@
               <li><a href="https://www.google.nl/maps/place/Oudemanhuispoort+4,+1012+CN+Amsterdam/@52.3693635,4.8955403,18z/data=!3m1!4b1!4m2!3m1!1s0x47c609bf77e1b941:0x7def30913c530129"/>Google Maps</a></li>
             </ul>
         </div>
-          <div class="noBackground tab-pane fade in active" id="level003Location">
+          <div class="noBackground tab-pane fade in " id="level003Location">
             <h6 class="locationTag">level 003 meeting</h6>
               <br>
             <ul class="locationDetails">
@@ -333,7 +387,7 @@
               <li><a href="https://www.google.nl/maps/dir/52.3689008,4.8958591/52.3689587,4.8958847/@52.3688411,4.8938477,17z/data=!4m2!4m1!3e2"/>Google Maps</a></li>
             </ul>
         </div>
-          <div class="noBackground tab-pane fade in " id="level004Location">
+          <div class="noBackground tab-pane fade in active" id="level004Location">
             <h6 class="locationTag">level 004 meeting</h6>
               <br>
             <ul class="locationDetails">
@@ -385,7 +439,7 @@
   </div> <!--/row 3-9-->
 </div> <!--/entire Container -->
 
- 
+
 
     <footer>
       <div class="container">
@@ -446,7 +500,7 @@
                 slackHTML = template(resJSON);
 
            $('.slackMessages').html(slackHTML);
-             
+
         },
         getSlackData : function(){
             $.ajax({
@@ -456,7 +510,7 @@
             })
         }
       };
-       
+
       $(document).ready(function(){
           slackAPI.getSlackData();
       });

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CTH Unacademic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+          <a class="navbar-brand navbar-left" href="./" >Unacademic</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./syllabus.html">Syllabus</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="slide-panel">
+      <button type="button" class="btn btn-danger" id="opener"><i class="fui-list-columned"></i></button>
+      <h6>Level 0</h6>
+      <ul>
+        <li><a href="./000_HTML.html">HTML</a></li>
+        <li><a href="./000_CSS.html">CSS</a></li>
+        <li><a href="./000_Gists.html">Gists</a></li>
+        <li><a href="./000_City_Walk.html">City Walk</a></li>
+      </ul>
+      <h6>Level 1</h6>
+       <ul>
+        <li><a href="./001_Dev_Tools.html">Dev Tools</a></li>
+        <li><a href="./001_DOM.html">DOM</a></li>
+        <li><a href="./001_JSON.html">JSON</a></li>
+        <li><a href="./001_Templating.html">Templating</a></li>
+        <li><a href="./001_Photostack.html">Photostack</a></li>
+      </ul>
+    </div>
+
+    <div class="row customHero">
+      <div class="container">
+        <div class="hero-unit">
+          <div class="col-xs-9">
+            <h3>Data Visualization</h3>
+            <p><p>Most of the JSON files we have been looking into so far have been pretty complex. It usually takes quite some time to wrap your head around them, and the same applies for most of the other data formats we encounter. However, there are ways to interpret the data more easily, and to make them accessible for a broader audience.
+One way to do this is with data visualization. As the name implies, it is basically the visual interpretation of data. You could visualize the data as bars, charts, lines etcetera. However, the more advanced data visualizations go well beyond the point of simple lines and bar charts. In this objective you will have a quick introduction to the basics of data visualization, and you will make a bar chart using the Rijksmuseum API.</p>
+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+        <section class="task">
+
+          <h3>Introduce yourself to the basics of data visualization</h3>
+          <p><p>A lot has been written about data visualization, and we could easily cover an entire level with data visualization. In this task you will watch a short eight-minute documentary by the American Public Broadcasting Service. You will also read the first chapter of Tufte&#39;s book <em>The Visual Display of Quantitive Information</em>.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Watch the YouTube clip</p>
+</p></li>
+            <li><p><p>Have a look at Tufte&#39;s article</p>
+</p></li>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>YouTube: <a href="http://www.youtube.com/watch?v=AdSZJzb-aX8">The art of Data Visualization</a></p>
+            </li>
+            <li>
+              <p>Colorado.edu: <a href="http://www.colorado.edu/UCB/AcademicAffairs/ArtsSciences/geography/foote/maps/assign/reading/TufteCoversheet.pdf">Edward R. Tufte = The Visual Display of Quantitive Information; First chapter</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+        <section class="task">
+
+          <h3>Generate a bar chart using the Rijksmuseum API</h3>
+          <p><p>By using very simple CSS we are able to create a bar chart. A bar chart is essentially nothing more than a set of colored rectangular shapes. In this case we made a bar chart which shows the number of art works of four different artists in the Rijksmuseum. To create a bar chart, we can simply make a number of div elements (the bars), and attach a height to each (for instance; height: 30 px). Next we give them a white background color (background-color: #fff). We can use the CSS width property to give the bar its length based on the number of artworks. We can get this number from the Rijksmuseum API, divide it by ten, and inject it to the CSS.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Go to the Plunker file</p>
+</p></li>
+            <li><p><p>Run the program</p>
+</p></li>
+            <li><p><p>Follow the instructions</p>
+</p></li>
+            <li><p><p>Change the datatype of the query</p>
+</p></li>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>Plunker: <a href="http://plnkr.co/edit/Kg9PWm">Generate your own bar chart</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+    </div>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-7">
+            <h3 class="footer-title">Coding The Humanities</h3>
+            <p>Coding the Humanities teaches scholars how to do research through coding.</p>
+            <p>To learn more, visit our site: <a href="http://codingthehumanities.com/">codingthehumanities.com</a></p>
+            <ul class="list-inline banner-social-buttons">
+              <li>
+              <a href="https://www.facebook.com/codingthehumanities" target="_blank"> <span class="fui-facebook"></span></a>
+              </li>
+              <li>
+              <a href="https://twitter.com/humanizecode" target="_blank"><span class="fui-twitter"></span></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Our Partners</h3>
+              <ul >
+                <li><a href="http://www.uva.nl/home" target="_blank" style="text-decoration: none; color: white;">University of Amsterdam</a></li>
+                <li><a href="http://sandberg.nl/" target="_blank" style="text-decoration: none; color: white;">Sandberg Institute</a></li>
+                <li><a href="http://codingthehumanities.com/" target="_blank" style="text-decoration: none; color: white;">Coding the Humanities</a></li>
+                <li><a href="http://www.augmentingmasterpieces.nl/" target="_blank" style="text-decoration: none; color: white;">Augmenting Masterpieces</a></li>
+                <li><a href="http://lustlab.net/" target="_blank" style="text-decoration: none; color: white;">Lust / LustLab</a></li>
+                <li><a href="https://www.uncinc.nl/" target="_blank" style="text-decoration: none; color: white;">UncInc</a></li>
+                <li><a href="http://bocoup.com/" target="_blank" style="text-decoration: none; color: white;"> Bocoup Boston</a></li>
+                <li><a href="https://www.rijksmuseum.nl/" target="_blank" style="text-decoration: none; color: white;">Rijksmuseum</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/flat-ui.min.js"></script>
+    <script src="js/application.js"></script>
+  </body>
+</html>
