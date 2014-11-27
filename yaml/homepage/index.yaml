@@ -194,10 +194,10 @@ level004:
     summary: All interactions users have on a web page are essentially events.
     url: 004_Events
 
-  - title:
-    classtag:
-    summary:
-    url:
+  - title:  Variables
+    classtag:   variables
+    summary:    Variables are labelled containers for data.
+    url:    004_Variables
 
   - title: Visualize That Data
     classtag: visualizeThatData
