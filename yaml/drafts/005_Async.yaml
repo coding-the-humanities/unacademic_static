@@ -1,0 +1,51 @@
+title:      Async
+level:      5
+points:     100
+mandatory:  false
+category:   theory  
+
+technologies: 
+
+
+description: 
+  full: >
+     Asynchronicity in programming 
+  summary: >
+
+tasks:
+  - title: Comprehend Asynchronicity
+    description: >
+        It may sound like a complicated notion and may be confused 
+        with other conceptions in programming. Below you will find a 
+        fine and very simple example of asynchronous working. 
+    instructions:
+       - Read just the example in the first article
+       - Continue reading up on asynchronicity in JavaScript
+    resources:
+      - title:   Asynchronicity
+        type:    Website
+        site:
+          name:  webapplog.com
+        url:     http://webapplog.com/asynchronicity-in-node-js/
+      - title:   Event-Based Programming: What Async Has Over Sync
+        type:    Website
+        site:
+          name:  code.tutsplus
+        url:     http://code.tutsplus.com/tutorials/event-based-programming-what-async-has-over-sync--net-30027
+
+  - title: Learn to work with asynchronicity
+    description: >
+
+    instructions:
+      - Read the articles
+    resources:
+      - title:   Browser Event Loop – How to Use Asynchronicity to Unfreeze the Browser
+        type:    Website
+        site:         
+          name:  triangular 
+        url:     http://triangular.io/blog/browser-event-loop-how-to-use-asynchronicity-to-unfreeze-the-browser/
+      - title:   Five Patterns to Help You Tame Asynchronous JavaScript
+        type:    Website
+        site:
+          name:  Tech.pro
+        url:     http://tech.pro/blog/1402/five-patterns-to-help-you-tame-asynchronous-javascript
