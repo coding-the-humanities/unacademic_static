@@ -1,42 +1,65 @@
-title:      
-level:      
-points:     
-mandatory:  
-category:   
+title:      HTML5 APIs
+level:      5
+points:     0
+mandatory:  false
+category:   HTML
 
 technologies:
+  - HTML5
+  - JavaScript
 
 description:
-  full: >
+  full: > 
+  HTML5 provides a serie of APIs that help in creating web applications. For
+  example, with a few lines of code you can request the users geolocation. You 
+  can play videos or audio natively, without using any external plugins such as 
+  Adobe Flash or Apple Quicktime. In this objective you will have a quick 
+  overview of all the different HTML5 APIs, and you will make use of two very 
+  interesting API's: geolocation and the audio element API.
   summary: >
+  HTML5 provides a serie of APIs that help in creating web applications.
 
 tasks:
-  - title: 
+  - title: Meet all the different HTML5 APIs
     description: >
+      HTML5 introduced a lot of APIs. Some of them are more useful than others. Have a
+      quick look at the official W3C documentation. Maybe you can find an API that
+      you can use for your own group project.
     instructions:
     resources:
-      - title:   
+      - title:   W3C Editor's Draft: HTML5 APIs
+        type:    
+        site:    
+          name:  HTML5 API's 
+        url:     https://rawgit.com/whatwg/html-differences/master/Overview.html#apis
+
+  - title: Find your own location
+    description: >
+      One of the most interesting HTML5 API's
+    instructions:
+    resources:
+      - title:   OECD Regional Wellbeing
         type:    
         site:    
           name:  OECD Regional Wellbeing
         url:     http://www.oecdregionalwellbeing.org/
+      - title:   Plunker Example
+        type:    
+        site:
+          name:  Plunker Example
+        url:     http://www.plnkr.co
 
-  - title: 
+  - title: Play some audio
     description: >
     instructions:
     resources:
-      - title:   
+      - title:   Sound City Project
         type:    
         site:
-          name:  
-        url:     
-
-  - title: 
-    description: >
-    instructions:
-    resources:
-      - title:   
+          name:  Sound City Project
+        url:     http://soundcityproject.com/
+      - title:   Plunker example
         type:    
         site:
-          name:  
-        url:     
+          name:  Plunker example
+        url:     http://plnkr.co
