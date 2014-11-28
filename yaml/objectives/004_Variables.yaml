@@ -9,27 +9,45 @@ technologies:
 
 description:
   full: >
+<<<<<<< HEAD
     Variables are containers for data,and like many other containers 
     they are often labelled with a name. Because confusing H2O with H2O2 
     by mistake will most likely kill you, it is useful to label your 
     containers so that you have a good idea what is inside. 
+=======
+    Variables are containers for data,and like many other containers
+    they are often labelled with a name. Because confusing H2O with H2O2
+    by mistake will most likely kill you, it is useful to label your
+    containers so that you have a good idea what is inside.
+>>>>>>> 24b7798ddb00aad3f4056774eb774fc323529720
     In this case "water" and "hydrogen peroxide" would be apt container names.
     Sensible variable names makes code more readable and is considered
     good programming practice.
   summary: >
     Variables are labelled containers for data.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 24b7798ddb00aad3f4056774eb774fc323529720
 tasks:
   - title: Get to know Variables
     description: >
       Javascript is a so called "dynamically typed language",
       which means variables only have to be declared as variables
+<<<<<<< HEAD
       and not as the type of variable it is. In other words, 
+=======
+      and not as the type of variable it is. In other words,
+>>>>>>> 24b7798ddb00aad3f4056774eb774fc323529720
       a programmer only has to say "this is a variable",
       and Javascript does the rest of the work.
       This is in stark contrast with languages such as C,
       in which you not only have to say that something is a number,
+<<<<<<< HEAD
       but also what kind of number. Since Javascript has 
+=======
+      but also what kind of number. Since Javascript has
+>>>>>>> 24b7798ddb00aad3f4056774eb774fc323529720
       only three types of data, this problem is not encountered often.
     instructions:
       - Watch the video
@@ -42,7 +60,11 @@ tasks:
         url:      http://youtu.be/sY8qiSaAi9g
       - title:    Javascript Variables
         type:     article
+<<<<<<< HEAD
         site:     
+=======
+        site:
+>>>>>>> 24b7798ddb00aad3f4056774eb774fc323529720
           name:   Tutorials Point
         url:      http://www.tutorialspoint.com/javascript/javascript_variables.htm
 
@@ -50,9 +72,15 @@ tasks:
     description: >
       Scope is the concept of where variables can be accessed.
       For example, a variable that is declared within a function
+<<<<<<< HEAD
       cannot really be accessed from the outside. However, a variable 
       outside a function can be accessed from within the function.
       Scope is very important to keep in mind, because faulty scoping 
+=======
+      cannot really be accessed from the outside. However, a variable
+      outside a function can be accessed from within the function.
+      Scope is very important to keep in mind, because faulty scoping
+>>>>>>> 24b7798ddb00aad3f4056774eb774fc323529720
       can mess up any program.
     instructions:
       - Watch the video
@@ -60,6 +88,7 @@ tasks:
       - Write a short program as an example of how to use scope
       - Include at least one local and one global variable
       - Use comments to provide deeper explanation
+<<<<<<< HEAD
       - Explain the concept of scope to a friend, parent 
         or your landlord using the example you just wrote
       - Hand in the example by posting a gist link on Slack
@@ -67,6 +96,15 @@ tasks:
       - title:    Scopes and Variables 
         type:     article
         site:     
+=======
+      - Explain the concept of scope to a friend, parent
+        or your landlord using the example you just wrote
+      - Hand in the example by posting a gist link on Slack
+    resources:
+      - title:    Scopes and Variables
+        type:     article
+        site:
+>>>>>>> 24b7798ddb00aad3f4056774eb774fc323529720
           name:   Javascript Workflow for Dummies
         url:      http://anthonypigeot.com/javascript-workflow-for-dummies-scopes-and-variables/
       - title:    Global & Local Variables
@@ -81,7 +119,11 @@ tasks:
       of variables. Var is the one mostly used, let is the new one.
       Chances are you will seldom or never use the latter.
       Let is a special type of variable that can only be accessed
+<<<<<<< HEAD
       in the code block where it is declared in. Keep in mind that 
+=======
+      in the code block where it is declared in. Keep in mind that
+>>>>>>> 24b7798ddb00aad3f4056774eb774fc323529720
       this is such a new technology, you do not really have to master it.
       However, it lets you get a closer look at the principle of
       scope and a slight glipse into the future of Javascript.
@@ -90,6 +132,10 @@ tasks:
     resources:
       - title:    Let
         type:     article
+<<<<<<< HEAD
         site:    
+=======
+        site:
+>>>>>>> 24b7798ddb00aad3f4056774eb774fc323529720
           name:   Mozilla Developer Network
         url:      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
