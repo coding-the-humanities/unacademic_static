@@ -1,0 +1,82 @@
+title:      Composition
+level:      5
+points:     100
+mandatory:  false
+category:   theory
+
+technologies:
+  - Javascript
+
+description:
+  full: >
+    The design...
+
+    Object-Oriented Programing has too well known candidates for the 
+    reuse of functionality. 
+    Inheritance is tree structure each object inherits all information
+    from the higher. From specific to more general. Composition from generic to
+    specific. composed of many objects that make out the bigger objects.
+
+    Nobody wants to repeat themselves so to save us 
+    time these theoretical frameworks were constructed to provide us with a
+    solution to his problem. 
+    Composition addresses the problem of repeating code by providing a solution
+    to reuse your code in an effective way.
+    Composition is a mechanism for forming an 
+    object whole using other objects as its parts. It reduces complexity by 
+    treating many objects as one object.
+
+    Inheritance (whitebox reuse) and Composition 
+    (blackbox reuse). If you try to reuse code by inheriting from a class you 
+    will make the subclass dependent on the parent class. This makes a system 
+    in many cases unnecessarily complex, less testable
+
+    take a new thing and takes over all of the properties of the old thing inheritance
+    retain all of the old behaviour, is the same thing with more stuff, this is an extended version of this
+  summary: >
+    Composition
+tasks: Object-Oriented Programing
+       OOP programming paradigm. design theory 
+  - title: Composition
+    description: >
+      Composition
+    instructions:
+      - 
+    resources:
+      - title:    Micronugget classes and OOP
+        type:     video
+        site:
+          name:   MicroNugget: What is OOP? (Object-Oriented Programming)
+        url:      https://www.youtube.com/watch?v=5VkrdKzKGlA
+      - title:    Object-Oriented Programming Concepts
+        type:     article
+        site:
+          name:   The Java™ Tutorials
+        url:      http://docs.oracle.com/javase/tutorial/java/concepts/
+      - title:    Wiki OOP
+        type:     article
+        site:
+          name:   
+        url:      http://en.wikipedia.org/wiki/Object-oriented_programming
+
+tasks: Composition vs Inheritance
+       Composition is defined as a relationship that associates a whole and its parts,
+       no tree hierarchy makes it easier to swap and change
+       inheritance reuses implementation and establishes a syntactic relationship
+       composition relates to the philosophy of polymer.
+  - title: Composition
+    description: >
+      Composition
+    instructions:
+      - 
+    resources:
+      - title:    Thoughtbot Composition over Inheritance
+        type:     v
+        site:
+          name:   
+        url:      https://www.youtube.com/watch?v=-ZBtQzTKC8s
+      - title:    Composition vs. Inheritance (watch from 4:34 - 6:50)
+        type:     v
+        site:
+          name:   Composition vs. Inheritance
+        url:      https://www.youtube.com/watch?v=dYUZiJEy0JE
