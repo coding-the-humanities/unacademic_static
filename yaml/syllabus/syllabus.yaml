@@ -111,4 +111,5 @@ requirements: |
     The presentation approaches the project from two angles:
       Design and vision (Sandberg Students)
       Technical implementation (CtH Students)
-      The aim for this project for the CtH Students is explicitly not a completely working product, but a prototype that illustrates how (a feature of) such an application should / could be implemented in code.
+      The aim for this project for the CtH Students is explicitly not a completely working product, 
+      but a prototype that illustrates how (a feature of) such an application should / could be implemented in code.
