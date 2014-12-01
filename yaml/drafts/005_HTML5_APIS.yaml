@@ -65,7 +65,9 @@ tasks:
       RealPlayer or Quicktime). This API is supported natively by browsers, and therefore
       enables you to get really creative. The Sound City Project is a really neat example.
       It uses 3d soundmapping technology to create an almost life-like experience. Videos
-      are often used as full-screen backgrounds.
+      are often used as full-screen backgrounds. In our case we used it to show some footage
+      of the Rijksmuseum with their logo on top of it. As you can see in the code, it is
+      actually quite easy.
     instructions:
     resources:
       - title:   Sound City Project
@@ -76,5 +78,5 @@ tasks:
       - title:   Plunker example
         type:    
         site:
-          name:  Plunker example
-        url:     http://plnkr.co
+          name:  Plunker with background footage
+        url:     http://embed.plnkr.co/u2A9qs/preview
