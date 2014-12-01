@@ -1,7 +1,7 @@
 title:        Combining API's   
 level:        5
 points:       100
-mandatory:    
+mandatory:    false
 category:     code
 
 technologies:
@@ -13,7 +13,18 @@ technologies:
 
 description:
   full: >
+    API's are very versatile, but usually also specified on one
+    particular data set. In order to achieve interesting, surprising
+    and useful results, programmers often combine multiple sources
+    of data. One frequently used interface is the Google Maps API. 
+    People love to map all sorts of things, whether it is important
+    data such as global carbon emissions or less important things such 
+    as where the nearest Burger King is. Nevertheless, API's can help
+    a programmer with a lot of compelling problems.
+    You will combine the Geolocations, Google Maps and Rijksmuseum API's
+    to create a new dataset.
   summary: >
+    API's are very versatile. Combining them can solve very interesting problems.
 
 tasks:
   - title: Mashing up
@@ -55,10 +66,16 @@ tasks:
       Now that you're all warmed up and inspired,
       it's time to get to business.
     instructions:
-      - Make the map display the locations where the painter made paintings
+      - Check out the Plunker
+      - Link get-coordinates to rijksmuseum-query
+      - Get the coordinates of the locations of at least 5
+        art works
+      - Display them in the browser
+      - You get bonus points if you display the locations on
+        a map
     resources:
-      - title:    Some Plunker or whatever
-        type:    
+      - title:    Plunker
+        type:     Plunker
         site:
-          name:  
-        url:     
+          name:   Plunker
+        url:      http://plnkr.co/edit/gPndwP
