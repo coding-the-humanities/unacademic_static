@@ -61,11 +61,11 @@ locations:
         levelclass: level005
         currentweek: false
         date: 2 December 2014
-        time: 10:00 - 13:00
-        location: UvA (TBA)
-        street: Oudemanhuispoort 4 - 6
+        time: 13:00 - 17:00
+        location: UvA Vendelstraat
+        street: Vendelstraat
         city: Amsterdam
-        urlmaps: https://www.google.nl/maps/place/Oudemanhuispoort+4,+1012+CN+Amsterdam/@52.3693635,4.8955403,18z/data=!3m1!4b1!4m2!3m1!1s0x47c609bf77e1b941:0x7def30913c530129
+        urlmaps: https://www.google.nl/maps/dir/52.3689008,4.8958591/52.3689587,4.8958847/@52.3688411,4.8938477,17z/data=!4m2!4m1!3e2
 
     level006:
         level: level 006

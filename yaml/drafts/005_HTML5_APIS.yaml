@@ -15,7 +15,7 @@ description:
   can play videos or audio natively, without using any external plugins such as 
   Adobe Flash or Apple Quicktime. In this objective you will have a quick 
   overview of all the different HTML5 APIs, and you will make use of two very 
-  interesting API's: geolocation and the audio element API.
+  interesting APIs: namely geo location and the audio element API.
   summary: >
   HTML5 provides a serie of APIs that help in creating web applications.
 
@@ -26,6 +26,7 @@ tasks:
       quick look at the official W3C documentation. Maybe you can find an API that
       you can use for your own group project.
     instructions:
+      - Have a look at the official HTML5 API documentation
     resources:
       - title:   W3C Editor's Draft: HTML5 APIs
         type:    
@@ -35,8 +36,15 @@ tasks:
 
   - title: Find your own location
     description: >
-      One of the most interesting HTML5 API's
+      One of the most interesting HTML5 API's is the geo location API. The geo location
+      API enables you to find the geo location of the users his computer. The OECD 
+      Regional Wellbeing uses this feature to automatically compare the users country 
+      with other countries. At the Plunker you will see how this feature is being 
+      implemented in Polymer. In the combining APIs objective you will combine this 
+      component with the Rijksmuseum API.
     instructions:
+      - Look at how the OECD implents this API
+      - Have a good look at the Plunker
     resources:
       - title:   OECD Regional Wellbeing
         type:    
@@ -49,8 +57,15 @@ tasks:
           name:  Plunker Example
         url:     http://www.plnkr.co
 
-  - title: Play some audio
+  - title: Play some audio or video
     description: >
+      Another cool API is the video and audio element. As you might remember from your 
+      own childhood memories, playing sound or video has been possible for quite some time.
+      However it always required the user to have external plugins installed (such as Flash,
+      RealPlayer or Quicktime). This API is supported natively by browsers, and therefore
+      enables you to get really creative. The Sound City Project is a really neat example.
+      It uses 3d soundmapping technology to create an almost life-like experience. Videos
+      are often used as full-screen backgrounds.
     instructions:
     resources:
       - title:   Sound City Project
