@@ -204,3 +204,8 @@ level004:
     summary: For this assignment you need to combine your knowledge to create a radar
         graph using an external component and the Rijksmuseum API.
     url: 004_Visualize_That_Data
+
+  - title: Requirements Final Presentation
+    classtag: requirementsFinalPresentation
+    summary: The requirements for the Final Presentation can be found here.
+    url: 004_Final_Presentation
