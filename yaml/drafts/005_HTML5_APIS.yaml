@@ -55,7 +55,7 @@ tasks:
         type:    
         site:
           name:  Plunker Example
-        url:     http://www.plnkr.co
+        url:     http://plnkr.co/edit/RtZhzt?p=info
 
   - title: Play some audio or video
     description: >
