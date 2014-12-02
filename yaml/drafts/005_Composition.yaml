@@ -55,7 +55,7 @@ tasks:
 
   - title: Discover the benefits of Composition over Inheritance
     description: >
-      Object-Oriented Programing has two well known candidates for the 
+      Object-Oriented Programming has two well known candidates for the 
       reuse of functionality, inheritance and composition.
       Inheritance is like a tree structure each object inherits its parent 
       properties. Inheritance is quicker to set up but might produce problems 
