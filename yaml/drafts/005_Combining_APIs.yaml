@@ -63,11 +63,13 @@ tasks:
 
   - title: Combine Geolocations and the Rijksmuseum API
     description: >
-      Now that you're all warmed up and inspired,
-      it's time to get to business.
+      Combining the geographical data from Geolocations and the
+      data from the Rijksmuseum is the next step to understanding
+      API's. Displaying the data in an actual map, however, is
+      going to be quite challenging. 
     instructions:
       - Check out the Plunker
-      - Link get-coordinates to rijksmuseum-query
+      - Link the element <get-coordinates> to <rijksmuseum-query>
       - Get the coordinates of the locations of at least 5 art works
       - Display them in the browser
       - You get bonus points if you display the locations on a map
