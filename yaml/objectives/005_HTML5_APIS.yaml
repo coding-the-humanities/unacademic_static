@@ -1,6 +1,6 @@
 title:      HTML5 APIs
 level:      5
-points:     100
+points:     0
 mandatory:  false
 category:   HTML
 
@@ -70,7 +70,8 @@ tasks:
       In our case we used it to show some footage of the Rijksmuseum with their logo on top of it. 
       As you can see in the code, it is actually quite easy.
     instructions:
-    instruction?
+      - Look at these interesting examples
+      - Read the code behind the magic
     resources:
       - title:   Sound City Project
         type:    
