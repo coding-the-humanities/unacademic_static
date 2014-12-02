@@ -10,8 +10,8 @@ technologies:
 
 description:
   full: > 
-    HTML5 provides a serie of APIs that help in creating web applications. For
-    example, with a few lines of code you can request the users geolocation. You 
+    HTML5 provides a serie of APIs that help in creating web applications.For
+    example, with a few lines of code you can request the users geolocation.You 
     can play videos or audio natively, without using any external plugins such as 
     Adobe Flash or Apple Quicktime. In this objective you will have a quick 
     overview of all the different HTML5 APIs, and you will make use of two very 
@@ -70,6 +70,7 @@ tasks:
       In our case we used it to show some footage of the Rijksmuseum with their logo on top of it. 
       As you can see in the code, it is actually quite easy.
     instructions:
+    instruction?
     resources:
       - title:   Sound City Project
         type:    
