@@ -11,15 +11,15 @@ description:
   full: >
     Composition is a method programmers use to design their code.
     Code can be a hotchpotch of meaningless words and numbers.
-    When we think of maintaibality, scalability and the ease for collaboration. 
+    When we think of maintainability, scalability and collaboration. 
     You might want to structure your code in a more efficient way. 
 
-    Composition is one of these structure methods to provide us with a
-    solution to optimize functionality reuse.
-    It builds on the ideas of Object-Oriented-programming or simply OOP.
+    Composition is one of these methods to provide us with a
+    solution to optimize functionality reuse. It builds on the ideas of 
+    Object-Oriented-programming or simply OOP.
 
     In this lesson you will familiarise yourself with these fundamentals
-    of structuring snd designing code.
+    of structuring and designing code.
 
   summary: >
     Composition is a method to structure your code to optimize code reuse.
@@ -31,9 +31,9 @@ tasks:
       computer programs. Before OOP most programs were a list of instructions 
       that acted on memory in the computer. Instead of a procedural list of 
       actions, OOP is modeled around objects that interact with each other. 
-      Classes generate objects and define their structure, like a blueprint. 
-      The objects interact with each other to carry out the intent of the 
-      computer program.
+      Like a blueprint these objects connect with each other to carry out 
+      the intent of the program. Some languages are based on this model like
+      javascript, so to better understand javascript we must understand OOP.
     instructions:
       - Watch and read the resources
     resources:
@@ -55,27 +55,29 @@ tasks:
 
   - title: Discover the benefits of Composition over Inheritance
     description: >
-      Object-Oriented Programing has too well known candidates for the 
-      reuse of functionality. Inheritance and Composition
-      Inheritance is like a tree structure each object inherits all information
-      from the higher class in the tree. Think of it from specific to more general. 
-      Inheritance is quicker to set up but might produce problems down the line, for 
-      example when you have to make a change to the highest class in the tree structure.
-      A problem like that would influence all the other objects connected and create some
-      unwanted results.
-      Composition is a method where the big objects ar composed of smaller objects, each
-      serving a different smaller function. this method reduces complexity by 
-      treating many objects as one object. 
+      Object-Oriented Programing has two well known candidates for the 
+      reuse of functionality, inheritance and composition.
+      Inheritance is like a tree structure each object inherits its parent 
+      properties. Inheritance is quicker to set up but might produce problems 
+      down the line, when introducing changes.
+      
+      Composition is a method where the big objects ar composed of smaller 
+      objects, each serving a different smaller function. this method reduces 
+      complexity by treating many objects as one object. Like in Polymer where
+      you have many small components that eventually make up your entire app.
+      The encapsulation allows every component to function independently making
+      debugging easier. Composition allows for efficient code reuse and is 
+      therefore the preferred method by many.
     instructions:
       - Watch and read the resources
     resources:
       - title:    Thoughtbot Composition over Inheritance
-        type:     v
+        type:     video
         site:
           name:   
         url:      https://www.youtube.com/watch?v=-ZBtQzTKC8s
       - title:    Composition vs. Inheritance (watch from 4:34 - 6:50)
-        type:     v
+        type:     video
         site:
           name:   Composition vs. Inheritance
         url:      https://www.youtube.com/watch?v=dYUZiJEy0JE
