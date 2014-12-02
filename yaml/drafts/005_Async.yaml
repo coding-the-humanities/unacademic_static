@@ -5,35 +5,41 @@ mandatory:  false
 category:   theory  
 
 technologies: 
-
+  - Javascript
 
 description: 
   full: >
-     Asynchronicity in programming 
+     Asynchronicity
   summary: >
 
 tasks:
-  - title: Comprehend Asynchronicity
+  - title: Comprehend Asynchronicity in real lif
     description: >
         It may sound like a complicated notion and may be confused 
-        with other conceptions in programming. Below you will find a 
-        fine and very simple example of asynchronous working. 
+        with other conceptions in programming. It is important first 
+        to understand asynchronicity in real life examples.
     instructions:
        - Read just the example in the first article
-       - Continue reading up on asynchronicity in JavaScript
     resources:
       - title:   Asynchronicity
         type:    Website
         site:
           name:  webapplog.com
         url:     http://webapplog.com/asynchronicity-in-node-js/
+  - title: Comprehend Asynchronicity in programming
+    description: >
+        Taking the examples from real life, how is asynchronicity 
+        introduced in programming languages?
+    instructions:
+       - Continue reading up on asynchronicity in JavaScript
+    resources:
       - title:   Event-Based Programming: What Async Has Over Sync
         type:    Website
         site:
           name:  code.tutsplus
         url:     http://code.tutsplus.com/tutorials/event-based-programming-what-async-has-over-sync--net-30027
 
-  - title: Learn to work with asynchronicity
+  - title: Dealing with asynchronicity
     description: >
 
     instructions:
