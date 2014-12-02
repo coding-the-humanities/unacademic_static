@@ -1,35 +1,35 @@
-title:        Combining API's   
+title:        Combining APIs   
 level:        5
 points:       100
 mandatory:    false
 category:     code
 
 technologies:
-  - Javascript
+  - JavaScript
   - HTML
   - AJAX
-  - API's
+  - APIs
   - Polymer
 
 description:
   full: >
-    API's are very versatile, but usually also specified on one
+    APIs are very versatile, but usually also specified on one
     particular data set. In order to achieve interesting, surprising
     and useful results, programmers often combine multiple sources
     of data. One frequently used interface is the Google Maps API. 
     People love to map all sorts of things, whether it is important
     data such as global carbon emissions or less important things such 
-    as where the nearest Burger King is. Nevertheless, API's can help
+    as where the nearest Burger King is. Nevertheless, APIs can help
     a programmer with a lot of compelling problems.
-    You will combine the Geolocations, Google Maps and Rijksmuseum API's
+    You will combine the Geolocations, Google Maps and Rijksmuseum APIs
     to create a new dataset.
   summary: >
-    API's are very versatile. Combining them can solve very interesting problems.
+    APIs are very versatile. Combining them can solve very interesting problems.
 
 tasks:
   - title: Mashing up
     description: >
-      Mashing up is the principle of taking the data of two or more API's
+      Mashing up is the principle of taking the data of two or more APIs
       or datasets and combining these to create something new.
       Usually this is achieved by taking data and juxtapositioning it with
       other data in such a way that a surprising and interesting effect is
@@ -68,13 +68,11 @@ tasks:
     instructions:
       - Check out the Plunker
       - Link get-coordinates to rijksmuseum-query
-      - Get the coordinates of the locations of at least 5
-        art works
+      - Get the coordinates of the locations of at least 5 art works
       - Display them in the browser
-      - You get bonus points if you display the locations on
-        a map
+      - You get bonus points if you display the locations on a map
     resources:
-      - title:    Plunker
+      - title:    Plunker task
         type:     Plunker
         site:
           name:   Plunker
