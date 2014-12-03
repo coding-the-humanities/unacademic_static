@@ -9,24 +9,34 @@ technologies:
 
 description: 
   full: >
-     Asynchronicity
+     A good way to explain asynchronicity is to take an example from everyday 
+     life: you are meeting up with two friends for dinner. You take the tram to 
+     arrive from point A to the restaurant but have to make a stop halfway to 
+     run some errands first. Your friend is taking the tram half an hour later 
+     from the same starting point but arrives at the restaurant before you do; 
+     she did not have to stop halfway. She then notifies the third of the 
+     company, who waiting nearby, arrives immediately. When you arrive they
+     are already having a second round and waiting to order food. You have to 
+     notify the waiter.
   summary: >
-
+     A good way to explain asynchronicity is to take an example from everyday 
+     life:
 tasks:
-  - title: Comprehend Asynchronicity in real lif
+  - title: Comprehend asynchronicity in real life
     description: >
-        It may sound like a complicated notion and may be confused 
-        with other conceptions in programming. It is important first 
-        to understand asynchronicity in real life examples.
+        To better understand what exactly asynchronicity is, it is important to 
+        elaborate on examples from everyday life. As a matter of fact, real life
+        if full of asynchronous events.
     instructions:
-       - Read just the example in the first article
+       - Read the example in the article below
     resources:
       - title:   Asynchronicity
         type:    Website
         site:
           name:  webapplog.com
         url:     http://webapplog.com/asynchronicity-in-node-js/
-  - title: Comprehend Asynchronicity in programming
+
+  - title: Comprehend Asynchronicity in Javascript
     description: >
         Taking the examples from real life, how is asynchronicity 
         introduced in programming languages?
@@ -38,13 +48,7 @@ tasks:
         site:
           name:  code.tutsplus
         url:     http://code.tutsplus.com/tutorials/event-based-programming-what-async-has-over-sync--net-30027
-
-  - title: Dealing with asynchronicity
-    description: >
-
-    instructions:
-      - Read the articles
-    resources:
+      resources:
       - title:   Browser Event Loop – How to Use Asynchronicity to Unfreeze the Browser
         type:    Website
         site:         
@@ -54,4 +58,27 @@ tasks:
         type:    Website
         site:
           name:  Tech.pro
-        url:     http://tech.pro/blog/1402/five-patterns-to-help-you-tame-asynchronous-javascript
+        url:     http://tech.pro/blog/1402/five-patterns-to-help-you-tame-asynchronous-javascript  
+
+  - title: Dealing with asynchronicity in Polymer
+    description: >
+      Polymer, being based on Javascript has also its way to deal with 
+      asynchronicity.
+    instructions:
+      - Read the articles
+    resources: 
+      - title: Dealing with asynchronous tasks
+        type:  Website
+        site: 
+          name: Polymer
+        url:    https://www.polymer-project.org/docs/polymer/polymer.html#asyncmethod
+      - title:  Delaying work
+         type:  Website
+         site:
+          name: Polymer
+        url:    https://www.polymer-project.org/docs/polymer/polymer.html#job
+      - title:  Use of Polymer async method
+        type:   Website
+        site:
+          name: Tutorial savvy
+        url:    http://www.tutorialsavvy.com/2014/07/use-of-polymer-async-method.html   
