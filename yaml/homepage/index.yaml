@@ -48,7 +48,7 @@ locations:
     level004:
         level: level 004
         levelclass: level004
-        currentweek: true
+        currentweek: false
         date: 25 November 2014
         time: 13:00 - 17:00
         location: UvA (OMHP EK.01)
@@ -59,9 +59,9 @@ locations:
     level005:
         level: level 005
         levelclass: level005
-        currentweek: false
+        currentweek: true
         date: 2 December 2014
-        time: 13:00 - 17:00
+        time: 13:00 - 16:00
         location: UvA Vendelstraat
         street: Vendelstraat
         city: Amsterdam
@@ -73,10 +73,10 @@ locations:
         currentweek: false
         date: 9 December 2014
         time: 13:00 - 16:00
-        location: Sandberg
-        street: Fred. Roeskestraat 98
+        location: UVA Vendelstraat
+        street: Vendelstraat
         city: Amsterdam
-        urlmaps: https://www.google.nl/maps/place/Fred.+Roeskestraat+98A,+1076+ED+Amsterdam/@52.3413035,4.8599852,15z/data=!4m2!3m1!1s0x47c5e1fc2a55fbe9:0xe8018c026ad7b37f?sa=X&ei=pOhUVO64IoHQOprvgbgP&ved=0CCAQ8gEwAA
+        urlmaps: https://www.google.nl/maps/dir/52.3689008,4.8958591/52.3689587,4.8958847/@52.3688411,4.8938477,17z/data=!4m2!4m1!3e2
 
 level000:
   - title: HTML
@@ -205,4 +205,30 @@ level004:
         graph using an external component and the Rijksmuseum API.
     url: 004_Visualize_That_Data
 
+level005:
+  - title: Async
+    classtag: asynchronicity
+    summary: A good way to explain asynchronicity is to take examples from everyday
+     life.
+    url: 005_Async
 
+  - title: Composition
+    classtag: composition
+    summary: Composition is a method to structure your code for optimal code reuse.
+    url: 005_Composition
+
+  - title: Combining APIs
+    classtag: combiningApis
+    summary: APIs are very versatile. Combining them can solve very interesting problems.
+    url: 005_Combining_APIs
+
+  - title:  HTML5 APIs
+    classtag:   html5apis
+    summary:    HTML5 provides a serie of APIs that help in creating web applications.
+    url:    005_HTML5_APIS
+
+level006:
+  - title: Your own Objective
+    classtag: yourOwnObjective
+    summary: A good way to learn is to explain and to take examples from everyday life. COMING SOON.
+    url: 006_Objective

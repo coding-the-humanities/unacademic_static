@@ -1,0 +1,28 @@
+title:  Your own Objective
+level:  6
+points:   100
+mandatory:  trues
+category:   reflection
+
+technologies:
+- not defined
+
+description:
+  full: >
+    Coming soon.
+  summary: >
+    Coming soon.
+
+
+tasks:
+  - title:
+    description: >
+    instructions:
+    resources:
+      - title:
+        type:
+        site:
+          name:
+        url:
+
+
