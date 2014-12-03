@@ -20,7 +20,7 @@ description:
     In this lesson you will familiarise yourself with these fundamentals
     of structuring and designing code.
   summary: >
-    Composition is a method to structure your code to optimize code reuse.
+    Composition is a method to structure your code for optimal code reuse.
 
 tasks: 
   - title: Learn about Object-Oriented Programing
@@ -49,7 +49,7 @@ tasks:
       - title:    Wiki OOP
         type:     article
         site:
-          name:   
+          name:   Wikipedia
         url:      http://en.wikipedia.org/wiki/Object-oriented_programming
 
   - title: Discover the benefits of Composition over Inheritance
