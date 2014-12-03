@@ -12,15 +12,13 @@ description:
     Composition is a method programmers use to design their code.
     Code can be a hotchpotch of meaningless words and numbers.
     When we think of maintainability, scalability and collaboration. 
-    You might want to structure your code in a more efficient way. 
+    You might want to structure your code in a more efficient way.
 
     Composition is one of these methods to provide us with a
-    solution to optimize functionality reuse. It builds on the ideas of 
+    solution to optimize functionality reuse. It builds on the ideas of
     Object-Oriented-programming or simply OOP.
-
     In this lesson you will familiarise yourself with these fundamentals
     of structuring and designing code.
-
   summary: >
     Composition is a method to structure your code to optimize code reuse.
 
@@ -30,10 +28,11 @@ tasks:
       Object-oriented programming, or OOP, is a model for writing 
       computer programs. Before OOP, code was most commonly a list of instructions 
       that acted on memory in the computer. Instead of a procedural list of 
-      actions. OOP is modeled around objects that interact with each other. 
+      actions, OOP is modeled around objects that interact with each other. 
       Like a blueprint these objects connect with each other to carry out 
-      the intent of the program. Some languages are based on this model like
-      javascript, so to better understand javascript we must understand OOP.
+      the intent of the program. Some languages, like
+      Javascript, are based on this model, so to better understand 
+      Javascript we must understand OOP.
     instructions:
       - Watch and read the resources
     resources:
@@ -57,12 +56,12 @@ tasks:
     description: >
       Object-Oriented Programming has two well known candidates for the 
       reuse of functionality, inheritance and composition.
-      Inheritance is like a tree structure each object inherits its parent 
+      Inheritance is like a tree structure: each object inherits its parent's 
       properties. Inheritance is quicker to set up but might produce problems 
       down the line, when introducing changes.
       
       Composition is a method where the big objects ar composed of smaller 
-      objects, each serving a different smaller function. this method reduces 
+      objects, each serving a different smaller function. This method reduces 
       complexity by treating many objects as one object. 
     instructions:
       - Watch and read the resources
@@ -78,7 +77,7 @@ tasks:
           name:   Composition vs. Inheritance
         url:      https://www.youtube.com/watch?v=dYUZiJEy0JE
 
-  - title: understand composition in Polymer
+  - title: Understand Composition in Polymer
     description: >
       Composition as a model may seem complicated or a bit abstract, but 
       the truth is, you have already been doing it with Polymer.
@@ -90,7 +89,7 @@ tasks:
       the preferred method by many.
     instructions:
       - Open the Polymer Designer 
-      - Inside the designer create a Core card component
+      - Inside the designer create a core card component
       - Composition is about adding smaller components in a big component 
       - Add some other components like the header or input component
       - Practice some more with composition and compose yourself some Frankenstein components
@@ -100,4 +99,3 @@ tasks:
         site:
           name:   polymer-project-designer
         url:      https://www.polymer-project.org/tools/designer/
-        
