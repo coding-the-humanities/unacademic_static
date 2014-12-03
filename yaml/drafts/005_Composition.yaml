@@ -27,10 +27,10 @@ description:
 tasks: 
   - title: Learn about Object-Oriented Programing
     description: >
-      Object-oriented programming, also called OOP, is a model for writing 
-      computer programs. Before OOP most programs were a list of instructions 
+      Object-oriented programming, or OOP, is a model for writing 
+      computer programs. Before OOP, code was most commonly a list of instructions 
       that acted on memory in the computer. Instead of a procedural list of 
-      actions, OOP is modeled around objects that interact with each other. 
+      actions. OOP is modeled around objects that interact with each other. 
       Like a blueprint these objects connect with each other to carry out 
       the intent of the program. Some languages are based on this model like
       javascript, so to better understand javascript we must understand OOP.
@@ -63,11 +63,7 @@ tasks:
       
       Composition is a method where the big objects ar composed of smaller 
       objects, each serving a different smaller function. this method reduces 
-      complexity by treating many objects as one object. Like in Polymer where
-      you have many small components that eventually make up your entire app.
-      The encapsulation allows every component to function independently making
-      debugging easier. Composition allows for efficient code reuse and is 
-      therefore the preferred method by many.
+      complexity by treating many objects as one object. 
     instructions:
       - Watch and read the resources
     resources:
@@ -81,3 +77,27 @@ tasks:
         site:
           name:   Composition vs. Inheritance
         url:      https://www.youtube.com/watch?v=dYUZiJEy0JE
+
+  - title: understand composition in Polymer
+    description: >
+      Composition as a model may seem complicated or a bit abstract, but 
+      the truth is, you have already been doing it with Polymer.
+      Polymer allows you to have many small components that eventually make 
+      up your entire app. Most reasons for why we use Polymer, actually refer
+      back to composition. For example the encapsulation allows every component 
+      to function independently making debugging easier. 
+      Composition allows for efficient code reuse and is therefore 
+      the preferred method by many.
+    instructions:
+      - Open the Polymer Designer 
+      - Inside the designer create a Core card component
+      - Composition is about adding smaller components in a big component 
+      - Add some other components like the header or input component
+      - Practice some more with composition and compose yourself some Frankenstein components
+    resources:
+      - title:    Polymer Designer
+        type:     tool
+        site:
+          name:   polymer-project-designer
+        url:      https://www.polymer-project.org/tools/designer/
+        

@@ -1,6 +1,6 @@
 title:      HTML5 APIs
 level:      5
-points:     0
+points:     100
 mandatory:  false
 category:   HTML
 
@@ -10,17 +10,17 @@ technologies:
 
 description:
   full: > 
-  HTML5 provides a serie of APIs that help in creating web applications. For
-  example, with a few lines of code you can request the users geolocation. You 
-  can play videos or audio natively, without using any external plugins such as 
-  Adobe Flash or Apple Quicktime. In this objective you will have a quick 
-  overview of all the different HTML5 APIs, and you will make use of two very 
-  interesting APIs: namely geo location and the audio element API.
+    HTML5 provides a serie of APIs that help in creating web applications. For
+    example, with a few lines of code you can request the users geolocation. You 
+    can play videos or audio natively, without using any external plugins such as 
+    Adobe Flash or Apple Quicktime. In this objective you will have a quick 
+    overview of all the different HTML5 APIs, and you will make use of two very 
+    interesting APIs: namely geo location and the audio element API.
   summary: >
-  HTML5 provides a serie of APIs that help in creating web applications.
+    HTML5 provides a serie of APIs that help in creating web applications.
 
 tasks:
-  - title: Meet all the different HTML5 APIs
+  - title: Glimp over the HTML5 APIs documentation
     description: >
       HTML5 introduced a lot of APIs. Some of them are more useful than others. Have a
       quick look at the official W3C documentation. Maybe you can find an API that
@@ -28,8 +28,8 @@ tasks:
     instructions:
       - Have a look at the official HTML5 API documentation
     resources:
-      - title:   W3C Editor's Draft: HTML5 APIs
-        type:    
+      - title:   W3C Editor's Draft HTML5 APIs
+        type:    article
         site:    
           name:  HTML5 API's 
         url:     https://rawgit.com/whatwg/html-differences/master/Overview.html#apis
@@ -39,35 +39,36 @@ tasks:
       One of the most interesting HTML5 API's is the geo location API. The geo location
       API enables you to find the geo location of the users his computer. The OECD 
       Regional Wellbeing uses this feature to automatically compare the users country 
-      with other countries. At the Plunker you will see how this feature is being 
-      implemented in Polymer. In the combining APIs objective you will combine this 
-      component with the Rijksmuseum API.
+      with other countries. In the Plunker you will see how this feature is being 
+      implemented in Polymer. In the final objective you will combine this component 
+      with the Rijksmuseum API.
     instructions:
       - Look at how the OECD implents this API
       - Have a good look at the Plunker
     resources:
       - title:   OECD Regional Wellbeing
-        type:    
+        type:    article
         site:    
           name:  OECD Regional Wellbeing
         url:     http://www.oecdregionalwellbeing.org/
       - title:   Plunker Example
-        type:    
+        type:    Plunker
         site:
           name:  Plunker Example
         url:     http://plnkr.co/edit/RtZhzt?p=info
 
-  - title: Play some audio or video
+  - title: Play audio or video
     description: >
-      Another cool API is the video and audio element. As you might remember from your 
-      own childhood memories, playing sound or video has been possible for quite some time.
-      However it always required the user to have external plugins installed (such as Flash,
-      RealPlayer or Quicktime). This API is supported natively by browsers, and therefore
-      enables you to get really creative. The Sound City Project is a really neat example.
-      It uses 3d soundmapping technology to create an almost life-like experience. Videos
-      are often used as full-screen backgrounds. In our case we used it to show some footage
-      of the Rijksmuseum with their logo on top of it. As you can see in the code, it is
-      actually quite easy.
+      Another interesting API is the video and audio element. 
+      Playing sound or video has been possible for quite some time now.
+      However, it always required the user to have external plugins installed (such as Flash,
+      RealPlayer or Quicktime). 
+      This API is supported natively by browsers, and therefore enables you to get really creative. 
+      The Sound City Project is a really neat example.
+      It uses 3d soundmapping technology to create an almost life-like experience. 
+      Videos are often used as full-screen backgrounds. 
+      In our case we used it to show some footage of the Rijksmuseum with their logo on top of it. 
+      As you can see in the code, it is actually quite easy.
     instructions:
     resources:
       - title:   Sound City Project
@@ -76,7 +77,7 @@ tasks:
           name:  Sound City Project
         url:     http://soundcityproject.com/
       - title:   Plunker example
-        type:    
+        type:    Plunker
         site:
           name:  Plunker with background footage
         url:     http://embed.plnkr.co/u2A9qs/preview
