@@ -69,10 +69,17 @@ tasks:
       going to be quite challenging. 
     instructions:
       - Check out the Plunker
-      - Link the element <get-coordinates> to <rijksmuseum-query>
-      - Get the coordinates of the locations of at least 5 art works
-      - Display them in the browser
-      - You get bonus points if you display the locations on a map
+      - The <get-coordinates> tag is now still in index.html, 
+        but it needs to get into rijkmuseum-query.html
+      - Once you can use <get-coordinates> into rijksmuseum-query.html,
+        get the coordinates of the places of production of the artworks
+        of a painter of your choice, using a template repeat
+      - Make the browser display the name of the artwork, the artist, 
+        the location(s) and their longitude and latitude
+      - Not all artworks have locations and some have multiple, 
+        so decide yourself how to tackle this problem
+      - You get bonus points if you display the locations on a map,
+        but it is not manditory
     resources:
       - title:    Plunker task
         type:     Plunker
