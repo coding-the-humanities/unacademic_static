@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CTH Unacademic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+          <a class="navbar-brand navbar-left" href="./" >Unacademic</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./syllabus.html">Syllabus</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="slide-panel">
+      <button type="button" class="btn btn-danger" id="opener"><i class="fui-list-columned"></i></button>
+      <h6>Level 0</h6>
+      <ul>
+        <li><a href="./000_HTML.html">HTML</a></li>
+        <li><a href="./000_CSS.html">CSS</a></li>
+        <li><a href="./000_Gists.html">Gists</a></li>
+        <li><a href="./000_City_Walk.html">City Walk</a></li>
+      </ul>
+      <h6>Level 1</h6>
+       <ul>
+        <li><a href="./001_Dev_Tools.html">Dev Tools</a></li>
+        <li><a href="./001_DOM.html">DOM</a></li>
+        <li><a href="./001_JSON.html">JSON</a></li>
+        <li><a href="./001_Templating.html">Templating</a></li>
+        <li><a href="./001_Photostack.html">Photostack</a></li>
+      </ul>
+    </div>
+
+    <div class="row customHero">
+      <div class="container">
+        <div class="hero-unit">
+          <div class="col-xs-9">
+            <h3>Combining APIs</h3>
+            <p><p>APIs are very versatile, but usually also specified on one particular data set. In order to achieve interesting, surprising and useful results, programmers often combine multiple sources of data. One frequently used interface is the Google Maps API.  People love to map all sorts of things, whether it is important data such as global carbon emissions or less important things such  as where the nearest Burger King is. Nevertheless, APIs can help a programmer with a lot of compelling problems. You will combine the Geolocations, Google Maps and Rijksmuseum APIs to create a new dataset.</p>
+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+        <section class="task">
+
+          <h3>Mashing up</h3>
+          <p><p>Mashing up is the principle of taking the data of two or more APIs or datasets and combining these to create something new. Usually this is achieved by taking data and juxtapositioning it with other data in such a way that a surprising and interesting effect is achieved. For example, Wheel of Lunch takes a location and what you want to eat and randomly selects a place in your vicinity where you can get that food. It does so by consulting the Yahoo Local Search API. Sadly, it told us to get our sushi at the Albert Heijn, so it&#39;s not  entirely flawless. This is just one of the many things that can be achieved with mashing up.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Read the articles</p>
+</p></li>
+            <li><p><p>Look at the examples</p>
+</p></li>
+            <li><p><p>Get inspired</p>
+</p></li>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>wikipedia: <a href="http://en.wikipedia.org/wiki/Mashup_(web_application_hybrid)">Mashup (web application hybrid)</a></p>
+            </li>
+            <li>
+              <p>Mashable: <a href="http://mashable.com/2009/10/08/top-mashups/">Top Mashups</a></p>
+            </li>
+            <li>
+              <p>Wheel of Lunch: <a href="http://wheelof.com/lunch/">Hungry?</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+        <section class="task">
+
+          <h3>Combine Geolocations and the Rijksmuseum API</h3>
+          <p><p>Combining the geographical data from Geolocations and the data from the Rijksmuseum is the next step to understanding API&#39;s. Displaying the data in an actual map, however, is going to be quite challenging. </p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Check out the Plunker</p>
+</p></li>
+            <li><p><p>The <get-coordinates> tag is now still in index.html, but it needs to get into rijkmuseum-query.html</p>
+</p></li>
+            <li><p><p>Once you can use <get-coordinates> into rijksmuseum-query.html, get the coordinates of the places of production of the artworks of a painter of your choice, using a template repeat</p>
+</p></li>
+            <li><p><p>Make the browser display the name of the artwork, the artist, the location(s) and their longitude and latitude</p>
+</p></li>
+            <li><p><p>Not all artworks have locations and some have multiple, so decide yourself how to tackle this problem</p>
+</p></li>
+            <li><p><p>You get bonus points if you display the locations on a map, but it is not manditory</p>
+</p></li>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>Plunker: <a href="http://plnkr.co/edit/gPndwP">Plunker task</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+    </div>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-7">
+            <h3 class="footer-title">Coding The Humanities</h3>
+            <p>Coding the Humanities teaches scholars how to do research through coding.</p>
+            <p>To learn more, visit our site: <a href="http://codingthehumanities.com/">codingthehumanities.com</a></p>
+            <ul class="list-inline banner-social-buttons">
+              <li>
+              <a href="https://www.facebook.com/codingthehumanities" target="_blank"> <span class="fui-facebook"></span></a>
+              </li>
+              <li>
+              <a href="https://twitter.com/humanizecode" target="_blank"><span class="fui-twitter"></span></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Our Partners</h3>
+              <ul >
+                <li><a href="http://www.uva.nl/home" target="_blank" style="text-decoration: none; color: white;">University of Amsterdam</a></li>
+                <li><a href="http://sandberg.nl/" target="_blank" style="text-decoration: none; color: white;">Sandberg Institute</a></li>
+                <li><a href="http://codingthehumanities.com/" target="_blank" style="text-decoration: none; color: white;">Coding the Humanities</a></li>
+                <li><a href="http://www.augmentingmasterpieces.nl/" target="_blank" style="text-decoration: none; color: white;">Augmenting Masterpieces</a></li>
+                <li><a href="http://lustlab.net/" target="_blank" style="text-decoration: none; color: white;">Lust / LustLab</a></li>
+                <li><a href="https://www.uncinc.nl/" target="_blank" style="text-decoration: none; color: white;">UncInc</a></li>
+                <li><a href="http://bocoup.com/" target="_blank" style="text-decoration: none; color: white;"> Bocoup Boston</a></li>
+                <li><a href="https://www.rijksmuseum.nl/" target="_blank" style="text-decoration: none; color: white;">Rijksmuseum</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/flat-ui.min.js"></script>
+    <script src="js/application.js"></script>
+  </body>
+</html>

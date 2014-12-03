@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CTH Unacademic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+          <a class="navbar-brand navbar-left" href="./" >Unacademic</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./syllabus.html">Syllabus</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="slide-panel">
+      <button type="button" class="btn btn-danger" id="opener"><i class="fui-list-columned"></i></button>
+      <h6>Level 0</h6>
+      <ul>
+        <li><a href="./000_HTML.html">HTML</a></li>
+        <li><a href="./000_CSS.html">CSS</a></li>
+        <li><a href="./000_Gists.html">Gists</a></li>
+        <li><a href="./000_City_Walk.html">City Walk</a></li>
+      </ul>
+      <h6>Level 1</h6>
+       <ul>
+        <li><a href="./001_Dev_Tools.html">Dev Tools</a></li>
+        <li><a href="./001_DOM.html">DOM</a></li>
+        <li><a href="./001_JSON.html">JSON</a></li>
+        <li><a href="./001_Templating.html">Templating</a></li>
+        <li><a href="./001_Photostack.html">Photostack</a></li>
+      </ul>
+    </div>
+
+    <div class="row customHero">
+      <div class="container">
+        <div class="hero-unit">
+          <div class="col-xs-9">
+            <h3>Composition</h3>
+            <p><p>Composition is a method programmers use to design their code. Code can be a hotchpotch of meaningless words and numbers. When we think of maintainability, scalability and collaboration. You might want to structure your code in a more efficient way.
+Composition is one of these methods to provide us with a solution to optimize functionality reuse. It builds on the ideas of Object-Oriented-programming or simply OOP. In this lesson you will familiarise yourself with these fundamentals of structuring and designing code.</p>
+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+        <section class="task">
+
+          <h3>Learn about Object-Oriented Programing</h3>
+          <p><p>Object-oriented programming, or OOP, is a model for writing computer programs. Before OOP, code was most commonly a list of instructions that acted on memory in the computer. Instead of a procedural list of actions, OOP is modeled around objects that interact with each other. Like a blueprint these objects connect with each other to carry out the intent of the program. Some languages, like Javascript, are based on this model, so to better understand Javascript we must understand OOP.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Watch and read the resources</p>
+</p></li>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>MicroNugget, What is OOP? (Object-Oriented Programming): <a href="https://www.youtube.com/watch?v=5VkrdKzKGlA">Micronugget classes and OOP</a></p>
+            </li>
+            <li>
+              <p>The Java™ Tutorials: <a href="http://docs.oracle.com/javase/tutorial/java/concepts/">Object-Oriented Programming Concepts</a></p>
+            </li>
+            <li>
+              <p>Wikipedia: <a href="http://en.wikipedia.org/wiki/Object-oriented_programming">Wiki OOP</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+        <section class="task">
+
+          <h3>Discover the benefits of Composition over Inheritance</h3>
+          <p><p>Object-Oriented Programming has two well known candidates for the reuse of functionality, inheritance and composition. Inheritance is like a tree structure: each object inherits its parent&#39;s properties. Inheritance is quicker to set up but might produce problems down the line, when introducing changes.
+Composition is a method where the big objects ar composed of smaller objects, each serving a different smaller function. This method reduces complexity by treating many objects as one object.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Watch and read the resources</p>
+</p></li>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>: <a href="https://www.youtube.com/watch?v=-ZBtQzTKC8s">Thoughtbot Composition over Inheritance</a></p>
+            </li>
+            <li>
+              <p>Composition vs. Inheritance: <a href="https://www.youtube.com/watch?v=dYUZiJEy0JE">Composition vs. Inheritance (watch from 4:34 - 6:50)</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+        <section class="task">
+
+          <h3>Understand Composition in Polymer</h3>
+          <p><p>Composition as a model may seem complicated or a bit abstract, but the truth is, you have already been doing it with Polymer. Polymer allows you to have many small components that eventually make up your entire app. Most reasons for why we use Polymer, actually refer back to composition. For example the encapsulation allows every component to function independently making debugging easier. Composition allows for efficient code reuse and is therefore the preferred method by many.</p>
+</p>
+
+          <h5>Instructions</h5>
+          <ul>
+            <li><p><p>Open the Polymer Designer</p>
+</p></li>
+            <li><p><p>Inside the designer create a core card component</p>
+</p></li>
+            <li><p><p>Composition is about adding smaller components in a big component</p>
+</p></li>
+            <li><p><p>Add some other components like the header or input component</p>
+</p></li>
+            <li><p><p>Practice some more with composition and compose yourself some Frankenstein components</p>
+</p></li>
+          </ul>
+
+          <h5>Resources</h5>
+          <ul>
+            <li>
+              <p>polymer-project-designer: <a href="https://www.polymer-project.org/tools/designer/">Polymer Designer</a></p>
+            </li>
+          </ul>
+          <hr>
+        </section>
+    </div>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-7">
+            <h3 class="footer-title">Coding The Humanities</h3>
+            <p>Coding the Humanities teaches scholars how to do research through coding.</p>
+            <p>To learn more, visit our site: <a href="http://codingthehumanities.com/">codingthehumanities.com</a></p>
+            <ul class="list-inline banner-social-buttons">
+              <li>
+              <a href="https://www.facebook.com/codingthehumanities" target="_blank"> <span class="fui-facebook"></span></a>
+              </li>
+              <li>
+              <a href="https://twitter.com/humanizecode" target="_blank"><span class="fui-twitter"></span></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-xs-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Our Partners</h3>
+              <ul >
+                <li><a href="http://www.uva.nl/home" target="_blank" style="text-decoration: none; color: white;">University of Amsterdam</a></li>
+                <li><a href="http://sandberg.nl/" target="_blank" style="text-decoration: none; color: white;">Sandberg Institute</a></li>
+                <li><a href="http://codingthehumanities.com/" target="_blank" style="text-decoration: none; color: white;">Coding the Humanities</a></li>
+                <li><a href="http://www.augmentingmasterpieces.nl/" target="_blank" style="text-decoration: none; color: white;">Augmenting Masterpieces</a></li>
+                <li><a href="http://lustlab.net/" target="_blank" style="text-decoration: none; color: white;">Lust / LustLab</a></li>
+                <li><a href="https://www.uncinc.nl/" target="_blank" style="text-decoration: none; color: white;">UncInc</a></li>
+                <li><a href="http://bocoup.com/" target="_blank" style="text-decoration: none; color: white;"> Bocoup Boston</a></li>
+                <li><a href="https://www.rijksmuseum.nl/" target="_blank" style="text-decoration: none; color: white;">Rijksmuseum</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/flat-ui.min.js"></script>
+    <script src="js/application.js"></script>
+  </body>
+</html>
