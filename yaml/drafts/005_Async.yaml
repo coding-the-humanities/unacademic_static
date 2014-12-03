@@ -6,23 +6,24 @@ category:   theory
 
 technologies: 
   - Javascript
+  - Polymer
 
 description: 
   full: >
     Asynchronicity seems like a difficult term, but it is basicly an indication
     of action and time. We all know the meaning of synchronicity. It is the 
-    simultaneous occurance of events. Well Asynchronicity is obviously related 
-    yet different, events do not necessarily always occur at the same time. 
+    simultaneous occurance of events. Asynchronicity is obviously related 
+    yet different; events do not necessarily always occur at the same time. 
     They might have to wait or listen for other events to happen.
 
     To better understand what exactly asynchronicity is, it is probably best
     to look at examples from everyday life. As a matter of fact, real life
     is full of asynchronous events.
   summary: >
-     A good way to explain asynchronicity is to take an example from everyday 
-     life:
+     A good way to explain asynchronicity is to take examples from everyday 
+     life.
 tasks:
-  - title: Comprehend asynchronicity in real life
+  - title: Comprehend Asynchronicity in Real Life
     description: >
         A good way to explain asynchronicity is to take an example from everyday 
         life. Imagine you are meeting up with two friends for dinner. You take the tram to 
@@ -33,9 +34,8 @@ tasks:
         company, who waiting nearby, arrives immediately. When you arrive they
         are already having a second round and waiting to order food. You have to 
         notify the waiter.
-        
     instructions:
-       - Read the example in the article below
+       - Read also the example in the article below
     resources:
       - title:   Asynchronicity
         type:    Website
@@ -67,7 +67,7 @@ tasks:
           name:  Tech.pro
         url:     http://tech.pro/blog/1402/five-patterns-to-help-you-tame-asynchronous-javascript  
 
-  - title: Dealing with asynchronicity in Polymer
+  - title: Dealing with Asynchronicity in Polymer
     description: >
       Polymer, being based on Javascript has its way to deal with 
       asynchronicity.
