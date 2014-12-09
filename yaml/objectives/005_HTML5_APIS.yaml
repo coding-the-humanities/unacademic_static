@@ -17,10 +17,10 @@ description:
     overview of all the different HTML5 APIs, and you will make use of two very
     interesting APIs: namely geo location and the audio element API.
   summary: >
-    HTML5 provides a serie of APIs that help in creating web applications.
+    HTML5 provides a series of APIs that help in creating web applications.
 
 tasks:
-  - title: Glimp over the HTML5 APIs documentation
+  - title: Glance through the HTML5 APIs documentation
     description: >
       HTML5 introduced a lot of APIs. Some of them are more useful than others. Have a
       quick look at the official W3C documentation. Maybe you can find an API that
@@ -43,7 +43,7 @@ tasks:
       implemented in Polymer. In the final objective you will combine this component
       with the Rijksmuseum API.
     instructions:
-      - Look at how the OECD implents this API
+      - Look at how the OECD implements this API
       - Have a good look at the Plunker
     resources:
       - title:   OECD Regional Wellbeing
@@ -65,7 +65,7 @@ tasks:
       RealPlayer or Quicktime).
       This API is supported natively by browsers, and therefore enables you to get really creative.
       The Sound City Project is a really neat example.
-      It uses 3d soundmapping technology to create an almost life-like experience.
+      It uses 3D soundmapping technology to create an almost life-like experience.
       Videos are often used as full-screen backgrounds.
       In our case we used it to show some footage of the Rijksmuseum with their logo on top of it.
       As you can see in the code, it is actually quite easy.

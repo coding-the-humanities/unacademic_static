@@ -1,0 +1,39 @@
+title:  Your own Objective
+level:  6
+points:   100
+mandatory:  true
+category:   reflection
+
+technologies:
+  - not defined
+
+description:
+  full: >
+    
+  summary: >
+    Write your own objective
+
+
+tasks:
+  - title: Compose an objective of your choice
+    description: >
+      - Installing Polymer locally
+      - Template repeat > encapsulation
+      - functions in Javascript
+      - functions in Polymer
+      - Structure in Polymer
+      - Debugging
+      - Export data
+
+    instructions:
+      - Choose one of the themes above and compose your own objective
+      - Follow the structure of the already existing objectives
+      - Post your objective on your mentor channel
+    resources:
+      - title:
+        type:
+        site:
+          name:
+        url:
+
+
