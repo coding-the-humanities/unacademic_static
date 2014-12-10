@@ -2,17 +2,22 @@ title:  Your own Objective
 level:  6
 points:   100
 mandatory:  true
-category:   reflection
+category:   theory
 
 technologies:
   - not defined
 
 description:
   full: >
-    
-  summary: >
-    Write your own objective
+    What specific knowledge would you need to complete your project? Do you 
+    think there are aspects you need to comprehend better and elaborate on? 
+    Coding is an ongoing learning process; you will always have to ask and 
+    do your own research and look for the right internet resources. In this 
+    assigment you have to write about and explain a concept of coding that 
+    you yourself need to know more about.
 
+  summary: >
+    Coding is an ongoing learning process
 
 tasks:
   - title: Compose an objective of your choice
@@ -21,16 +26,18 @@ tasks:
       or choose one of the subjects below.
       - Installing Polymer locally
       - Template repeat > encapsulation
-      - functions in Javascript
-      - functions in Polymer
+      - Functions in Javascript
+      - Functions in Polymer
       - Structure in Polymer
       - Debugging
       - Export data
 
     instructions:
-      - Choose your own subject or one of the subjects listed above and compose your own objective
-      - Follow the structure of the plunker 
-      - Be very precise with your structure, pay attention to indentation and punctuation
+      - Choose your own subject or one of the subjects listed above
+      - Compose your own objective
+      - Follow the structure of the plunker file below
+      - Develop a simple assigment to better comprehend the content of the objective
+      - Be precise with your structure, pay attention to indentation and punctuation
       - Post your objective on Slack
     resources:
       - title:  Structure file for your objective
