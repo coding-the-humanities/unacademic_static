@@ -9,11 +9,11 @@ technologies:
 
 description:
   full: >
-    What specific knowledge would you need to complete your project? Do you 
-    think there are aspects you need to comprehend better and elaborate on? 
-    Coding is an ongoing learning process; you will always have to ask and 
-    do your own research and look for the right internet resources. In this 
-    assigment you have to write about and explain a concept of coding that 
+    What specific knowledge would you need to complete your project? Do you
+    think there are aspects you need to comprehend better and elaborate on?
+    Coding is an ongoing learning process; you will always have to ask and
+    do your own research and look for the right internet resources. In this
+    assigment you have to write about and explain a concept of coding that
     you yourself need to know more about.
 
   summary: >
@@ -21,16 +21,14 @@ description:
 
 tasks:
   - title: Compose an objective of your choice
-    description: >
-      Think of a subject you like to write about,
-      or choose one of the subjects below.
-      - Installing Polymer locally
-      - Template repeat > encapsulation
-      - Functions in Javascript
-      - Functions in Polymer
-      - Structure in Polymer
-      - Debugging
-      - Export data
+    description: Think of a subject you like to write about, or choose one of the subjects below.
+      - Installing Polymer locally <br>
+      - Template repeat  (encapsulation) <br>
+      - Functions in Javascript <br>
+      - Functions in Polymer <br>
+      - Structure in Polymer <br>
+      - Debugging <br>
+      - Export data <br>
 
     instructions:
       - Choose your own subject or one of the subjects listed above
@@ -42,7 +40,7 @@ tasks:
     resources:
       - title:  Structure file for your objective
         type:   Tool
-        site: 
+        site:
           name: Plunker
         url:    http://plnkr.co/edit/ym6HyRyoYSEaXi5Ajji9
 

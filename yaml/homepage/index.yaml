@@ -59,7 +59,7 @@ locations:
     level005:
         level: level 005
         levelclass: level005
-        currentweek: true
+        currentweek: false
         date: 2 December 2014
         time: 13:00 - 16:00
         location: UvA Vendelstraat
@@ -70,7 +70,7 @@ locations:
     level006:
         level: level 006
         levelclass: level006
-        currentweek: false
+        currentweek: true
         date: 9 December 2014
         time: 13:00 - 16:00
         location: UVA Vendelstraat
@@ -230,5 +230,5 @@ level005:
 level006:
   - title: Your own Objective
     classtag: yourOwnObjective
-    summary: A good way to learn is to explain and to take examples from everyday life. COMING SOON.
-    url: 006_Objective
+    summary: A good way to learn is to explain and to take examples from everyday life. Coding is an ongoing learning process
+    url: 006_Objectives
